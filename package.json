@@ -1,0 +1,27 @@
+{
+  "name": "de-uat-e2e-automation",
+  "version": "1.0.0",
+  "description": "Playwright E2E automation for the DE UAT dashboard (Overview, Factories, Analytics, Reports, Notifications, Contacts)",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "test:login": "playwright test tests/login",
+    "test:overview": "playwright test tests/overview",
+    "test:factories": "playwright test tests/factories",
+    "test:factory-edit": "playwright test tests/factories/factory-edit.spec.js",
+    "test:analytics": "playwright test tests/analytics",
+    "test:reports": "playwright test tests/reports",
+    "test:contacts": "playwright test tests/contacts",
+    "test:notifications": "playwright test tests/notifications",
+    "test:e2e": "playwright test tests/e2e",
+    "codegen": "playwright codegen $BASE_URL",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "dotenv": "^16.4.5"
+  }
+}
