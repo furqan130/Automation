@@ -30,7 +30,14 @@ module.exports = defineConfig({
       // Login module runs unauthenticated so it can exercise the login form itself.
       name: 'chromium-no-auth',
       testMatch: /tests\/login\/.*\.spec\.js/,
-      use: { ...devices['Desktop Chrome'] },
+      use: {
+        ...devices['Desktop Chrome'],
+        // A full-HD viewport (instead of the 1280x720 default) so headed runs are easy to watch.
+        // (viewport: null would be "true" full-window sizing, but it conflicts with the
+        // deviceScaleFactor baked into the Desktop Chrome preset.)
+        viewport: { width: 1920, height: 1080 },
+        launchOptions: { args: ['--start-maximized'] },
+      },
     },
     {
       // Every other module reuses a logged-in session saved by auth.setup.js.
@@ -39,6 +46,8 @@ module.exports = defineConfig({
       use: {
         ...devices['Desktop Chrome'],
         storageState: 'playwright/.auth/user.json',
+        viewport: { width: 1920, height: 1080 },
+        launchOptions: { args: ['--start-maximized'] },
       },
       dependencies: ['setup'],
     },

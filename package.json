@@ -12,6 +12,7 @@
     "test:overview": "playwright test tests/overview",
     "test:factories": "playwright test tests/factories",
     "test:factory-edit": "playwright test tests/factories/factory-edit.spec.js",
+    "test:company": "playwright test tests/company",
     "test:analytics": "playwright test tests/analytics",
     "test:reports": "playwright test tests/reports",
     "test:contacts": "playwright test tests/contacts",
