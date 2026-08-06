@@ -31,8 +31,10 @@ class FactoryDetailPage extends BasePage {
     this.startDatePicker = page.getByRole('button', { name: /start date|from date|pick start date/i }).first();
     this.endDatePicker = page.getByRole('button', { name: /end date|to date|pick end date/i }).first();
 
-    this.cementBagsDayBox = page.locator('div').filter({ hasText: /cement bags.*day/i }).first();
-    this.cementBagsMonthBox = page.locator('div').filter({ hasText: /cement bags.*month/i }).first();
+    // The count-unit label varies by factory/industry - "Aftab Textile Factorys" (the fixture
+    // these tests exercise) shows generic "Count (day)/(month)", not "Cement Bags", confirmed live.
+    this.cementBagsDayBox = page.locator('div').filter({ hasText: /(cement bags|count).*\bday\b/i }).first();
+    this.cementBagsMonthBox = page.locator('div').filter({ hasText: /(cement bags|count).*\bmonth\b/i }).first();
 
     // The packer line picker is a searchable combobox (cmdk-style), not a plain list of items.
     this.packerLineDropdown = page.locator('div').filter({ hasText: /^Packer line/i }).first().getByRole('combobox');
@@ -81,19 +83,24 @@ class FactoryDetailPage extends BasePage {
   }
 
   async pickDate(dateStr) {
-    await this.datePicker.click();
+    await this._clickResilient(this.datePicker);
     await this.selectCalendarDate(dateStr);
   }
 
+  // The start-date popover doesn't auto-close once a day is picked, and the end-date trigger
+  // sits underneath it - confirmed live this still opens the end-date popover fine when clicked
+  // deliberately, but the background "Updating..." refetch triggered by the new filter can
+  // detach/re-render these trigger buttons in the same window, so both trigger clicks use the
+  // same retry-on-detach handling as the calendar's own nav/day cells.
   async pickDateRange(startStr, endStr) {
-    await this.startDatePicker.click();
+    await this._clickResilient(this.startDatePicker);
     await this.selectCalendarDate(startStr);
-    await this.endDatePicker.click();
+    await this._clickResilient(this.endDatePicker);
     await this.selectCalendarDate(endStr);
   }
 
   async pickPerformanceDate(dateStr) {
-    await this.performanceDateFilter.click();
+    await this._clickResilient(this.performanceDateFilter);
     await this.selectCalendarDate(dateStr);
   }
 

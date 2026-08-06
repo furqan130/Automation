@@ -41,6 +41,25 @@ class BasePage {
     }
   }
 
+  // The calendar popover's content re-renders (and its nav button briefly detaches/reattaches)
+  // during the burst of data refetches right after the page loads - confirmed live via the
+  // "element is not stable" / "element was detached from the DOM, retrying" trace on a plain
+  // .click(). Retry the whole locate-and-click on failure instead of failing on the first race
+  // (same pattern as FactoriesPage.openFirstFactoryOf / CompanyPage.clickRowActionButton).
+  async _clickResilient(locator, { retries = 5, clickTimeout = 5_000 } = {}) {
+    let lastError;
+    for (let attempt = 0; attempt < retries; attempt++) {
+      try {
+        await locator.click({ force: true, timeout: clickTimeout });
+        return;
+      } catch (error) {
+        lastError = error;
+        await this.page.waitForTimeout(500);
+      }
+    }
+    throw lastError;
+  }
+
   /**
    * Navigates the currently open react-day-picker style calendar grid to the given
    * date and clicks the day cell. Assumes the calendar opens on the current month.
@@ -51,11 +70,12 @@ class BasePage {
     const monthsDiff = (target.getFullYear() - today.getFullYear()) * 12 + (target.getMonth() - today.getMonth());
     const navButton = this.page.getByRole('button', { name: monthsDiff >= 0 ? /go to next month/i : /go to previous month/i }).first();
     for (let i = 0; i < Math.abs(monthsDiff); i++) {
-      await navButton.click();
+      await this._clickResilient(navButton);
     }
     const monthLabel = `${target.toLocaleString('en-US', { month: 'long' })} ${target.getFullYear()}`;
     const grid = this.page.getByRole('grid', { name: monthLabel });
-    await grid.getByRole('gridcell', { name: String(target.getDate()), exact: true, disabled: false }).first().click();
+    const dayCell = grid.getByRole('gridcell', { name: String(target.getDate()), exact: true, disabled: false }).first();
+    await this._clickResilient(dayCell);
   }
 }
 

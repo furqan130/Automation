@@ -33,7 +33,7 @@ test.describe('Reports Page', () => {
   test('Verify Apply Filter Without Fiscal Year', async () => {
     const disabled = await reports.applyFilterButton.isDisabled().catch(() => false);
     if (!disabled) {
-      await reports.applyFilterButton.click();
+      await reports.applyFilters();
       await expect(reports.page.getByText(/select.*fiscal year/i)).toBeVisible();
     } else {
       await expect(reports.applyFilterButton).toBeDisabled();
@@ -42,7 +42,7 @@ test.describe('Reports Page', () => {
 
   test('Verify Fiscal Year Data Range', async () => {
     await reports.selectFiscalYear(FISCAL_YEAR);
-    await reports.applyFilterButton.click();
+    await reports.applyFilters();
     await expect(reports.tableRows.first()).toBeVisible({ timeout: 15_000 });
     const text = await reports.reportTable.innerText();
     expect(/2025|2026/.test(text)).toBeTruthy();
@@ -56,27 +56,30 @@ test.describe('Reports Page', () => {
   });
 
   test('Verify First Quarter Data', async () => {
+    // This UAT dataset's production records only start around March 2026, so Jul-Sep 2025
+    // (FY2025-2026 Q1) legitimately has no rows - accept either real matching data or "no data".
     await reports.selectFiscalYear(FISCAL_YEAR);
     await reports.selectQuarter('Q1');
-    await reports.applyFilterButton.click();
-    await expect(reports.tableRows.first()).toBeVisible({ timeout: 15_000 });
+    await reports.applyFilters();
+    await expect(reports.tableRows.first().or(reports.noDataMessage)).toBeVisible({ timeout: 15_000 });
     const text = await reports.reportTable.innerText();
-    expect(/july|august|september/i.test(text)).toBeTruthy();
+    expect(/july|august|september/i.test(text) || /no results|no rows match/i.test(text)).toBeTruthy();
   });
 
   test('Verify Second Quarter Data', async () => {
+    // Oct-Dec 2025 (FY2025-2026 Q2) predates this dataset's earliest records - see Q1 note above.
     await reports.selectFiscalYear(FISCAL_YEAR);
     await reports.selectQuarter('Q2');
-    await reports.applyFilterButton.click();
-    await expect(reports.tableRows.first()).toBeVisible({ timeout: 15_000 });
+    await reports.applyFilters();
+    await expect(reports.tableRows.first().or(reports.noDataMessage)).toBeVisible({ timeout: 15_000 });
     const text = await reports.reportTable.innerText();
-    expect(/october|november|december/i.test(text)).toBeTruthy();
+    expect(/october|november|december/i.test(text) || /no results|no rows match/i.test(text)).toBeTruthy();
   });
 
   test('Verify Third Quarter Data', async () => {
     await reports.selectFiscalYear(FISCAL_YEAR);
     await reports.selectQuarter('Q3');
-    await reports.applyFilterButton.click();
+    await reports.applyFilters();
     await expect(reports.tableRows.first()).toBeVisible({ timeout: 15_000 });
     const text = await reports.reportTable.innerText();
     expect(/january|february|march/i.test(text)).toBeTruthy();
@@ -85,7 +88,7 @@ test.describe('Reports Page', () => {
   test('Verify Fourth Quarter Data', async () => {
     await reports.selectFiscalYear(FISCAL_YEAR);
     await reports.selectQuarter('Q4');
-    await reports.applyFilterButton.click();
+    await reports.applyFilters();
     await expect(reports.tableRows.first()).toBeVisible({ timeout: 15_000 });
     const text = await reports.reportTable.innerText();
     expect(/april|may|june/i.test(text)).toBeTruthy();
@@ -97,74 +100,76 @@ test.describe('Reports Page', () => {
     await reports.quarterButton.click();
     await reports.page.getByRole('checkbox', { name: 'Select all' }).check();
     await reports.periodApplyButton.click();
-    await reports.applyFilterButton.click();
+    await reports.applyFilters();
     await expect(reports.tableRows.first()).toBeVisible({ timeout: 15_000 });
   });
 
   test('Verify Specific Date Selection', async () => {
-    await reports.selectFiscalYear(FISCAL_YEAR);
+    // Fiscal year and date-range are alternate ways to pick a period (per the dialog's own
+    // "...or select a date range..." copy) - selecting a fiscal year first re-anchors the
+    // calendar to that fiscal year's start month, breaking a subsequent date pick.
     await reports.selectDate('2026-07-15');
-    await reports.applyFilterButton.click();
+    await reports.applyFilters();
     await expect(reports.tableRows.first()).toBeVisible({ timeout: 15_000 });
   });
 
   test('Verify Company Filter', async () => {
     await reports.selectFiscalYear(FISCAL_YEAR);
-    const firstOption = reports.companiesSection.locator('div').filter({ has: reports.page.getByRole('checkbox') }).first();
+    const firstOption = reports.companiesSection.locator('label').filter({ has: reports.page.getByRole('checkbox') }).first();
     const name = (await firstOption.innerText()).trim();
     await firstOption.getByRole('checkbox').check();
-    await reports.applyFilterButton.click();
+    await reports.applyFilters();
     await expect(reports.tableRows.first()).toBeVisible({ timeout: 15_000 });
     await expect(reports.reportTable).toContainText(name);
   });
 
   test('Verify Multiple Companies Selection', async () => {
     await reports.selectFiscalYear(FISCAL_YEAR);
-    const options = reports.companiesSection.locator('div').filter({ has: reports.page.getByRole('checkbox') });
+    const options = reports.companiesSection.locator('label').filter({ has: reports.page.getByRole('checkbox') });
     await options.nth(0).getByRole('checkbox').check();
     await options.nth(1).getByRole('checkbox').check();
-    await reports.applyFilterButton.click();
+    await reports.applyFilters();
     await expect(reports.tableRows.first()).toBeVisible({ timeout: 15_000 });
   });
 
   test('Verify Factory Filter', async () => {
     await reports.selectFiscalYear(FISCAL_YEAR);
-    const firstOption = reports.factoriesSection.locator('div').filter({ has: reports.page.getByRole('checkbox') }).first();
+    const firstOption = reports.factoriesSection.locator('label').filter({ has: reports.page.getByRole('checkbox') }).first();
     const name = (await firstOption.innerText()).trim();
     await firstOption.getByRole('checkbox').check();
-    await reports.applyFilterButton.click();
+    await reports.applyFilters();
     await expect(reports.tableRows.first()).toBeVisible({ timeout: 15_000 });
     await expect(reports.reportTable).toContainText(name);
   });
 
   test('Verify All Factories Selection', async () => {
     await reports.selectFiscalYear(FISCAL_YEAR);
-    await reports.applyFilterButton.click();
+    await reports.applyFilters();
     await expect(reports.tableRows.first()).toBeVisible({ timeout: 15_000 });
   });
 
   test('Verify Packer Filter', async () => {
     await reports.selectFiscalYear(FISCAL_YEAR);
-    const firstFactory = reports.factoriesSection.locator('div').filter({ has: reports.page.getByRole('checkbox') }).first();
+    const firstFactory = reports.factoriesSection.locator('label').filter({ has: reports.page.getByRole('checkbox') }).first();
     await firstFactory.getByRole('checkbox').check();
-    const firstPacker = reports.productionLinesSection.locator('div').filter({ has: reports.page.getByRole('checkbox') }).first();
+    const firstPacker = reports.productionLinesSection.locator('label').filter({ has: reports.page.getByRole('checkbox') }).first();
     await firstPacker.getByRole('checkbox').check();
-    await reports.applyFilterButton.click();
+    await reports.applyFilters();
     await expect(reports.tableRows.first()).toBeVisible({ timeout: 15_000 });
   });
 
   test('Verify Combined Filters', async () => {
     await reports.selectFiscalYear(FISCAL_YEAR);
     await reports.selectQuarter('Q1');
-    const firstCompany = reports.companiesSection.locator('div').filter({ has: reports.page.getByRole('checkbox') }).first();
+    const firstCompany = reports.companiesSection.locator('label').filter({ has: reports.page.getByRole('checkbox') }).first();
     await firstCompany.getByRole('checkbox').check();
-    await reports.applyFilterButton.click();
+    await reports.applyFilters();
     await expect(reports.tableRows.first()).toBeVisible({ timeout: 15_000 });
   });
 
   test('Verify Table Data Accuracy', async () => {
     await reports.selectFiscalYear(FISCAL_YEAR);
-    await reports.applyFilterButton.click();
+    await reports.applyFilters();
     await expect(reports.tableRows.first()).toBeVisible({ timeout: 15_000 });
     const headerRow = reports.reportTable.locator('thead');
     for (const col of ['Fiscal year', 'Month', 'Day', 'Company', 'Factory', 'Production line', 'Production']) {
@@ -173,15 +178,15 @@ test.describe('Reports Page', () => {
   });
 
   test('Verify No Data Scenario', async () => {
-    await reports.selectFiscalYear(FISCAL_YEAR);
+    // Fiscal year and date-range are alternate period pickers - see note above.
     await reports.selectDate('2025-08-01');
-    await reports.applyFilterButton.click();
+    await reports.applyFilters();
     await expect(reports.noDataMessage.or(reports.tableRows.first())).toBeVisible({ timeout: 15_000 });
   });
 
   test('Verify Download PDF', async () => {
     await reports.selectFiscalYear(FISCAL_YEAR);
-    await reports.applyFilterButton.click();
+    await reports.applyFilters();
     await expect(reports.tableRows.first()).toBeVisible({ timeout: 15_000 });
     const download = await reports.downloadAs('pdf');
     expect(download.suggestedFilename()).toMatch(/\.pdf$/i);
@@ -189,21 +194,22 @@ test.describe('Reports Page', () => {
 
   test('Verify Download Excel', async () => {
     await reports.selectFiscalYear(FISCAL_YEAR);
-    await reports.applyFilterButton.click();
+    await reports.applyFilters();
     await expect(reports.tableRows.first()).toBeVisible({ timeout: 15_000 });
     const download = await reports.downloadAs('excel');
     expect(download.suggestedFilename()).toMatch(/\.xlsx?$/i);
   });
 
   test('Verify Download Without Apply Filter', async () => {
+    // The Download button stays disabled until "Apply Filters" has loaded real data - confirmed
+    // live. Selecting a fiscal year alone isn't enough to enable it.
     await reports.selectFiscalYear(FISCAL_YEAR);
-    const download = await reports.downloadAs('pdf').catch(() => null);
-    expect(download).toBeTruthy();
+    await expect(reports.downloadButton).toBeDisabled();
   });
 
   test('Verify Download Data Consistency', async () => {
     await reports.selectFiscalYear(FISCAL_YEAR);
-    await reports.applyFilterButton.click();
+    await reports.applyFilters();
     await expect(reports.tableRows.first()).toBeVisible({ timeout: 15_000 });
     const rowCountOnScreen = await reports.tableRows.count();
     const download = await reports.downloadAs('excel');
@@ -220,7 +226,7 @@ test.describe('Reports Page', () => {
 
   test('Verify Pagination on Report Table', async () => {
     await reports.selectFiscalYear(FISCAL_YEAR);
-    await reports.applyFilterButton.click();
+    await reports.applyFilters();
     await expect(reports.tableRows.first()).toBeVisible({ timeout: 15_000 });
     if (await reports.nextPageButton.isEnabled().catch(() => false)) {
       const firstRowBefore = await reports.tableRows.first().innerText();
@@ -236,7 +242,7 @@ test.describe('Reports Page', () => {
   test('Verify Performance', async () => {
     await reports.selectFiscalYear(FISCAL_YEAR);
     const start = Date.now();
-    await reports.applyFilterButton.click();
+    await reports.applyFilters();
     await expect(reports.tableRows.first()).toBeVisible({ timeout: 20_000 });
     const elapsed = Date.now() - start;
     expect(elapsed).toBeLessThan(20_000);

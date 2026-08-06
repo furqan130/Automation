@@ -27,8 +27,10 @@ class FactoryEditModal extends BasePage {
     this.aggregationStartHourDropdown = this.modal.getByLabel(/aggregation.*start hour/i).or(
       this.modal.getByRole('combobox', { name: /aggregation/i })
     );
-    this.productionCapacityInput = this.modal.getByLabel(/production capacity/i);
+    // Confirmed live: the field's accessible label is just "Capacity", not "Production Capacity".
+    this.productionCapacityInput = this.modal.getByLabel(/^capacity$/i);
     this.unitInput = this.modal.getByLabel(/^unit$/i);
+    this.ntnNumberInput = this.modal.getByLabel(/ntn number/i);
     this.publicCompanyCheckbox = this.modal.getByLabel(/public compan/i);
 
     this.companyLogo = this.modal.locator('[data-testid="company-logo"], img[alt*="logo" i]');
@@ -36,7 +38,8 @@ class FactoryEditModal extends BasePage {
     this.removeLogoButton = this.modal.getByRole('button', { name: /remove/i }).first();
     this.logoFileInput = this.modal.locator('input[type="file"]').first();
 
-    this.addImagesButton = this.modal.getByRole('button', { name: /add images?/i });
+    // Confirmed live: "Add images" renders as a clickable div, not a <button> - no accessible role.
+    this.addImagesButton = this.modal.getByText(/add images?/i);
     this.imagesFileInput = this.modal.locator('input[type="file"]').last();
     this.imageThumbnails = this.modal.locator('[data-testid="factory-image-thumbnail"]');
     this.removeImageIcon = this.modal.locator('[data-testid="remove-image"], .image-thumbnail button');
@@ -90,15 +93,18 @@ class CreateFactoryModal extends BasePage {
     this.aggregationStartHourDropdown = this.modal.getByLabel(/aggregation.*start hour/i).or(
       this.modal.getByRole('combobox', { name: /aggregation/i })
     );
-    this.productionCapacityInput = this.modal.getByLabel(/production capacity/i);
+    // Confirmed live: the field's accessible label is just "Capacity", not "Production Capacity".
+    this.productionCapacityInput = this.modal.getByLabel(/^capacity$/i);
     this.unitInput = this.modal.getByLabel(/^unit$/i);
+    this.ntnNumberInput = this.modal.getByLabel(/ntn number/i);
     this.publicCompanyCheckbox = this.modal.getByLabel(/public compan/i);
 
     this.companyLogo = this.modal.locator('[data-testid="company-logo"], img[alt*="logo" i]');
     this.uploadLogoButton = this.modal.getByRole('button', { name: /upload/i });
     this.logoFileInput = this.modal.locator('input[type="file"]').first();
 
-    this.addImagesButton = this.modal.getByRole('button', { name: /add images?/i });
+    // Confirmed live: "Add images" renders as a clickable div, not a <button> - no accessible role.
+    this.addImagesButton = this.modal.getByText(/add images?/i);
     this.imagesFileInput = this.modal.locator('input[type="file"]').last();
     this.imageThumbnails = this.modal.locator('[data-testid="factory-image-thumbnail"]');
     this.removeImageIcon = this.modal.locator('[data-testid="remove-image"], .image-thumbnail button');
