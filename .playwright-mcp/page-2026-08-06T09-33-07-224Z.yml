@@ -1,0 +1,79 @@
+- generic [ref=f2e1]:
+  - region "Notifications (F8)":
+    - list
+  - generic [ref=f2e41]:
+    - generic [ref=f2e45]:
+      - img "Digital Eye" [ref=f2e47] [cursor=pointer]
+      - generic [ref=f2e48]:
+        - list [ref=f2e50]:
+          - listitem [ref=f2e51]:
+            - link "Overview" [ref=f2e52] [cursor=pointer]:
+              - /url: /dashboard
+          - listitem [ref=f2e59]:
+            - link "Factories" [ref=f2e60] [cursor=pointer]:
+              - /url: /factories
+        - list [ref=f2e66]:
+          - listitem [ref=f2e67]:
+            - link "Analytics" [ref=f2e68] [cursor=pointer]:
+              - /url: /analytics
+          - listitem [ref=f2e72]:
+            - link "Reports" [ref=f2e73] [cursor=pointer]:
+              - /url: /reports
+        - list [ref=f2e80]:
+          - listitem [ref=f2e81]:
+            - link "Notification Center" [ref=f2e82] [cursor=pointer]:
+              - /url: /notification-center
+          - listitem [ref=f2e86]:
+            - link "Contact List" [ref=f2e87] [cursor=pointer]:
+              - /url: /contact-list
+    - main [ref=f2e94]:
+      - generic [ref=f2e95]:
+        - generic [ref=f2e96]:
+          - button "Toggle Sidebar" [ref=f2e97] [cursor=pointer]
+          - button "Home" [ref=f2e101] [cursor=pointer]
+          - navigation "breadcrumb" [ref=f2e106]:
+            - list [ref=f2e107]:
+              - listitem [ref=f2e108]:
+                - link "Factories" [disabled] [ref=f2e109]
+        - generic [ref=f2e110]:
+          - button "Toggle theme" [ref=f2e111] [cursor=pointer]
+          - button "Settings" [ref=f2e115] [cursor=pointer]
+          - button "9+" [ref=f2e119] [cursor=pointer]
+          - button [ref=f2e124] [cursor=pointer]
+      - generic [ref=f2e132]:
+        - complementary [ref=f2e133]:
+          - generic [ref=f2e134]:
+            - heading "Factories & Companies" [level=2] [ref=f2e135]
+            - paragraph [ref=f2e136]: 283 companies · 329 factories
+            - textbox "Search factories, companies…" [active] [ref=f2e139]: E2E Factory Base Company
+          - generic [ref=f2e5641]:
+            - generic [ref=f2e5642] [cursor=pointer]:
+              - generic [ref=f2e5645]: E2E Factory Base Company
+              - generic [ref=f2e5646]: 0/0
+              - generic [ref=f2e5647]:
+                - button [ref=f2e5648]
+                - button [ref=f2e5652]
+            - generic [ref=f2e5658]: No factories yet
+          - generic [ref=f2e147]:
+            - button "Company" [ref=f2e148] [cursor=pointer]
+            - button "Factory" [ref=f2e150] [cursor=pointer]
+        - generic [ref=f2e4401]:
+          - generic [ref=f2e4681]:
+            - button "All" [ref=f2e4682] [cursor=pointer]
+            - button "Online" [ref=f2e4688] [cursor=pointer]
+            - button "Offline" [ref=f2e4693] [cursor=pointer]
+          - generic [ref=f2e4701]:
+            - generic:
+              - paragraph: All Factories
+              - generic:
+                - generic:
+                  - generic: "329"
+                  - generic: total
+                - generic:
+                  - generic: "328"
+                  - generic: offline
+                - generic:
+                  - generic: "1"
+                  - generic: online
+            - button "Factory Breakdown" [ref=f2e4703] [cursor=pointer]
+  - alert [ref=f2e30]: Factories & Companies | Digital Eye

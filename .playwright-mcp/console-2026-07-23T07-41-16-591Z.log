@@ -1,0 +1,2 @@
+[   11849ms] [LOG] {message: Logged in successfully, deprecation: Object, data: Object} @ https://de-uat-internal.waiindustries.com/_next/static/chunks/0d4.68.krqrm5.js:2
+[   14735ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://de-api-uat-internal.waiindustries.com/api/v1/industries/?:0

@@ -1,0 +1,87 @@
+- generic [active] [ref=f15e1]:
+  - region "Notifications (F8)":
+    - list
+  - generic [ref=f15e2]:
+    - generic [ref=f15e6]:
+      - img "Digital Eye" [ref=f15e8] [cursor=pointer]
+      - generic [ref=f15e9]:
+        - button "Back to factories" [ref=f15e11] [cursor=pointer]:
+          - generic [ref=f15e14]: Back to Factories
+        - list [ref=f15e16]:
+          - listitem [ref=f15e17]:
+            - generic [ref=f15e18]: A.A. Cotton Mills LTD.
+          - listitem [ref=f15e22]:
+            - link "Analytics" [ref=f15e23] [cursor=pointer]:
+              - /url: /factories/A.A.%20Cotton%20Mills%20LTD./analytics
+          - listitem [ref=f15e27]:
+            - link "Devices" [ref=f15e28] [cursor=pointer]:
+              - /url: /factories/A.A.%20Cotton%20Mills%20LTD./devices
+          - listitem [ref=f15e33]:
+            - link "Performance" [ref=f15e34] [cursor=pointer]:
+              - /url: /factories/A.A.%20Cotton%20Mills%20LTD./performance
+    - main [ref=f15e38]:
+      - generic [ref=f15e39]:
+        - generic [ref=f15e40]:
+          - button "Toggle Sidebar" [ref=f15e41] [cursor=pointer]
+          - button "Home" [ref=f15e45] [cursor=pointer]
+          - navigation "breadcrumb" [ref=f15e50]:
+            - list [ref=f15e51]:
+              - listitem [ref=f15e52]:
+                - link "Factories" [ref=f15e53] [cursor=pointer]:
+                  - /url: /factories
+              - listitem [ref=f15e57]:
+                - link "A.A. Cotton Mills LTD." [ref=f15e58] [cursor=pointer]:
+                  - /url: /factories/A.A.%20Cotton%20Mills%20LTD.
+              - listitem [ref=f15e62]:
+                - link "Analytics" [disabled] [ref=f15e63]
+        - generic [ref=f15e64]:
+          - button "Toggle theme" [ref=f15e65] [cursor=pointer]
+          - button "Settings" [ref=f15e69] [cursor=pointer]
+          - button "9+" [ref=f15e73] [cursor=pointer]
+          - button [ref=f15e78] [cursor=pointer]
+      - generic [ref=f15e88]:
+        - generic [ref=f15e89]:
+          - generic [ref=f15e90]:
+            - heading "Factory · Production" [level=1] [ref=f15e92]
+            - paragraph [ref=f15e93]: Production totals and packer-line analytics for this factory.
+          - generic [ref=f15e94]:
+            - link "Factory map" [ref=f15e95] [cursor=pointer]:
+              - /url: /factories
+            - link "Global analytics" [ref=f15e99] [cursor=pointer]:
+              - /url: /analytics
+        - generic [ref=f15e105]:
+          - generic [ref=f15e107]:
+            - generic [ref=f15e108]:
+              - generic [ref=f15e109]: Filters
+              - generic [ref=f15e110]: Changes apply automatically when a valid period is selected.
+            - button "Refresh production data" [ref=f15e112] [cursor=pointer]: Refresh
+          - generic [ref=f15e118]:
+            - generic [ref=f15e120]:
+              - paragraph [ref=f15e121]: Period type
+              - button "Select filter" [ref=f15e122] [cursor=pointer]
+            - generic [ref=f15e126]:
+              - generic [ref=f15e127]: Factory · Today & this month · current year in charts
+              - generic [ref=f15e128]:
+                - text: Updated 1:12 PM
+                - generic [ref=f15e134]: · auto-refreshes every 2.5 min
+        - generic [ref=f15e135]:
+          - generic [ref=f15e136]:
+            - heading "Factory totals" [level=2] [ref=f15e137]
+            - paragraph [ref=f15e138]: Aggregated across all packer lines at this factory.
+          - generic [ref=f15e139]:
+            - generic [ref=f15e140]:
+              - paragraph [ref=f15e142]: Cement bags (day)
+              - paragraph [ref=f15e148]: "0"
+              - paragraph [ref=f15e149]: July 23, 2026
+            - generic [ref=f15e150]:
+              - paragraph [ref=f15e152]: Cement bags (month)
+              - paragraph [ref=f15e158]: "0"
+              - paragraph [ref=f15e159]: July 2026
+        - generic [ref=f15e160]:
+          - generic [ref=f15e162]:
+            - heading "Packer line" [level=2] [ref=f15e163]
+            - paragraph [ref=f15e164]: Select a line to view its production breakdown and optional live view.
+          - generic [ref=f15e170]:
+            - paragraph [ref=f15e171]: No packer lines found
+            - paragraph [ref=f15e172]: This factory has no camera lines configured yet. Set up devices to start tracking production.
+  - alert [ref=f15e173]

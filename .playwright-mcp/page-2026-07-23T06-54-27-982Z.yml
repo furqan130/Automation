@@ -1,0 +1,155 @@
+- generic [ref=f5e1]:
+  - region "Notifications (F8)":
+    - list
+  - generic [ref=f5e2]:
+    - generic [ref=f5e6]:
+      - img "Digital Eye" [ref=f5e8] [cursor=pointer]
+      - generic [ref=f5e9]:
+        - button "Back to factories" [ref=f5e11] [cursor=pointer]:
+          - generic [ref=f5e14]: Back to Factories
+        - list [ref=f5e16]:
+          - listitem [ref=f5e17]:
+            - generic [ref=f5e18]: A.A. Cotton Mills LTD.
+          - listitem [ref=f5e22]:
+            - link "Analytics" [ref=f5e23] [cursor=pointer]:
+              - /url: /factories/A.A.%20Cotton%20Mills%20LTD./analytics
+          - listitem [ref=f5e27]:
+            - link "Devices" [ref=f5e28] [cursor=pointer]:
+              - /url: /factories/A.A.%20Cotton%20Mills%20LTD./devices
+          - listitem [ref=f5e33]:
+            - link "Performance" [ref=f5e34] [cursor=pointer]:
+              - /url: /factories/A.A.%20Cotton%20Mills%20LTD./performance
+    - main [ref=f5e38]:
+      - generic [ref=f5e39]:
+        - generic [ref=f5e40]:
+          - button "Toggle Sidebar" [ref=f5e41] [cursor=pointer]
+          - button "Home" [ref=f5e45] [cursor=pointer]
+          - navigation "breadcrumb" [ref=f5e50]:
+            - list [ref=f5e51]:
+              - listitem [ref=f5e52]:
+                - link "Factories" [ref=f5e53] [cursor=pointer]:
+                  - /url: /factories
+              - listitem [ref=f5e57]:
+                - link "A.A. Cotton Mills LTD." [ref=f5e58] [cursor=pointer]:
+                  - /url: /factories/A.A.%20Cotton%20Mills%20LTD.
+              - listitem [ref=f5e62]:
+                - link "Performance" [disabled] [ref=f5e63]
+        - generic [ref=f5e64]:
+          - button "Toggle theme" [ref=f5e65] [cursor=pointer]
+          - button "Settings" [ref=f5e69] [cursor=pointer]
+          - button "9+" [ref=f5e73] [cursor=pointer]
+          - button [ref=f5e78] [cursor=pointer]
+      - generic [ref=f5e89]:
+        - generic [ref=f5e90]:
+          - heading "Performance" [level=1] [ref=f5e91]
+          - paragraph [ref=f5e92]: View performance data for the selected industry.
+        - generic [ref=f5e94]:
+          - tablist [ref=f5e96]:
+            - tab "Daily" [selected] [ref=f5e97] [cursor=pointer]
+            - tab "Monthly" [ref=f5e98] [cursor=pointer]
+          - generic [ref=f5e99]:
+            - button "Select date" [expanded] [ref=f5e100] [cursor=pointer]
+            - button "Apply" [disabled]
+        - generic [ref=f5e104]:
+          - generic [ref=f5e119]:
+            - generic [ref=f5e120]:
+              - generic [ref=f5e121]: Downtime
+              - generic [ref=f5e125]: "For: July 23rd, 2026"
+            - paragraph [ref=f5e127]: 360 min
+          - generic [ref=f5e128]:
+            - generic [ref=f5e129]:
+              - generic [ref=f5e130]: Downtime Percentage
+              - generic [ref=f5e135]: "For: July 23rd, 2026"
+            - paragraph [ref=f5e137]: 100%
+        - generic [ref=f5e107]:
+          - generic [ref=f5e108]:
+            - generic [ref=f5e109]: Factory online status
+            - generic [ref=f5e110]: "For: July 23rd, 2026"
+          - generic [ref=f5e113]:
+            - img [ref=f5e140]:
+              - generic [ref=f5e145]:
+                - generic [ref=f5e146]: 06:00
+                - generic [ref=f5e148]: 06:20
+                - generic [ref=f5e150]: 06:40
+                - generic [ref=f5e152]: 07:00
+                - generic [ref=f5e154]: 07:20
+                - generic [ref=f5e156]: 07:40
+                - generic [ref=f5e158]: 08:00
+                - generic [ref=f5e160]: 08:20
+                - generic [ref=f5e162]: 08:40
+                - generic [ref=f5e164]: 09:00
+                - generic [ref=f5e166]: 09:20
+                - generic [ref=f5e168]: 09:40
+                - generic [ref=f5e170]: 10:00
+                - generic [ref=f5e172]: 10:20
+                - generic [ref=f5e174]: 10:40
+                - generic [ref=f5e176]: 11:00
+                - generic [ref=f5e178]: 11:20
+                - generic [ref=f5e180]: 11:50
+              - generic [ref=f5e183]:
+                - generic [ref=f5e184]: "-1"
+                - generic [ref=f5e186]: "0"
+                - generic [ref=f5e188]: "1"
+            - generic [ref=f5e115]:
+              - generic [ref=f5e195]: Online
+              - generic [ref=f5e198]: Offline
+  - alert [ref=f5e118]
+  - generic [ref=f5e201]: "-1"
+  - dialog [ref=f5e205]:
+    - generic [ref=f5e208]:
+      - generic [ref=f5e209]:
+        - generic [ref=f5e210]: July 2026
+        - generic:
+          - button "Go to previous month" [ref=f5e211] [cursor=pointer]
+          - button "Go to next month" [ref=f5e214] [cursor=pointer]
+      - grid "July 2026" [ref=f5e217]:
+        - rowgroup [ref=f5e218]:
+          - row [ref=f5e219]:
+            - columnheader "Sunday" [ref=f5e220]: Su
+            - columnheader "Monday" [ref=f5e221]: Mo
+            - columnheader "Tuesday" [ref=f5e222]: Tu
+            - columnheader "Wednesday" [ref=f5e223]: We
+            - columnheader "Thursday" [ref=f5e224]: Th
+            - columnheader "Friday" [ref=f5e225]: Fr
+            - columnheader "Saturday" [ref=f5e226]: Sa
+        - rowgroup [ref=f5e227]:
+          - row [ref=f5e228]:
+            - gridcell "28" [ref=f5e229] [cursor=pointer]
+            - gridcell "29" [ref=f5e230] [cursor=pointer]
+            - gridcell "30" [ref=f5e231] [cursor=pointer]
+            - gridcell "1" [ref=f5e232] [cursor=pointer]
+            - gridcell "2" [ref=f5e233] [cursor=pointer]
+            - gridcell "3" [ref=f5e234] [cursor=pointer]
+            - gridcell "4" [ref=f5e235] [cursor=pointer]
+          - row [ref=f5e236]:
+            - gridcell "5" [ref=f5e237] [cursor=pointer]
+            - gridcell "6" [ref=f5e238] [cursor=pointer]
+            - gridcell "7" [ref=f5e239] [cursor=pointer]
+            - gridcell "8" [ref=f5e240] [cursor=pointer]
+            - gridcell "9" [ref=f5e241] [cursor=pointer]
+            - gridcell "10" [ref=f5e242] [cursor=pointer]
+            - gridcell "11" [ref=f5e243] [cursor=pointer]
+          - row [ref=f5e244]:
+            - gridcell "12" [ref=f5e245] [cursor=pointer]
+            - gridcell "13" [ref=f5e246] [cursor=pointer]
+            - gridcell "14" [ref=f5e247] [cursor=pointer]
+            - gridcell "15" [ref=f5e248] [cursor=pointer]
+            - gridcell "16" [ref=f5e249] [cursor=pointer]
+            - gridcell "17" [ref=f5e250] [cursor=pointer]
+            - gridcell "18" [ref=f5e251] [cursor=pointer]
+          - row [ref=f5e252]:
+            - gridcell "19" [ref=f5e253] [cursor=pointer]
+            - gridcell "20" [ref=f5e254] [cursor=pointer]
+            - gridcell "21" [ref=f5e255] [cursor=pointer]
+            - gridcell "22" [ref=f5e256] [cursor=pointer]
+            - gridcell "23" [active] [ref=f5e257] [cursor=pointer]
+            - gridcell "24" [disabled]
+            - gridcell "25" [disabled]
+          - row "26 27 28 29 30 31 1" [ref=f5e258]:
+            - gridcell "26" [disabled]
+            - gridcell "27" [disabled]
+            - gridcell "28" [disabled]
+            - gridcell "29" [disabled]
+            - gridcell "30" [disabled]
+            - gridcell "31" [disabled]
+            - gridcell "1" [disabled]

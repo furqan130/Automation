@@ -1,0 +1,3 @@
+[   26505ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://de-admin-uat-internal.waiindustries.com/poly-x/poly-alert/v1/push?user_id=6a5904f245f55cc9d705a03a&status=active&organization_id=6a58af0a45f55cc9d7058f1b&page=1:0
+[  148567ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://de-admin-uat-internal.waiindustries.com/poly-x/poly-alert/v1/push?user_id=6a5904f245f55cc9d705a03a&status=active&organization_id=6a58af0a45f55cc9d7058f1b&page=1:0
+[  149103ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://de-admin-uat-internal.waiindustries.com/poly-x/poly-auth/v1/auth/refresh-token:0

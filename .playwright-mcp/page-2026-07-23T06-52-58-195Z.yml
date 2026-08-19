@@ -1,0 +1,129 @@
+- generic:
+  - list
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - button:
+                - generic: Back to Factories
+            - generic:
+              - list:
+                - listitem:
+                  - generic: A.A. Cotton Mills LTD.
+                - listitem:
+                  - link:
+                    - /url: /factories/A.A.%20Cotton%20Mills%20LTD./analytics
+                    - generic: Analytics
+                - listitem:
+                  - link:
+                    - /url: /factories/A.A.%20Cotton%20Mills%20LTD./devices
+                    - generic: Devices
+                - listitem:
+                  - link:
+                    - /url: /factories/A.A.%20Cotton%20Mills%20LTD./performance
+                    - generic: Performance
+    - main:
+      - generic:
+        - generic:
+          - button:
+            - generic: Toggle Sidebar
+          - button
+          - navigation:
+            - list:
+              - listitem:
+                - link:
+                  - /url: /factories
+                  - text: Factories
+              - listitem:
+                - link:
+                  - /url: /factories/A.A.%20Cotton%20Mills%20LTD.
+                  - text: A.A. Cotton Mills LTD.
+              - listitem:
+                - link [disabled]: Devices
+        - generic:
+          - button:
+            - generic: Toggle theme
+          - button
+          - button:
+            - generic: 9+
+          - button
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - heading [level=1]: Devices
+                    - paragraph: View and manage your devices under the selected industry.
+                  - generic:
+                    - generic:
+                      - textbox:
+                        - /placeholder: Search
+                    - button: Add Device
+                  - generic:
+                    - generic:
+                      - generic:
+                        - table:
+                          - rowgroup:
+                            - row:
+                              - columnheader: S.NO
+                              - columnheader: DEVICE NAME
+                              - columnheader: DEVICE TYPE
+                              - columnheader: STATUS
+                              - columnheader: CREATED ON
+                              - columnheader: UPDATED ON
+                              - columnheader: ACTIONS
+                          - rowgroup:
+                            - row:
+                              - cell:
+                                - generic: "1"
+                              - cell: GPU Machine
+                              - cell: machine
+                              - cell:
+                                - generic: disabled
+                              - cell:
+                                - generic: Mar 28, 2026
+                              - cell:
+                                - generic: Mar 28, 2026
+                              - cell:
+                                - generic:
+                                  - button
+                                  - button
+                                  - button
+                    - generic:
+                      - navigation:
+                        - list:
+                          - listitem:
+                            - link:
+                              - /url: "#"
+                              - generic: Previous
+                          - listitem:
+                            - link:
+                              - /url: "#"
+                              - text: "1"
+                          - listitem:
+                            - link:
+                              - /url: "#"
+                              - generic: Next
+  - alert: A.A. Cotton Mills LTD. · Production | Digital Eye
+  - dialog [ref=f4e4316]:
+    - generic [ref=f4e4317]:
+      - heading "Create Device" [level=2] [ref=f4e4318]
+      - paragraph [ref=f4e4319]: Fill the form below to create a new device.
+    - generic [ref=f4e4320]:
+      - generic [ref=f4e4321]:
+        - text: Device Name
+        - textbox "Device Name" [active] [ref=f4e4323]:
+          - /placeholder: Enter device name
+      - generic [ref=f4e4324]:
+        - text: Device Type
+        - combobox "Device Type" [ref=f4e4325] [cursor=pointer]:
+          - generic: Select Device Type
+        - combobox [ref=f4e4328]
+      - generic [ref=f4e4329]:
+        - button "Cancel" [ref=f4e4330] [cursor=pointer]
+        - button "Create" [ref=f4e4331] [cursor=pointer]
+    - button "Close" [ref=f4e4332] [cursor=pointer]

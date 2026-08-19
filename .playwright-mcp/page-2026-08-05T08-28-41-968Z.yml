@@ -1,0 +1,79 @@
+- generic [active] [ref=e1]:
+  - region "Notifications (F8)":
+    - list
+  - generic [ref=e80]:
+    - generic [ref=e84]:
+      - img "Digital Eye" [ref=e86] [cursor=pointer]
+      - generic [ref=e87]:
+        - list [ref=e89]:
+          - listitem [ref=e90]:
+            - link "Overview" [ref=e91] [cursor=pointer]:
+              - /url: /dashboard
+          - listitem [ref=e98]:
+            - link "Factories" [ref=e99] [cursor=pointer]:
+              - /url: /factories
+        - list [ref=e105]:
+          - listitem [ref=e106]:
+            - link "Analytics" [ref=e107] [cursor=pointer]:
+              - /url: /analytics
+          - listitem [ref=e111]:
+            - link "Reports" [ref=e112] [cursor=pointer]:
+              - /url: /reports
+        - list [ref=e119]:
+          - listitem [ref=e120]:
+            - link "Notification Center" [ref=e121] [cursor=pointer]:
+              - /url: /notification-center
+          - listitem [ref=e125]:
+            - link "Contact List" [ref=e126] [cursor=pointer]:
+              - /url: /contact-list
+    - main [ref=e133]:
+      - generic [ref=e134]:
+        - generic [ref=e135]:
+          - button "Toggle Sidebar" [ref=e136] [cursor=pointer]
+          - button "Home" [ref=e140] [cursor=pointer]
+          - navigation "breadcrumb" [ref=e145]:
+            - list [ref=e146]:
+              - listitem [ref=e147]:
+                - link "Factories" [disabled] [ref=e148]
+        - generic [ref=e149]:
+          - button "Toggle theme" [ref=e150] [cursor=pointer]
+          - button "Settings" [ref=e154] [cursor=pointer]
+          - button "9+" [ref=e158] [cursor=pointer]
+          - button [ref=e163] [cursor=pointer]
+      - generic [ref=e171]:
+        - complementary [ref=e172]:
+          - generic [ref=e173]:
+            - heading "Factories & Companies" [level=2] [ref=e174]
+            - paragraph [ref=e175]: 273 companies · 328 factories
+            - textbox "Search factories, companies…" [ref=e178]: Automated Test Company CP001
+          - generic [ref=e5180]:
+            - generic [ref=e5181] [cursor=pointer]:
+              - generic [ref=e5184]: Automated Test Company CP001 Edited
+              - generic [ref=e5185]: 0/0
+              - generic [ref=e5186]:
+                - button [ref=e5187]
+                - button [ref=e5191]
+            - generic [ref=e5195]: No factories yet
+          - generic [ref=e4260]:
+            - button "Company" [ref=e4261] [cursor=pointer]
+            - button "Factory" [ref=e4263] [cursor=pointer]
+        - generic [ref=e4266]:
+          - generic [ref=e4546]:
+            - button "All" [ref=e4547] [cursor=pointer]
+            - button "Online" [ref=e4553] [cursor=pointer]
+            - button "Offline" [ref=e4558] [cursor=pointer]
+          - generic [ref=e4566]:
+            - generic:
+              - paragraph: All Factories
+              - generic:
+                - generic:
+                  - generic: "328"
+                  - generic: total
+                - generic:
+                  - generic: "327"
+                  - generic: offline
+                - generic:
+                  - generic: "1"
+                  - generic: online
+            - button "Factory Breakdown" [ref=e4568] [cursor=pointer]
+  - alert [ref=e30]: Factories & Companies | Digital Eye

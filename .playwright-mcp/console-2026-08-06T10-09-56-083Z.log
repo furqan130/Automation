@@ -1,0 +1,2 @@
+[  296750ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://de-admin-uat-internal.waiindustries.com/poly-x/poly-alert/v1/push?user_id=6a628155e5ee0dfbbd597496&status=active&organization_id=6a58af0a45f55cc9d7058f1b&page=1:0
+[  297031ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://de-admin-uat-internal.waiindustries.com/poly-x/poly-auth/v1/auth/refresh-token:0

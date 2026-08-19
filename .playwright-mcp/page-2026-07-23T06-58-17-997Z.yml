@@ -1,0 +1,111 @@
+- generic [active] [ref=f11e1]:
+  - region "Notifications (F8)":
+    - list
+  - generic [ref=f11e2]:
+    - generic [ref=f11e6]:
+      - img "Digital Eye" [ref=f11e8] [cursor=pointer]
+      - generic [ref=f11e9]:
+        - list [ref=f11e11]:
+          - listitem [ref=f11e12]:
+            - link "Overview" [ref=f11e13] [cursor=pointer]:
+              - /url: /dashboard
+          - listitem [ref=f11e20]:
+            - link "Factories" [ref=f11e21] [cursor=pointer]:
+              - /url: /factories
+        - list [ref=f11e27]:
+          - listitem [ref=f11e28]:
+            - link "Analytics" [ref=f11e29] [cursor=pointer]:
+              - /url: /analytics
+          - listitem [ref=f11e33]:
+            - link "Reports" [ref=f11e34] [cursor=pointer]:
+              - /url: /reports
+        - list [ref=f11e41]:
+          - listitem [ref=f11e42]:
+            - link "Notification Center" [ref=f11e43] [cursor=pointer]:
+              - /url: /notification-center
+          - listitem [ref=f11e47]:
+            - link "Contact List" [ref=f11e48] [cursor=pointer]:
+              - /url: /contact-list
+    - main [ref=f11e55]:
+      - generic [ref=f11e56]:
+        - generic [ref=f11e57]:
+          - button "Toggle Sidebar" [ref=f11e58] [cursor=pointer]
+          - button "Home" [ref=f11e62] [cursor=pointer]
+          - navigation "breadcrumb" [ref=f11e67]:
+            - list [ref=f11e68]:
+              - listitem [ref=f11e69]:
+                - link "Contacts" [disabled] [ref=f11e70]
+        - generic [ref=f11e71]:
+          - button "Toggle theme" [ref=f11e72] [cursor=pointer]
+          - button "Settings" [ref=f11e76] [cursor=pointer]
+          - button "9+" [ref=f11e80] [cursor=pointer]
+          - button [ref=f11e85] [cursor=pointer]
+      - generic [ref=f11e95]:
+        - heading "Contacts" [level=1] [ref=f11e97]
+        - generic [ref=f11e98]:
+          - textbox "Search contacts" [ref=f11e105]
+          - combobox [ref=f11e106] [cursor=pointer]:
+            - generic: All factories
+          - button "Add contact" [ref=f11e109] [cursor=pointer]
+        - table [ref=f11e114]:
+          - rowgroup [ref=f11e115]:
+            - row [ref=f11e116]:
+              - columnheader "#" [ref=f11e117]
+              - columnheader [ref=f11e118]:
+                - button "Name" [ref=f11e119] [cursor=pointer]
+              - columnheader "Email" [ref=f11e122]
+              - columnheader "Address" [ref=f11e123]
+              - columnheader "Contact number" [ref=f11e124]
+              - columnheader [ref=f11e125]:
+                - button "Factory" [ref=f11e126] [cursor=pointer]
+              - columnheader "Actions" [ref=f11e130]
+          - rowgroup [ref=f11e131]:
+            - row [ref=f11e132]:
+              - cell [ref=f11e133]
+              - cell [ref=f11e135]
+              - cell [ref=f11e137]
+              - cell [ref=f11e139]
+              - cell [ref=f11e141]
+              - cell [ref=f11e143]
+              - cell [ref=f11e145]
+            - row [ref=f11e147]:
+              - cell [ref=f11e148]
+              - cell [ref=f11e150]
+              - cell [ref=f11e152]
+              - cell [ref=f11e154]
+              - cell [ref=f11e156]
+              - cell [ref=f11e158]
+              - cell [ref=f11e160]
+            - row [ref=f11e162]:
+              - cell [ref=f11e163]
+              - cell [ref=f11e165]
+              - cell [ref=f11e167]
+              - cell [ref=f11e169]
+              - cell [ref=f11e171]
+              - cell [ref=f11e173]
+              - cell [ref=f11e175]
+            - row [ref=f11e177]:
+              - cell [ref=f11e178]
+              - cell [ref=f11e180]
+              - cell [ref=f11e182]
+              - cell [ref=f11e184]
+              - cell [ref=f11e186]
+              - cell [ref=f11e188]
+              - cell [ref=f11e190]
+            - row [ref=f11e192]:
+              - cell [ref=f11e193]
+              - cell [ref=f11e195]
+              - cell [ref=f11e197]
+              - cell [ref=f11e199]
+              - cell [ref=f11e201]
+              - cell [ref=f11e203]
+              - cell [ref=f11e205]
+            - row [ref=f11e207]:
+              - cell [ref=f11e208]
+              - cell [ref=f11e210]
+              - cell [ref=f11e212]
+              - cell [ref=f11e214]
+              - cell [ref=f11e216]
+              - cell [ref=f11e218]
+              - cell [ref=f11e220]
+  - alert [ref=f11e222]

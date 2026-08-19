@@ -1,0 +1,57 @@
+- generic [active] [ref=f13e1]:
+  - region "Notifications (F8)":
+    - list [ref=f13e32]:
+      - listitem [ref=f13e33]:
+        - generic [ref=f13e34]: Logged in successfully
+        - button [ref=f13e36] [cursor=pointer]
+  - generic [ref=f13e41]:
+    - generic [ref=f13e45]:
+      - img "Digital Eye" [ref=f13e47] [cursor=pointer]
+      - generic [ref=f13e48]:
+        - list [ref=f13e50]:
+          - listitem [ref=f13e51]:
+            - link "Overview" [ref=f13e52] [cursor=pointer]:
+              - /url: /dashboard
+          - listitem [ref=f13e59]:
+            - link "Factories" [ref=f13e60] [cursor=pointer]:
+              - /url: /factories
+        - list [ref=f13e66]:
+          - listitem [ref=f13e67]:
+            - link "Analytics" [ref=f13e68] [cursor=pointer]:
+              - /url: /analytics
+          - listitem [ref=f13e72]:
+            - link "Reports" [ref=f13e73] [cursor=pointer]:
+              - /url: /reports
+        - list [ref=f13e80]:
+          - listitem [ref=f13e81]:
+            - link "Notification Center" [ref=f13e82] [cursor=pointer]:
+              - /url: /notification-center
+          - listitem [ref=f13e86]:
+            - link "Contact List" [ref=f13e87] [cursor=pointer]:
+              - /url: /contact-list
+    - main [ref=f13e94]:
+      - generic [ref=f13e95]:
+        - generic [ref=f13e96]:
+          - button "Toggle Sidebar" [ref=f13e97] [cursor=pointer]
+          - button "Home" [ref=f13e101] [cursor=pointer]
+          - navigation "breadcrumb" [ref=f13e106]:
+            - list [ref=f13e107]:
+              - listitem [ref=f13e108]:
+                - link "Factories" [disabled] [ref=f13e109]
+        - generic [ref=f13e110]:
+          - button "Toggle theme" [ref=f13e111] [cursor=pointer]
+          - button "Settings" [ref=f13e125] [cursor=pointer]
+          - button "9+" [ref=f13e129] [cursor=pointer]
+          - button [ref=f13e134] [cursor=pointer]
+      - generic [ref=f13e142]:
+        - complementary [ref=f13e143]:
+          - generic [ref=f13e144]:
+            - heading "Factories & Companies" [level=2] [ref=f13e145]
+            - paragraph [ref=f13e146]: Loading companies…
+            - textbox "Search factories, companies…" [ref=f13e149]
+          - generic [ref=f13e157]:
+            - button "Company" [ref=f13e158] [cursor=pointer]
+            - button "Factory" [ref=f13e160] [cursor=pointer]
+        - paragraph [ref=f13e164]: Loading map…
+  - alert [ref=f13e30]: Factories & Companies | Digital Eye
+  - status [ref=f13e165]: Notification Logged in successfully

@@ -1,0 +1,145 @@
+- generic [ref=f14e1]:
+  - region "Notifications (F8)":
+    - list
+  - generic [ref=f14e2]:
+    - generic [ref=f14e6]:
+      - img "Digital Eye" [ref=f14e8] [cursor=pointer]
+      - generic [ref=f14e9]:
+        - button "Back to factories" [ref=f14e11] [cursor=pointer]:
+          - generic [ref=f14e14]: Back to Factories
+        - list [ref=f14e16]:
+          - listitem [ref=f14e17]:
+            - generic [ref=f14e18]: Test Factory
+          - listitem [ref=f14e22]:
+            - link "Analytics" [ref=f14e23] [cursor=pointer]:
+              - /url: /factories/Test%20Factory/analytics
+          - listitem [ref=f14e27]:
+            - link "Devices" [ref=f14e28] [cursor=pointer]:
+              - /url: /factories/Test%20Factory/devices
+          - listitem [ref=f14e33]:
+            - link "Performance" [ref=f14e34] [cursor=pointer]:
+              - /url: /factories/Test%20Factory/performance
+    - main [ref=f14e38]:
+      - generic [ref=f14e39]:
+        - generic [ref=f14e40]:
+          - button "Toggle Sidebar" [ref=f14e41] [cursor=pointer]
+          - button "Home" [ref=f14e45] [cursor=pointer]
+          - navigation "breadcrumb" [ref=f14e50]:
+            - list [ref=f14e51]:
+              - listitem [ref=f14e52]:
+                - link "Factories" [ref=f14e53] [cursor=pointer]:
+                  - /url: /factories
+              - listitem [ref=f14e57]:
+                - link "Test Factory" [ref=f14e58] [cursor=pointer]:
+                  - /url: /factories/Test%20Factory
+              - listitem [ref=f14e62]:
+                - link "Analytics" [disabled] [ref=f14e63]
+        - generic [ref=f14e64]:
+          - button "Toggle theme" [ref=f14e65] [cursor=pointer]
+          - button "Settings" [ref=f14e69] [cursor=pointer]
+          - button "9+" [ref=f14e73] [cursor=pointer]
+          - button [ref=f14e78] [cursor=pointer]
+      - generic [ref=f14e88]:
+        - generic [ref=f14e89]:
+          - generic [ref=f14e90]:
+            - generic [ref=f14e91]:
+              - heading "Test Factory · Production" [level=1] [ref=f14e174]
+              - generic [ref=f14e175]: Online
+            - paragraph [ref=f14e177]: Test Company
+            - paragraph [ref=f14e93]: Production totals and packer-line analytics for this factory.
+          - generic [ref=f14e94]:
+            - link "Factory map" [ref=f14e95] [cursor=pointer]:
+              - /url: /factories
+            - link "Global analytics" [ref=f14e99] [cursor=pointer]:
+              - /url: /analytics
+        - generic [ref=f14e105]:
+          - generic [ref=f14e107]:
+            - generic [ref=f14e108]:
+              - generic [ref=f14e109]: Filters
+              - generic [ref=f14e110]: Changes apply automatically when a valid period is selected.
+            - button "Refresh production data" [ref=f14e112] [cursor=pointer]: Refresh
+          - generic [ref=f14e118]:
+            - generic [ref=f14e120]:
+              - paragraph [ref=f14e121]: Period type
+              - button "Select filter" [ref=f14e122] [cursor=pointer]
+            - generic [ref=f14e126]:
+              - generic [ref=f14e127]: Test Factory · Today & this month · current year in charts
+              - generic [ref=f14e128]:
+                - text: Updated 12:56 PM
+                - generic [ref=f14e134]: · auto-refreshes every 2.5 min
+        - generic [ref=f14e135]:
+          - generic [ref=f14e136]:
+            - heading "Factory totals" [level=2] [ref=f14e137]
+            - paragraph [ref=f14e138]: Aggregated across all packer lines at this factory.
+          - generic [ref=f14e139]:
+            - generic [ref=f14e178]:
+              - paragraph [ref=f14e180]: Cement bags (day)
+              - paragraph [ref=f14e186]: "28"
+              - paragraph [ref=f14e187]: July 23, 2026
+            - generic [ref=f14e188]:
+              - paragraph [ref=f14e190]: Cement bags (month)
+              - paragraph [ref=f14e196]: 1,141
+              - paragraph [ref=f14e197]: July 2026
+        - generic [ref=f14e160]:
+          - generic [ref=f14e162]:
+            - heading "Packer line" [level=2] [ref=f14e163]
+            - paragraph [ref=f14e164]: Select a line to view its production breakdown and optional live view.
+          - combobox [expanded] [ref=f14e200] [cursor=pointer]:
+            - generic [ref=f14e201]: Test Device 1
+          - generic [ref=f14e205]:
+            - tablist [ref=f14e206]:
+              - tab "Production" [selected] [ref=f14e207] [cursor=pointer]
+              - tab "Live view" [ref=f14e212] [cursor=pointer]
+            - tabpanel "Production" [ref=f14e216]:
+              - generic [ref=f14e217]:
+                - generic [ref=f14e218]:
+                  - paragraph [ref=f14e220]: Cement bags (day)
+                  - paragraph [ref=f14e226]: "0"
+                  - paragraph [ref=f14e227]: Bags on July 23, 2026
+                - generic [ref=f14e228]:
+                  - paragraph [ref=f14e230]: Cement bags (month)
+                  - paragraph [ref=f14e236]: "0"
+                  - paragraph [ref=f14e237]: Bags in July 2026
+              - generic [ref=f14e238]:
+                - generic [ref=f14e240]:
+                  - generic [ref=f14e241]:
+                    - generic [ref=f14e242]: Hourly production
+                    - generic [ref=f14e243]: Bag count by hour for a single day. Pick a day within your selected period.
+                  - generic [ref=f14e244]:
+                    - paragraph [ref=f14e245]: Hourly date
+                    - button "July 23rd, 2026" [ref=f14e246] [cursor=pointer]
+                - img [ref=f14e253]:
+                  - generic [ref=f14e254]:
+                    - generic [ref=f14e255]:
+                      - generic [ref=f14e256]: 07:00-08:00
+                      - generic [ref=f14e258]: 09:00-10:00
+                      - generic [ref=f14e260]: 11:00-12:00
+                      - generic [ref=f14e262]: 13:00-14:00
+                      - generic [ref=f14e264]: 15:00-16:00
+                      - generic [ref=f14e266]: 17:00-18:00
+                      - generic [ref=f14e268]: 19:00-20:00
+                      - generic [ref=f14e270]: 21:00-22:00
+                      - generic [ref=f14e272]: 23:00-00:00
+                      - generic [ref=f14e274]: 01:00-02:00
+                      - generic [ref=f14e276]: 03:00-04:00
+                      - generic [ref=f14e278]: 05:00-06:00
+                    - generic [ref=f14e280]: Hours
+                  - generic [ref=f14e281]:
+                    - generic [ref=f14e282]:
+                      - generic [ref=f14e283]: "0"
+                      - generic [ref=f14e285]: "1"
+                      - generic [ref=f14e287]: "2"
+                      - generic [ref=f14e289]: "3"
+                      - generic [ref=f14e291]: "4"
+                    - generic [ref=f14e293]: Bag Count
+  - alert [ref=f14e173]
+  - generic [ref=f14e320]: "0"
+  - dialog [ref=f14e324]:
+    - generic [ref=f14e325]:
+      - combobox [expanded] [active] [ref=f14e331]
+      - listbox "Suggestions" [ref=f14e332]:
+        - generic [ref=f14e333]:
+          - generic [ref=f14e334]: Packer lines
+          - group "Packer lines" [ref=f14e335]:
+            - option "Test Device 1" [selected] [ref=f14e336]
+            - option "Test Device 2" [ref=f14e337]

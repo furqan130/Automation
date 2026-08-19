@@ -1,0 +1,46 @@
+- generic [active] [ref=f3e1]:
+  - region "Notifications (F8)":
+    - list
+  - generic [ref=f3e2]:
+    - generic [ref=f3e6]:
+      - img "Digital Eye" [ref=f3e8] [cursor=pointer]
+      - generic [ref=f3e9]:
+        - list [ref=f3e11]:
+          - listitem [ref=f3e12]:
+            - link "Overview" [ref=f3e13] [cursor=pointer]:
+              - /url: /dashboard
+        - list [ref=f3e22]:
+          - listitem [ref=f3e23]:
+            - link "Analytics" [ref=f3e24] [cursor=pointer]:
+              - /url: /analytics
+          - listitem [ref=f3e28]:
+            - link "Reports" [ref=f3e29] [cursor=pointer]:
+              - /url: /reports
+        - list [ref=f3e36]:
+          - listitem [ref=f3e37]:
+            - link "Notification Center" [ref=f3e38] [cursor=pointer]:
+              - /url: /notification-center
+          - listitem [ref=f3e42]:
+            - link "Contact List" [ref=f3e43] [cursor=pointer]:
+              - /url: /contact-list
+    - main [ref=f3e50]:
+      - generic [ref=f3e51]:
+        - generic [ref=f3e52]:
+          - button "Toggle Sidebar" [ref=f3e53] [cursor=pointer]
+          - button "Home" [ref=f3e57] [cursor=pointer]
+          - navigation "breadcrumb" [ref=f3e62]:
+            - list [ref=f3e63]:
+              - listitem [ref=f3e64]:
+                - link "Factories" [disabled] [ref=f3e65]
+        - generic [ref=f3e66]:
+          - button "Toggle theme" [ref=f3e67] [cursor=pointer]
+          - button "Settings" [ref=f3e71] [cursor=pointer]
+          - button [ref=f3e75] [cursor=pointer]
+          - button [ref=f3e79] [cursor=pointer]
+      - generic [ref=f3e87]:
+        - complementary [ref=f3e88]:
+          - generic [ref=f3e89]:
+            - heading "Factories & Companies" [level=2] [ref=f3e90]
+            - paragraph [ref=f3e91]: 0 factories
+            - textbox "Search factories, companies…" [ref=f3e94]
+        - paragraph [ref=f3e104]: Loading map…

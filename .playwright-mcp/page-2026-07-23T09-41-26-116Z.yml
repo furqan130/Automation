@@ -1,0 +1,46 @@
+- generic [active] [ref=f12e1]:
+  - region "Notifications (F8)":
+    - list
+  - generic [ref=f12e2]:
+    - generic [ref=f12e6]:
+      - img "Digital Eye" [ref=f12e8] [cursor=pointer]
+      - generic [ref=f12e9]:
+        - list [ref=f12e11]:
+          - listitem [ref=f12e12]:
+            - link "Overview" [ref=f12e13] [cursor=pointer]:
+              - /url: /dashboard
+          - listitem [ref=f12e20]:
+            - link "Factories" [ref=f12e21] [cursor=pointer]:
+              - /url: /factories
+        - list [ref=f12e27]:
+          - listitem [ref=f12e28]:
+            - link "Analytics" [ref=f12e29] [cursor=pointer]:
+              - /url: /analytics
+          - listitem [ref=f12e33]:
+            - link "Reports" [ref=f12e34] [cursor=pointer]:
+              - /url: /reports
+        - list [ref=f12e41]:
+          - listitem [ref=f12e42]:
+            - link "Notification Center" [ref=f12e43] [cursor=pointer]:
+              - /url: /notification-center
+          - listitem [ref=f12e47]:
+            - link "Contact List" [ref=f12e48] [cursor=pointer]:
+              - /url: /contact-list
+    - main [ref=f12e55]:
+      - generic [ref=f12e56]:
+        - generic [ref=f12e57]:
+          - button "Toggle Sidebar" [ref=f12e58] [cursor=pointer]
+          - button "Home" [ref=f12e62] [cursor=pointer]
+          - navigation "breadcrumb" [ref=f12e67]:
+            - list [ref=f12e68]:
+              - listitem [ref=f12e69]:
+                - link "Notifications" [disabled] [ref=f12e70]
+        - generic [ref=f12e71]:
+          - button "Toggle theme" [ref=f12e72] [cursor=pointer]
+          - button "Settings" [ref=f12e76] [cursor=pointer]
+          - button [ref=f12e80] [cursor=pointer]
+          - button [ref=f12e84] [cursor=pointer]
+      - generic [ref=f12e93]:
+        - heading "Notifications" [level=1] [ref=f12e95]
+        - paragraph [ref=f12e98]: Loading notifications...
+        - button "Load more" [ref=f12e100] [cursor=pointer]

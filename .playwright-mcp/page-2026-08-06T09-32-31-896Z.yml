@@ -1,0 +1,173 @@
+- generic:
+  - list
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - list:
+                - listitem:
+                  - link:
+                    - /url: /dashboard
+                    - generic: Overview
+                - listitem:
+                  - link:
+                    - /url: /factories
+                    - generic: Factories
+            - generic:
+              - list:
+                - listitem:
+                  - link:
+                    - /url: /analytics
+                    - generic: Analytics
+                - listitem:
+                  - link:
+                    - /url: /reports
+                    - generic: Reports
+            - generic:
+              - list:
+                - listitem:
+                  - link:
+                    - /url: /notification-center
+                    - generic: Notification Center
+                - listitem:
+                  - link:
+                    - /url: /contact-list
+                    - generic: Contact List
+    - main:
+      - generic:
+        - generic:
+          - button:
+            - generic: Toggle Sidebar
+          - button
+          - navigation:
+            - list:
+              - listitem:
+                - link [disabled]: Factories
+        - generic:
+          - button:
+            - generic: Toggle theme
+          - button
+          - button:
+            - generic: 9+
+          - button
+      - generic:
+        - generic:
+          - generic:
+            - complementary:
+              - generic:
+                - heading [level=2]: Factories & Companies
+                - paragraph: 283 companies · 328 factories
+                - generic:
+                  - generic:
+                    - textbox:
+                      - /placeholder: Search factories, companies…
+                      - text: E2E Factory Base Company
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: E2E Factory Base Company
+                    - generic: 0/0
+                    - generic:
+                      - button
+                      - button
+              - generic:
+                - button: Company
+                - button: Factory
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - button: All
+                    - button: Online
+                    - button: Offline
+                - generic:
+                  - generic:
+                    - paragraph: All Factories
+                    - generic:
+                      - generic:
+                        - generic: "328"
+                        - generic: total
+                      - generic:
+                        - generic: "327"
+                        - generic: offline
+                      - generic:
+                        - generic: "1"
+                        - generic: online
+                  - generic:
+                    - button:
+                      - generic: Factory Breakdown
+  - alert: Factories & Companies | Digital Eye
+  - dialog [ref=f2e4711]:
+    - generic [ref=f2e4712]:
+      - heading "Create Factory" [level=2] [ref=f2e4713]
+      - paragraph [ref=f2e4714]: Fill the form below to create a new factory.
+    - group [ref=f2e4716]:
+      - generic [ref=f2e4717]:
+        - text: Factory Name
+        - textbox "Factory Name" [ref=f2e4719]:
+          - /placeholder: Enter factory name
+          - text: E2E Test Factory
+      - generic [ref=f2e4720]:
+        - text: Parent Company
+        - combobox "Parent Company" [active] [ref=f2e4721] [cursor=pointer]:
+          - generic: E2E Factory Base Company
+        - combobox [ref=f2e4724]
+      - generic [ref=f2e4725]:
+        - text: Registered Address
+        - textbox "Registered Address" [ref=f2e4726]:
+          - /placeholder: Registered factory address
+      - generic [ref=f2e4727]:
+        - generic [ref=f2e4728]:
+          - text: GPS Latitude
+          - spinbutton "GPS Latitude" [ref=f2e4730]
+        - generic [ref=f2e4731]:
+          - text: GPS Longitude
+          - spinbutton "GPS Longitude" [ref=f2e4733]
+      - generic [ref=f2e4734]:
+        - text: Ownership Structure
+        - textbox "Ownership Structure" [ref=f2e4735]:
+          - /placeholder: e.g. Subsidiary (100% owned by ...)
+      - generic [ref=f2e4736]:
+        - text: Company Website
+        - textbox "Company Website" [ref=f2e4738]:
+          - /placeholder: https://example.com
+      - generic [ref=f2e4739]:
+        - text: NTN Number
+        - textbox "NTN Number" [ref=f2e4741]:
+          - /placeholder: e.g. 0225971-7
+        - paragraph [ref=f2e4742]: National Tax Number (optional). Letters, digits and hyphens only; at most 16 characters.
+      - generic [ref=f2e4743]:
+        - text: Aggregation day-window start hour
+        - combobox "Aggregation day-window start hour" [ref=f2e4744] [cursor=pointer]:
+          - generic: 06:00
+        - combobox [ref=f2e4747]
+        - paragraph [ref=f2e4748]: Start of the production day used to bucket daily aggregates. Defaults to 06:00. Changing it affects future aggregations only.
+      - generic [ref=f2e4749]:
+        - generic [ref=f2e4750]:
+          - text: Capacity
+          - spinbutton "Capacity" [ref=f2e4752]
+        - generic [ref=f2e4753]:
+          - text: Unit
+          - textbox "Unit" [ref=f2e4755]:
+            - /placeholder: e.g. tons/day
+      - generic [ref=f2e4756]:
+        - checkbox "Public company (listed)" [ref=f2e4757] [cursor=pointer]
+        - checkbox
+        - generic [ref=f2e4758]: Public company (listed)
+      - generic [ref=f2e4759]:
+        - text: Company Logo
+        - generic [ref=f2e4760]:
+          - generic [ref=f2e4761]: No logo
+          - button "Upload" [ref=f2e4763] [cursor=pointer]
+        - paragraph [ref=f2e4764]: PNG, JPEG or SVG, up to 2 MB.
+      - generic [ref=f2e4765]:
+        - generic [ref=f2e4766]:
+          - generic [ref=f2e4767]: Factory Images
+          - generic [ref=f2e4768] [cursor=pointer]: Add images
+        - paragraph [ref=f2e4769]: No images added.
+      - generic [ref=f2e4770]:
+        - button "Cancel" [ref=f2e4771] [cursor=pointer]
+        - button "Create" [ref=f2e4772] [cursor=pointer]
+    - button "Close" [ref=f2e4773] [cursor=pointer]

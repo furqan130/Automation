@@ -1,0 +1,130 @@
+- generic:
+  - list
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - button:
+                - generic: Back to Factories
+            - generic:
+              - list:
+                - listitem:
+                  - generic: A.A. Cotton Mills LTD.
+                - listitem:
+                  - link:
+                    - /url: /factories/A.A.%20Cotton%20Mills%20LTD./analytics
+                    - generic: Analytics
+                - listitem:
+                  - link:
+                    - /url: /factories/A.A.%20Cotton%20Mills%20LTD./devices
+                    - generic: Devices
+                - listitem:
+                  - link:
+                    - /url: /factories/A.A.%20Cotton%20Mills%20LTD./performance
+                    - generic: Performance
+    - main:
+      - generic:
+        - generic:
+          - button:
+            - generic: Toggle Sidebar
+          - button
+          - navigation:
+            - list:
+              - listitem:
+                - link:
+                  - /url: /factories
+                  - text: Factories
+              - listitem:
+                - link:
+                  - /url: /factories/A.A.%20Cotton%20Mills%20LTD.
+                  - text: A.A. Cotton Mills LTD.
+              - listitem:
+                - link [disabled]: Devices
+        - generic:
+          - button:
+            - generic: Toggle theme
+          - button
+          - button:
+            - generic: 9+
+          - button
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - heading [level=1]: Devices
+                    - paragraph: View and manage your devices under the selected industry.
+                  - generic:
+                    - generic:
+                      - textbox:
+                        - /placeholder: Search
+                    - button: Add Device
+                  - generic:
+                    - generic:
+                      - generic:
+                        - table:
+                          - rowgroup:
+                            - row:
+                              - columnheader: S.NO
+                              - columnheader: DEVICE NAME
+                              - columnheader: DEVICE TYPE
+                              - columnheader: STATUS
+                              - columnheader: CREATED ON
+                              - columnheader: UPDATED ON
+                              - columnheader: ACTIONS
+                          - rowgroup:
+                            - row:
+                              - cell:
+                                - generic: "1"
+                              - cell: GPU Machine
+                              - cell: machine
+                              - cell:
+                                - generic: disabled
+                              - cell:
+                                - generic: Mar 28, 2026
+                              - cell:
+                                - generic: Mar 28, 2026
+                              - cell:
+                                - generic:
+                                  - button
+                                  - button
+                                  - button
+                    - generic:
+                      - navigation:
+                        - list:
+                          - listitem:
+                            - link:
+                              - /url: "#"
+                              - generic: Previous
+                          - listitem:
+                            - link:
+                              - /url: "#"
+                              - text: "1"
+                          - listitem:
+                            - link:
+                              - /url: "#"
+                              - generic: Next
+  - alert: Devices | Digital Eye
+  - dialog [ref=f4e4423]:
+    - generic [ref=f4e4424]:
+      - heading "Update Device" [level=2] [ref=f4e4425]
+      - paragraph [ref=f4e4426]: Update the device details
+    - generic [ref=f4e4427]:
+      - generic [ref=f4e4428]:
+        - text: Device Name
+        - textbox "Device Name" [active] [ref=f4e4430]:
+          - /placeholder: Enter device name
+          - text: GPU Machine
+      - generic [ref=f4e4431]:
+        - text: Device Type
+        - combobox "Device Type" [ref=f4e4432] [cursor=pointer]:
+          - generic: Machine
+        - combobox [ref=f4e4435]
+      - generic [ref=f4e4436]:
+        - button "Cancel" [ref=f4e4437] [cursor=pointer]
+        - button "Update" [ref=f4e4438] [cursor=pointer]
+    - button "Close" [ref=f4e4439] [cursor=pointer]

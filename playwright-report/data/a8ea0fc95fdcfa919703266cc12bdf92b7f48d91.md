@@ -1,0 +1,1962 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: factories/factories.spec.js >> Factories - List Page >> Verify Factory Summary Totals
+- Location: tests/factories/factories.spec.js:43:3
+
+# Error details
+
+```
+Error: expect(locator).toContainText(expected) failed
+
+Locator: locator('div').filter({ hasText: /^All Cement Factories/i }).first().locator('div').filter({ hasText: /^\d+\s*total$/i }).first()
+Expected pattern: /\d+/
+Timeout: 30000ms
+Error: element(s) not found
+
+Call log:
+  - Expect "toContainText" with timeout 30000ms
+  - waiting for locator('div').filter({ hasText: /^All Cement Factories/i }).first().locator('div').filter({ hasText: /^\d+\s*total$/i }).first()
+
+```
+
+```yaml
+- region "Notifications (F8)":
+  - list
+- img "Digital Eye"
+- list:
+  - listitem:
+    - link "Overview":
+      - /url: /dashboard
+      - img
+      - text: Overview
+  - listitem:
+    - link "Factories":
+      - /url: /factories
+      - img
+      - text: Factories
+- list:
+  - listitem:
+    - link "Analytics":
+      - /url: /analytics
+      - img
+      - text: Analytics
+  - listitem:
+    - link "Reports":
+      - /url: /reports
+      - img
+      - text: Reports
+- list:
+  - listitem:
+    - link "Notification Center":
+      - /url: /notification-center
+      - img
+      - text: Notification Center
+  - listitem:
+    - link "Contact List":
+      - /url: /contact-list
+      - img
+      - text: Contact List
+- main:
+  - button "Toggle Sidebar":
+    - img
+    - text: Toggle Sidebar
+  - button "Home":
+    - img
+  - navigation "breadcrumb":
+    - list:
+      - listitem:
+        - link "Factories" [disabled]
+  - button "Toggle theme":
+    - img
+    - img
+    - text: Toggle theme
+  - button "Settings":
+    - img
+  - button "9+":
+    - img
+    - text: 9+
+  - button:
+    - img
+  - complementary:
+    - heading "Factories & Companies" [level=2]
+    - paragraph: 283 companies · 329 factories
+    - img
+    - textbox "Search factories, companies…"
+    - img
+    - text: A TestPP Company 1/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: aaaa 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Abdullah Textile Mills 0/2
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Acme Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Adnan Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Agar Textiles 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Ahmed Fine Textile Mills 0/3
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Al Ahmed Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Al Nasr Textiles 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Al-Karam Textile Mill 0/2
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Al-Karam Textile Mill 0/0
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Al-Muqeet Textiles 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Al-Qadir Textile Mill 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Al-Zamin Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Alam Cotton Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Alhamd Corporation 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Ali Akbar Textile Mills 0/2
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Allawasaya Textile Mills 0/2
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Amer Cotton Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Amin Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Amna Industries 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: An Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Anjum Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Anoud Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Anwar Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Arctic Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Arshad Corporation 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Arshad Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Artistic Fabric And Garment 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Artistic Milliners 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Arzoo Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Asher Imran Spininning Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Ashiana Cotton Products 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Asian Textile Network 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Asim Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Automated Test Company 037956 0/0
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Automated Test Company 061377 0/0
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Automated Test Company 108692 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Automated Test Company 123428 0/0
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Automated Test Company 365302 0/0
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Automated Test Company 407191 0/0
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Automated Test Company 442483 0/0
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Automated Test Company 663148 0/0
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Automated Test Company 727091 0/0
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Automated Test Company 910105 0/0
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Automated Test Company 985773 0/0
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Ayesha Spinning Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: B TestPP Company 0/0
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Bajwa Spinning Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Bela Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Best Exports Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Bhanero Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Bhimra Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Bilal Textile Mills 0/2
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Blessed Textiles 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Burewala Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: C TestPP Company 0/0
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: C.A. Catextile Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Century Textile & Energy 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Chakwal Group 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Chakwal Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Chaudhry Sugar Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Chenab Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Chiniot Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Colony Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Combine Spinning Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Crescent Textile Mills 0/7
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: D TestPP Company 0/0
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: D. M. Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Danish Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Dewan Farooque Textile Mills 0/2
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Diamond Textile Mills 0/2
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: E TestPP Company 0/0
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: E2E Factory Base Company 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Eastern Spinning Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Ejaz Textile Mills 0/2
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Ellcot Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Equity Textiles Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Escorts Advanced Textiles Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Fahid Javed Textile Mills 0/2
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Faisal Textile Mills 0/0
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Fashion Knit Industries 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Fateh Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Fatima Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Fauji Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Faysal Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Fazal Textile Mills 0/3
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Fecto Cement 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Feroze 1888 Textile Mills 0/2
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Fimcotex Industries 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: furqan 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Furqan Testing 0/2
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Furqan Testing 1 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Furqan Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Gadoon Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Ghalib Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Ghandhara Nihar Textile 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Ghazi Fabrics International 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Glamour Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Good Luck Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Gul Ahmed Textile Mills 0/2
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: H.A. Textile Mills 0/2
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: H.M.K Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Hafiz Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Haji Muhammad Ismail Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Haleema Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Hammad Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Hamza Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Hantex Textile Mill 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Har Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Hira Textile Mills 0/2
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Hunbul Textile Mill 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Husnain Textile Mills 0/3
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Icc Textiles Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Ideal Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Idrees Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Ihsan Textile Mills 0/3
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Imperial Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Indus Textile Mills 0/2
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Interloop Limited 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: International Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Ishaq Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Island Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: issm textile 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Ittehad Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: J.A. Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: J.K. Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Jamal Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Jamhoor Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Janana De Malucho Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Jubilee Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Kamal Textile Millls 0/4
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Kamran Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Karam-E-Kareem Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Kasim Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Khalid Shafique Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Khalid Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Khas Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Khurshid Spinning Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Kohat Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Kohinoor Textile Mills 0/2
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Kunhar Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Latif Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Liaqat Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Mahmood Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Majeed Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Maqbool Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Margalla Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Marhaba Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Masco Spinning Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Masood Textile Mills 0/3
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Master Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Mayfair Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Mekotex Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Mishal Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Mohammad Farooq Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Mohib Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Monnoo Industries 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Monnoowal Textile Mlls 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Multan Spinning Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Mumtaz Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: N.P. Cotton Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Nadeem Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Nafeesa Textiles 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Nagina Textile Mill 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Nagra Textile Spinning Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Naimat Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: National Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Nishat Textile 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: NOCTestCompany 0/0
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Noon Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Noor Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Noorpur Textile Industries 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: North Star Textiles 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: NoSQLTest 0/0
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: NoSQLTest2 0/0
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: NoSQLTestA 0/0
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Notif Test Company 493596 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Notif Test Company 887619 0/2
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Olympia Blended Fiber Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Omer Cotton Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Orient Textile Mills 0/2
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Paradise Spinning Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Paramount Spinning Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Popular Fibre Mill 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Premimum Textile Mill 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Prince Textile Mill 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Prosperity Weaving Textile Mill 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Qadri Textile Mill 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Quality Textile Mill 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Quetta Textile Mill 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Qureshi Textile Mill 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Rafiq Fibers Textile Mill 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Rahmat Textile Mill 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Rahmat Wazir Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Rainbow Textile Mill 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Rajput Textile Mill 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Rasheed Enterprises Textile Mill 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Rashid Textile Mill 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Ravi Spinning Textile Mill 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Rawal Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Redco Textiles Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Rehman Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Reliance Textile Mills 0/2
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Resham Textile Industries 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Roomi Fabrics Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Rustam Towel Textile Mill 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: S.Fazalilah & Sons Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Saad Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Saeed Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Salfi Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Samin Textiles 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Samira Textile Mills 0/2
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Sana Industries 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Sapphire Textile 0/3
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Sarena Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Sarfraz Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Saritow Spinning Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Saya Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: sectest 0/0
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: sectest 0/0
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Service Industries Textile 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Shadab Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Shadman Cotton Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Shafi Textile Mills 0/2
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Shahbaz Garments Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Shahtaj Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Shams Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Sheikhoo Spinning Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Sheikhupura Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Shoiab Salman Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Shujabad Weaving Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Siara Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Sindh HI-Tech Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Sitara Textile Mills 0/2
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Sohail Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Soorty Enterprises 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Sugar Company 0/12
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Suhail Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Sunny Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Sunrays Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Superior Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Suraj Cotton Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Surriya Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Tahir Rafique Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Tanseem Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Tanveer Textile Mills 0/2
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Taqees Mill 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Tariq Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Taxila Cotton Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Taymur Spinning Mill 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Tayyab Textile Mill 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: test 0/0
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: test 0/0
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: test 0/0
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Test Company 0/0
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Testing Furqan 0/0
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Texstyle Corporation 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: textile aftab 0/0
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Thal Industries 0/2
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: The Lahore Textile & General Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Three Star Hosiery Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Tiles Company 0/17
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Toosi Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Tribal Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Tristar Industries 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: United Weaving Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Unity Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: US & Dynamo Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: US Denim Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Uzair Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: wah factory 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Wavin Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Wisal kamal Fabrics 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Yousaf Weaving Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Yunus Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Z.A. Corporation 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Z.M Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Zahid Textile Mills 0/2
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Zahra Textile 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Zaman Textile Mills 0/2
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Zephyr Textiles 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - img
+    - text: Zohaib Textile Mills 0/1
+    - button:
+      - img
+    - button:
+      - img
+    - button "Company":
+      - img
+      - text: Company
+    - button "Factory":
+      - img
+      - text: Factory
+  - button "All":
+    - img
+    - text: All
+  - button "Online":
+    - img
+    - text: Online
+  - button "Offline":
+    - img
+    - text: Offline
+  - paragraph: All Factories
+  - text: 329 total 328 offline 1 online
+  - button "Factory Breakdown":
+    - img
+    - text: Factory Breakdown
+    - img
+- alert
+```
+
+# Test source
+
+```ts
+  1   | const { test, expect } = require('@playwright/test');
+  2   | const { FactoriesPage } = require('../../pages/FactoriesPage');
+  3   | const { FactoryDetailPage } = require('../../pages/FactoryDetailPage');
+  4   | 
+  5   | test.describe('Factories - List Page', () => {
+  6   |   let factories;
+  7   | 
+  8   |   test.beforeEach(async ({ page }) => {
+  9   |     factories = new FactoriesPage(page);
+  10  |     await factories.open();
+  11  |   });
+  12  | 
+  13  |   test('Verify All Factories Page Load', async () => {
+  14  |     await expect(factories.searchInput).toBeVisible();
+  15  |     await expect(factories.companyTab).toBeVisible();
+  16  |     await expect(factories.factoryTab).toBeVisible();
+  17  |   });
+  18  | 
+  19  |   // Supplementary coverage from the Factories functional requirements (search, map, filters, summary).
+  20  |   test('Verify Search Supports Special Characters', async () => {
+  21  |     for (const term of ['A.A.', 'AL-Qadir', 'Mahmood']) {
+  22  |       await factories.search(term);
+  23  |       await expect(factories.page.locator('body')).not.toContainText(/error|exception/i);
+  24  |     }
+  25  |   });
+  26  | 
+  27  |   test('Verify Interactive Factory Map Displays Markers', async () => {
+  28  |     // The map is a three.js WebGL scene on a single <canvas> - individual markers have no
+  29  |     // DOM nodes to count, so this only verifies the canvas itself renders.
+  30  |     await expect(factories.map).toBeVisible();
+  31  |   });
+  32  | 
+  33  |   // Marker tooltips are drawn inside the canvas (no DOM element to hover/assert on) - skipped by design.
+  34  |   test.skip('Verify Factory Map Marker Hover Tooltip', async () => {});
+  35  | 
+  36  |   test('Verify Factory Status Filters (All/Online/Offline)', async () => {
+  37  |     await factories.applyFilter('Online');
+  38  |     await expect(factories.filterOnline).toHaveAttribute('aria-pressed', 'true').catch(() => {});
+  39  |     await factories.applyFilter('Offline');
+  40  |     await factories.applyFilter('All');
+  41  |   });
+  42  | 
+  43  |   test('Verify Factory Summary Totals', async () => {
+  44  |     // These render inside the map HUD, which only mounts once the (slow) 3D map has loaded.
+> 45  |     await expect(factories.totalFactoriesSummary).toContainText(/\d+/, { timeout: 30_000 });
+      |                                                   ^ Error: expect(locator).toContainText(expected) failed
+  46  |     await expect(factories.onlineFactoriesSummary).toContainText(/\d+/);
+  47  |     await expect(factories.offlineFactoriesSummary).toContainText(/\d+/);
+  48  |   });
+  49  | });
+  50  | 
+  51  | test.describe('Factory Detail Page', () => {
+  52  |   let factories;
+  53  |   let detail;
+  54  | 
+  55  |   test.beforeEach(async ({ page }) => {
+  56  |     factories = new FactoriesPage(page);
+  57  |     detail = new FactoryDetailPage(page);
+  58  |     await factories.open();
+  59  |     const firstCompany = factories.companyRows.first();
+  60  |     await factories.openFirstFactoryOf(firstCompany);
+  61  |     await expect(detail.factoryNameHeader).toBeVisible({ timeout: 15_000 });
+  62  |   });
+  63  | 
+  64  |   test('Verify Factory Page Side Navigation Tabs', async () => {
+  65  |     await expect(detail.analyticsTab).toBeVisible();
+  66  |     await expect(detail.devicesTab).toBeVisible();
+  67  |     await expect(detail.performanceTab).toBeVisible();
+  68  |   });
+  69  | 
+  70  |   test('Verify Switching Between Analytics/Devices/Performance Tabs', async () => {
+  71  |     await detail.goToTab('Devices');
+  72  |     await expect(detail.devicesTable).toBeVisible();
+  73  |     await detail.goToTab('Performance');
+  74  |     await expect(detail.performanceDateFilter).toBeVisible();
+  75  |     await detail.goToTab('Analytics');
+  76  |     await expect(detail.filtersSection).toBeVisible();
+  77  |   });
+  78  | 
+  79  |   test('Verify Factory Map Button Navigation', async ({ page }) => {
+  80  |     await detail.factoryMapButton.click();
+  81  |     await expect(page.locator('canvas').first()).toBeVisible();
+  82  |   });
+  83  | 
+  84  |   test('Verify Global Analytics Button Navigation', async ({ page }) => {
+  85  |     await detail.globalAnalyticsButton.click();
+  86  |     await expect(page).toHaveURL(/analytics/i);
+  87  |   });
+  88  | 
+  89  |   test('Verify Filters Section Visibility', async () => {
+  90  |     await expect(detail.filtersSection).toBeVisible();
+  91  |     await expect(detail.filtersSection).toContainText(/select filter/i);
+  92  |     await expect(detail.filtersSection).toContainText(/changes apply automatically/i);
+  93  |   });
+  94  | 
+  95  |   test('Verify By Date Filter', async () => {
+  96  |     await detail.selectFilter('By Date');
+  97  |     await detail.pickDate('2026-07-15');
+  98  |     await expect(detail.cementBagsDayBox).toContainText(/\d+/);
+  99  |   });
+  100 | 
+  101 |   test('Verify By Month Filter', async () => {
+  102 |     await detail.selectFilter('By Month');
+  103 |     await expect(detail.cementBagsMonthBox).toContainText(/\d+/);
+  104 |   });
+  105 | 
+  106 |   test('Verify Date Range Filter - Valid Range', async () => {
+  107 |     await detail.selectFilter('Date Range');
+  108 |     await detail.pickDateRange('2026-07-01', '2026-07-15');
+  109 |     await expect(detail.cementBagsMonthBox).toContainText(/\d+/);
+  110 |   });
+  111 | 
+  112 |   test('Verify Date Range Filter - End Date Before Start Date', async ({ page }) => {
+  113 |     await detail.selectFilter('Date Range');
+  114 |     await detail.pickDateRange('2026-07-15', '2026-07-01');
+  115 |     const error = page.locator('[role="alert"], .error-message, .text-red-500');
+  116 |     await expect(error.first()).toBeVisible({ timeout: 5_000 });
+  117 |   });
+  118 | 
+  119 |   test('Verify Cement Bags (Day) Box', async () => {
+  120 |     await expect(detail.cementBagsDayBox).toBeVisible();
+  121 |     await expect(detail.cementBagsDayBox).toContainText(/\d+/);
+  122 |   });
+  123 | 
+  124 |   test('Verify Cement Bags (Month) Box', async () => {
+  125 |     await expect(detail.cementBagsMonthBox).toBeVisible();
+  126 |     await expect(detail.cementBagsMonthBox).toContainText(/\d+/);
+  127 |   });
+  128 | 
+  129 |   test('Verify Totals Boxes Update with Filter Change', async () => {
+  130 |     const before = await detail.cementBagsDayBox.innerText();
+  131 |     await detail.selectFilter('By Date');
+  132 |     await detail.pickDate('2026-07-01');
+  133 |     await expect(async () => {
+  134 |       const after = await detail.cementBagsDayBox.innerText();
+  135 |       expect(after).not.toBe(before);
+  136 |     }).toPass({ timeout: 10_000 });
+  137 |   });
+  138 | 
+  139 |   test('Verify Packer-Line-Specific Bag Counts Match Filter', async () => {
+  140 |     await detail.selectFirstPackerLine();
+  141 |     await expect(detail.cementBagsDayBox).toContainText(/\d+/);
+  142 |     await expect(detail.cementBagsMonthBox).toContainText(/\d+/);
+  143 |   });
+  144 | 
+  145 |   test('Verify Hourly Graph with Single-Day (By Date) Filter', async () => {
+```

@@ -1,0 +1,124 @@
+- generic:
+  - list
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - list:
+                - listitem:
+                  - link:
+                    - /url: /dashboard
+                    - generic: Overview
+                - listitem:
+                  - link:
+                    - /url: /factories
+                    - generic: Factories
+            - generic:
+              - list:
+                - listitem:
+                  - link:
+                    - /url: /analytics
+                    - generic: Analytics
+                - listitem:
+                  - link:
+                    - /url: /reports
+                    - generic: Reports
+            - generic:
+              - list:
+                - listitem:
+                  - link:
+                    - /url: /notification-center
+                    - generic: Notification Center
+                - listitem:
+                  - link:
+                    - /url: /contact-list
+                    - generic: Contact List
+    - main:
+      - generic:
+        - generic:
+          - button:
+            - generic: Toggle Sidebar
+          - button
+          - navigation:
+            - list:
+              - listitem:
+                - link [disabled]: Factories
+        - generic:
+          - button:
+            - generic: Toggle theme
+          - button
+          - button:
+            - generic: 9+
+          - button
+      - generic:
+        - generic:
+          - generic:
+            - complementary:
+              - generic:
+                - heading [level=2]: Factories & Companies
+                - paragraph: 249 companies · 291 factories
+                - generic:
+                  - generic:
+                    - textbox:
+                      - /placeholder: Search factories, companies…
+                      - text: Test Factory
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: Test Company
+                    - generic: 1/1
+                    - generic:
+                      - button
+                      - button
+                  - generic:
+                    - generic:
+                      - generic: Test Factory
+                      - generic:
+                        - button
+                        - button
+                        - button
+                        - button
+                        - button
+              - generic:
+                - button: Company
+                - button: Factory
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - button: All
+                    - button: Online
+                    - button: Offline
+                - generic:
+                  - generic:
+                    - paragraph: All Cement Factories
+                    - generic:
+                      - generic:
+                        - generic: "291"
+                        - generic: total
+                      - generic:
+                        - generic: "290"
+                        - generic: offline
+                      - generic:
+                        - generic: "1"
+                        - generic: online
+                  - generic:
+                    - button:
+                      - generic: Factory Breakdown
+  - alert
+  - dialog [ref=f13e4055]:
+    - generic [ref=f13e4056]:
+      - heading "Update Company" [level=2] [ref=f13e4057]
+      - paragraph [ref=f13e4058]: Update the company details
+    - generic [ref=f13e4059]:
+      - generic [ref=f13e4060]:
+        - text: Company Name
+        - textbox "Company Name" [active] [ref=f13e4062]:
+          - /placeholder: Enter company name
+          - text: Test Company
+      - generic [ref=f13e4063]:
+        - button "Cancel" [ref=f13e4064] [cursor=pointer]
+        - button "Update" [ref=f13e4065] [cursor=pointer]
+    - button "Close" [ref=f13e4066] [cursor=pointer]

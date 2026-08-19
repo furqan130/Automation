@@ -1,0 +1,178 @@
+- generic:
+  - list
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - list:
+                - listitem:
+                  - link:
+                    - /url: /dashboard
+                    - generic: Overview
+                - listitem:
+                  - link:
+                    - /url: /factories
+                    - generic: Factories
+            - generic:
+              - list:
+                - listitem:
+                  - link:
+                    - /url: /analytics
+                    - generic: Analytics
+                - listitem:
+                  - link:
+                    - /url: /reports
+                    - generic: Reports
+            - generic:
+              - list:
+                - listitem:
+                  - link:
+                    - /url: /notification-center
+                    - generic: Notification Center
+                - listitem:
+                  - link:
+                    - /url: /contact-list
+                    - generic: Contact List
+    - main:
+      - generic:
+        - generic:
+          - button:
+            - generic: Toggle Sidebar
+          - button
+          - navigation:
+            - list:
+              - listitem:
+                - link [disabled]: Factories
+        - generic:
+          - button:
+            - generic: Toggle theme
+          - button
+          - button:
+            - generic: 9+
+          - button
+      - generic:
+        - generic:
+          - generic:
+            - complementary:
+              - generic:
+                - heading [level=2]: Factories & Companies
+                - paragraph: 249 companies · 291 factories
+                - generic:
+                  - generic:
+                    - textbox:
+                      - /placeholder: Search factories, companies…
+                      - text: Interloop
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: Interloop Limited
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                  - generic:
+                    - generic:
+                      - generic: Interloop Limited
+                      - generic:
+                        - button
+                        - button
+                        - button
+                        - button
+                        - button
+              - generic:
+                - button: Company
+                - button: Factory
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - button: All
+                    - button: Online
+                    - button: Offline
+                - generic:
+                  - generic:
+                    - paragraph: All Cement Factories
+                    - generic:
+                      - generic:
+                        - generic: "291"
+                        - generic: total
+                      - generic:
+                        - generic: "290"
+                        - generic: offline
+                      - generic:
+                        - generic: "1"
+                        - generic: online
+                  - generic:
+                    - button:
+                      - generic: Factory Breakdown
+  - alert
+  - dialog [ref=f2e4046]:
+    - generic [ref=f2e4047]:
+      - heading "Update Factory" [level=2] [ref=f2e4048]
+      - paragraph [ref=f2e4049]: Update the factory details
+    - generic [ref=f2e4050]:
+      - generic [ref=f2e4051]:
+        - text: Factory Name
+        - textbox "Factory Name" [active] [ref=f2e4053]:
+          - /placeholder: Enter factory name
+          - text: Interloop Limited
+      - generic [ref=f2e4054]:
+        - text: Parent Company
+        - combobox "Parent Company" [ref=f2e4055] [cursor=pointer]:
+          - generic: Interloop Limited
+        - combobox [ref=f2e4058]
+      - generic [ref=f2e4059]:
+        - text: Registered Address
+        - textbox "Registered Address" [ref=f2e4060]:
+          - /placeholder: Registered factory address
+      - generic [ref=f2e4061]:
+        - generic [ref=f2e4062]:
+          - text: GPS Latitude
+          - spinbutton "GPS Latitude" [ref=f2e4064]
+        - generic [ref=f2e4065]:
+          - text: GPS Longitude
+          - spinbutton "GPS Longitude" [ref=f2e4067]
+      - generic [ref=f2e4068]:
+        - text: Ownership Structure
+        - textbox "Ownership Structure" [ref=f2e4069]:
+          - /placeholder: e.g. Subsidiary (100% owned by ...)
+      - generic [ref=f2e4070]:
+        - text: Company Website
+        - textbox "Company Website" [ref=f2e4072]:
+          - /placeholder: https://example.com
+      - generic [ref=f2e4073]:
+        - text: Aggregation day-window start hour
+        - combobox "Aggregation day-window start hour" [ref=f2e4074] [cursor=pointer]:
+          - generic: 06:00
+        - combobox [ref=f2e4077]
+        - paragraph [ref=f2e4078]: Start of the production day used to bucket daily aggregates. Defaults to 06:00. Changing it affects future aggregations only.
+      - generic [ref=f2e4079]:
+        - generic [ref=f2e4080]:
+          - text: Production Capacity
+          - spinbutton "Production Capacity" [ref=f2e4082]
+        - generic [ref=f2e4083]:
+          - text: Unit
+          - textbox "Unit" [ref=f2e4085]:
+            - /placeholder: e.g. tons/day
+      - generic [ref=f2e4086]:
+        - checkbox "Public company (listed)" [ref=f2e4087] [cursor=pointer]
+        - checkbox
+        - generic [ref=f2e4088]: Public company (listed)
+      - generic [ref=f2e4089]:
+        - text: Company Logo
+        - generic [ref=f2e4090]:
+          - generic [ref=f2e4091]: No logo
+          - generic [ref=f2e4092]: Upload
+        - paragraph [ref=f2e4094]: PNG, JPEG or SVG, up to 2 MB.
+      - generic [ref=f2e4095]:
+        - generic [ref=f2e4096]:
+          - generic [ref=f2e4097]: Factory Images
+          - generic [ref=f2e4098] [cursor=pointer]: Add images
+        - paragraph [ref=f2e4099]: No images added.
+        - paragraph [ref=f2e4100]: Up to 10 images.
+      - generic [ref=f2e4101]:
+        - button "Cancel" [ref=f2e4102] [cursor=pointer]
+        - button "Update" [ref=f2e4103] [cursor=pointer]
+    - button "Close" [ref=f2e4104] [cursor=pointer]

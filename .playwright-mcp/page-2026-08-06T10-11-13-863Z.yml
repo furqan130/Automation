@@ -1,0 +1,171 @@
+- generic [ref=f5e1]:
+  - region "Notifications (F8)":
+    - list
+  - generic [ref=f5e41]:
+    - generic [ref=f5e45]:
+      - img "Digital Eye" [ref=f5e47] [cursor=pointer]
+      - generic [ref=f5e48]:
+        - button "Back to factories" [ref=f5e256] [cursor=pointer]:
+          - generic [ref=f5e259]: Back to Factories
+        - list [ref=f5e261]:
+          - listitem [ref=f5e262]:
+            - generic [ref=f5e263]: Aftab Textile Factorys
+          - listitem [ref=f5e267]:
+            - link "Analytics" [ref=f5e268] [cursor=pointer]:
+              - /url: /factories/Aftab%20Textile%20Factorys/analytics
+          - listitem [ref=f5e272]:
+            - link "Devices" [ref=f5e273] [cursor=pointer]:
+              - /url: /factories/Aftab%20Textile%20Factorys/devices
+          - listitem [ref=f5e278]:
+            - link "Clips" [ref=f5e279] [cursor=pointer]:
+              - /url: /factories/Aftab%20Textile%20Factorys/clips
+          - listitem [ref=f5e284]:
+            - link "Performance" [ref=f5e285] [cursor=pointer]:
+              - /url: /factories/Aftab%20Textile%20Factorys/performance
+          - listitem [ref=f5e289]:
+            - link "Configuration" [ref=f5e290] [cursor=pointer]:
+              - /url: /factories/Aftab%20Textile%20Factorys/configuration
+          - listitem [ref=f5e295]:
+            - link "Summary" [ref=f5e296] [cursor=pointer]:
+              - /url: /factories/Aftab%20Textile%20Factorys/summary
+    - main [ref=f5e94]:
+      - generic [ref=f5e95]:
+        - generic [ref=f5e96]:
+          - button "Toggle Sidebar" [ref=f5e97] [cursor=pointer]
+          - button "Home" [ref=f5e101] [cursor=pointer]
+          - navigation "breadcrumb" [ref=f5e106]:
+            - list [ref=f5e107]:
+              - listitem [ref=f5e108]:
+                - link "Factories" [ref=f5e301] [cursor=pointer]:
+                  - /url: /factories
+              - listitem [ref=f5e305]:
+                - link "Aftab Textile Factorys" [ref=f5e306] [cursor=pointer]:
+                  - /url: /factories/Aftab%20Textile%20Factorys
+              - listitem [ref=f5e310]:
+                - link "Analytics" [disabled] [ref=f5e311]
+        - generic [ref=f5e110]:
+          - button "Toggle theme" [ref=f5e111] [cursor=pointer]
+          - button "Settings" [ref=f5e119] [cursor=pointer]
+          - button "9+" [ref=f5e123] [cursor=pointer]
+          - button [ref=f5e128] [cursor=pointer]
+      - generic [ref=f5e316]:
+        - generic [ref=f5e317]:
+          - generic [ref=f5e318]:
+            - generic [ref=f5e319]:
+              - heading "Aftab Textile Factorys · Count" [level=1] [ref=f5e320]
+              - generic [ref=f5e321]: Online
+            - paragraph [ref=f5e323]: A TestPP Company
+            - paragraph [ref=f5e324]: Count totals and packer-line analytics for this factory.
+          - generic [ref=f5e325]:
+            - link "Factory map" [ref=f5e326] [cursor=pointer]:
+              - /url: /factories
+            - link "Global analytics" [ref=f5e330] [cursor=pointer]:
+              - /url: /analytics
+        - generic [ref=f5e336]:
+          - generic [ref=f5e338]:
+            - generic [ref=f5e339]:
+              - generic [ref=f5e340]: Filters
+              - generic [ref=f5e341]: Changes apply automatically when a valid period is selected.
+            - button "Refresh count data" [ref=f5e343] [cursor=pointer]: Refresh
+          - generic [ref=f5e349]:
+            - generic [ref=f5e350]:
+              - generic [ref=f5e351]:
+                - paragraph [ref=f5e352]: Period type
+                - button "By date" [ref=f5e420] [cursor=pointer]
+              - generic [ref=f5e421]:
+                - paragraph [ref=f5e422]: Date
+                - button "August 6th, 2026" [expanded] [ref=f5e423] [cursor=pointer]
+              - button "Reset filters" [ref=f5e426] [cursor=pointer]
+            - generic [ref=f5e357]:
+              - generic [ref=f5e358]: Aftab Textile Factorys · August 6, 2026
+              - generic [ref=f5e359]:
+                - text: Updated 3:10 PM
+                - generic [ref=f5e365]: · auto-refreshes every 2.5 min
+        - generic [ref=f5e366]:
+          - generic [ref=f5e367]:
+            - heading "Factory totals" [level=2] [ref=f5e368]
+            - paragraph [ref=f5e369]: Aggregated across all packer lines at this factory.
+          - generic [ref=f5e370]:
+            - generic [ref=f5e429]:
+              - paragraph [ref=f5e431]: Count (day)
+              - paragraph [ref=f5e437]: "26"
+              - paragraph [ref=f5e438]: August 6, 2026
+            - generic [ref=f5e439]:
+              - paragraph [ref=f5e441]: Count (month)
+              - paragraph [ref=f5e447]: "50"
+              - paragraph [ref=f5e448]: August 2026
+        - generic [ref=f5e391]:
+          - generic [ref=f5e392]:
+            - generic [ref=f5e393]:
+              - heading "Packer line" [level=2] [ref=f5e394]
+              - paragraph [ref=f5e395]: Select a line to view its count breakdown and optional live view.
+            - generic [ref=f5e396]:
+              - paragraph [ref=f5e397]: Production section
+              - tablist [ref=f5e399]:
+                - tab "Kiln" [selected] [ref=f5e400] [cursor=pointer]
+                - tab "Packaging" [ref=f5e401] [cursor=pointer]
+          - generic [ref=f5e403]:
+            - generic [ref=f5e407]:
+              - paragraph [ref=f5e408]: No packer lines found
+              - paragraph [ref=f5e409]: This factory has no camera lines configured yet. Set up devices to start tracking count.
+            - link "Go to Devices" [ref=f5e410] [cursor=pointer]:
+              - /url: /factories/Aftab Textile Factorys/devices
+  - alert [ref=f5e30]: Aftab Textile Factorys · Count | Digital Eye
+  - dialog [ref=f5e450]:
+    - generic [ref=f5e453]:
+      - generic [ref=f5e454]:
+        - generic [ref=f5e455]: July 2026
+        - generic:
+          - button "Go to previous month" [active] [ref=f5e456] [cursor=pointer]
+          - button "Go to next month" [ref=f5e459] [cursor=pointer]
+      - grid "July 2026" [ref=f5e491]:
+        - rowgroup [ref=f5e463]:
+          - row [ref=f5e464]:
+            - columnheader "Sunday" [ref=f5e465]: Su
+            - columnheader "Monday" [ref=f5e466]: Mo
+            - columnheader "Tuesday" [ref=f5e467]: Tu
+            - columnheader "Wednesday" [ref=f5e468]: We
+            - columnheader "Thursday" [ref=f5e469]: Th
+            - columnheader "Friday" [ref=f5e470]: Fr
+            - columnheader "Saturday" [ref=f5e471]: Sa
+        - rowgroup [ref=f5e472]:
+          - row [ref=f5e492]:
+            - gridcell "28" [ref=f5e493] [cursor=pointer]
+            - gridcell "29" [ref=f5e494] [cursor=pointer]
+            - gridcell "30" [ref=f5e495] [cursor=pointer]
+            - gridcell "1" [ref=f5e496] [cursor=pointer]
+            - gridcell "2" [ref=f5e497] [cursor=pointer]
+            - gridcell "3" [ref=f5e498] [cursor=pointer]
+            - gridcell "4" [ref=f5e499] [cursor=pointer]
+          - row [ref=f5e500]:
+            - gridcell "5" [ref=f5e501] [cursor=pointer]
+            - gridcell "6" [ref=f5e502] [cursor=pointer]
+            - gridcell "7" [ref=f5e503] [cursor=pointer]
+            - gridcell "8" [ref=f5e504] [cursor=pointer]
+            - gridcell "9" [ref=f5e505] [cursor=pointer]
+            - gridcell "10" [ref=f5e506] [cursor=pointer]
+            - gridcell "11" [ref=f5e507] [cursor=pointer]
+          - row [ref=f5e508]:
+            - gridcell "12" [ref=f5e509] [cursor=pointer]
+            - gridcell "13" [ref=f5e510] [cursor=pointer]
+            - gridcell "14" [ref=f5e511] [cursor=pointer]
+            - gridcell "15" [ref=f5e512] [cursor=pointer]
+            - gridcell "16" [ref=f5e513] [cursor=pointer]
+            - gridcell "17" [ref=f5e514] [cursor=pointer]
+            - gridcell "18" [ref=f5e515] [cursor=pointer]
+          - row [ref=f5e516]:
+            - gridcell "19" [ref=f5e517] [cursor=pointer]
+            - gridcell "20" [ref=f5e518] [cursor=pointer]
+            - gridcell "21" [ref=f5e519] [cursor=pointer]
+            - gridcell "22" [ref=f5e520] [cursor=pointer]
+            - gridcell "23" [ref=f5e521] [cursor=pointer]
+            - gridcell "24" [ref=f5e522] [cursor=pointer]
+            - gridcell "25" [ref=f5e523] [cursor=pointer]
+          - row [ref=f5e473]:
+            - gridcell "26" [ref=f5e474] [cursor=pointer]
+            - gridcell "27" [ref=f5e475] [cursor=pointer]
+            - gridcell "28" [ref=f5e476] [cursor=pointer]
+            - gridcell "29" [ref=f5e477] [cursor=pointer]
+            - gridcell "30" [ref=f5e478] [cursor=pointer]
+            - gridcell "31" [ref=f5e479] [cursor=pointer]
+            - gridcell "1" [ref=f5e480] [cursor=pointer]

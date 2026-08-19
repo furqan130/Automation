@@ -1,0 +1,124 @@
+- generic:
+  - list
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - button:
+                - generic: Back to Factories
+            - generic:
+              - list:
+                - listitem:
+                  - generic: A.A. Cotton Mills LTD.
+                - listitem:
+                  - link:
+                    - /url: /factories/A.A.%20Cotton%20Mills%20LTD./analytics
+                    - generic: Analytics
+                - listitem:
+                  - link:
+                    - /url: /factories/A.A.%20Cotton%20Mills%20LTD./devices
+                    - generic: Devices
+                - listitem:
+                  - link:
+                    - /url: /factories/A.A.%20Cotton%20Mills%20LTD./performance
+                    - generic: Performance
+    - main:
+      - generic:
+        - generic:
+          - button:
+            - generic: Toggle Sidebar
+          - button
+          - navigation:
+            - list:
+              - listitem:
+                - link:
+                  - /url: /factories
+                  - text: Factories
+              - listitem:
+                - link:
+                  - /url: /factories/A.A.%20Cotton%20Mills%20LTD.
+                  - text: A.A. Cotton Mills LTD.
+              - listitem:
+                - link [disabled]: Analytics
+        - generic:
+          - button:
+            - generic: Toggle theme
+          - button
+          - button:
+            - generic: 9+
+          - button
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - heading [level=1]: A.A. Cotton Mills LTD. · Production
+                      - generic: Offline
+                    - paragraph: A.A. Cotton Mills
+                    - paragraph: Production totals and packer-line analytics for this factory.
+                  - generic:
+                    - link:
+                      - /url: /factories
+                      - text: Factory map
+                    - link:
+                      - /url: /analytics
+                      - text: Global analytics
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic: Filters
+                        - generic: Changes apply automatically when a valid period is selected.
+                      - generic:
+                        - button: Refresh
+                  - generic:
+                    - generic:
+                      - generic:
+                        - paragraph: Period type
+                        - button [expanded]:
+                          - generic: Select filter
+                    - generic:
+                      - generic: A.A. Cotton Mills LTD. · Today & this month · current year in charts
+                      - generic:
+                        - text: Updated 12:49 PM
+                        - generic: · auto-refreshes every 2.5 min
+                - generic:
+                  - generic:
+                    - heading [level=2]: Factory totals
+                    - paragraph: Aggregated across all packer lines at this factory.
+                  - generic:
+                    - generic:
+                      - generic:
+                        - paragraph: Cement bags (day)
+                      - paragraph: "0"
+                      - paragraph: July 23, 2026
+                    - generic:
+                      - generic:
+                        - paragraph: Cement bags (month)
+                      - paragraph: "0"
+                      - paragraph: July 2026
+                - generic:
+                  - generic:
+                    - generic:
+                      - heading [level=2]: Packer line
+                      - paragraph: Select a line to view its production breakdown and optional live view.
+                  - generic:
+                    - generic:
+                      - generic:
+                        - paragraph: No packer lines found
+                        - paragraph: This factory has no camera lines configured yet. Set up devices to start tracking production.
+                      - link:
+                        - /url: /factories/A.A. Cotton Mills LTD./devices
+                        - text: Go to Devices
+  - alert
+  - menu "Select filter" [active] [ref=f6e188]:
+    - generic [ref=f6e189]: Period
+    - separator [ref=f6e190]
+    - menuitem "By date" [ref=f6e191]
+    - menuitem "By month" [ref=f6e192]
+    - menuitem "Date range" [ref=f6e193]

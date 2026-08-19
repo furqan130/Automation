@@ -1,0 +1,171 @@
+- generic:
+  - list
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - list:
+                - listitem:
+                  - link:
+                    - /url: /dashboard
+                    - generic: Overview
+                - listitem:
+                  - link:
+                    - /url: /factories
+                    - generic: Factories
+            - generic:
+              - list:
+                - listitem:
+                  - link:
+                    - /url: /analytics
+                    - generic: Analytics
+                - listitem:
+                  - link:
+                    - /url: /reports
+                    - generic: Reports
+            - generic:
+              - list:
+                - listitem:
+                  - link:
+                    - /url: /notification-center
+                    - generic: Notification Center
+                - listitem:
+                  - link:
+                    - /url: /contact-list
+                    - generic: Contact List
+    - main:
+      - generic:
+        - generic:
+          - button:
+            - generic: Toggle Sidebar
+          - button
+          - navigation:
+            - list:
+              - listitem:
+                - link [disabled]: Factories
+        - generic:
+          - button:
+            - generic: Toggle theme
+          - button
+          - button:
+            - generic: 9+
+          - button
+      - generic:
+        - generic:
+          - generic:
+            - complementary:
+              - generic:
+                - heading [level=2]: Factories & Companies
+                - paragraph: 281 companies · 328 factories
+                - generic:
+                  - generic:
+                    - textbox:
+                      - /placeholder: Search factories, companies…
+                      - text: Automated Test Company
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: Automated Test Company 108692
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Automated Test Company 545831
+                    - generic: 0/0
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Automated Test Company 624102
+                    - generic: 0/0
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Automated Test Company 695808
+                    - generic: 0/0
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Automated Test Company 774711
+                    - generic: 0/0
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Automated Test Company 839826
+                    - generic: 0/0
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Automated Test Company 857536
+                    - generic: 0/0
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Automated Test Company 870288
+                    - generic: 0/0
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Automated Test Company 923667
+                    - generic: 0/0
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Automated Test Company 933134
+                    - generic: 0/0
+                    - generic:
+                      - button
+                      - button
+              - generic:
+                - button: Company
+                - button: Factory
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - button: All
+                    - button: Online
+                    - button: Offline
+                - generic:
+                  - generic:
+                    - paragraph: All Factories
+                    - generic:
+                      - generic:
+                        - generic: "328"
+                        - generic: total
+                      - generic:
+                        - generic: "327"
+                        - generic: offline
+                      - generic:
+                        - generic: "1"
+                        - generic: online
+                  - generic:
+                    - button:
+                      - generic: Factory Breakdown
+  - alert
+  - alertdialog [ref=e4951]:
+    - generic [ref=e4952]:
+      - heading "Delete Company" [level=2] [ref=e4953]
+      - paragraph [ref=e4954]: Are you sure you want to delete Automated Test Company 545831? This action cannot be undone.
+    - generic [ref=e4955]:
+      - button "Cancel" [active] [ref=e4956] [cursor=pointer]
+      - button "Delete" [ref=e4957] [cursor=pointer]

@@ -1,0 +1,1754 @@
+- generic [ref=f12e1]:
+  - region "Notifications (F8)":
+    - list
+  - generic [ref=f12e2]:
+    - generic [ref=f12e6]:
+      - img "Digital Eye" [ref=f12e8] [cursor=pointer]
+      - generic [ref=f12e9]:
+        - list [ref=f12e11]:
+          - listitem [ref=f12e12]:
+            - link "Overview" [ref=f12e13] [cursor=pointer]:
+              - /url: /dashboard
+          - listitem [ref=f12e20]:
+            - link "Factories" [ref=f12e21] [cursor=pointer]:
+              - /url: /factories
+        - list [ref=f12e27]:
+          - listitem [ref=f12e28]:
+            - link "Analytics" [ref=f12e29] [cursor=pointer]:
+              - /url: /analytics
+          - listitem [ref=f12e33]:
+            - link "Reports" [ref=f12e34] [cursor=pointer]:
+              - /url: /reports
+        - list [ref=f12e41]:
+          - listitem [ref=f12e42]:
+            - link "Notification Center" [ref=f12e43] [cursor=pointer]:
+              - /url: /notification-center
+          - listitem [ref=f12e47]:
+            - link "Contact List" [ref=f12e48] [cursor=pointer]:
+              - /url: /contact-list
+    - main [ref=f12e55]:
+      - generic [ref=f12e56]:
+        - generic [ref=f12e57]:
+          - button "Toggle Sidebar" [ref=f12e58] [cursor=pointer]
+          - button "Home" [ref=f12e62] [cursor=pointer]
+          - navigation "breadcrumb" [ref=f12e67]:
+            - list [ref=f12e68]:
+              - listitem [ref=f12e69]:
+                - link "Reports" [disabled] [ref=f12e70]
+        - generic [ref=f12e71]:
+          - button "Toggle theme" [ref=f12e72] [cursor=pointer]
+          - button "Settings" [ref=f12e76] [cursor=pointer]
+          - button "9+" [ref=f12e80] [cursor=pointer]
+          - button [ref=f12e85] [cursor=pointer]
+      - generic [ref=f12e93]:
+        - complementary [ref=f12e94]:
+          - generic [ref=f12e95]:
+            - generic [ref=f12e96]: Filters
+            - generic [ref=f12e100]:
+              - generic [ref=f12e101]:
+                - generic [ref=f12e102]:
+                  - generic [ref=f12e103]: Period
+                  - generic [ref=f12e107]: Required
+                - paragraph [ref=f12e108]: Pick a fiscal year (and optional quarters), or select a date range on the calendar.
+                - button "Select period" [active] [ref=f12e109] [cursor=pointer]
+              - generic [ref=f12e114]:
+                - text: Scope
+                - paragraph [ref=f12e115]: Narrow by company, then factory, then line. Leave a level empty to include all.
+                - generic [ref=f12e116]:
+                  - generic [ref=f12e118]:
+                    - paragraph [ref=f12e120]: Companies
+                    - generic [ref=f12e123]:
+                      - textbox "Search..." [ref=f12e125]
+                      - generic [ref=f12e126]:
+                        - generic [ref=f12e182] [cursor=pointer]:
+                          - checkbox "A.A. Cotton Mills" [ref=f12e183]
+                          - generic [ref=f12e184]: A.A. Cotton Mills
+                        - generic [ref=f12e186] [cursor=pointer]:
+                          - checkbox "A.L. Textiles" [ref=f12e187]
+                          - generic [ref=f12e188]: A.L. Textiles
+                        - generic [ref=f12e190] [cursor=pointer]:
+                          - checkbox "AA Spinning Mills" [ref=f12e191]
+                          - generic [ref=f12e192]: AA Spinning Mills
+                        - generic [ref=f12e194] [cursor=pointer]:
+                          - checkbox "Abdullah Textile Mills" [ref=f12e195]
+                          - generic [ref=f12e196]: Abdullah Textile Mills
+                        - generic [ref=f12e198] [cursor=pointer]:
+                          - checkbox "Acme Mills" [ref=f12e199]
+                          - generic [ref=f12e200]: Acme Mills
+                        - generic [ref=f12e202] [cursor=pointer]:
+                          - checkbox "Adnan Textile Mills" [ref=f12e203]
+                          - generic [ref=f12e204]: Adnan Textile Mills
+                        - generic [ref=f12e206] [cursor=pointer]:
+                          - checkbox "Agar Textiles" [ref=f12e207]
+                          - generic [ref=f12e208]: Agar Textiles
+                        - generic [ref=f12e210] [cursor=pointer]:
+                          - checkbox "Ahmed Fine Textile Mills" [ref=f12e211]
+                          - generic [ref=f12e212]: Ahmed Fine Textile Mills
+                        - generic [ref=f12e214] [cursor=pointer]:
+                          - checkbox "Al Ahmed Textile Mills" [ref=f12e215]
+                          - generic [ref=f12e216]: Al Ahmed Textile Mills
+                        - generic [ref=f12e218] [cursor=pointer]:
+                          - checkbox "Al Nasr Textiles" [ref=f12e219]
+                          - generic [ref=f12e220]: Al Nasr Textiles
+                        - generic [ref=f12e222] [cursor=pointer]:
+                          - checkbox "Al-Karam Textile Mill" [ref=f12e223]
+                          - generic [ref=f12e224]: Al-Karam Textile Mill
+                        - generic [ref=f12e226] [cursor=pointer]:
+                          - checkbox "Al-Karam Textile Mill" [ref=f12e227]
+                          - generic [ref=f12e228]: Al-Karam Textile Mill
+                        - generic [ref=f12e230] [cursor=pointer]:
+                          - checkbox "Al-Muqeet Textiles" [ref=f12e231]
+                          - generic [ref=f12e232]: Al-Muqeet Textiles
+                        - generic [ref=f12e234] [cursor=pointer]:
+                          - checkbox "Al-Qadir Textile Mill" [ref=f12e235]
+                          - generic [ref=f12e236]: Al-Qadir Textile Mill
+                        - generic [ref=f12e238] [cursor=pointer]:
+                          - checkbox "Al-Zamin Textile Mills" [ref=f12e239]
+                          - generic [ref=f12e240]: Al-Zamin Textile Mills
+                        - generic [ref=f12e242] [cursor=pointer]:
+                          - checkbox "Alam Cotton Mills" [ref=f12e243]
+                          - generic [ref=f12e244]: Alam Cotton Mills
+                        - generic [ref=f12e246] [cursor=pointer]:
+                          - checkbox "Alhamd Corporation" [ref=f12e247]
+                          - generic [ref=f12e248]: Alhamd Corporation
+                        - generic [ref=f12e250] [cursor=pointer]:
+                          - checkbox "Ali Akbar Textile Mills" [ref=f12e251]
+                          - generic [ref=f12e252]: Ali Akbar Textile Mills
+                        - generic [ref=f12e254] [cursor=pointer]:
+                          - checkbox "Allawasaya Textile Mills" [ref=f12e255]
+                          - generic [ref=f12e256]: Allawasaya Textile Mills
+                        - generic [ref=f12e258] [cursor=pointer]:
+                          - checkbox "Amer Cotton Mills" [ref=f12e259]
+                          - generic [ref=f12e260]: Amer Cotton Mills
+                        - generic [ref=f12e262] [cursor=pointer]:
+                          - checkbox "Amin Textile Mills" [ref=f12e263]
+                          - generic [ref=f12e264]: Amin Textile Mills
+                        - generic [ref=f12e266] [cursor=pointer]:
+                          - checkbox "Amna Industries" [ref=f12e267]
+                          - generic [ref=f12e268]: Amna Industries
+                        - generic [ref=f12e270] [cursor=pointer]:
+                          - checkbox "An Textile Mills" [ref=f12e271]
+                          - generic [ref=f12e272]: An Textile Mills
+                        - generic [ref=f12e274] [cursor=pointer]:
+                          - checkbox "Anjum Textile Mills" [ref=f12e275]
+                          - generic [ref=f12e276]: Anjum Textile Mills
+                        - generic [ref=f12e278] [cursor=pointer]:
+                          - checkbox "Anoud Textile Mills" [ref=f12e279]
+                          - generic [ref=f12e280]: Anoud Textile Mills
+                        - generic [ref=f12e282] [cursor=pointer]:
+                          - checkbox "Anwar Textile Mills" [ref=f12e283]
+                          - generic [ref=f12e284]: Anwar Textile Mills
+                        - generic [ref=f12e286] [cursor=pointer]:
+                          - checkbox "Arctic Textile Mills" [ref=f12e287]
+                          - generic [ref=f12e288]: Arctic Textile Mills
+                        - generic [ref=f12e290] [cursor=pointer]:
+                          - checkbox "Arshad Corporation" [ref=f12e291]
+                          - generic [ref=f12e292]: Arshad Corporation
+                        - generic [ref=f12e294] [cursor=pointer]:
+                          - checkbox "Arshad Textile Mills" [ref=f12e295]
+                          - generic [ref=f12e296]: Arshad Textile Mills
+                        - generic [ref=f12e298] [cursor=pointer]:
+                          - checkbox "Artistic Fabric And Garment" [ref=f12e299]
+                          - generic [ref=f12e300]: Artistic Fabric And Garment
+                        - generic [ref=f12e302] [cursor=pointer]:
+                          - checkbox "Artistic Milliners" [ref=f12e303]
+                          - generic [ref=f12e304]: Artistic Milliners
+                        - generic [ref=f12e306] [cursor=pointer]:
+                          - checkbox "Arzoo Textile Mills" [ref=f12e307]
+                          - generic [ref=f12e308]: Arzoo Textile Mills
+                        - generic [ref=f12e310] [cursor=pointer]:
+                          - checkbox "Asher Imran Spininning Mills" [ref=f12e311]
+                          - generic [ref=f12e312]: Asher Imran Spininning Mills
+                        - generic [ref=f12e314] [cursor=pointer]:
+                          - checkbox "Ashiana Cotton Products" [ref=f12e315]
+                          - generic [ref=f12e316]: Ashiana Cotton Products
+                        - generic [ref=f12e318] [cursor=pointer]:
+                          - checkbox "Asian Textile Network" [ref=f12e319]
+                          - generic [ref=f12e320]: Asian Textile Network
+                        - generic [ref=f12e322] [cursor=pointer]:
+                          - checkbox "Asim Textile Mills" [ref=f12e323]
+                          - generic [ref=f12e324]: Asim Textile Mills
+                        - generic [ref=f12e326] [cursor=pointer]:
+                          - checkbox "Ayesha Spinning Mills" [ref=f12e327]
+                          - generic [ref=f12e328]: Ayesha Spinning Mills
+                        - generic [ref=f12e330] [cursor=pointer]:
+                          - checkbox "Bajwa Spinning Mills" [ref=f12e331]
+                          - generic [ref=f12e332]: Bajwa Spinning Mills
+                        - generic [ref=f12e334] [cursor=pointer]:
+                          - checkbox "Bela Textile Mills" [ref=f12e335]
+                          - generic [ref=f12e336]: Bela Textile Mills
+                        - generic [ref=f12e338] [cursor=pointer]:
+                          - checkbox "Best Exports Textile Mills" [ref=f12e339]
+                          - generic [ref=f12e340]: Best Exports Textile Mills
+                        - generic [ref=f12e342] [cursor=pointer]:
+                          - checkbox "Bhanero Textile Mills" [ref=f12e343]
+                          - generic [ref=f12e344]: Bhanero Textile Mills
+                        - generic [ref=f12e346] [cursor=pointer]:
+                          - checkbox "Bhimra Textile Mills" [ref=f12e347]
+                          - generic [ref=f12e348]: Bhimra Textile Mills
+                        - generic [ref=f12e350] [cursor=pointer]:
+                          - checkbox "Bilal Textile Mills" [ref=f12e351]
+                          - generic [ref=f12e352]: Bilal Textile Mills
+                        - generic [ref=f12e354] [cursor=pointer]:
+                          - checkbox "Blessed Textiles" [ref=f12e355]
+                          - generic [ref=f12e356]: Blessed Textiles
+                        - generic [ref=f12e358] [cursor=pointer]:
+                          - checkbox "Burewala Textile Mills" [ref=f12e359]
+                          - generic [ref=f12e360]: Burewala Textile Mills
+                        - generic [ref=f12e362] [cursor=pointer]:
+                          - checkbox "C.A. Catextile Textile Mills" [ref=f12e363]
+                          - generic [ref=f12e364]: C.A. Catextile Textile Mills
+                        - generic [ref=f12e366] [cursor=pointer]:
+                          - checkbox "Century Textile & Energy" [ref=f12e367]
+                          - generic [ref=f12e368]: Century Textile & Energy
+                        - generic [ref=f12e370] [cursor=pointer]:
+                          - checkbox "Chakwal Group" [ref=f12e371]
+                          - generic [ref=f12e372]: Chakwal Group
+                        - generic [ref=f12e374] [cursor=pointer]:
+                          - checkbox "Chakwal Textile Mills" [ref=f12e375]
+                          - generic [ref=f12e376]: Chakwal Textile Mills
+                        - generic [ref=f12e378] [cursor=pointer]:
+                          - checkbox "Chaudhry Sugar Mills" [ref=f12e379]
+                          - generic [ref=f12e380]: Chaudhry Sugar Mills
+                        - generic [ref=f12e382] [cursor=pointer]:
+                          - checkbox "Chenab Textile Mills" [ref=f12e383]
+                          - generic [ref=f12e384]: Chenab Textile Mills
+                        - generic [ref=f12e386] [cursor=pointer]:
+                          - checkbox "Chiniot Textile Mills" [ref=f12e387]
+                          - generic [ref=f12e388]: Chiniot Textile Mills
+                        - generic [ref=f12e390] [cursor=pointer]:
+                          - checkbox "Colony Textile Mills" [ref=f12e391]
+                          - generic [ref=f12e392]: Colony Textile Mills
+                        - generic [ref=f12e394] [cursor=pointer]:
+                          - checkbox "Combine Spinning Textile Mills" [ref=f12e395]
+                          - generic [ref=f12e396]: Combine Spinning Textile Mills
+                        - generic [ref=f12e398] [cursor=pointer]:
+                          - checkbox "Crescent Textile Mills" [ref=f12e399]
+                          - generic [ref=f12e400]: Crescent Textile Mills
+                        - generic [ref=f12e402] [cursor=pointer]:
+                          - checkbox "D. M. Textile Mills" [ref=f12e403]
+                          - generic [ref=f12e404]: D. M. Textile Mills
+                        - generic [ref=f12e406] [cursor=pointer]:
+                          - checkbox "Danish Textile Mills" [ref=f12e407]
+                          - generic [ref=f12e408]: Danish Textile Mills
+                        - generic [ref=f12e410] [cursor=pointer]:
+                          - checkbox "Dewan Farooque Textile Mills" [ref=f12e411]
+                          - generic [ref=f12e412]: Dewan Farooque Textile Mills
+                        - generic [ref=f12e414] [cursor=pointer]:
+                          - checkbox "Diamond Textile Mills" [ref=f12e415]
+                          - generic [ref=f12e416]: Diamond Textile Mills
+                        - generic [ref=f12e418] [cursor=pointer]:
+                          - checkbox "Eastern Spinning Mills" [ref=f12e419]
+                          - generic [ref=f12e420]: Eastern Spinning Mills
+                        - generic [ref=f12e422] [cursor=pointer]:
+                          - checkbox "Ejaz Textile Mills" [ref=f12e423]
+                          - generic [ref=f12e424]: Ejaz Textile Mills
+                        - generic [ref=f12e426] [cursor=pointer]:
+                          - checkbox "Ellcot Textile Mills" [ref=f12e427]
+                          - generic [ref=f12e428]: Ellcot Textile Mills
+                        - generic [ref=f12e430] [cursor=pointer]:
+                          - checkbox "Equity Textiles Mills" [ref=f12e431]
+                          - generic [ref=f12e432]: Equity Textiles Mills
+                        - generic [ref=f12e434] [cursor=pointer]:
+                          - checkbox "Escorts Advanced Textiles Mills" [ref=f12e435]
+                          - generic [ref=f12e436]: Escorts Advanced Textiles Mills
+                        - generic [ref=f12e438] [cursor=pointer]:
+                          - checkbox "Fahid Javed Textile Mills" [ref=f12e439]
+                          - generic [ref=f12e440]: Fahid Javed Textile Mills
+                        - generic [ref=f12e442] [cursor=pointer]:
+                          - checkbox "Faisal Textile Mills" [ref=f12e443]
+                          - generic [ref=f12e444]: Faisal Textile Mills
+                        - generic [ref=f12e446] [cursor=pointer]:
+                          - checkbox "Fashion Knit Industries" [ref=f12e447]
+                          - generic [ref=f12e448]: Fashion Knit Industries
+                        - generic [ref=f12e450] [cursor=pointer]:
+                          - checkbox "Fateh Textile Mills" [ref=f12e451]
+                          - generic [ref=f12e452]: Fateh Textile Mills
+                        - generic [ref=f12e454] [cursor=pointer]:
+                          - checkbox "Fatima Textile Mills" [ref=f12e455]
+                          - generic [ref=f12e456]: Fatima Textile Mills
+                        - generic [ref=f12e458] [cursor=pointer]:
+                          - checkbox "Fauji Textile Mills" [ref=f12e459]
+                          - generic [ref=f12e460]: Fauji Textile Mills
+                        - generic [ref=f12e462] [cursor=pointer]:
+                          - checkbox "Faysal Textile Mills" [ref=f12e463]
+                          - generic [ref=f12e464]: Faysal Textile Mills
+                        - generic [ref=f12e466] [cursor=pointer]:
+                          - checkbox "Fazal Textile Mills" [ref=f12e467]
+                          - generic [ref=f12e468]: Fazal Textile Mills
+                        - generic [ref=f12e470] [cursor=pointer]:
+                          - checkbox "Feroze 1888 Textile Mills" [ref=f12e471]
+                          - generic [ref=f12e472]: Feroze 1888 Textile Mills
+                        - generic [ref=f12e474] [cursor=pointer]:
+                          - checkbox "Fimcotex Industries" [ref=f12e475]
+                          - generic [ref=f12e476]: Fimcotex Industries
+                        - generic [ref=f12e478] [cursor=pointer]:
+                          - checkbox "Furqan Testing" [ref=f12e479]
+                          - generic [ref=f12e480]: Furqan Testing
+                        - generic [ref=f12e482] [cursor=pointer]:
+                          - checkbox "Furqan Testing 1" [ref=f12e483]
+                          - generic [ref=f12e484]: Furqan Testing 1
+                        - generic [ref=f12e486] [cursor=pointer]:
+                          - checkbox "Furqan Textile Mills" [ref=f12e487]
+                          - generic [ref=f12e488]: Furqan Textile Mills
+                        - generic [ref=f12e490] [cursor=pointer]:
+                          - checkbox "Gadoon Textile Mills" [ref=f12e491]
+                          - generic [ref=f12e492]: Gadoon Textile Mills
+                        - generic [ref=f12e494] [cursor=pointer]:
+                          - checkbox "Ghalib Textile Mills" [ref=f12e495]
+                          - generic [ref=f12e496]: Ghalib Textile Mills
+                        - generic [ref=f12e498] [cursor=pointer]:
+                          - checkbox "Ghandhara Nihar Textile" [ref=f12e499]
+                          - generic [ref=f12e500]: Ghandhara Nihar Textile
+                        - generic [ref=f12e502] [cursor=pointer]:
+                          - checkbox "Ghazi Fabrics International" [ref=f12e503]
+                          - generic [ref=f12e504]: Ghazi Fabrics International
+                        - generic [ref=f12e506] [cursor=pointer]:
+                          - checkbox "Glamour Textile Mills" [ref=f12e507]
+                          - generic [ref=f12e508]: Glamour Textile Mills
+                        - generic [ref=f12e510] [cursor=pointer]:
+                          - checkbox "Good Luck Textile Mills" [ref=f12e511]
+                          - generic [ref=f12e512]: Good Luck Textile Mills
+                        - generic [ref=f12e514] [cursor=pointer]:
+                          - checkbox "Gul Ahmed Textile Mills" [ref=f12e515]
+                          - generic [ref=f12e516]: Gul Ahmed Textile Mills
+                        - generic [ref=f12e518] [cursor=pointer]:
+                          - checkbox "H.A. Textile Mills" [ref=f12e519]
+                          - generic [ref=f12e520]: H.A. Textile Mills
+                        - generic [ref=f12e522] [cursor=pointer]:
+                          - checkbox "H.M.K Textile Mills" [ref=f12e523]
+                          - generic [ref=f12e524]: H.M.K Textile Mills
+                        - generic [ref=f12e526] [cursor=pointer]:
+                          - checkbox "Hafiz Textile Mills" [ref=f12e527]
+                          - generic [ref=f12e528]: Hafiz Textile Mills
+                        - generic [ref=f12e530] [cursor=pointer]:
+                          - checkbox "Haji Muhammad Ismail Mills" [ref=f12e531]
+                          - generic [ref=f12e532]: Haji Muhammad Ismail Mills
+                        - generic [ref=f12e534] [cursor=pointer]:
+                          - checkbox "Haleema Textile Mills" [ref=f12e535]
+                          - generic [ref=f12e536]: Haleema Textile Mills
+                        - generic [ref=f12e538] [cursor=pointer]:
+                          - checkbox "Hammad Textile Mills" [ref=f12e539]
+                          - generic [ref=f12e540]: Hammad Textile Mills
+                        - generic [ref=f12e542] [cursor=pointer]:
+                          - checkbox "Hamza Textile Mills" [ref=f12e543]
+                          - generic [ref=f12e544]: Hamza Textile Mills
+                        - generic [ref=f12e546] [cursor=pointer]:
+                          - checkbox "Hantex Textile Mill" [ref=f12e547]
+                          - generic [ref=f12e548]: Hantex Textile Mill
+                        - generic [ref=f12e550] [cursor=pointer]:
+                          - checkbox "Har Textile Mills" [ref=f12e551]
+                          - generic [ref=f12e552]: Har Textile Mills
+                        - generic [ref=f12e554] [cursor=pointer]:
+                          - checkbox "Hira Textile Mills" [ref=f12e555]
+                          - generic [ref=f12e556]: Hira Textile Mills
+                        - generic [ref=f12e558] [cursor=pointer]:
+                          - checkbox "Hunbul Textile Mill" [ref=f12e559]
+                          - generic [ref=f12e560]: Hunbul Textile Mill
+                        - generic [ref=f12e562] [cursor=pointer]:
+                          - checkbox "Husnain Textile Mills" [ref=f12e563]
+                          - generic [ref=f12e564]: Husnain Textile Mills
+                        - generic [ref=f12e566] [cursor=pointer]:
+                          - checkbox "Icc Textiles Mills" [ref=f12e567]
+                          - generic [ref=f12e568]: Icc Textiles Mills
+                        - generic [ref=f12e570] [cursor=pointer]:
+                          - checkbox "Ideal Textile Mills" [ref=f12e571]
+                          - generic [ref=f12e572]: Ideal Textile Mills
+                        - generic [ref=f12e574] [cursor=pointer]:
+                          - checkbox "Idrees Textile Mills" [ref=f12e575]
+                          - generic [ref=f12e576]: Idrees Textile Mills
+                        - generic [ref=f12e578] [cursor=pointer]:
+                          - checkbox "Ihsan Textile Mills" [ref=f12e579]
+                          - generic [ref=f12e580]: Ihsan Textile Mills
+                        - generic [ref=f12e582] [cursor=pointer]:
+                          - checkbox "Imperial Textile Mills" [ref=f12e583]
+                          - generic [ref=f12e584]: Imperial Textile Mills
+                        - generic [ref=f12e586] [cursor=pointer]:
+                          - checkbox "Indus Textile Mills" [ref=f12e587]
+                          - generic [ref=f12e588]: Indus Textile Mills
+                        - generic [ref=f12e590] [cursor=pointer]:
+                          - checkbox "Interloop Limited" [ref=f12e591]
+                          - generic [ref=f12e592]: Interloop Limited
+                        - generic [ref=f12e594] [cursor=pointer]:
+                          - checkbox "International Textile Mills" [ref=f12e595]
+                          - generic [ref=f12e596]: International Textile Mills
+                        - generic [ref=f12e598] [cursor=pointer]:
+                          - checkbox "Ishaq Textile Mills" [ref=f12e599]
+                          - generic [ref=f12e600]: Ishaq Textile Mills
+                        - generic [ref=f12e602] [cursor=pointer]:
+                          - checkbox "Island Textile Mills" [ref=f12e603]
+                          - generic [ref=f12e604]: Island Textile Mills
+                        - generic [ref=f12e606] [cursor=pointer]:
+                          - checkbox "Ittehad Textile Mills" [ref=f12e607]
+                          - generic [ref=f12e608]: Ittehad Textile Mills
+                        - generic [ref=f12e610] [cursor=pointer]:
+                          - checkbox "J.A. Textile Mills" [ref=f12e611]
+                          - generic [ref=f12e612]: J.A. Textile Mills
+                        - generic [ref=f12e614] [cursor=pointer]:
+                          - checkbox "J.K. Textile Mills" [ref=f12e615]
+                          - generic [ref=f12e616]: J.K. Textile Mills
+                        - generic [ref=f12e618] [cursor=pointer]:
+                          - checkbox "Jamal Textile Mills" [ref=f12e619]
+                          - generic [ref=f12e620]: Jamal Textile Mills
+                        - generic [ref=f12e622] [cursor=pointer]:
+                          - checkbox "Jamhoor Textile Mills" [ref=f12e623]
+                          - generic [ref=f12e624]: Jamhoor Textile Mills
+                        - generic [ref=f12e626] [cursor=pointer]:
+                          - checkbox "Janana De Malucho Textile Mills" [ref=f12e627]
+                          - generic [ref=f12e628]: Janana De Malucho Textile Mills
+                        - generic [ref=f12e630] [cursor=pointer]:
+                          - checkbox "Jubilee Textile Mills" [ref=f12e631]
+                          - generic [ref=f12e632]: Jubilee Textile Mills
+                        - generic [ref=f12e634] [cursor=pointer]:
+                          - checkbox "Kamal Textile Millls" [ref=f12e635]
+                          - generic [ref=f12e636]: Kamal Textile Millls
+                        - generic [ref=f12e638] [cursor=pointer]:
+                          - checkbox "Kamran Textile Mills" [ref=f12e639]
+                          - generic [ref=f12e640]: Kamran Textile Mills
+                        - generic [ref=f12e642] [cursor=pointer]:
+                          - checkbox "Karam-E-Kareem Textile Mills" [ref=f12e643]
+                          - generic [ref=f12e644]: Karam-E-Kareem Textile Mills
+                        - generic [ref=f12e646] [cursor=pointer]:
+                          - checkbox "Kasim Textile Mills" [ref=f12e647]
+                          - generic [ref=f12e648]: Kasim Textile Mills
+                        - generic [ref=f12e650] [cursor=pointer]:
+                          - checkbox "Khalid Shafique Textile Mills" [ref=f12e651]
+                          - generic [ref=f12e652]: Khalid Shafique Textile Mills
+                        - generic [ref=f12e654] [cursor=pointer]:
+                          - checkbox "Khalid Textile Mills" [ref=f12e655]
+                          - generic [ref=f12e656]: Khalid Textile Mills
+                        - generic [ref=f12e658] [cursor=pointer]:
+                          - checkbox "Khas Textile Mills" [ref=f12e659]
+                          - generic [ref=f12e660]: Khas Textile Mills
+                        - generic [ref=f12e662] [cursor=pointer]:
+                          - checkbox "Khurshid Spinning Mills" [ref=f12e663]
+                          - generic [ref=f12e664]: Khurshid Spinning Mills
+                        - generic [ref=f12e666] [cursor=pointer]:
+                          - checkbox "Kohat Textile Mills" [ref=f12e667]
+                          - generic [ref=f12e668]: Kohat Textile Mills
+                        - generic [ref=f12e670] [cursor=pointer]:
+                          - checkbox "Kohinoor Textile Mills" [ref=f12e671]
+                          - generic [ref=f12e672]: Kohinoor Textile Mills
+                        - generic [ref=f12e674] [cursor=pointer]:
+                          - checkbox "Kunhar Textile Mills" [ref=f12e675]
+                          - generic [ref=f12e676]: Kunhar Textile Mills
+                        - generic [ref=f12e678] [cursor=pointer]:
+                          - checkbox "Latif Textile Mills" [ref=f12e679]
+                          - generic [ref=f12e680]: Latif Textile Mills
+                        - generic [ref=f12e682] [cursor=pointer]:
+                          - checkbox "Liaqat Textile Mills" [ref=f12e683]
+                          - generic [ref=f12e684]: Liaqat Textile Mills
+                        - generic [ref=f12e686] [cursor=pointer]:
+                          - checkbox "Mahmood Textile Mills" [ref=f12e687]
+                          - generic [ref=f12e688]: Mahmood Textile Mills
+                        - generic [ref=f12e690] [cursor=pointer]:
+                          - checkbox "Majeed Textile Mills" [ref=f12e691]
+                          - generic [ref=f12e692]: Majeed Textile Mills
+                        - generic [ref=f12e694] [cursor=pointer]:
+                          - checkbox "Maqbool Textile Mills" [ref=f12e695]
+                          - generic [ref=f12e696]: Maqbool Textile Mills
+                        - generic [ref=f12e698] [cursor=pointer]:
+                          - checkbox "Margalla Textile Mills" [ref=f12e699]
+                          - generic [ref=f12e700]: Margalla Textile Mills
+                        - generic [ref=f12e702] [cursor=pointer]:
+                          - checkbox "Marhaba Textile Mills" [ref=f12e703]
+                          - generic [ref=f12e704]: Marhaba Textile Mills
+                        - generic [ref=f12e706] [cursor=pointer]:
+                          - checkbox "Masco Spinning Mills" [ref=f12e707]
+                          - generic [ref=f12e708]: Masco Spinning Mills
+                        - generic [ref=f12e710] [cursor=pointer]:
+                          - checkbox "Masood Textile Mills" [ref=f12e711]
+                          - generic [ref=f12e712]: Masood Textile Mills
+                        - generic [ref=f12e714] [cursor=pointer]:
+                          - checkbox "Master Textile Mills" [ref=f12e715]
+                          - generic [ref=f12e716]: Master Textile Mills
+                        - generic [ref=f12e718] [cursor=pointer]:
+                          - checkbox "Mayfair Textile Mills" [ref=f12e719]
+                          - generic [ref=f12e720]: Mayfair Textile Mills
+                        - generic [ref=f12e722] [cursor=pointer]:
+                          - checkbox "Mekotex Textile Mills" [ref=f12e723]
+                          - generic [ref=f12e724]: Mekotex Textile Mills
+                        - generic [ref=f12e726] [cursor=pointer]:
+                          - checkbox "Mishal Textile Mills" [ref=f12e727]
+                          - generic [ref=f12e728]: Mishal Textile Mills
+                        - generic [ref=f12e730] [cursor=pointer]:
+                          - checkbox "Mohammad Farooq Textile Mills" [ref=f12e731]
+                          - generic [ref=f12e732]: Mohammad Farooq Textile Mills
+                        - generic [ref=f12e734] [cursor=pointer]:
+                          - checkbox "Mohib Textile Mills" [ref=f12e735]
+                          - generic [ref=f12e736]: Mohib Textile Mills
+                        - generic [ref=f12e738] [cursor=pointer]:
+                          - checkbox "Monnoo Industries" [ref=f12e739]
+                          - generic [ref=f12e740]: Monnoo Industries
+                        - generic [ref=f12e742] [cursor=pointer]:
+                          - checkbox "Monnoowal Textile Mlls" [ref=f12e743]
+                          - generic [ref=f12e744]: Monnoowal Textile Mlls
+                        - generic [ref=f12e746] [cursor=pointer]:
+                          - checkbox "Multan Spinning Mills" [ref=f12e747]
+                          - generic [ref=f12e748]: Multan Spinning Mills
+                        - generic [ref=f12e750] [cursor=pointer]:
+                          - checkbox "Mumtaz Textile Mills" [ref=f12e751]
+                          - generic [ref=f12e752]: Mumtaz Textile Mills
+                        - generic [ref=f12e754] [cursor=pointer]:
+                          - checkbox "N.P. Cotton Mills" [ref=f12e755]
+                          - generic [ref=f12e756]: N.P. Cotton Mills
+                        - generic [ref=f12e758] [cursor=pointer]:
+                          - checkbox "Nadeem Textile Mills" [ref=f12e759]
+                          - generic [ref=f12e760]: Nadeem Textile Mills
+                        - generic [ref=f12e762] [cursor=pointer]:
+                          - checkbox "Nafeesa Textiles" [ref=f12e763]
+                          - generic [ref=f12e764]: Nafeesa Textiles
+                        - generic [ref=f12e766] [cursor=pointer]:
+                          - checkbox "Nagina Textile Mill" [ref=f12e767]
+                          - generic [ref=f12e768]: Nagina Textile Mill
+                        - generic [ref=f12e770] [cursor=pointer]:
+                          - checkbox "Nagra Textile Spinning Mills" [ref=f12e771]
+                          - generic [ref=f12e772]: Nagra Textile Spinning Mills
+                        - generic [ref=f12e774] [cursor=pointer]:
+                          - checkbox "Naimat Textile Mills" [ref=f12e775]
+                          - generic [ref=f12e776]: Naimat Textile Mills
+                        - generic [ref=f12e778] [cursor=pointer]:
+                          - checkbox "National Textile Mills" [ref=f12e779]
+                          - generic [ref=f12e780]: National Textile Mills
+                        - generic [ref=f12e782] [cursor=pointer]:
+                          - checkbox "Nishat Textile" [ref=f12e783]
+                          - generic [ref=f12e784]: Nishat Textile
+                        - generic [ref=f12e786] [cursor=pointer]:
+                          - checkbox "Noon Textile Mills" [ref=f12e787]
+                          - generic [ref=f12e788]: Noon Textile Mills
+                        - generic [ref=f12e790] [cursor=pointer]:
+                          - checkbox "Noor Textile Mills" [ref=f12e791]
+                          - generic [ref=f12e792]: Noor Textile Mills
+                        - generic [ref=f12e794] [cursor=pointer]:
+                          - checkbox "Noorpur Textile Industries" [ref=f12e795]
+                          - generic [ref=f12e796]: Noorpur Textile Industries
+                        - generic [ref=f12e798] [cursor=pointer]:
+                          - checkbox "North Star Textiles" [ref=f12e799]
+                          - generic [ref=f12e800]: North Star Textiles
+                        - generic [ref=f12e802] [cursor=pointer]:
+                          - checkbox "Olympia Blended Fiber Mills" [ref=f12e803]
+                          - generic [ref=f12e804]: Olympia Blended Fiber Mills
+                        - generic [ref=f12e806] [cursor=pointer]:
+                          - checkbox "Omer Cotton Mills" [ref=f12e807]
+                          - generic [ref=f12e808]: Omer Cotton Mills
+                        - generic [ref=f12e810] [cursor=pointer]:
+                          - checkbox "Orient Textile Mills" [ref=f12e811]
+                          - generic [ref=f12e812]: Orient Textile Mills
+                        - generic [ref=f12e814] [cursor=pointer]:
+                          - checkbox "Paradise Spinning Mills" [ref=f12e815]
+                          - generic [ref=f12e816]: Paradise Spinning Mills
+                        - generic [ref=f12e818] [cursor=pointer]:
+                          - checkbox "Paramount Spinning Mills" [ref=f12e819]
+                          - generic [ref=f12e820]: Paramount Spinning Mills
+                        - generic [ref=f12e822] [cursor=pointer]:
+                          - checkbox "Popular Fibre Mill" [ref=f12e823]
+                          - generic [ref=f12e824]: Popular Fibre Mill
+                        - generic [ref=f12e826] [cursor=pointer]:
+                          - checkbox "Premimum Textile Mill" [ref=f12e827]
+                          - generic [ref=f12e828]: Premimum Textile Mill
+                        - generic [ref=f12e830] [cursor=pointer]:
+                          - checkbox "Prince Textile Mill" [ref=f12e831]
+                          - generic [ref=f12e832]: Prince Textile Mill
+                        - generic [ref=f12e834] [cursor=pointer]:
+                          - checkbox "Prosperity Weaving Textile Mill" [ref=f12e835]
+                          - generic [ref=f12e836]: Prosperity Weaving Textile Mill
+                        - generic [ref=f12e838] [cursor=pointer]:
+                          - checkbox "Qadri Textile Mill" [ref=f12e839]
+                          - generic [ref=f12e840]: Qadri Textile Mill
+                        - generic [ref=f12e842] [cursor=pointer]:
+                          - checkbox "Quality Textile Mill" [ref=f12e843]
+                          - generic [ref=f12e844]: Quality Textile Mill
+                        - generic [ref=f12e846] [cursor=pointer]:
+                          - checkbox "Quetta Textile Mill" [ref=f12e847]
+                          - generic [ref=f12e848]: Quetta Textile Mill
+                        - generic [ref=f12e850] [cursor=pointer]:
+                          - checkbox "Qureshi Textile Mill" [ref=f12e851]
+                          - generic [ref=f12e852]: Qureshi Textile Mill
+                        - generic [ref=f12e854] [cursor=pointer]:
+                          - checkbox "Rafiq Fibers Textile Mill" [ref=f12e855]
+                          - generic [ref=f12e856]: Rafiq Fibers Textile Mill
+                        - generic [ref=f12e858] [cursor=pointer]:
+                          - checkbox "Rahmat Textile Mill" [ref=f12e859]
+                          - generic [ref=f12e860]: Rahmat Textile Mill
+                        - generic [ref=f12e862] [cursor=pointer]:
+                          - checkbox "Rahmat Wazir Textile Mills" [ref=f12e863]
+                          - generic [ref=f12e864]: Rahmat Wazir Textile Mills
+                        - generic [ref=f12e866] [cursor=pointer]:
+                          - checkbox "Rainbow Textile Mill" [ref=f12e867]
+                          - generic [ref=f12e868]: Rainbow Textile Mill
+                        - generic [ref=f12e870] [cursor=pointer]:
+                          - checkbox "Rajput Textile Mill" [ref=f12e871]
+                          - generic [ref=f12e872]: Rajput Textile Mill
+                        - generic [ref=f12e874] [cursor=pointer]:
+                          - checkbox "Rasheed Enterprises Textile Mill" [ref=f12e875]
+                          - generic [ref=f12e876]: Rasheed Enterprises Textile Mill
+                        - generic [ref=f12e878] [cursor=pointer]:
+                          - checkbox "Rashid Textile Mill" [ref=f12e879]
+                          - generic [ref=f12e880]: Rashid Textile Mill
+                        - generic [ref=f12e882] [cursor=pointer]:
+                          - checkbox "Ravi Spinning Textile Mill" [ref=f12e883]
+                          - generic [ref=f12e884]: Ravi Spinning Textile Mill
+                        - generic [ref=f12e886] [cursor=pointer]:
+                          - checkbox "Rawal Textile Mills" [ref=f12e887]
+                          - generic [ref=f12e888]: Rawal Textile Mills
+                        - generic [ref=f12e890] [cursor=pointer]:
+                          - checkbox "Redco Textiles Mills" [ref=f12e891]
+                          - generic [ref=f12e892]: Redco Textiles Mills
+                        - generic [ref=f12e894] [cursor=pointer]:
+                          - checkbox "Rehman Textile Mills" [ref=f12e895]
+                          - generic [ref=f12e896]: Rehman Textile Mills
+                        - generic [ref=f12e898] [cursor=pointer]:
+                          - checkbox "Reliance Textile Mills" [ref=f12e899]
+                          - generic [ref=f12e900]: Reliance Textile Mills
+                        - generic [ref=f12e902] [cursor=pointer]:
+                          - checkbox "Resham Textile Industries" [ref=f12e903]
+                          - generic [ref=f12e904]: Resham Textile Industries
+                        - generic [ref=f12e906] [cursor=pointer]:
+                          - checkbox "Roomi Fabrics Textile Mills" [ref=f12e907]
+                          - generic [ref=f12e908]: Roomi Fabrics Textile Mills
+                        - generic [ref=f12e910] [cursor=pointer]:
+                          - checkbox "Rustam Towel Textile Mill" [ref=f12e911]
+                          - generic [ref=f12e912]: Rustam Towel Textile Mill
+                        - generic [ref=f12e914] [cursor=pointer]:
+                          - checkbox "S.Fazalilah & Sons Textile Mills" [ref=f12e915]
+                          - generic [ref=f12e916]: S.Fazalilah & Sons Textile Mills
+                        - generic [ref=f12e918] [cursor=pointer]:
+                          - checkbox "Saad Textile Mills" [ref=f12e919]
+                          - generic [ref=f12e920]: Saad Textile Mills
+                        - generic [ref=f12e922] [cursor=pointer]:
+                          - checkbox "Saeed Textile Mills" [ref=f12e923]
+                          - generic [ref=f12e924]: Saeed Textile Mills
+                        - generic [ref=f12e926] [cursor=pointer]:
+                          - checkbox "Salfi Textile Mills" [ref=f12e927]
+                          - generic [ref=f12e928]: Salfi Textile Mills
+                        - generic [ref=f12e930] [cursor=pointer]:
+                          - checkbox "Samin Textiles" [ref=f12e931]
+                          - generic [ref=f12e932]: Samin Textiles
+                        - generic [ref=f12e934] [cursor=pointer]:
+                          - checkbox "Samira Textile Mills" [ref=f12e935]
+                          - generic [ref=f12e936]: Samira Textile Mills
+                        - generic [ref=f12e938] [cursor=pointer]:
+                          - checkbox "Sana Industries" [ref=f12e939]
+                          - generic [ref=f12e940]: Sana Industries
+                        - generic [ref=f12e942] [cursor=pointer]:
+                          - checkbox "Sapphire Textile" [ref=f12e943]
+                          - generic [ref=f12e944]: Sapphire Textile
+                        - generic [ref=f12e946] [cursor=pointer]:
+                          - checkbox "Sarena Textile Mills" [ref=f12e947]
+                          - generic [ref=f12e948]: Sarena Textile Mills
+                        - generic [ref=f12e950] [cursor=pointer]:
+                          - checkbox "Sarfraz Textile Mills" [ref=f12e951]
+                          - generic [ref=f12e952]: Sarfraz Textile Mills
+                        - generic [ref=f12e954] [cursor=pointer]:
+                          - checkbox "Saritow Spinning Mills" [ref=f12e955]
+                          - generic [ref=f12e956]: Saritow Spinning Mills
+                        - generic [ref=f12e958] [cursor=pointer]:
+                          - checkbox "Saya Textile Mills" [ref=f12e959]
+                          - generic [ref=f12e960]: Saya Textile Mills
+                        - generic [ref=f12e962] [cursor=pointer]:
+                          - checkbox "Service Industries Textile" [ref=f12e963]
+                          - generic [ref=f12e964]: Service Industries Textile
+                        - generic [ref=f12e966] [cursor=pointer]:
+                          - checkbox "Shadab Textile Mills" [ref=f12e967]
+                          - generic [ref=f12e968]: Shadab Textile Mills
+                        - generic [ref=f12e970] [cursor=pointer]:
+                          - checkbox "Shadman Cotton Mills" [ref=f12e971]
+                          - generic [ref=f12e972]: Shadman Cotton Mills
+                        - generic [ref=f12e974] [cursor=pointer]:
+                          - checkbox "Shafi Textile Mills" [ref=f12e975]
+                          - generic [ref=f12e976]: Shafi Textile Mills
+                        - generic [ref=f12e978] [cursor=pointer]:
+                          - checkbox "Shahbaz Garments Textile Mills" [ref=f12e979]
+                          - generic [ref=f12e980]: Shahbaz Garments Textile Mills
+                        - generic [ref=f12e982] [cursor=pointer]:
+                          - checkbox "Shahtaj Textile Mills" [ref=f12e983]
+                          - generic [ref=f12e984]: Shahtaj Textile Mills
+                        - generic [ref=f12e986] [cursor=pointer]:
+                          - checkbox "Shams Textile Mills" [ref=f12e987]
+                          - generic [ref=f12e988]: Shams Textile Mills
+                        - generic [ref=f12e990] [cursor=pointer]:
+                          - checkbox "Sheikhoo Spinning Mills" [ref=f12e991]
+                          - generic [ref=f12e992]: Sheikhoo Spinning Mills
+                        - generic [ref=f12e994] [cursor=pointer]:
+                          - checkbox "Sheikhupura Textile Mills" [ref=f12e995]
+                          - generic [ref=f12e996]: Sheikhupura Textile Mills
+                        - generic [ref=f12e998] [cursor=pointer]:
+                          - checkbox "Shoiab Salman Textile Mills" [ref=f12e999]
+                          - generic [ref=f12e1000]: Shoiab Salman Textile Mills
+                        - generic [ref=f12e1002] [cursor=pointer]:
+                          - checkbox "Shujabad Weaving Mills" [ref=f12e1003]
+                          - generic [ref=f12e1004]: Shujabad Weaving Mills
+                        - generic [ref=f12e1006] [cursor=pointer]:
+                          - checkbox "Siara Textile Mills" [ref=f12e1007]
+                          - generic [ref=f12e1008]: Siara Textile Mills
+                        - generic [ref=f12e1010] [cursor=pointer]:
+                          - checkbox "Sindh HI-Tech Textile Mills" [ref=f12e1011]
+                          - generic [ref=f12e1012]: Sindh HI-Tech Textile Mills
+                        - generic [ref=f12e1014] [cursor=pointer]:
+                          - checkbox "Sitara Textile Mills" [ref=f12e1015]
+                          - generic [ref=f12e1016]: Sitara Textile Mills
+                        - generic [ref=f12e1018] [cursor=pointer]:
+                          - checkbox "Sohail Textile Mills" [ref=f12e1019]
+                          - generic [ref=f12e1020]: Sohail Textile Mills
+                        - generic [ref=f12e1022] [cursor=pointer]:
+                          - checkbox "Soorty Enterprises" [ref=f12e1023]
+                          - generic [ref=f12e1024]: Soorty Enterprises
+                        - generic [ref=f12e1026] [cursor=pointer]:
+                          - checkbox "Suhail Textile Mills" [ref=f12e1027]
+                          - generic [ref=f12e1028]: Suhail Textile Mills
+                        - generic [ref=f12e1030] [cursor=pointer]:
+                          - checkbox "Sunny Textile Mills" [ref=f12e1031]
+                          - generic [ref=f12e1032]: Sunny Textile Mills
+                        - generic [ref=f12e1034] [cursor=pointer]:
+                          - checkbox "Sunrays Textile Mills" [ref=f12e1035]
+                          - generic [ref=f12e1036]: Sunrays Textile Mills
+                        - generic [ref=f12e1038] [cursor=pointer]:
+                          - checkbox "Superior Textile Mills" [ref=f12e1039]
+                          - generic [ref=f12e1040]: Superior Textile Mills
+                        - generic [ref=f12e1042] [cursor=pointer]:
+                          - checkbox "Suraj Cotton Mills" [ref=f12e1043]
+                          - generic [ref=f12e1044]: Suraj Cotton Mills
+                        - generic [ref=f12e1046] [cursor=pointer]:
+                          - checkbox "Surriya Textile Mills" [ref=f12e1047]
+                          - generic [ref=f12e1048]: Surriya Textile Mills
+                        - generic [ref=f12e1050] [cursor=pointer]:
+                          - checkbox "Tahir Rafique Textile Mills" [ref=f12e1051]
+                          - generic [ref=f12e1052]: Tahir Rafique Textile Mills
+                        - generic [ref=f12e1054] [cursor=pointer]:
+                          - checkbox "Tanseem Textile Mills" [ref=f12e1055]
+                          - generic [ref=f12e1056]: Tanseem Textile Mills
+                        - generic [ref=f12e1058] [cursor=pointer]:
+                          - checkbox "Tanveer Textile Mills" [ref=f12e1059]
+                          - generic [ref=f12e1060]: Tanveer Textile Mills
+                        - generic [ref=f12e1062] [cursor=pointer]:
+                          - checkbox "Taqees Mill" [ref=f12e1063]
+                          - generic [ref=f12e1064]: Taqees Mill
+                        - generic [ref=f12e1066] [cursor=pointer]:
+                          - checkbox "Tariq Textile Mills" [ref=f12e1067]
+                          - generic [ref=f12e1068]: Tariq Textile Mills
+                        - generic [ref=f12e1070] [cursor=pointer]:
+                          - checkbox "Taxila Cotton Mills" [ref=f12e1071]
+                          - generic [ref=f12e1072]: Taxila Cotton Mills
+                        - generic [ref=f12e1074] [cursor=pointer]:
+                          - checkbox "Taymur Spinning Mill" [ref=f12e1075]
+                          - generic [ref=f12e1076]: Taymur Spinning Mill
+                        - generic [ref=f12e1078] [cursor=pointer]:
+                          - checkbox "Tayyab Textile Mill" [ref=f12e1079]
+                          - generic [ref=f12e1080]: Tayyab Textile Mill
+                        - generic [ref=f12e1082] [cursor=pointer]:
+                          - checkbox "Test Company" [ref=f12e1083]
+                          - generic [ref=f12e1084]: Test Company
+                        - generic [ref=f12e1086] [cursor=pointer]:
+                          - checkbox "Texstyle Corporation" [ref=f12e1087]
+                          - generic [ref=f12e1088]: Texstyle Corporation
+                        - generic [ref=f12e1090] [cursor=pointer]:
+                          - checkbox "Thal Industries" [ref=f12e1091]
+                          - generic [ref=f12e1092]: Thal Industries
+                        - generic [ref=f12e1094] [cursor=pointer]:
+                          - checkbox "The Lahore Textile & General Mills" [ref=f12e1095]
+                          - generic [ref=f12e1096]: The Lahore Textile & General Mills
+                        - generic [ref=f12e1098] [cursor=pointer]:
+                          - checkbox "Three Star Hosiery Mills" [ref=f12e1099]
+                          - generic [ref=f12e1100]: Three Star Hosiery Mills
+                        - generic [ref=f12e1102] [cursor=pointer]:
+                          - checkbox "Toosi Textile Mills" [ref=f12e1103]
+                          - generic [ref=f12e1104]: Toosi Textile Mills
+                        - generic [ref=f12e1106] [cursor=pointer]:
+                          - checkbox "Tribal Textile Mills" [ref=f12e1107]
+                          - generic [ref=f12e1108]: Tribal Textile Mills
+                        - generic [ref=f12e1110] [cursor=pointer]:
+                          - checkbox "Tristar Industries" [ref=f12e1111]
+                          - generic [ref=f12e1112]: Tristar Industries
+                        - generic [ref=f12e1114] [cursor=pointer]:
+                          - checkbox "United Weaving Mills" [ref=f12e1115]
+                          - generic [ref=f12e1116]: United Weaving Mills
+                        - generic [ref=f12e1118] [cursor=pointer]:
+                          - checkbox "Unity Textile Mills" [ref=f12e1119]
+                          - generic [ref=f12e1120]: Unity Textile Mills
+                        - generic [ref=f12e1122] [cursor=pointer]:
+                          - checkbox "US & Dynamo Mills" [ref=f12e1123]
+                          - generic [ref=f12e1124]: US & Dynamo Mills
+                        - generic [ref=f12e1126] [cursor=pointer]:
+                          - checkbox "US Denim Mills" [ref=f12e1127]
+                          - generic [ref=f12e1128]: US Denim Mills
+                        - generic [ref=f12e1130] [cursor=pointer]:
+                          - checkbox "Uzair Textile Mills" [ref=f12e1131]
+                          - generic [ref=f12e1132]: Uzair Textile Mills
+                        - generic [ref=f12e1134] [cursor=pointer]:
+                          - checkbox "Wavin Textile Mills" [ref=f12e1135]
+                          - generic [ref=f12e1136]: Wavin Textile Mills
+                        - generic [ref=f12e1138] [cursor=pointer]:
+                          - checkbox "Wisal kamal Fabrics" [ref=f12e1139]
+                          - generic [ref=f12e1140]: Wisal kamal Fabrics
+                        - generic [ref=f12e1142] [cursor=pointer]:
+                          - checkbox "Yousaf Weaving Mills" [ref=f12e1143]
+                          - generic [ref=f12e1144]: Yousaf Weaving Mills
+                        - generic [ref=f12e1146] [cursor=pointer]:
+                          - checkbox "Yunus Textile Mills" [ref=f12e1147]
+                          - generic [ref=f12e1148]: Yunus Textile Mills
+                        - generic [ref=f12e1150] [cursor=pointer]:
+                          - checkbox "Z.A. Corporation" [ref=f12e1151]
+                          - generic [ref=f12e1152]: Z.A. Corporation
+                        - generic [ref=f12e1154] [cursor=pointer]:
+                          - checkbox "Z.M Textile Mills" [ref=f12e1155]
+                          - generic [ref=f12e1156]: Z.M Textile Mills
+                        - generic [ref=f12e1158] [cursor=pointer]:
+                          - checkbox "Zahid Textile Mills" [ref=f12e1159]
+                          - generic [ref=f12e1160]: Zahid Textile Mills
+                        - generic [ref=f12e1162] [cursor=pointer]:
+                          - checkbox "Zahra Textile" [ref=f12e1163]
+                          - generic [ref=f12e1164]: Zahra Textile
+                        - generic [ref=f12e1166] [cursor=pointer]:
+                          - checkbox "Zaman Textile Mills" [ref=f12e1167]
+                          - generic [ref=f12e1168]: Zaman Textile Mills
+                        - generic [ref=f12e1170] [cursor=pointer]:
+                          - checkbox "Zephyr Textiles" [ref=f12e1171]
+                          - generic [ref=f12e1172]: Zephyr Textiles
+                        - generic [ref=f12e1174] [cursor=pointer]:
+                          - checkbox "Zohaib Textile Mills" [ref=f12e1175]
+                          - generic [ref=f12e1176]: Zohaib Textile Mills
+                  - generic [ref=f12e129]:
+                    - paragraph [ref=f12e131]: Factories
+                    - generic [ref=f12e134]:
+                      - textbox "Search..." [ref=f12e136]
+                      - generic [ref=f12e137]:
+                        - generic [ref=f12e1178] [cursor=pointer]:
+                          - checkbox "Al-Qadir Textile Mill" [ref=f12e1179]
+                          - generic [ref=f12e1180]: Al-Qadir Textile Mill
+                        - generic [ref=f12e1182] [cursor=pointer]:
+                          - checkbox "Taymur Spinning Mill" [ref=f12e1183]
+                          - generic [ref=f12e1184]: Taymur Spinning Mill
+                        - generic [ref=f12e1186] [cursor=pointer]:
+                          - checkbox "Tayyab Textile Mill" [ref=f12e1187]
+                          - generic [ref=f12e1188]: Tayyab Textile Mill
+                        - generic [ref=f12e1190] [cursor=pointer]:
+                          - checkbox "Texstyle Industries Corporation" [ref=f12e1191]
+                          - generic [ref=f12e1192]: Texstyle Industries Corporation
+                        - generic [ref=f12e1194] [cursor=pointer]:
+                          - checkbox "Thal Industries Corporation" [ref=f12e1195]
+                          - generic [ref=f12e1196]: Thal Industries Corporation
+                        - generic [ref=f12e1198] [cursor=pointer]:
+                          - checkbox "Thal Textile Mill" [ref=f12e1199]
+                          - generic [ref=f12e1200]: Thal Textile Mill
+                        - generic [ref=f12e1202] [cursor=pointer]:
+                          - checkbox "The Lahore Textile & General Mill" [ref=f12e1203]
+                          - generic [ref=f12e1204]: The Lahore Textile & General Mill
+                        - generic [ref=f12e1206] [cursor=pointer]:
+                          - checkbox "Three Star Hosiery Mills" [ref=f12e1207]
+                          - generic [ref=f12e1208]: Three Star Hosiery Mills
+                        - generic [ref=f12e1210] [cursor=pointer]:
+                          - checkbox "Toosi Textile Millss" [ref=f12e1211]
+                          - generic [ref=f12e1212]: Toosi Textile Millss
+                        - generic [ref=f12e1214] [cursor=pointer]:
+                          - checkbox "Tribal Textile Mills" [ref=f12e1215]
+                          - generic [ref=f12e1216]: Tribal Textile Mills
+                        - generic [ref=f12e1218] [cursor=pointer]:
+                          - checkbox "Tristar Industries" [ref=f12e1219]
+                          - generic [ref=f12e1220]: Tristar Industries
+                        - generic [ref=f12e1222] [cursor=pointer]:
+                          - checkbox "United Weaving Mills" [ref=f12e1223]
+                          - generic [ref=f12e1224]: United Weaving Mills
+                        - generic [ref=f12e1226] [cursor=pointer]:
+                          - checkbox "Unity Textile Mills" [ref=f12e1227]
+                          - generic [ref=f12e1228]: Unity Textile Mills
+                        - generic [ref=f12e1230] [cursor=pointer]:
+                          - checkbox "US & Dynamo Mills" [ref=f12e1231]
+                          - generic [ref=f12e1232]: US & Dynamo Mills
+                        - generic [ref=f12e1234] [cursor=pointer]:
+                          - checkbox "US Denim Mills" [ref=f12e1235]
+                          - generic [ref=f12e1236]: US Denim Mills
+                        - generic [ref=f12e1238] [cursor=pointer]:
+                          - checkbox "Uzair Textile Mills" [ref=f12e1239]
+                          - generic [ref=f12e1240]: Uzair Textile Mills
+                        - generic [ref=f12e1242] [cursor=pointer]:
+                          - checkbox "Wavin Textile Mills" [ref=f12e1243]
+                          - generic [ref=f12e1244]: Wavin Textile Mills
+                        - generic [ref=f12e1246] [cursor=pointer]:
+                          - checkbox "Wisal kamal Fabrics" [ref=f12e1247]
+                          - generic [ref=f12e1248]: Wisal kamal Fabrics
+                        - generic [ref=f12e1250] [cursor=pointer]:
+                          - checkbox "Yousaf Weaving Mills" [ref=f12e1251]
+                          - generic [ref=f12e1252]: Yousaf Weaving Mills
+                        - generic [ref=f12e1254] [cursor=pointer]:
+                          - checkbox "Yunus Textile Mills" [ref=f12e1255]
+                          - generic [ref=f12e1256]: Yunus Textile Mills
+                        - generic [ref=f12e1258] [cursor=pointer]:
+                          - checkbox "Z.A. Corporation" [ref=f12e1259]
+                          - generic [ref=f12e1260]: Z.A. Corporation
+                        - generic [ref=f12e1262] [cursor=pointer]:
+                          - checkbox "Z.M Textile Mills" [ref=f12e1263]
+                          - generic [ref=f12e1264]: Z.M Textile Mills
+                        - generic [ref=f12e1266] [cursor=pointer]:
+                          - checkbox "Zahid Textile Mills" [ref=f12e1267]
+                          - generic [ref=f12e1268]: Zahid Textile Mills
+                        - generic [ref=f12e1270] [cursor=pointer]:
+                          - checkbox "ZahidJee Textile Mills" [ref=f12e1271]
+                          - generic [ref=f12e1272]: ZahidJee Textile Mills
+                        - generic [ref=f12e1274] [cursor=pointer]:
+                          - checkbox "Zahra Textile" [ref=f12e1275]
+                          - generic [ref=f12e1276]: Zahra Textile
+                        - generic [ref=f12e1278] [cursor=pointer]:
+                          - checkbox "Zaman Textile Mills Unit 1" [ref=f12e1279]
+                          - generic [ref=f12e1280]: Zaman Textile Mills Unit 1
+                        - generic [ref=f12e1282] [cursor=pointer]:
+                          - checkbox "Zaman Textile Mills Unit 2" [ref=f12e1283]
+                          - generic [ref=f12e1284]: Zaman Textile Mills Unit 2
+                        - generic [ref=f12e1286] [cursor=pointer]:
+                          - checkbox "Zephyr Textiles" [ref=f12e1287]
+                          - generic [ref=f12e1288]: Zephyr Textiles
+                        - generic [ref=f12e1290] [cursor=pointer]:
+                          - checkbox "Zohaib Textile Mills" [ref=f12e1291]
+                          - generic [ref=f12e1292]: Zohaib Textile Mills
+                        - generic [ref=f12e1294] [cursor=pointer]:
+                          - checkbox "Chakwal Group" [ref=f12e1295]
+                          - generic [ref=f12e1296]: Chakwal Group
+                        - generic [ref=f12e1298] [cursor=pointer]:
+                          - checkbox "Rahmat Wazir Textile Mills" [ref=f12e1299]
+                          - generic [ref=f12e1300]: Rahmat Wazir Textile Mills
+                        - generic [ref=f12e1302] [cursor=pointer]:
+                          - checkbox "Tanseem Textile Mills" [ref=f12e1303]
+                          - generic [ref=f12e1304]: Tanseem Textile Mills
+                        - generic [ref=f12e1306] [cursor=pointer]:
+                          - checkbox "Tariq Textile Mills" [ref=f12e1307]
+                          - generic [ref=f12e1308]: Tariq Textile Mills
+                        - generic [ref=f12e1310] [cursor=pointer]:
+                          - checkbox "Taqees Mill" [ref=f12e1311]
+                          - generic [ref=f12e1312]: Taqees Mill
+                        - generic [ref=f12e1314] [cursor=pointer]:
+                          - checkbox "Tanveer Spinning & Weaving Mills" [ref=f12e1315]
+                          - generic [ref=f12e1316]: Tanveer Spinning & Weaving Mills
+                        - generic [ref=f12e1318] [cursor=pointer]:
+                          - checkbox "Tanveer Cotton Mills" [ref=f12e1319]
+                          - generic [ref=f12e1320]: Tanveer Cotton Mills
+                        - generic [ref=f12e1322] [cursor=pointer]:
+                          - checkbox "Tahir Rafique Textile Mills" [ref=f12e1323]
+                          - generic [ref=f12e1324]: Tahir Rafique Textile Mills
+                        - generic [ref=f12e1326] [cursor=pointer]:
+                          - checkbox "Surriya Textile Mills" [ref=f12e1327]
+                          - generic [ref=f12e1328]: Surriya Textile Mills
+                        - generic [ref=f12e1330] [cursor=pointer]:
+                          - checkbox "Suraj Cotton Mills" [ref=f12e1331]
+                          - generic [ref=f12e1332]: Suraj Cotton Mills
+                        - generic [ref=f12e1334] [cursor=pointer]:
+                          - checkbox "Superior Textile Mills" [ref=f12e1335]
+                          - generic [ref=f12e1336]: Superior Textile Mills
+                        - generic [ref=f12e1338] [cursor=pointer]:
+                          - checkbox "Sunrays Textile Mills" [ref=f12e1339]
+                          - generic [ref=f12e1340]: Sunrays Textile Mills
+                        - generic [ref=f12e1342] [cursor=pointer]:
+                          - checkbox "Sunny Textile Mills" [ref=f12e1343]
+                          - generic [ref=f12e1344]: Sunny Textile Mills
+                        - generic [ref=f12e1346] [cursor=pointer]:
+                          - checkbox "Suhail Textile Mills" [ref=f12e1347]
+                          - generic [ref=f12e1348]: Suhail Textile Mills
+                        - generic [ref=f12e1350] [cursor=pointer]:
+                          - checkbox "Soorty Enterprises" [ref=f12e1351]
+                          - generic [ref=f12e1352]: Soorty Enterprises
+                        - generic [ref=f12e1354] [cursor=pointer]:
+                          - checkbox "Sohail Textile Mills" [ref=f12e1355]
+                          - generic [ref=f12e1356]: Sohail Textile Mills
+                        - generic [ref=f12e1358] [cursor=pointer]:
+                          - checkbox "Sitara Textile Mills" [ref=f12e1359]
+                          - generic [ref=f12e1360]: Sitara Textile Mills
+                        - generic [ref=f12e1362] [cursor=pointer]:
+                          - checkbox "NAGRA SPINNING MILLS" [ref=f12e1363]
+                          - generic [ref=f12e1364]: NAGRA SPINNING MILLS
+                        - generic [ref=f12e1366] [cursor=pointer]:
+                          - checkbox "Sitara Spinning Mills" [ref=f12e1367]
+                          - generic [ref=f12e1368]: Sitara Spinning Mills
+                        - generic [ref=f12e1370] [cursor=pointer]:
+                          - checkbox "Sindh HI-Tech Textile Mills" [ref=f12e1371]
+                          - generic [ref=f12e1372]: Sindh HI-Tech Textile Mills
+                        - generic [ref=f12e1374] [cursor=pointer]:
+                          - checkbox "Siara Textile Mills" [ref=f12e1375]
+                          - generic [ref=f12e1376]: Siara Textile Mills
+                        - generic [ref=f12e1378] [cursor=pointer]:
+                          - checkbox "Shujabad Weaving Mills" [ref=f12e1379]
+                          - generic [ref=f12e1380]: Shujabad Weaving Mills
+                        - generic [ref=f12e1382] [cursor=pointer]:
+                          - checkbox "Naimat Textile Mills" [ref=f12e1383]
+                          - generic [ref=f12e1384]: Naimat Textile Mills
+                        - generic [ref=f12e1386] [cursor=pointer]:
+                          - checkbox "Shoiab Salman Textile Mills" [ref=f12e1387]
+                          - generic [ref=f12e1388]: Shoiab Salman Textile Mills
+                        - generic [ref=f12e1390] [cursor=pointer]:
+                          - checkbox "Sheikhupura Textile Mills" [ref=f12e1391]
+                          - generic [ref=f12e1392]: Sheikhupura Textile Mills
+                        - generic [ref=f12e1394] [cursor=pointer]:
+                          - checkbox "NATIONAL MILLS" [ref=f12e1395]
+                          - generic [ref=f12e1396]: NATIONAL MILLS
+                        - generic [ref=f12e1398] [cursor=pointer]:
+                          - checkbox "Sheikhoo Spinning Mills" [ref=f12e1399]
+                          - generic [ref=f12e1400]: Sheikhoo Spinning Mills
+                        - generic [ref=f12e1402] [cursor=pointer]:
+                          - checkbox "Shams Textile Mills" [ref=f12e1403]
+                          - generic [ref=f12e1404]: Shams Textile Mills
+                        - generic [ref=f12e1406] [cursor=pointer]:
+                          - checkbox "Shahtaj Textile Mills" [ref=f12e1407]
+                          - generic [ref=f12e1408]: Shahtaj Textile Mills
+                        - generic [ref=f12e1410] [cursor=pointer]:
+                          - checkbox "Shahbaz Garments" [ref=f12e1411]
+                          - generic [ref=f12e1412]: Shahbaz Garments
+                        - generic [ref=f12e1414] [cursor=pointer]:
+                          - checkbox "Shafi Texcel" [ref=f12e1415]
+                          - generic [ref=f12e1416]: Shafi Texcel
+                        - generic [ref=f12e1418] [cursor=pointer]:
+                          - checkbox "Shafi Spinning Mills" [ref=f12e1419]
+                          - generic [ref=f12e1420]: Shafi Spinning Mills
+                        - generic [ref=f12e1422] [cursor=pointer]:
+                          - checkbox "Shadman Cotton Mills" [ref=f12e1423]
+                          - generic [ref=f12e1424]: Shadman Cotton Mills
+                        - generic [ref=f12e1426] [cursor=pointer]:
+                          - checkbox "Nishat Textile" [ref=f12e1427]
+                          - generic [ref=f12e1428]: Nishat Textile
+                        - generic [ref=f12e1430] [cursor=pointer]:
+                          - checkbox "Noon Textile Mills" [ref=f12e1431]
+                          - generic [ref=f12e1432]: Noon Textile Mills
+                        - generic [ref=f12e1434] [cursor=pointer]:
+                          - checkbox "Noor Textile Mills" [ref=f12e1435]
+                          - generic [ref=f12e1436]: Noor Textile Mills
+                        - generic [ref=f12e1438] [cursor=pointer]:
+                          - checkbox "Shadab Textile Mills" [ref=f12e1439]
+                          - generic [ref=f12e1440]: Shadab Textile Mills
+                        - generic [ref=f12e1442] [cursor=pointer]:
+                          - checkbox "Service Industries Textile" [ref=f12e1443]
+                          - generic [ref=f12e1444]: Service Industries Textile
+                        - generic [ref=f12e1446] [cursor=pointer]:
+                          - checkbox "Noorpur Industries" [ref=f12e1447]
+                          - generic [ref=f12e1448]: Noorpur Industries
+                        - generic [ref=f12e1450] [cursor=pointer]:
+                          - checkbox "North Star Textiles" [ref=f12e1451]
+                          - generic [ref=f12e1452]: North Star Textiles
+                        - generic [ref=f12e1454] [cursor=pointer]:
+                          - checkbox "Saya Weaving Mills" [ref=f12e1455]
+                          - generic [ref=f12e1456]: Saya Weaving Mills
+                        - generic [ref=f12e1458] [cursor=pointer]:
+                          - checkbox "Saritow Spinning Mills" [ref=f12e1459]
+                          - generic [ref=f12e1460]: Saritow Spinning Mills
+                        - generic [ref=f12e1462] [cursor=pointer]:
+                          - checkbox "Sarfraz Textile Mills" [ref=f12e1463]
+                          - generic [ref=f12e1464]: Sarfraz Textile Mills
+                        - generic [ref=f12e1466] [cursor=pointer]:
+                          - checkbox "Sarena Textile Mills" [ref=f12e1467]
+                          - generic [ref=f12e1468]: Sarena Textile Mills
+                        - generic [ref=f12e1470] [cursor=pointer]:
+                          - checkbox "Olympia Blended Fiber Mills" [ref=f12e1471]
+                          - generic [ref=f12e1472]: Olympia Blended Fiber Mills
+                        - generic [ref=f12e1474] [cursor=pointer]:
+                          - checkbox "Sapphire Textile Mills" [ref=f12e1475]
+                          - generic [ref=f12e1476]: Sapphire Textile Mills
+                        - generic [ref=f12e1478] [cursor=pointer]:
+                          - checkbox "Omer Cotton Mills" [ref=f12e1479]
+                          - generic [ref=f12e1480]: Omer Cotton Mills
+                        - generic [ref=f12e1482] [cursor=pointer]:
+                          - checkbox "Sapphire Finishing Mills" [ref=f12e1483]
+                          - generic [ref=f12e1484]: Sapphire Finishing Mills
+                        - generic [ref=f12e1486] [cursor=pointer]:
+                          - checkbox "Orient Textile Mills" [ref=f12e1487]
+                          - generic [ref=f12e1488]: Orient Textile Mills
+                        - generic [ref=f12e1490] [cursor=pointer]:
+                          - checkbox "Sapphire Fibers" [ref=f12e1491]
+                          - generic [ref=f12e1492]: Sapphire Fibers
+                        - generic [ref=f12e1494] [cursor=pointer]:
+                          - checkbox "Sana Industries" [ref=f12e1495]
+                          - generic [ref=f12e1496]: Sana Industries
+                        - generic [ref=f12e1498] [cursor=pointer]:
+                          - checkbox "Orient Weaving & Processing Mills" [ref=f12e1499]
+                          - generic [ref=f12e1500]: Orient Weaving & Processing Mills
+                        - generic [ref=f12e1502] [cursor=pointer]:
+                          - checkbox "Samira Industries" [ref=f12e1503]
+                          - generic [ref=f12e1504]: Samira Industries
+                        - generic [ref=f12e1506] [cursor=pointer]:
+                          - checkbox "Samira Fabrics" [ref=f12e1507]
+                          - generic [ref=f12e1508]: Samira Fabrics
+                        - generic [ref=f12e1510] [cursor=pointer]:
+                          - checkbox "Samin Textiles" [ref=f12e1511]
+                          - generic [ref=f12e1512]: Samin Textiles
+                        - generic [ref=f12e1514] [cursor=pointer]:
+                          - checkbox "Salfi Textile Mills" [ref=f12e1515]
+                          - generic [ref=f12e1516]: Salfi Textile Mills
+                        - generic [ref=f12e1518] [cursor=pointer]:
+                          - checkbox "Saeed Textile Mills" [ref=f12e1519]
+                          - generic [ref=f12e1520]: Saeed Textile Mills
+                        - generic [ref=f12e1522] [cursor=pointer]:
+                          - checkbox "Saad Textile Mills" [ref=f12e1523]
+                          - generic [ref=f12e1524]: Saad Textile Mills
+                        - generic [ref=f12e1526] [cursor=pointer]:
+                          - checkbox "S.Fazalilah & Sons" [ref=f12e1527]
+                          - generic [ref=f12e1528]: S.Fazalilah & Sons
+                        - generic [ref=f12e1530] [cursor=pointer]:
+                          - checkbox "Rustam Towel" [ref=f12e1531]
+                          - generic [ref=f12e1532]: Rustam Towel
+                        - generic [ref=f12e1534] [cursor=pointer]:
+                          - checkbox "Roomi Fabrics" [ref=f12e1535]
+                          - generic [ref=f12e1536]: Roomi Fabrics
+                        - generic [ref=f12e1538] [cursor=pointer]:
+                          - checkbox "Resham Textile Industries" [ref=f12e1539]
+                          - generic [ref=f12e1540]: Resham Textile Industries
+                        - generic [ref=f12e1542] [cursor=pointer]:
+                          - checkbox "Reliance Weaving Mills" [ref=f12e1543]
+                          - generic [ref=f12e1544]: Reliance Weaving Mills
+                        - generic [ref=f12e1546] [cursor=pointer]:
+                          - checkbox "Reliance Cotton & Spinnig Mills" [ref=f12e1547]
+                          - generic [ref=f12e1548]: Reliance Cotton & Spinnig Mills
+                        - generic [ref=f12e1550] [cursor=pointer]:
+                          - checkbox "Paradise Spinning Mills" [ref=f12e1551]
+                          - generic [ref=f12e1552]: Paradise Spinning Mills
+                        - generic [ref=f12e1554] [cursor=pointer]:
+                          - checkbox "Paramount Spinning Mills" [ref=f12e1555]
+                          - generic [ref=f12e1556]: Paramount Spinning Mills
+                        - generic [ref=f12e1558] [cursor=pointer]:
+                          - checkbox "Rehman Textile Mills" [ref=f12e1559]
+                          - generic [ref=f12e1560]: Rehman Textile Mills
+                        - generic [ref=f12e1562] [cursor=pointer]:
+                          - checkbox "Redco Textiles Mill" [ref=f12e1563]
+                          - generic [ref=f12e1564]: Redco Textiles Mill
+                        - generic [ref=f12e1566] [cursor=pointer]:
+                          - checkbox "Rawal Textile Mills" [ref=f12e1567]
+                          - generic [ref=f12e1568]: Rawal Textile Mills
+                        - generic [ref=f12e1570] [cursor=pointer]:
+                          - checkbox "Ravi Spinning" [ref=f12e1571]
+                          - generic [ref=f12e1572]: Ravi Spinning
+                        - generic [ref=f12e1574] [cursor=pointer]:
+                          - checkbox "Popular Fibre Mill" [ref=f12e1575]
+                          - generic [ref=f12e1576]: Popular Fibre Mill
+                        - generic [ref=f12e1578] [cursor=pointer]:
+                          - checkbox "Premimum Textile Mill" [ref=f12e1579]
+                          - generic [ref=f12e1580]: Premimum Textile Mill
+                        - generic [ref=f12e1582] [cursor=pointer]:
+                          - checkbox "Prince Textile Mill" [ref=f12e1583]
+                          - generic [ref=f12e1584]: Prince Textile Mill
+                        - generic [ref=f12e1586] [cursor=pointer]:
+                          - checkbox "Prosperity Weaving Textile Mill" [ref=f12e1587]
+                          - generic [ref=f12e1588]: Prosperity Weaving Textile Mill
+                        - generic [ref=f12e1590] [cursor=pointer]:
+                          - checkbox "Qadri Textile Mill" [ref=f12e1591]
+                          - generic [ref=f12e1592]: Qadri Textile Mill
+                        - generic [ref=f12e1594] [cursor=pointer]:
+                          - checkbox "Quality Textile Mill" [ref=f12e1595]
+                          - generic [ref=f12e1596]: Quality Textile Mill
+                        - generic [ref=f12e1598] [cursor=pointer]:
+                          - checkbox "Quetta Textile Mill" [ref=f12e1599]
+                          - generic [ref=f12e1600]: Quetta Textile Mill
+                        - generic [ref=f12e1602] [cursor=pointer]:
+                          - checkbox "Qureshi Textile Mill" [ref=f12e1603]
+                          - generic [ref=f12e1604]: Qureshi Textile Mill
+                        - generic [ref=f12e1606] [cursor=pointer]:
+                          - checkbox "Rafiq Fibers Textile Mill" [ref=f12e1607]
+                          - generic [ref=f12e1608]: Rafiq Fibers Textile Mill
+                        - generic [ref=f12e1610] [cursor=pointer]:
+                          - checkbox "Rahmat Textile Mill" [ref=f12e1611]
+                          - generic [ref=f12e1612]: Rahmat Textile Mill
+                        - generic [ref=f12e1614] [cursor=pointer]:
+                          - checkbox "Rainbow Textile Mill" [ref=f12e1615]
+                          - generic [ref=f12e1616]: Rainbow Textile Mill
+                        - generic [ref=f12e1618] [cursor=pointer]:
+                          - checkbox "Rajput Textile Mill" [ref=f12e1619]
+                          - generic [ref=f12e1620]: Rajput Textile Mill
+                        - generic [ref=f12e1622] [cursor=pointer]:
+                          - checkbox "Rasheed Enterprises Textile Mill" [ref=f12e1623]
+                          - generic [ref=f12e1624]: Rasheed Enterprises Textile Mill
+                        - generic [ref=f12e1626] [cursor=pointer]:
+                          - checkbox "Rashid Textile Mill" [ref=f12e1627]
+                          - generic [ref=f12e1628]: Rashid Textile Mill
+                        - generic [ref=f12e1630] [cursor=pointer]:
+                          - checkbox "Nagina Cotton Mills" [ref=f12e1631]
+                          - generic [ref=f12e1632]: Nagina Cotton Mills
+                        - generic [ref=f12e1634] [cursor=pointer]:
+                          - checkbox "Nafeesa Textiles" [ref=f12e1635]
+                          - generic [ref=f12e1636]: Nafeesa Textiles
+                        - generic [ref=f12e1638] [cursor=pointer]:
+                          - checkbox "Nadeem Textile Mills" [ref=f12e1639]
+                          - generic [ref=f12e1640]: Nadeem Textile Mills
+                        - generic [ref=f12e1642] [cursor=pointer]:
+                          - checkbox "N.P. Cotton Mills" [ref=f12e1643]
+                          - generic [ref=f12e1644]: N.P. Cotton Mills
+                        - generic [ref=f12e1646] [cursor=pointer]:
+                          - checkbox "Mumtaz Textile Mills" [ref=f12e1647]
+                          - generic [ref=f12e1648]: Mumtaz Textile Mills
+                        - generic [ref=f12e1650] [cursor=pointer]:
+                          - checkbox "Multan Spinning Mills" [ref=f12e1651]
+                          - generic [ref=f12e1652]: Multan Spinning Mills
+                        - generic [ref=f12e1654] [cursor=pointer]:
+                          - checkbox "Monnoowal Textile Mlls" [ref=f12e1655]
+                          - generic [ref=f12e1656]: Monnoowal Textile Mlls
+                        - generic [ref=f12e1658] [cursor=pointer]:
+                          - checkbox "Monnoo Industries" [ref=f12e1659]
+                          - generic [ref=f12e1660]: Monnoo Industries
+                        - generic [ref=f12e1662] [cursor=pointer]:
+                          - checkbox "Mohib Textile Mills" [ref=f12e1663]
+                          - generic [ref=f12e1664]: Mohib Textile Mills
+                        - generic [ref=f12e1666] [cursor=pointer]:
+                          - checkbox "Mohammad Farooq Textile Mills" [ref=f12e1667]
+                          - generic [ref=f12e1668]: Mohammad Farooq Textile Mills
+                        - generic [ref=f12e1670] [cursor=pointer]:
+                          - checkbox "Mishal Textile Mills" [ref=f12e1671]
+                          - generic [ref=f12e1672]: Mishal Textile Mills
+                        - generic [ref=f12e1674] [cursor=pointer]:
+                          - checkbox "Mekotex Textile Mills" [ref=f12e1675]
+                          - generic [ref=f12e1676]: Mekotex Textile Mills
+                        - generic [ref=f12e1678] [cursor=pointer]:
+                          - checkbox "Mayfair Textile Mills" [ref=f12e1679]
+                          - generic [ref=f12e1680]: Mayfair Textile Mills
+                        - generic [ref=f12e1682] [cursor=pointer]:
+                          - checkbox "Master Textile Mills" [ref=f12e1683]
+                          - generic [ref=f12e1684]: Master Textile Mills
+                        - generic [ref=f12e1686] [cursor=pointer]:
+                          - checkbox "Masood Textile Mills" [ref=f12e1687]
+                          - generic [ref=f12e1688]: Masood Textile Mills
+                        - generic [ref=f12e1690] [cursor=pointer]:
+                          - checkbox "Masood Spinning Mills" [ref=f12e1691]
+                          - generic [ref=f12e1692]: Masood Spinning Mills
+                        - generic [ref=f12e1694] [cursor=pointer]:
+                          - checkbox "Masood Fabrics" [ref=f12e1695]
+                          - generic [ref=f12e1696]: Masood Fabrics
+                        - generic [ref=f12e1698] [cursor=pointer]:
+                          - checkbox "Masco Spinning Mills" [ref=f12e1699]
+                          - generic [ref=f12e1700]: Masco Spinning Mills
+                        - generic [ref=f12e1702] [cursor=pointer]:
+                          - checkbox "A.A. Cotton Mills LTD." [ref=f12e1703]
+                          - generic [ref=f12e1704]: A.A. Cotton Mills LTD.
+                        - generic [ref=f12e1706] [cursor=pointer]:
+                          - checkbox "AA Spinning Mills" [ref=f12e1707]
+                          - generic [ref=f12e1708]: AA Spinning Mills
+                        - generic [ref=f12e1710] [cursor=pointer]:
+                          - checkbox "A.L. Textiles" [ref=f12e1711]
+                          - generic [ref=f12e1712]: A.L. Textiles
+                        - generic [ref=f12e1714] [cursor=pointer]:
+                          - checkbox "Abdullah Textile Mills" [ref=f12e1715]
+                          - generic [ref=f12e1716]: Abdullah Textile Mills
+                        - generic [ref=f12e1718] [cursor=pointer]:
+                          - checkbox "Abdullah Fibres" [ref=f12e1719]
+                          - generic [ref=f12e1720]: Abdullah Fibres
+                        - generic [ref=f12e1722] [cursor=pointer]:
+                          - checkbox "Acme Mills" [ref=f12e1723]
+                          - generic [ref=f12e1724]: Acme Mills
+                        - generic [ref=f12e1726] [cursor=pointer]:
+                          - checkbox "Adnan Textile Mills" [ref=f12e1727]
+                          - generic [ref=f12e1728]: Adnan Textile Mills
+                        - generic [ref=f12e1730] [cursor=pointer]:
+                          - checkbox "Agar Textiles" [ref=f12e1731]
+                          - generic [ref=f12e1732]: Agar Textiles
+                        - generic [ref=f12e1734] [cursor=pointer]:
+                          - checkbox "Ahmed Fine Textile Mills" [ref=f12e1735]
+                          - generic [ref=f12e1736]: Ahmed Fine Textile Mills
+                        - generic [ref=f12e1738] [cursor=pointer]:
+                          - checkbox "Ahmed Fine Weaving Limited" [ref=f12e1739]
+                          - generic [ref=f12e1740]: Ahmed Fine Weaving Limited
+                        - generic [ref=f12e1742] [cursor=pointer]:
+                          - checkbox "Ahmed Hassan Textile Mills Limited" [ref=f12e1743]
+                          - generic [ref=f12e1744]: Ahmed Hassan Textile Mills Limited
+                        - generic [ref=f12e1746] [cursor=pointer]:
+                          - checkbox "Al Ahmed Textile Mills" [ref=f12e1747]
+                          - generic [ref=f12e1748]: Al Ahmed Textile Mills
+                        - generic [ref=f12e1750] [cursor=pointer]:
+                          - checkbox "Al Nasr Textiles" [ref=f12e1751]
+                          - generic [ref=f12e1752]: Al Nasr Textiles
+                        - generic [ref=f12e1754] [cursor=pointer]:
+                          - checkbox "Alam Cotton Mills" [ref=f12e1755]
+                          - generic [ref=f12e1756]: Alam Cotton Mills
+                        - generic [ref=f12e1758] [cursor=pointer]:
+                          - checkbox "Alhamd Corporation" [ref=f12e1759]
+                          - generic [ref=f12e1760]: Alhamd Corporation
+                        - generic [ref=f12e1762] [cursor=pointer]:
+                          - checkbox "Ali Akbar Spinning Mills" [ref=f12e1763]
+                          - generic [ref=f12e1764]: Ali Akbar Spinning Mills
+                        - generic [ref=f12e1766] [cursor=pointer]:
+                          - checkbox "Ali Akbar Textiles" [ref=f12e1767]
+                          - generic [ref=f12e1768]: Ali Akbar Textiles
+                        - generic [ref=f12e1770] [cursor=pointer]:
+                          - checkbox "Al-Karam Textile Mill" [ref=f12e1771]
+                          - generic [ref=f12e1772]: Al-Karam Textile Mill
+                        - generic [ref=f12e1774] [cursor=pointer]:
+                          - checkbox "Al-Karam Textile Mill" [ref=f12e1775]
+                          - generic [ref=f12e1776]: Al-Karam Textile Mill
+                        - generic [ref=f12e1778] [cursor=pointer]:
+                          - checkbox "Allawasaya Spinning Mills" [ref=f12e1779]
+                          - generic [ref=f12e1780]: Allawasaya Spinning Mills
+                        - generic [ref=f12e1782] [cursor=pointer]:
+                          - checkbox "Allawasaya Textile & Finishing" [ref=f12e1783]
+                          - generic [ref=f12e1784]: Allawasaya Textile & Finishing
+                        - generic [ref=f12e1786] [cursor=pointer]:
+                          - checkbox "Al-Muqeet Textiles" [ref=f12e1787]
+                          - generic [ref=f12e1788]: Al-Muqeet Textiles
+                        - generic [ref=f12e1790] [cursor=pointer]:
+                          - checkbox "Al-Zamin Textile Mills" [ref=f12e1791]
+                          - generic [ref=f12e1792]: Al-Zamin Textile Mills
+                        - generic [ref=f12e1794] [cursor=pointer]:
+                          - checkbox "Amer Cotton Mills" [ref=f12e1795]
+                          - generic [ref=f12e1796]: Amer Cotton Mills
+                        - generic [ref=f12e1798] [cursor=pointer]:
+                          - checkbox "Amin Textile Mills" [ref=f12e1799]
+                          - generic [ref=f12e1800]: Amin Textile Mills
+                        - generic [ref=f12e1802] [cursor=pointer]:
+                          - checkbox "Amna Industries" [ref=f12e1803]
+                          - generic [ref=f12e1804]: Amna Industries
+                        - generic [ref=f12e1806] [cursor=pointer]:
+                          - checkbox "An Textile Mills" [ref=f12e1807]
+                          - generic [ref=f12e1808]: An Textile Mills
+                        - generic [ref=f12e1810] [cursor=pointer]:
+                          - checkbox "Anjum Textile Mills" [ref=f12e1811]
+                          - generic [ref=f12e1812]: Anjum Textile Mills
+                        - generic [ref=f12e1814] [cursor=pointer]:
+                          - checkbox "Anoud Textile Mills" [ref=f12e1815]
+                          - generic [ref=f12e1816]: Anoud Textile Mills
+                        - generic [ref=f12e1818] [cursor=pointer]:
+                          - checkbox "Anwar Textile Mills" [ref=f12e1819]
+                          - generic [ref=f12e1820]: Anwar Textile Mills
+                        - generic [ref=f12e1822] [cursor=pointer]:
+                          - checkbox "Arctic Textile Mills" [ref=f12e1823]
+                          - generic [ref=f12e1824]: Arctic Textile Mills
+                        - generic [ref=f12e1826] [cursor=pointer]:
+                          - checkbox "Arshad Corporation" [ref=f12e1827]
+                          - generic [ref=f12e1828]: Arshad Corporation
+                        - generic [ref=f12e1830] [cursor=pointer]:
+                          - checkbox "Arshad Textile Mills" [ref=f12e1831]
+                          - generic [ref=f12e1832]: Arshad Textile Mills
+                        - generic [ref=f12e1834] [cursor=pointer]:
+                          - checkbox "Artistic Fabric And Garment" [ref=f12e1835]
+                          - generic [ref=f12e1836]: Artistic Fabric And Garment
+                        - generic [ref=f12e1838] [cursor=pointer]:
+                          - checkbox "Artistic Milliners" [ref=f12e1839]
+                          - generic [ref=f12e1840]: Artistic Milliners
+                        - generic [ref=f12e1842] [cursor=pointer]:
+                          - checkbox "Arzoo Textile Mills" [ref=f12e1843]
+                          - generic [ref=f12e1844]: Arzoo Textile Mills
+                        - generic [ref=f12e1846] [cursor=pointer]:
+                          - checkbox "Asher Imran Spininning Mills" [ref=f12e1847]
+                          - generic [ref=f12e1848]: Asher Imran Spininning Mills
+                        - generic [ref=f12e1850] [cursor=pointer]:
+                          - checkbox "Ashiana Cotton Products" [ref=f12e1851]
+                          - generic [ref=f12e1852]: Ashiana Cotton Products
+                        - generic [ref=f12e1854] [cursor=pointer]:
+                          - checkbox "Asian Textile Network" [ref=f12e1855]
+                          - generic [ref=f12e1856]: Asian Textile Network
+                        - generic [ref=f12e1858] [cursor=pointer]:
+                          - checkbox "Asim Textile Mills" [ref=f12e1859]
+                          - generic [ref=f12e1860]: Asim Textile Mills
+                        - generic [ref=f12e1862] [cursor=pointer]:
+                          - checkbox "Ayesha Spinning Mills" [ref=f12e1863]
+                          - generic [ref=f12e1864]: Ayesha Spinning Mills
+                        - generic [ref=f12e1866] [cursor=pointer]:
+                          - checkbox "Bajwa Spinning Mills" [ref=f12e1867]
+                          - generic [ref=f12e1868]: Bajwa Spinning Mills
+                        - generic [ref=f12e1870] [cursor=pointer]:
+                          - checkbox "Bela Textile Mills" [ref=f12e1871]
+                          - generic [ref=f12e1872]: Bela Textile Mills
+                        - generic [ref=f12e1874] [cursor=pointer]:
+                          - checkbox "Best Exports" [ref=f12e1875]
+                          - generic [ref=f12e1876]: Best Exports
+                        - generic [ref=f12e1878] [cursor=pointer]:
+                          - checkbox "Bhanero Textile Mills" [ref=f12e1879]
+                          - generic [ref=f12e1880]: Bhanero Textile Mills
+                        - generic [ref=f12e1882] [cursor=pointer]:
+                          - checkbox "Bhimra Textile Mills" [ref=f12e1883]
+                          - generic [ref=f12e1884]: Bhimra Textile Mills
+                        - generic [ref=f12e1886] [cursor=pointer]:
+                          - checkbox "Bilal Fibers" [ref=f12e1887]
+                          - generic [ref=f12e1888]: Bilal Fibers
+                        - generic [ref=f12e1890] [cursor=pointer]:
+                          - checkbox "Bilal Textiles" [ref=f12e1891]
+                          - generic [ref=f12e1892]: Bilal Textiles
+                        - generic [ref=f12e1894] [cursor=pointer]:
+                          - checkbox "Blessed Textiles" [ref=f12e1895]
+                          - generic [ref=f12e1896]: Blessed Textiles
+                        - generic [ref=f12e1898] [cursor=pointer]:
+                          - checkbox "Burewala Textile Mills" [ref=f12e1899]
+                          - generic [ref=f12e1900]: Burewala Textile Mills
+                        - generic [ref=f12e1902] [cursor=pointer]:
+                          - checkbox "C.A. Catextile" [ref=f12e1903]
+                          - generic [ref=f12e1904]: C.A. Catextile
+                        - generic [ref=f12e1906] [cursor=pointer]:
+                          - checkbox "Century Textile & Energy" [ref=f12e1907]
+                          - generic [ref=f12e1908]: Century Textile & Energy
+                        - generic [ref=f12e1910] [cursor=pointer]:
+                          - checkbox "Chakwal Textile Mills" [ref=f12e1911]
+                          - generic [ref=f12e1912]: Chakwal Textile Mills
+                        - generic [ref=f12e1914] [cursor=pointer]:
+                          - checkbox "Chaudhry Sugar Mills" [ref=f12e1915]
+                          - generic [ref=f12e1916]: Chaudhry Sugar Mills
+                        - generic [ref=f12e1918] [cursor=pointer]:
+                          - checkbox "Chenab" [ref=f12e1919]
+                          - generic [ref=f12e1920]: Chenab
+                        - generic [ref=f12e1922] [cursor=pointer]:
+                          - checkbox "Chiniot Textile Mills" [ref=f12e1923]
+                          - generic [ref=f12e1924]: Chiniot Textile Mills
+                        - generic [ref=f12e1926] [cursor=pointer]:
+                          - checkbox "Colony Textile Mills" [ref=f12e1927]
+                          - generic [ref=f12e1928]: Colony Textile Mills
+                        - generic [ref=f12e1930] [cursor=pointer]:
+                          - checkbox "Combine Spinning" [ref=f12e1931]
+                          - generic [ref=f12e1932]: Combine Spinning
+                        - generic [ref=f12e1934] [cursor=pointer]:
+                          - checkbox "Crescent Bahuman Unit 1" [ref=f12e1935]
+                          - generic [ref=f12e1936]: Crescent Bahuman Unit 1
+                        - generic [ref=f12e1938] [cursor=pointer]:
+                          - checkbox "Crescent Bahuman Unit 2" [ref=f12e1939]
+                          - generic [ref=f12e1940]: Crescent Bahuman Unit 2
+                        - generic [ref=f12e1942] [cursor=pointer]:
+                          - checkbox "Crescent Cotton Mills" [ref=f12e1943]
+                          - generic [ref=f12e1944]: Crescent Cotton Mills
+                        - generic [ref=f12e1946] [cursor=pointer]:
+                          - checkbox "Crescent Cotton Products" [ref=f12e1947]
+                          - generic [ref=f12e1948]: Crescent Cotton Products
+                        - generic [ref=f12e1950] [cursor=pointer]:
+                          - checkbox "Crescent Fibres" [ref=f12e1951]
+                          - generic [ref=f12e1952]: Crescent Fibres
+                        - generic [ref=f12e1954] [cursor=pointer]:
+                          - checkbox "Crescent Textile Mills" [ref=f12e1955]
+                          - generic [ref=f12e1956]: Crescent Textile Mills
+                        - generic [ref=f12e1958] [cursor=pointer]:
+                          - checkbox "Crescent Ujala" [ref=f12e1959]
+                          - generic [ref=f12e1960]: Crescent Ujala
+                        - generic [ref=f12e1962] [cursor=pointer]:
+                          - checkbox "D. M. Textile Mills" [ref=f12e1963]
+                          - generic [ref=f12e1964]: D. M. Textile Mills
+                        - generic [ref=f12e1966] [cursor=pointer]:
+                          - checkbox "Danish Textile Mills" [ref=f12e1967]
+                          - generic [ref=f12e1968]: Danish Textile Mills
+                        - generic [ref=f12e1970] [cursor=pointer]:
+                          - checkbox "Dewan Farooque Spinning Mills" [ref=f12e1971]
+                          - generic [ref=f12e1972]: Dewan Farooque Spinning Mills
+                        - generic [ref=f12e1974] [cursor=pointer]:
+                          - checkbox "Dewan Textile Mills" [ref=f12e1975]
+                          - generic [ref=f12e1976]: Dewan Textile Mills
+                        - generic [ref=f12e1978] [cursor=pointer]:
+                          - checkbox "Diamond Textile Mills" [ref=f12e1979]
+                          - generic [ref=f12e1980]: Diamond Textile Mills
+                        - generic [ref=f12e1982] [cursor=pointer]:
+                          - checkbox "Diamond International" [ref=f12e1983]
+                          - generic [ref=f12e1984]: Diamond International
+                        - generic [ref=f12e1986] [cursor=pointer]:
+                          - checkbox "Eastern Spinning Mills" [ref=f12e1987]
+                          - generic [ref=f12e1988]: Eastern Spinning Mills
+                        - generic [ref=f12e1990] [cursor=pointer]:
+                          - checkbox "Ejaz Textile Mills" [ref=f12e1991]
+                          - generic [ref=f12e1992]: Ejaz Textile Mills
+                        - generic [ref=f12e1994] [cursor=pointer]:
+                          - checkbox "Ejaz Spinning Mills" [ref=f12e1995]
+                          - generic [ref=f12e1996]: Ejaz Spinning Mills
+                        - generic [ref=f12e1998] [cursor=pointer]:
+                          - checkbox "Ellcot Spinning Mills" [ref=f12e1999]
+                          - generic [ref=f12e2000]: Ellcot Spinning Mills
+                        - generic [ref=f12e2002] [cursor=pointer]:
+                          - checkbox "Equity Textiles" [ref=f12e2003]
+                          - generic [ref=f12e2004]: Equity Textiles
+                        - generic [ref=f12e2006] [cursor=pointer]:
+                          - checkbox "Escorts Advanced Textiles" [ref=f12e2007]
+                          - generic [ref=f12e2008]: Escorts Advanced Textiles
+                        - generic [ref=f12e2010] [cursor=pointer]:
+                          - checkbox "Fahid Javed Spinning Mills" [ref=f12e2011]
+                          - generic [ref=f12e2012]: Fahid Javed Spinning Mills
+                        - generic [ref=f12e2014] [cursor=pointer]:
+                          - checkbox "Faisal Spinning Mills" [ref=f12e2015]
+                          - generic [ref=f12e2016]: Faisal Spinning Mills
+                        - generic [ref=f12e2018] [cursor=pointer]:
+                          - checkbox "Fashion Knit Industries" [ref=f12e2019]
+                          - generic [ref=f12e2020]: Fashion Knit Industries
+                        - generic [ref=f12e2022] [cursor=pointer]:
+                          - checkbox "Fateh Textile Mills" [ref=f12e2023]
+                          - generic [ref=f12e2024]: Fateh Textile Mills
+                        - generic [ref=f12e2026] [cursor=pointer]:
+                          - checkbox "Fatima Enterprises" [ref=f12e2027]
+                          - generic [ref=f12e2028]: Fatima Enterprises
+                        - generic [ref=f12e2030] [cursor=pointer]:
+                          - checkbox "Fauji Textile Mills" [ref=f12e2031]
+                          - generic [ref=f12e2032]: Fauji Textile Mills
+                        - generic [ref=f12e2034] [cursor=pointer]:
+                          - checkbox "Faysal Spinning Mills" [ref=f12e2035]
+                          - generic [ref=f12e2036]: Faysal Spinning Mills
+                        - generic [ref=f12e2038] [cursor=pointer]:
+                          - checkbox "Fazal Cloth Mills" [ref=f12e2039]
+                          - generic [ref=f12e2040]: Fazal Cloth Mills
+                        - generic [ref=f12e2042] [cursor=pointer]:
+                          - checkbox "Fazal Rehman Fabrics" [ref=f12e2043]
+                          - generic [ref=f12e2044]: Fazal Rehman Fabrics
+                        - generic [ref=f12e2046] [cursor=pointer]:
+                          - checkbox "Fazal Weaving Mills" [ref=f12e2047]
+                          - generic [ref=f12e2048]: Fazal Weaving Mills
+                        - generic [ref=f12e2050] [cursor=pointer]:
+                          - checkbox "Feroze 1888 Mills Unit 1" [ref=f12e2051]
+                          - generic [ref=f12e2052]: Feroze 1888 Mills Unit 1
+                        - generic [ref=f12e2054] [cursor=pointer]:
+                          - checkbox "Feroze 1888 Mills Unit 2" [ref=f12e2055]
+                          - generic [ref=f12e2056]: Feroze 1888 Mills Unit 2
+                        - generic [ref=f12e2058] [cursor=pointer]:
+                          - checkbox "Fimcotex Industries" [ref=f12e2059]
+                          - generic [ref=f12e2060]: Fimcotex Industries
+                        - generic [ref=f12e2062] [cursor=pointer]:
+                          - checkbox "Furqan Textile" [ref=f12e2063]
+                          - generic [ref=f12e2064]: Furqan Textile
+                        - generic [ref=f12e2066] [cursor=pointer]:
+                          - checkbox "Gadoon Textile Mills" [ref=f12e2067]
+                          - generic [ref=f12e2068]: Gadoon Textile Mills
+                        - generic [ref=f12e2070] [cursor=pointer]:
+                          - checkbox "Ghalib Textile Mills" [ref=f12e2071]
+                          - generic [ref=f12e2072]: Ghalib Textile Mills
+                        - generic [ref=f12e2074] [cursor=pointer]:
+                          - checkbox "Ghandhara Nihar Textile" [ref=f12e2075]
+                          - generic [ref=f12e2076]: Ghandhara Nihar Textile
+                        - generic [ref=f12e2078] [cursor=pointer]:
+                          - checkbox "Ghazi Fabrics International" [ref=f12e2079]
+                          - generic [ref=f12e2080]: Ghazi Fabrics International
+                        - generic [ref=f12e2082] [cursor=pointer]:
+                          - checkbox "Glamour Textile Mills" [ref=f12e2083]
+                          - generic [ref=f12e2084]: Glamour Textile Mills
+                        - generic [ref=f12e2086] [cursor=pointer]:
+                          - checkbox "Good Luck Textile Mills" [ref=f12e2087]
+                          - generic [ref=f12e2088]: Good Luck Textile Mills
+                        - generic [ref=f12e2090] [cursor=pointer]:
+                          - checkbox "Gul Ahmed Textile Mills Unit 1" [ref=f12e2091]
+                          - generic [ref=f12e2092]: Gul Ahmed Textile Mills Unit 1
+                        - generic [ref=f12e2094] [cursor=pointer]:
+                          - checkbox "Gul Ahmed Textile Mills Unit 2" [ref=f12e2095]
+                          - generic [ref=f12e2096]: Gul Ahmed Textile Mills Unit 2
+                        - generic [ref=f12e2098] [cursor=pointer]:
+                          - checkbox "H.A. Fibres" [ref=f12e2099]
+                          - generic [ref=f12e2100]: H.A. Fibres
+                        - generic [ref=f12e2102] [cursor=pointer]:
+                          - checkbox "H.A. Haq Spinning Mills" [ref=f12e2103]
+                          - generic [ref=f12e2104]: H.A. Haq Spinning Mills
+                        - generic [ref=f12e2106] [cursor=pointer]:
+                          - checkbox "H.M.K Textile Mills" [ref=f12e2107]
+                          - generic [ref=f12e2108]: H.M.K Textile Mills
+                        - generic [ref=f12e2110] [cursor=pointer]:
+                          - checkbox "Hafiz Textile Mills" [ref=f12e2111]
+                          - generic [ref=f12e2112]: Hafiz Textile Mills
+                        - generic [ref=f12e2114] [cursor=pointer]:
+                          - checkbox "Haji Muhammad Ismail Mills" [ref=f12e2115]
+                          - generic [ref=f12e2116]: Haji Muhammad Ismail Mills
+                        - generic [ref=f12e2118] [cursor=pointer]:
+                          - checkbox "Haleema Textile Mills" [ref=f12e2119]
+                          - generic [ref=f12e2120]: Haleema Textile Mills
+                        - generic [ref=f12e2122] [cursor=pointer]:
+                          - checkbox "Hammad Textile Mills" [ref=f12e2123]
+                          - generic [ref=f12e2124]: Hammad Textile Mills
+                        - generic [ref=f12e2126] [cursor=pointer]:
+                          - checkbox "Hamza Textile Mills" [ref=f12e2127]
+                          - generic [ref=f12e2128]: Hamza Textile Mills
+                        - generic [ref=f12e2130] [cursor=pointer]:
+                          - checkbox "Hantex" [ref=f12e2131]
+                          - generic [ref=f12e2132]: Hantex
+                        - generic [ref=f12e2134] [cursor=pointer]:
+                          - checkbox "Har Textile Mills" [ref=f12e2135]
+                          - generic [ref=f12e2136]: Har Textile Mills
+                        - generic [ref=f12e2138] [cursor=pointer]:
+                          - checkbox "Hira Textile Mills" [ref=f12e2139]
+                          - generic [ref=f12e2140]: Hira Textile Mills
+                        - generic [ref=f12e2142] [cursor=pointer]:
+                          - checkbox "Hira Terry Mills" [ref=f12e2143]
+                          - generic [ref=f12e2144]: Hira Terry Mills
+                        - generic [ref=f12e2146] [cursor=pointer]:
+                          - checkbox "Hunbul Tex" [ref=f12e2147]
+                          - generic [ref=f12e2148]: Hunbul Tex
+                        - generic [ref=f12e2150] [cursor=pointer]:
+                          - checkbox "Husnain Textile Mills" [ref=f12e2151]
+                          - generic [ref=f12e2152]: Husnain Textile Mills
+                        - generic [ref=f12e2154] [cursor=pointer]:
+                          - checkbox "Hussain Mills Unit 1" [ref=f12e2155]
+                          - generic [ref=f12e2156]: Hussain Mills Unit 1
+                        - generic [ref=f12e2158] [cursor=pointer]:
+                          - checkbox "Hussain Mills Unit 2" [ref=f12e2159]
+                          - generic [ref=f12e2160]: Hussain Mills Unit 2
+                        - generic [ref=f12e2162] [cursor=pointer]:
+                          - checkbox "Icc Textiles" [ref=f12e2163]
+                          - generic [ref=f12e2164]: Icc Textiles
+                        - generic [ref=f12e2166] [cursor=pointer]:
+                          - checkbox "Ideal Spinning Mills" [ref=f12e2167]
+                          - generic [ref=f12e2168]: Ideal Spinning Mills
+                        - generic [ref=f12e2170] [cursor=pointer]:
+                          - checkbox "Idrees Textile Mills" [ref=f12e2171]
+                          - generic [ref=f12e2172]: Idrees Textile Mills
+                        - generic [ref=f12e2174] [cursor=pointer]:
+                          - checkbox "Ihsan Raiwind Mills" [ref=f12e2175]
+                          - generic [ref=f12e2176]: Ihsan Raiwind Mills
+                        - generic [ref=f12e2178] [cursor=pointer]:
+                          - checkbox "Ihsan Cotton Mills" [ref=f12e2179]
+                          - generic [ref=f12e2180]: Ihsan Cotton Mills
+                        - generic [ref=f12e2182] [cursor=pointer]:
+                          - checkbox "Ihsan Sons" [ref=f12e2183]
+                          - generic [ref=f12e2184]: Ihsan Sons
+                        - generic [ref=f12e2186] [cursor=pointer]:
+                          - checkbox "Imperial Textile Mills" [ref=f12e2187]
+                          - generic [ref=f12e2188]: Imperial Textile Mills
+                        - generic [ref=f12e2190] [cursor=pointer]:
+                          - checkbox "Indus Dyeing & Manufacturing" [ref=f12e2191]
+                          - generic [ref=f12e2192]: Indus Dyeing & Manufacturing
+                        - generic [ref=f12e2194] [cursor=pointer]:
+                          - checkbox "Indus Lyallpur" [ref=f12e2195]
+                          - generic [ref=f12e2196]: Indus Lyallpur
+                        - generic [ref=f12e2198] [cursor=pointer]:
+                          - checkbox "International Textile" [ref=f12e2199]
+                          - generic [ref=f12e2200]: International Textile
+                        - generic [ref=f12e2202] [cursor=pointer]:
+                          - checkbox "Ishaq Textile Mills" [ref=f12e2203]
+                          - generic [ref=f12e2204]: Ishaq Textile Mills
+                        - generic [ref=f12e2206] [cursor=pointer]:
+                          - checkbox "Island Textile Mills" [ref=f12e2207]
+                          - generic [ref=f12e2208]: Island Textile Mills
+                        - generic [ref=f12e2210] [cursor=pointer]:
+                          - checkbox "Ittehad Textile Mills" [ref=f12e2211]
+                          - generic [ref=f12e2212]: Ittehad Textile Mills
+                        - generic [ref=f12e2214] [cursor=pointer]:
+                          - checkbox "J.A. Textile Mills" [ref=f12e2215]
+                          - generic [ref=f12e2216]: J.A. Textile Mills
+                        - generic [ref=f12e2218] [cursor=pointer]:
+                          - checkbox "J.K. Spinning Mills" [ref=f12e2219]
+                          - generic [ref=f12e2220]: J.K. Spinning Mills
+                        - generic [ref=f12e2222] [cursor=pointer]:
+                          - checkbox "Jamal Textile Mills" [ref=f12e2223]
+                          - generic [ref=f12e2224]: Jamal Textile Mills
+                        - generic [ref=f12e2226] [cursor=pointer]:
+                          - checkbox "Jamhoor Textile Mills" [ref=f12e2227]
+                          - generic [ref=f12e2228]: Jamhoor Textile Mills
+                        - generic [ref=f12e2230] [cursor=pointer]:
+                          - checkbox "Janana De Malucho Textile Mills" [ref=f12e2231]
+                          - generic [ref=f12e2232]: Janana De Malucho Textile Mills
+                        - generic [ref=f12e2234] [cursor=pointer]:
+                          - checkbox "Jubilee Spinning & Weaving Mills" [ref=f12e2235]
+                          - generic [ref=f12e2236]: Jubilee Spinning & Weaving Mills
+                        - generic [ref=f12e2238] [cursor=pointer]:
+                          - checkbox "Kamal Fabrics" [ref=f12e2239]
+                          - generic [ref=f12e2240]: Kamal Fabrics
+                        - generic [ref=f12e2242] [cursor=pointer]:
+                          - checkbox "Kamal Hosiery Mills" [ref=f12e2243]
+                          - generic [ref=f12e2244]: Kamal Hosiery Mills
+                        - generic [ref=f12e2246] [cursor=pointer]:
+                          - checkbox "Kamal Industries" [ref=f12e2247]
+                          - generic [ref=f12e2248]: Kamal Industries
+                        - generic [ref=f12e2250] [cursor=pointer]:
+                          - checkbox "Kamal Textile Mills" [ref=f12e2251]
+                          - generic [ref=f12e2252]: Kamal Textile Mills
+                        - generic [ref=f12e2254] [cursor=pointer]:
+                          - checkbox "Kamran Spinning Mills" [ref=f12e2255]
+                          - generic [ref=f12e2256]: Kamran Spinning Mills
+                        - generic [ref=f12e2258] [cursor=pointer]:
+                          - checkbox "Karam-E-Kareem Spinning Mills" [ref=f12e2259]
+                          - generic [ref=f12e2260]: Karam-E-Kareem Spinning Mills
+                        - generic [ref=f12e2262] [cursor=pointer]:
+                          - checkbox "Kasim Textile Mills" [ref=f12e2263]
+                          - generic [ref=f12e2264]: Kasim Textile Mills
+                        - generic [ref=f12e2266] [cursor=pointer]:
+                          - checkbox "Khalid Shafique Spinning Mills" [ref=f12e2267]
+                          - generic [ref=f12e2268]: Khalid Shafique Spinning Mills
+                        - generic [ref=f12e2270] [cursor=pointer]:
+                          - checkbox "Khas Textile Mills" [ref=f12e2271]
+                          - generic [ref=f12e2272]: Khas Textile Mills
+                        - generic [ref=f12e2274] [cursor=pointer]:
+                          - checkbox "Khurshid Spinning Mills" [ref=f12e2275]
+                          - generic [ref=f12e2276]: Khurshid Spinning Mills
+                        - generic [ref=f12e2278] [cursor=pointer]:
+                          - checkbox "Kohat Textile Mills" [ref=f12e2279]
+                          - generic [ref=f12e2280]: Kohat Textile Mills
+                        - generic [ref=f12e2282] [cursor=pointer]:
+                          - checkbox "Kohinoor Mills" [ref=f12e2283]
+                          - generic [ref=f12e2284]: Kohinoor Mills
+                        - generic [ref=f12e2286] [cursor=pointer]:
+                          - checkbox "Kohinoor Weaving Mills" [ref=f12e2287]
+                          - generic [ref=f12e2288]: Kohinoor Weaving Mills
+                        - generic [ref=f12e2290] [cursor=pointer]:
+                          - checkbox "Kunhar Textile Mills" [ref=f12e2291]
+                          - generic [ref=f12e2292]: Kunhar Textile Mills
+                        - generic [ref=f12e2294] [cursor=pointer]:
+                          - checkbox "Latif Textile Mills" [ref=f12e2295]
+                          - generic [ref=f12e2296]: Latif Textile Mills
+                        - generic [ref=f12e2298] [cursor=pointer]:
+                          - checkbox "Liaqat Textile Mills" [ref=f12e2299]
+                          - generic [ref=f12e2300]: Liaqat Textile Mills
+                        - generic [ref=f12e2302] [cursor=pointer]:
+                          - checkbox "Khalid Textile Mills" [ref=f12e2303]
+                          - generic [ref=f12e2304]: Khalid Textile Mills
+                        - generic [ref=f12e2306] [cursor=pointer]:
+                          - checkbox "Mahmood Textile Mills" [ref=f12e2307]
+                          - generic [ref=f12e2308]: Mahmood Textile Mills
+                        - generic [ref=f12e2310] [cursor=pointer]:
+                          - checkbox "Majeed Fabrics" [ref=f12e2311]
+                          - generic [ref=f12e2312]: Majeed Fabrics
+                        - generic [ref=f12e2314] [cursor=pointer]:
+                          - checkbox "Maqbool Textile Mills" [ref=f12e2315]
+                          - generic [ref=f12e2316]: Maqbool Textile Mills
+                        - generic [ref=f12e2318] [cursor=pointer]:
+                          - checkbox "Margalla Textile Mills" [ref=f12e2319]
+                          - generic [ref=f12e2320]: Margalla Textile Mills
+                        - generic [ref=f12e2322] [cursor=pointer]:
+                          - checkbox "Marhaba Textile" [ref=f12e2323]
+                          - generic [ref=f12e2324]: Marhaba Textile
+                        - generic [ref=f12e2326] [cursor=pointer]:
+                          - checkbox "Taxila Cotton Mills" [ref=f12e2327]
+                          - generic [ref=f12e2328]: Taxila Cotton Mills
+                        - generic [ref=f12e2330] [cursor=pointer]:
+                          - checkbox "Interloop Limited" [ref=f12e2331]
+                          - generic [ref=f12e2332]: Interloop Limited
+                        - generic [ref=f12e2334] [cursor=pointer]:
+                          - checkbox "Test Factory" [ref=f12e2335]
+                          - generic [ref=f12e2336]: Test Factory
+                        - generic [ref=f12e2338] [cursor=pointer]:
+                          - checkbox "Furqan Factory new 1" [ref=f12e2339]
+                          - generic [ref=f12e2340]: Furqan Factory new 1
+                  - generic [ref=f12e140]:
+                    - paragraph [ref=f12e142]: Production Lines
+                    - generic [ref=f12e145]:
+                      - textbox "Search..." [ref=f12e147]
+                      - generic [ref=f12e148]:
+                        - generic [ref=f12e2342] [cursor=pointer]:
+                          - checkbox "Test Device 1" [ref=f12e2343]
+                          - generic [ref=f12e2344]: Test Device 1
+                        - generic [ref=f12e2346] [cursor=pointer]:
+                          - checkbox "Test Device 2" [ref=f12e2347]
+                          - generic [ref=f12e2348]: Test Device 2
+                        - generic [ref=f12e2350] [cursor=pointer]:
+                          - checkbox "Unit-1 Spinning-1" [ref=f12e2351]
+                          - generic [ref=f12e2352]: Unit-1 Spinning-1
+                        - generic [ref=f12e2354] [cursor=pointer]:
+                          - checkbox "Unit-1 Spinning-2" [ref=f12e2355]
+                          - generic [ref=f12e2356]: Unit-1 Spinning-2
+                        - generic [ref=f12e2358] [cursor=pointer]:
+                          - checkbox "Unit-1 Spinning-3" [ref=f12e2359]
+                          - generic [ref=f12e2360]: Unit-1 Spinning-3
+                        - generic [ref=f12e2362] [cursor=pointer]:
+                          - checkbox "Unit-1 Spinning-4" [ref=f12e2363]
+                          - generic [ref=f12e2364]: Unit-1 Spinning-4
+                        - generic [ref=f12e2366] [cursor=pointer]:
+                          - checkbox "Unit-2 Spinning-1" [ref=f12e2367]
+                          - generic [ref=f12e2368]: Unit-2 Spinning-1
+                        - generic [ref=f12e2370] [cursor=pointer]:
+                          - checkbox "Unit-2 Spinning-2" [ref=f12e2371]
+                          - generic [ref=f12e2372]: Unit-2 Spinning-2
+                        - generic [ref=f12e2374] [cursor=pointer]:
+                          - checkbox "Camera 1" [ref=f12e2375]
+                          - generic [ref=f12e2376]: Camera 1
+                        - generic [ref=f12e2378] [cursor=pointer]:
+                          - checkbox "Camera 1" [ref=f12e2379]
+                          - generic [ref=f12e2380]: Camera 1
+                        - generic [ref=f12e2382] [cursor=pointer]:
+                          - checkbox "Camera 2" [ref=f12e2383]
+                          - generic [ref=f12e2384]: Camera 2
+            - generic [ref=f12e150]:
+              - paragraph [ref=f12e151]: Select a fiscal year to continue
+              - generic [ref=f12e152]:
+                - button "Reset" [ref=f12e153] [cursor=pointer]
+                - button "Apply Filters" [disabled]
+        - main [ref=f12e154]:
+          - generic [ref=f12e155]:
+            - generic [ref=f12e156]:
+              - heading "Reports" [level=1] [ref=f12e157]
+              - paragraph [ref=f12e158]: Apply filters to generate a production report
+            - button "Download report" [disabled]: Download
+          - table [ref=f12e163]:
+            - rowgroup [ref=f12e164]:
+              - row [ref=f12e165]:
+                - columnheader "S. No" [ref=f12e166]
+                - columnheader "Fiscal year" [ref=f12e167]
+                - columnheader "Month" [ref=f12e168]
+                - columnheader "Day" [ref=f12e169]
+                - columnheader "Company" [ref=f12e170]
+                - columnheader "Factory" [ref=f12e171]
+                - columnheader "Production line" [ref=f12e172]
+                - columnheader "Production" [ref=f12e173]
+            - rowgroup [ref=f12e174]:
+              - row [ref=f12e175]:
+                - cell [ref=f12e176]:
+                  - generic [ref=f12e177]:
+                    - paragraph [ref=f12e178]: Select a fiscal year and click Apply Filters to view reports.
+                    - paragraph [ref=f12e179]: Filters apply automatically once a fiscal year is selected.
+  - alert [ref=f12e180]

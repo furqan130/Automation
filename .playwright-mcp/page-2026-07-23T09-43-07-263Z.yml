@@ -1,0 +1,168 @@
+- generic [active] [ref=f12e1]:
+  - region "Notifications (F8)":
+    - list
+  - generic [ref=f12e2]:
+    - generic [ref=f12e6]:
+      - img "Digital Eye" [ref=f12e8] [cursor=pointer]
+      - generic [ref=f12e9]:
+        - list [ref=f12e11]:
+          - listitem [ref=f12e12]:
+            - link "Overview" [ref=f12e13] [cursor=pointer]:
+              - /url: /dashboard
+          - listitem [ref=f12e20]:
+            - link "Factories" [ref=f12e21] [cursor=pointer]:
+              - /url: /factories
+        - list [ref=f12e27]:
+          - listitem [ref=f12e28]:
+            - link "Analytics" [ref=f12e29] [cursor=pointer]:
+              - /url: /analytics
+          - listitem [ref=f12e33]:
+            - link "Reports" [ref=f12e34] [cursor=pointer]:
+              - /url: /reports
+        - list [ref=f12e41]:
+          - listitem [ref=f12e42]:
+            - link "Notification Center" [ref=f12e43] [cursor=pointer]:
+              - /url: /notification-center
+          - listitem [ref=f12e47]:
+            - link "Contact List" [ref=f12e48] [cursor=pointer]:
+              - /url: /contact-list
+    - main [ref=f12e55]:
+      - generic [ref=f12e56]:
+        - generic [ref=f12e57]:
+          - button "Toggle Sidebar" [ref=f12e58] [cursor=pointer]
+          - button "Home" [ref=f12e62] [cursor=pointer]
+          - navigation "breadcrumb" [ref=f12e67]:
+            - list [ref=f12e68]:
+              - listitem [ref=f12e69]:
+                - link "Notifications" [disabled] [ref=f12e70]
+        - generic [ref=f12e71]:
+          - button "Toggle theme" [ref=f12e72] [cursor=pointer]
+          - button "Settings" [ref=f12e76] [cursor=pointer]
+          - button [ref=f12e80] [cursor=pointer]
+          - button [ref=f12e84] [cursor=pointer]
+      - generic [ref=f12e93]:
+        - heading "Notifications 20" [level=1] [ref=f12e217]:
+          - text: Notifications
+          - generic [ref=f12e102]: "20"
+        - generic [ref=f12e108]:
+          - generic [ref=f12e109]:
+            - heading "Company Notif Test Company 493596 Updated" [level=3] [ref=f12e110]
+            - generic [ref=f12e111]: 2026-07-23 14:38:17
+          - paragraph [ref=f12e112]: "Description: Company Notif Test Company 493596 has been updated."
+          - generic [ref=f12e113]: user
+        - generic [ref=f12e120]:
+          - generic [ref=f12e121]:
+            - heading "Factory Test Factory Updated" [level=3] [ref=f12e122]
+            - generic [ref=f12e123]: 2026-07-23 13:49:05
+          - paragraph [ref=f12e124]: "Description: Factory Test Factory has been updated."
+          - generic [ref=f12e125]: user
+        - generic [ref=f12e131]:
+          - generic [ref=f12e132]:
+            - heading "No Product Count Detected Notification" [level=3] [ref=f12e133]
+            - generic [ref=f12e134]: 2026-07-23 13:05:05
+          - paragraph [ref=f12e135]: "Description: No product has been counted for the last 15 minutes at CUDA Test for Test Device 1."
+          - generic [ref=f12e136]: system
+        - generic [ref=f12e143]:
+          - generic [ref=f12e144]:
+            - heading "Company Automated Test Company 108692 Updated" [level=3] [ref=f12e145]
+            - generic [ref=f12e146]: 2026-07-23 12:51:51
+          - paragraph [ref=f12e147]: "Description: Company Automated Test Company 108692 has been updated."
+          - generic [ref=f12e148]: user
+        - generic [ref=f12e154]:
+          - generic [ref=f12e155]:
+            - heading "No Product Count Detected Notification" [level=3] [ref=f12e156]
+            - generic [ref=f12e157]: 2026-07-23 12:29:58
+          - paragraph [ref=f12e158]: "Description: No product has been counted for the last 15 minutes at CUDA Test for Test Device 1."
+          - generic [ref=f12e159]: system
+        - generic [ref=f12e165]:
+          - generic [ref=f12e166]:
+            - heading "GPU Unavailable" [level=3] [ref=f12e167]
+            - generic [ref=f12e168]: 2026-07-23 12:10:25
+          - paragraph [ref=f12e169]: "Description: GPU not active at CUDA Test"
+          - generic [ref=f12e170]: system
+        - generic [ref=f12e176]:
+          - generic [ref=f12e177]:
+            - heading "No Product Count Detected Notification" [level=3] [ref=f12e178]
+            - generic [ref=f12e179]: 2026-07-23 10:56:47
+          - paragraph [ref=f12e180]: "Description: No product has been counted for the last 15 minutes at CUDA Test for Test Device 1."
+          - generic [ref=f12e181]: system
+        - generic [ref=f12e187]:
+          - generic [ref=f12e188]:
+            - heading "Device Offline Alert" [level=3] [ref=f12e189]
+            - generic [ref=f12e190]: 2026-07-23 10:27:20
+          - paragraph [ref=f12e191]: "Description: GPU Machine of industry Test Factory is offline. Check connectivity"
+          - generic [ref=f12e192]: system
+        - generic [ref=f12e198]:
+          - generic [ref=f12e199]:
+            - heading "Device Offline Alert" [level=3] [ref=f12e200]
+            - generic [ref=f12e201]: 2026-07-23 08:57:20
+          - paragraph [ref=f12e202]: "Description: GPU Machine of industry Test Factory is offline. Check connectivity"
+          - generic [ref=f12e203]: system
+        - generic [ref=f12e209]:
+          - generic [ref=f12e210]:
+            - heading "Device Offline Alert" [level=3] [ref=f12e211]
+            - generic [ref=f12e212]: 2026-07-22 23:28:48
+          - paragraph [ref=f12e213]: "Description: GPU Machine of industry Test Factory is offline. Check connectivity"
+          - generic [ref=f12e214]: system
+        - generic [ref=f12e222]:
+          - generic [ref=f12e223]:
+            - heading "Device Offline Alert" [level=3] [ref=f12e224]
+            - generic [ref=f12e225]: 2026-07-22 23:08:47
+          - paragraph [ref=f12e226]: "Description: GPU Machine of industry Test Factory is offline. Check connectivity"
+          - generic [ref=f12e227]: system
+        - generic [ref=f12e233]:
+          - generic [ref=f12e234]:
+            - heading "Device Offline Alert" [level=3] [ref=f12e235]
+            - generic [ref=f12e236]: 2026-07-22 19:43:47
+          - paragraph [ref=f12e237]: "Description: GPU Machine of industry Test Factory is offline. Check connectivity"
+          - generic [ref=f12e238]: system
+        - generic [ref=f12e244]:
+          - generic [ref=f12e245]:
+            - heading "Device Offline Alert" [level=3] [ref=f12e246]
+            - generic [ref=f12e247]: 2026-07-22 19:13:46
+          - paragraph [ref=f12e248]: "Description: GPU Machine of industry Test Factory is offline. Check connectivity"
+          - generic [ref=f12e249]: system
+        - generic [ref=f12e255]:
+          - generic [ref=f12e256]:
+            - heading "No Product Count Detected Notification" [level=3] [ref=f12e257]
+            - generic [ref=f12e258]: 2026-07-22 18:38:12
+          - paragraph [ref=f12e259]: "Description: No product has been counted for the last 15 minutes at CUDA Test for Test Device 1."
+          - generic [ref=f12e260]: system
+        - generic [ref=f12e267]:
+          - generic [ref=f12e268]:
+            - heading "Factory Test Factory Updated" [level=3] [ref=f12e269]
+            - generic [ref=f12e270]: 2026-07-22 18:31:28
+          - paragraph [ref=f12e271]: "Description: Factory Test Factory has been updated."
+          - generic [ref=f12e272]: user
+        - generic [ref=f12e279]:
+          - generic [ref=f12e280]:
+            - heading "Factory Test Factory Updated" [level=3] [ref=f12e281]
+            - generic [ref=f12e282]: 2026-07-22 18:31:15
+          - paragraph [ref=f12e283]: "Description: Factory Test Factory has been updated."
+          - generic [ref=f12e284]: user
+        - generic [ref=f12e290]:
+          - generic [ref=f12e291]:
+            - heading "GPU Unavailable" [level=3] [ref=f12e292]
+            - generic [ref=f12e293]: 2026-07-22 18:19:38
+          - paragraph [ref=f12e294]: "Description: Unable to start the application on Test Device 2 at CUDA Test. GPU is not active on this Machine. Kindly restart Machine."
+          - generic [ref=f12e295]: system
+        - generic [ref=f12e302]:
+          - generic [ref=f12e303]:
+            - heading "Factory Test Factory Updated" [level=3] [ref=f12e304]
+            - generic [ref=f12e305]: 2026-07-22 18:17:11
+          - paragraph [ref=f12e306]: "Description: Factory Test Factory has been updated."
+          - generic [ref=f12e307]: user
+        - generic [ref=f12e314]:
+          - generic [ref=f12e315]:
+            - heading "Factory Test Factory Updated" [level=3] [ref=f12e316]
+            - generic [ref=f12e317]: 2026-07-22 18:16:48
+          - paragraph [ref=f12e318]: "Description: Factory Test Factory has been updated."
+          - generic [ref=f12e319]: user
+        - generic [ref=f12e325]:
+          - generic [ref=f12e326]:
+            - heading "Device Offline Alert" [level=3] [ref=f12e327]
+            - generic [ref=f12e328]: 2026-07-22 17:59:58
+          - paragraph [ref=f12e329]: "Description: GPU Machine of industry Test Factory is offline. Check connectivity"
+          - generic [ref=f12e330]: system
+        - button "Load more" [ref=f12e100] [cursor=pointer]
+  - alert [ref=f12e216]

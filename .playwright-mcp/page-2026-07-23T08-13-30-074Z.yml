@@ -1,0 +1,118 @@
+- generic:
+  - list
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - button:
+                - generic: Back to Factories
+            - generic:
+              - list:
+                - listitem:
+                  - generic: A.A. Cotton Mills LTD.
+                - listitem:
+                  - link:
+                    - /url: /factories/A.A.%20Cotton%20Mills%20LTD./analytics
+                    - generic: Analytics
+                - listitem:
+                  - link:
+                    - /url: /factories/A.A.%20Cotton%20Mills%20LTD./devices
+                    - generic: Devices
+                - listitem:
+                  - link:
+                    - /url: /factories/A.A.%20Cotton%20Mills%20LTD./performance
+                    - generic: Performance
+    - main:
+      - generic:
+        - generic:
+          - button:
+            - generic: Toggle Sidebar
+          - button
+          - navigation:
+            - list:
+              - listitem:
+                - link:
+                  - /url: /factories
+                  - text: Factories
+              - listitem:
+                - link:
+                  - /url: /factories/A.A.%20Cotton%20Mills%20LTD.
+                  - text: A.A. Cotton Mills LTD.
+              - listitem:
+                - link [disabled]: Devices
+        - generic:
+          - button:
+            - generic: Toggle theme
+          - button
+          - button:
+            - generic: 9+
+          - button
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - heading [level=1]: Devices
+                    - paragraph: View and manage your devices under the selected industry.
+                  - generic:
+                    - generic:
+                      - textbox:
+                        - /placeholder: Search
+                    - button: Add Device
+                  - generic:
+                    - generic:
+                      - generic:
+                        - table:
+                          - rowgroup:
+                            - row:
+                              - columnheader: S.NO
+                              - columnheader: DEVICE NAME
+                              - columnheader: DEVICE TYPE
+                              - columnheader: STATUS
+                              - columnheader: CREATED ON
+                              - columnheader: UPDATED ON
+                              - columnheader: ACTIONS
+                          - rowgroup:
+                            - row:
+                              - cell:
+                                - generic: "1"
+                              - cell: GPU Machine
+                              - cell: machine
+                              - cell:
+                                - generic: disabled
+                              - cell:
+                                - generic: Mar 28, 2026
+                              - cell:
+                                - generic: Mar 28, 2026
+                              - cell:
+                                - generic:
+                                  - button
+                                  - button
+                                  - button
+                    - generic:
+                      - navigation:
+                        - list:
+                          - listitem:
+                            - link:
+                              - /url: "#"
+                              - generic: Previous
+                          - listitem:
+                            - link:
+                              - /url: "#"
+                              - text: "1"
+                          - listitem:
+                            - link:
+                              - /url: "#"
+                              - generic: Next
+  - alert
+  - alertdialog [ref=f16e157]:
+    - generic [ref=f16e158]:
+      - heading "Delete Confirmation" [level=2] [ref=f16e159]
+      - paragraph [ref=f16e160]: Are you sure you want to delete this device? This action cannot be undone.
+    - generic [ref=f16e161]:
+      - button "Cancel" [active] [ref=f16e162] [cursor=pointer]
+      - button "Delete" [ref=f16e163] [cursor=pointer]

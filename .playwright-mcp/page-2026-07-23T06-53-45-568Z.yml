@@ -1,0 +1,86 @@
+- generic [active] [ref=f4e1]:
+  - region "Notifications (F8)":
+    - list
+  - generic [ref=f4e2]:
+    - generic [ref=f4e6]:
+      - img "Digital Eye" [ref=f4e8] [cursor=pointer]
+      - generic [ref=f4e9]:
+        - button "Back to factories" [ref=f4e4112] [cursor=pointer]:
+          - generic [ref=f4e4115]: Back to Factories
+        - list [ref=f4e4117]:
+          - listitem [ref=f4e4118]:
+            - generic [ref=f4e4119]: A.A. Cotton Mills LTD.
+          - listitem [ref=f4e4123]:
+            - link "Analytics" [ref=f4e4124] [cursor=pointer]:
+              - /url: /factories/A.A.%20Cotton%20Mills%20LTD./analytics
+          - listitem [ref=f4e4128]:
+            - link "Devices" [ref=f4e4129] [cursor=pointer]:
+              - /url: /factories/A.A.%20Cotton%20Mills%20LTD./devices
+          - listitem [ref=f4e4134]:
+            - link "Performance" [ref=f4e4135] [cursor=pointer]:
+              - /url: /factories/A.A.%20Cotton%20Mills%20LTD./performance
+    - main [ref=f4e55]:
+      - generic [ref=f4e56]:
+        - generic [ref=f4e57]:
+          - button "Toggle Sidebar" [ref=f4e58] [cursor=pointer]
+          - button "Home" [ref=f4e62] [cursor=pointer]
+          - navigation "breadcrumb" [ref=f4e67]:
+            - list [ref=f4e68]:
+              - listitem [ref=f4e69]:
+                - link "Factories" [ref=f4e4139] [cursor=pointer]:
+                  - /url: /factories
+              - listitem [ref=f4e4143]:
+                - link "A.A. Cotton Mills LTD." [ref=f4e4144] [cursor=pointer]:
+                  - /url: /factories/A.A.%20Cotton%20Mills%20LTD.
+              - listitem [ref=f4e4254]:
+                - link "Devices" [disabled] [ref=f4e4362]
+        - generic [ref=f4e71]:
+          - button "Toggle theme" [ref=f4e72] [cursor=pointer]
+          - button "Settings" [ref=f4e76] [cursor=pointer]
+          - button "9+" [ref=f4e80] [cursor=pointer]
+          - button [ref=f4e85] [cursor=pointer]
+      - generic [ref=f4e4364]:
+        - generic [ref=f4e4365]:
+          - heading "Devices" [level=1] [ref=f4e4366]
+          - paragraph [ref=f4e4367]: View and manage your devices under the selected industry.
+        - generic [ref=f4e4368]:
+          - textbox "Search" [ref=f4e4374]
+          - button "Add Device" [ref=f4e4375] [cursor=pointer]
+        - generic [ref=f4e4377]:
+          - table [ref=f4e4380]:
+            - rowgroup [ref=f4e4381]:
+              - row [ref=f4e4382]:
+                - columnheader "S.NO" [ref=f4e4383]
+                - columnheader "DEVICE NAME" [ref=f4e4384]
+                - columnheader "DEVICE TYPE" [ref=f4e4385]
+                - columnheader "STATUS" [ref=f4e4386]
+                - columnheader "CREATED ON" [ref=f4e4387]
+                - columnheader "UPDATED ON" [ref=f4e4388]
+                - columnheader "ACTIONS" [ref=f4e4389]
+            - rowgroup [ref=f4e4390]:
+              - row [ref=f4e4391]:
+                - cell "1" [ref=f4e4392]
+                - cell "GPU Machine" [ref=f4e4394]
+                - cell "machine" [ref=f4e4395]
+                - cell "disabled" [ref=f4e4396]
+                - cell "Mar 28, 2026" [ref=f4e4398]
+                - cell "Mar 28, 2026" [ref=f4e4400]
+                - cell [ref=f4e4402]:
+                  - generic [ref=f4e4403]:
+                    - button [ref=f4e4404] [cursor=pointer]
+                    - button [ref=f4e4408] [cursor=pointer]
+                    - button [ref=f4e4411] [cursor=pointer]
+          - navigation "pagination" [ref=f4e4416]:
+            - list [ref=f4e4417]:
+              - listitem [ref=f4e4418]:
+                - link "Go to previous page":
+                  - /url: "#"
+                  - generic: Previous
+              - listitem [ref=f4e4419]:
+                - link "1" [ref=f4e4420] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=f4e4421]:
+                - link "Go to next page":
+                  - /url: "#"
+                  - generic: Next
+  - alert [ref=f4e116]: Devices | Digital Eye

@@ -1,0 +1,142 @@
+- generic:
+  - list
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - button:
+                - generic: Back to Factories
+            - generic:
+              - list:
+                - listitem:
+                  - generic: Aftab Textile Factorys
+                - listitem:
+                  - link:
+                    - /url: /factories/Aftab%20Textile%20Factorys/analytics
+                    - generic: Analytics
+                - listitem:
+                  - link:
+                    - /url: /factories/Aftab%20Textile%20Factorys/devices
+                    - generic: Devices
+                - listitem:
+                  - link:
+                    - /url: /factories/Aftab%20Textile%20Factorys/clips
+                    - generic: Clips
+                - listitem:
+                  - link:
+                    - /url: /factories/Aftab%20Textile%20Factorys/performance
+                    - generic: Performance
+                - listitem:
+                  - link:
+                    - /url: /factories/Aftab%20Textile%20Factorys/configuration
+                    - generic: Configuration
+                - listitem:
+                  - link:
+                    - /url: /factories/Aftab%20Textile%20Factorys/summary
+                    - generic: Summary
+    - main:
+      - generic:
+        - generic:
+          - button:
+            - generic: Toggle Sidebar
+          - button
+          - navigation:
+            - list:
+              - listitem:
+                - link:
+                  - /url: /factories
+                  - text: Factories
+              - listitem:
+                - link:
+                  - /url: /factories/Aftab%20Textile%20Factorys
+                  - text: Aftab Textile Factorys
+              - listitem:
+                - link [disabled]: Analytics
+        - generic:
+          - button:
+            - generic: Toggle theme
+          - button
+          - button:
+            - generic: 9+
+          - button
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - heading [level=1]: Aftab Textile Factorys · Count
+                      - generic: Online
+                    - paragraph: A TestPP Company
+                    - paragraph: Count totals and packer-line analytics for this factory.
+                  - generic:
+                    - link:
+                      - /url: /factories
+                      - text: Factory map
+                    - link:
+                      - /url: /analytics
+                      - text: Global analytics
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic: Filters
+                        - generic: Changes apply automatically when a valid period is selected.
+                      - generic:
+                        - button: Refresh
+                  - generic:
+                    - generic:
+                      - generic:
+                        - paragraph: Period type
+                        - button [expanded]:
+                          - generic: Select filter
+                    - generic:
+                      - generic: Aftab Textile Factorys · Today & this month · current year in charts
+                      - generic:
+                        - text: Updated 3:29 PM
+                        - generic: · auto-refreshes every 2.5 min
+                - generic:
+                  - generic:
+                    - heading [level=2]: Factory totals
+                    - paragraph: Aggregated across all packer lines at this factory.
+                  - generic:
+                    - generic:
+                      - generic:
+                        - paragraph: Count (day)
+                      - paragraph: "26"
+                      - paragraph: August 6, 2026
+                    - generic:
+                      - generic:
+                        - paragraph: Count (month)
+                      - paragraph: "50"
+                      - paragraph: August 2026
+                - generic:
+                  - generic:
+                    - generic:
+                      - heading [level=2]: Packer line
+                      - paragraph: Select a line to view its count breakdown and optional live view.
+                    - generic:
+                      - paragraph: Production section
+                      - generic:
+                        - tablist:
+                          - tab [selected]: Kiln
+                          - tab: Packaging
+                  - generic:
+                    - generic:
+                      - generic:
+                        - paragraph: No packer lines found
+                        - paragraph: This factory has no camera lines configured yet. Set up devices to start tracking count.
+                      - link:
+                        - /url: /factories/Aftab Textile Factorys/devices
+                        - text: Go to Devices
+  - alert
+  - menu "Select filter" [active] [ref=f8e171]:
+    - generic [ref=f8e172]: Period
+    - separator [ref=f8e173]
+    - menuitem "By date" [ref=f8e174]
+    - menuitem "By month" [ref=f8e175]
+    - menuitem "Date range" [ref=f8e176]

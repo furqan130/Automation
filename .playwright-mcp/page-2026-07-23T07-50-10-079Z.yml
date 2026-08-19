@@ -1,0 +1,100 @@
+- generic [ref=f6e1]:
+  - region "Notifications (F8)":
+    - list
+  - generic [ref=f6e2]:
+    - generic [ref=f6e6]:
+      - img "Digital Eye" [ref=f6e8] [cursor=pointer]
+      - generic [ref=f6e9]:
+        - button "Back to factories" [ref=f6e11] [cursor=pointer]:
+          - generic [ref=f6e14]: Back to Factories
+        - list [ref=f6e16]:
+          - listitem [ref=f6e17]:
+            - generic [ref=f6e18]: A.A. Cotton Mills LTD.
+          - listitem [ref=f6e22]:
+            - link "Analytics" [ref=f6e23] [cursor=pointer]:
+              - /url: /factories/A.A.%20Cotton%20Mills%20LTD./analytics
+          - listitem [ref=f6e27]:
+            - link "Devices" [ref=f6e28] [cursor=pointer]:
+              - /url: /factories/A.A.%20Cotton%20Mills%20LTD./devices
+          - listitem [ref=f6e33]:
+            - link "Performance" [ref=f6e34] [cursor=pointer]:
+              - /url: /factories/A.A.%20Cotton%20Mills%20LTD./performance
+    - main [ref=f6e38]:
+      - generic [ref=f6e39]:
+        - generic [ref=f6e40]:
+          - button "Toggle Sidebar" [ref=f6e41] [cursor=pointer]
+          - button "Home" [ref=f6e45] [cursor=pointer]
+          - navigation "breadcrumb" [ref=f6e50]:
+            - list [ref=f6e51]:
+              - listitem [ref=f6e52]:
+                - link "Factories" [ref=f6e53] [cursor=pointer]:
+                  - /url: /factories
+              - listitem [ref=f6e57]:
+                - link "A.A. Cotton Mills LTD." [ref=f6e58] [cursor=pointer]:
+                  - /url: /factories/A.A.%20Cotton%20Mills%20LTD.
+              - listitem [ref=f6e62]:
+                - link "Analytics" [disabled] [ref=f6e63]
+        - generic [ref=f6e64]:
+          - button "Toggle theme" [ref=f6e65] [cursor=pointer]
+          - button "Settings" [ref=f6e69] [cursor=pointer]
+          - button "9+" [ref=f6e73] [cursor=pointer]
+          - button [ref=f6e78] [cursor=pointer]
+      - generic [ref=f6e88]:
+        - generic [ref=f6e89]:
+          - generic [ref=f6e90]:
+            - generic [ref=f6e91]:
+              - heading "A.A. Cotton Mills LTD. · Production" [level=1] [ref=f6e92]
+              - generic [ref=f6e93]: Offline
+            - paragraph [ref=f6e95]: A.A. Cotton Mills
+            - paragraph [ref=f6e96]: Production totals and packer-line analytics for this factory.
+          - generic [ref=f6e97]:
+            - link "Factory map" [ref=f6e98] [cursor=pointer]:
+              - /url: /factories
+            - link "Global analytics" [ref=f6e102] [cursor=pointer]:
+              - /url: /analytics
+        - generic [ref=f6e108]:
+          - generic [ref=f6e110]:
+            - generic [ref=f6e111]:
+              - generic [ref=f6e112]: Filters
+              - generic [ref=f6e113]: Changes apply automatically when a valid period is selected.
+            - generic [ref=f6e114]:
+              - generic [ref=f6e194]: Updating…
+              - button "Refresh production data" [ref=f6e117] [cursor=pointer]: Refresh
+          - generic [ref=f6e123]:
+            - generic [ref=f6e124]:
+              - generic [ref=f6e125]:
+                - paragraph [ref=f6e126]: Period type
+                - button "By date" [active] [ref=f6e195] [cursor=pointer]
+              - generic [ref=f6e196]:
+                - paragraph [ref=f6e197]: Date
+                - button "July 23rd, 2026" [ref=f6e198] [cursor=pointer]
+              - button "Reset filters" [ref=f6e201] [cursor=pointer]
+            - generic [ref=f6e131]:
+              - generic [ref=f6e132]: A.A. Cotton Mills LTD. · Today & this month · current year in charts
+              - generic [ref=f6e133]:
+                - text: Updated 12:49 PM
+                - generic [ref=f6e139]: · auto-refreshes every 2.5 min
+        - generic [ref=f6e140]:
+          - generic [ref=f6e141]:
+            - heading "Factory totals" [level=2] [ref=f6e142]
+            - paragraph [ref=f6e143]: Aggregated across all packer lines at this factory.
+          - generic [ref=f6e144]:
+            - generic [ref=f6e159]:
+              - paragraph [ref=f6e161]: Cement bags (day)
+              - paragraph [ref=f6e167]: "0"
+              - paragraph [ref=f6e168]: July 23, 2026
+            - generic [ref=f6e169]:
+              - paragraph [ref=f6e171]: Cement bags (month)
+              - paragraph [ref=f6e177]: "0"
+              - paragraph [ref=f6e178]: July 2026
+        - generic [ref=f6e147]:
+          - generic [ref=f6e149]:
+            - heading "Packer line" [level=2] [ref=f6e150]
+            - paragraph [ref=f6e151]: Select a line to view its production breakdown and optional live view.
+          - generic [ref=f6e180]:
+            - generic [ref=f6e184]:
+              - paragraph [ref=f6e185]: No packer lines found
+              - paragraph [ref=f6e186]: This factory has no camera lines configured yet. Set up devices to start tracking production.
+            - link "Go to Devices" [ref=f6e187] [cursor=pointer]:
+              - /url: /factories/A.A. Cotton Mills LTD./devices
+  - alert [ref=f6e158]

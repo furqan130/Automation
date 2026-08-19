@@ -1,0 +1,77 @@
+- generic [ref=f4e1]:
+  - region "Notifications (F8)":
+    - list
+  - generic [ref=f4e42]:
+    - generic [ref=f4e46]:
+      - img "Digital Eye" [ref=f4e48] [cursor=pointer]
+      - generic [ref=f4e49]:
+        - list [ref=f4e51]:
+          - listitem [ref=f4e52]:
+            - link "Overview" [ref=f4e53] [cursor=pointer]:
+              - /url: /dashboard
+          - listitem [ref=f4e60]:
+            - link "Factories" [ref=f4e61] [cursor=pointer]:
+              - /url: /factories
+        - list [ref=f4e67]:
+          - listitem [ref=f4e68]:
+            - link "Analytics" [ref=f4e69] [cursor=pointer]:
+              - /url: /analytics
+          - listitem [ref=f4e73]:
+            - link "Reports" [ref=f4e74] [cursor=pointer]:
+              - /url: /reports
+        - list [ref=f4e81]:
+          - listitem [ref=f4e82]:
+            - link "Notification Center" [ref=f4e83] [cursor=pointer]:
+              - /url: /notification-center
+          - listitem [ref=f4e87]:
+            - link "Contact List" [ref=f4e88] [cursor=pointer]:
+              - /url: /contact-list
+    - main [ref=f4e95]:
+      - generic [ref=f4e96]:
+        - generic [ref=f4e97]:
+          - button "Toggle Sidebar" [ref=f4e98] [cursor=pointer]
+          - button "Home" [ref=f4e102] [cursor=pointer]
+          - navigation "breadcrumb" [ref=f4e107]:
+            - list [ref=f4e108]:
+              - listitem [ref=f4e109]:
+                - link "Factories" [disabled] [ref=f4e110]
+        - generic [ref=f4e111]:
+          - button "Toggle theme" [ref=f4e112] [cursor=pointer]
+          - button "Settings" [ref=f4e116] [cursor=pointer]
+          - button "9+" [ref=f4e120] [cursor=pointer]
+          - button [ref=f4e125] [cursor=pointer]
+      - generic [ref=f4e133]:
+        - complementary [ref=f4e134]:
+          - generic [ref=f4e135]:
+            - heading "Factories & Companies" [level=2] [ref=f4e136]
+            - paragraph [ref=f4e137]: 249 companies · 291 factories
+            - textbox "Search factories, companies…" [ref=f4e140]
+          - generic [ref=f4e4050] [cursor=pointer]:
+            - generic [ref=f4e4053]: AA Spinning Mills
+            - generic [ref=f4e4054]: 1/1
+            - generic [ref=f4e4055]:
+              - button [ref=f4e4056]
+              - button [ref=f4e4060]
+          - generic [ref=f4e148]:
+            - button "Company" [ref=f4e149] [cursor=pointer]
+            - button "Factory" [ref=f4e151] [cursor=pointer]
+        - generic [ref=f4e154]:
+          - generic [ref=f4e162]:
+            - button "All" [ref=f4e163] [cursor=pointer]
+            - button "Online" [active] [ref=f4e169] [cursor=pointer]
+            - button "Offline" [ref=f4e174] [cursor=pointer]
+          - generic [ref=f4e182]:
+            - generic:
+              - paragraph: All Cement Factories
+              - generic:
+                - generic:
+                  - generic: "291"
+                  - generic: total
+                - generic:
+                  - generic: "290"
+                  - generic: offline
+                - generic:
+                  - generic: "1"
+                  - generic: online
+            - button "Factory Breakdown" [ref=f4e184] [cursor=pointer]
+  - alert [ref=f4e30]: Factories & Companies | Digital Eye

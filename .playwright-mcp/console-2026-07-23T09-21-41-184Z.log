@@ -1,0 +1,1 @@
+[    9201ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://de-api-uat-internal.waiindustries.com/api/v1/industries/?search=Test%20Company:0

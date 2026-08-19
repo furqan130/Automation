@@ -1,0 +1,109 @@
+- generic:
+  - list
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - list:
+                - listitem:
+                  - link:
+                    - /url: /dashboard
+                    - generic: Overview
+                - listitem:
+                  - link:
+                    - /url: /factories
+                    - generic: Factories
+            - generic:
+              - list:
+                - listitem:
+                  - link:
+                    - /url: /analytics
+                    - generic: Analytics
+                - listitem:
+                  - link:
+                    - /url: /reports
+                    - generic: Reports
+            - generic:
+              - list:
+                - listitem:
+                  - link:
+                    - /url: /notification-center
+                    - generic: Notification Center
+                - listitem:
+                  - link:
+                    - /url: /contact-list
+                    - generic: Contact List
+    - main:
+      - generic:
+        - generic:
+          - button:
+            - generic: Toggle Sidebar
+          - button
+          - navigation:
+            - list:
+              - listitem:
+                - link [disabled]: Factories
+        - generic:
+          - button:
+            - generic: Toggle theme
+          - button
+          - button:
+            - generic: 9+
+          - button
+      - generic:
+        - generic:
+          - generic:
+            - complementary:
+              - generic:
+                - heading [level=2]: Factories & Companies
+                - paragraph: 272 companies · 328 factories
+                - generic:
+                  - generic:
+                    - textbox:
+                      - /placeholder: Search factories, companies…
+                      - text: Automated Test Company CP001
+              - generic:
+                - generic:
+                  - paragraph: No factories match the filter.
+              - generic:
+                - button: Company
+                - button: Factory
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - button: All
+                    - button: Online
+                    - button: Offline
+                - generic:
+                  - generic:
+                    - paragraph: All Factories
+                    - generic:
+                      - generic:
+                        - generic: "328"
+                        - generic: total
+                      - generic:
+                        - generic: "327"
+                        - generic: offline
+                      - generic:
+                        - generic: "1"
+                        - generic: online
+                  - generic:
+                    - button:
+                      - generic: Factory Breakdown
+  - alert: Factories & Companies | Digital Eye
+  - dialog [ref=e5222]:
+    - generic [ref=e5223]:
+      - heading "Create Company" [level=2] [ref=e5224]
+      - paragraph [ref=e5225]: Fill the form below to create a new company.
+    - generic [ref=e5226]:
+      - generic [ref=e5227]:
+        - text: Company Name
+        - textbox "Company Name" [active] [ref=e5229]:
+          - /placeholder: Enter company name
+      - generic [ref=e5230]:
+        - button "Cancel" [ref=e5231] [cursor=pointer]
+        - button "Create" [ref=e5232] [cursor=pointer]
+    - button "Close" [ref=e5233] [cursor=pointer]

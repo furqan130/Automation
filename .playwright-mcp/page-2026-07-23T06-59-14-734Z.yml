@@ -1,0 +1,252 @@
+- generic [active] [ref=f11e1]:
+  - region "Notifications (F8)":
+    - list
+  - generic [ref=f11e2]:
+    - generic [ref=f11e6]:
+      - img "Digital Eye" [ref=f11e8] [cursor=pointer]
+      - generic [ref=f11e9]:
+        - list [ref=f11e11]:
+          - listitem [ref=f11e12]:
+            - link "Overview" [ref=f11e13] [cursor=pointer]:
+              - /url: /dashboard
+          - listitem [ref=f11e20]:
+            - link "Factories" [ref=f11e21] [cursor=pointer]:
+              - /url: /factories
+        - list [ref=f11e27]:
+          - listitem [ref=f11e28]:
+            - link "Analytics" [ref=f11e29] [cursor=pointer]:
+              - /url: /analytics
+          - listitem [ref=f11e33]:
+            - link "Reports" [ref=f11e34] [cursor=pointer]:
+              - /url: /reports
+        - list [ref=f11e41]:
+          - listitem [ref=f11e42]:
+            - link "Notification Center" [ref=f11e43] [cursor=pointer]:
+              - /url: /notification-center
+          - listitem [ref=f11e47]:
+            - link "Contact List" [ref=f11e48] [cursor=pointer]:
+              - /url: /contact-list
+    - main [ref=f11e55]:
+      - generic [ref=f11e56]:
+        - generic [ref=f11e57]:
+          - button "Toggle Sidebar" [ref=f11e58] [cursor=pointer]
+          - button "Home" [ref=f11e62] [cursor=pointer]
+          - navigation "breadcrumb" [ref=f11e67]:
+            - list [ref=f11e68]:
+              - listitem [ref=f11e69]:
+                - link "Contacts" [disabled] [ref=f11e70]
+        - generic [ref=f11e71]:
+          - button "Toggle theme" [ref=f11e72] [cursor=pointer]
+          - button "Settings" [ref=f11e76] [cursor=pointer]
+          - button "9+" [ref=f11e80] [cursor=pointer]
+          - button [ref=f11e85] [cursor=pointer]
+      - generic [ref=f11e95]:
+        - generic [ref=f11e96]:
+          - heading "Contacts" [level=1] [ref=f11e97]
+          - generic [ref=f11e223]: "11"
+        - generic [ref=f11e98]:
+          - textbox "Search contacts" [ref=f11e105]
+          - combobox [ref=f11e106] [cursor=pointer]:
+            - generic: All factories
+          - button "Add contact" [ref=f11e109] [cursor=pointer]
+        - generic [ref=f11e111]:
+          - table [ref=f11e114]:
+            - rowgroup [ref=f11e115]:
+              - row [ref=f11e116]:
+                - columnheader "#" [ref=f11e117]
+                - columnheader [ref=f11e118]:
+                  - button "Name" [ref=f11e119] [cursor=pointer]
+                - columnheader "Email" [ref=f11e122]
+                - columnheader "Address" [ref=f11e123]
+                - columnheader "Contact number" [ref=f11e124]
+                - columnheader [ref=f11e125]:
+                  - button "Factory" [ref=f11e126] [cursor=pointer]
+                - columnheader "Actions" [ref=f11e130]
+            - rowgroup [ref=f11e131]:
+              - row [ref=f11e224]:
+                - cell "1" [ref=f11e225]
+                - cell "AF Abraham Frye" [ref=f11e226]:
+                  - generic [ref=f11e227]:
+                    - generic [ref=f11e228]: AF
+                    - generic [ref=f11e229]: Abraham Frye
+                - cell [ref=f11e230]:
+                  - link "lexadiv@mailinator.com" [ref=f11e231] [cursor=pointer]:
+                    - /url: mailto:lexadiv@mailinator.com
+                - cell "Ut velit non volupta" [ref=f11e232]
+                - cell [ref=f11e234]:
+                  - link "+1 (325) 513-2165" [ref=f11e235] [cursor=pointer]:
+                    - /url: tel:+1 (325) 513-2165
+                - cell "Kohinoor Mills" [ref=f11e236]
+                - cell [ref=f11e237]:
+                  - generic [ref=f11e238]:
+                    - button "Edit Abraham Frye" [ref=f11e239] [cursor=pointer]
+                    - button "Delete Abraham Frye" [ref=f11e242] [cursor=pointer]
+              - row [ref=f11e246]:
+                - cell "2" [ref=f11e247]
+                - cell "BR Blythe Rowe" [ref=f11e248]:
+                  - generic [ref=f11e249]:
+                    - generic [ref=f11e250]: BR
+                    - generic [ref=f11e251]: Blythe Rowe
+                - cell [ref=f11e252]:
+                  - link "jixiholufi@mailinator.com" [ref=f11e253] [cursor=pointer]:
+                    - /url: mailto:jixiholufi@mailinator.com
+                - cell "Qui quas quis et dol" [ref=f11e254]
+                - cell [ref=f11e256]:
+                  - link "+1 (491) 942-4807" [ref=f11e257] [cursor=pointer]:
+                    - /url: tel:+1 (491) 942-4807
+                - cell "Ravi Spinning" [ref=f11e258]
+                - cell [ref=f11e259]:
+                  - generic [ref=f11e260]:
+                    - button "Edit Blythe Rowe" [ref=f11e261] [cursor=pointer]
+                    - button "Delete Blythe Rowe" [ref=f11e264] [cursor=pointer]
+              - row [ref=f11e268]:
+                - cell "3" [ref=f11e269]
+                - cell "EF Ella Franklin" [ref=f11e270]:
+                  - generic [ref=f11e271]:
+                    - generic [ref=f11e272]: EF
+                    - generic [ref=f11e273]: Ella Franklin
+                - cell [ref=f11e274]:
+                  - link "sicusih@mailinator.com" [ref=f11e275] [cursor=pointer]:
+                    - /url: mailto:sicusih@mailinator.com
+                - cell "Quia eum molestias e" [ref=f11e276]
+                - cell [ref=f11e278]:
+                  - link "+1 (544) 248-9658" [ref=f11e279] [cursor=pointer]:
+                    - /url: tel:+1 (544) 248-9658
+                - cell "Popular Fibre Mill" [ref=f11e280]
+                - cell [ref=f11e281]:
+                  - generic [ref=f11e282]:
+                    - button "Edit Ella Franklin" [ref=f11e283] [cursor=pointer]
+                    - button "Delete Ella Franklin" [ref=f11e286] [cursor=pointer]
+              - row [ref=f11e290]:
+                - cell "4" [ref=f11e291]
+                - cell "FU furqan" [ref=f11e292]:
+                  - generic [ref=f11e293]:
+                    - generic [ref=f11e294]: FU
+                    - generic [ref=f11e295]: furqan
+                - cell [ref=f11e296]:
+                  - link "a@gmail.com" [ref=f11e297] [cursor=pointer]:
+                    - /url: mailto:a@gmail.com
+                - cell "." [ref=f11e298]
+                - cell [ref=f11e300]:
+                  - link "00000000" [ref=f11e301] [cursor=pointer]:
+                    - /url: tel:00000000
+                - cell "Furqan Factory new 1" [ref=f11e302]
+                - cell [ref=f11e303]:
+                  - generic [ref=f11e304]:
+                    - button "Edit furqan" [ref=f11e305] [cursor=pointer]
+                    - button "Delete furqan" [ref=f11e308] [cursor=pointer]
+              - row [ref=f11e312]:
+                - cell "5" [ref=f11e313]
+                - cell "HW Hayfa Woodward" [ref=f11e314]:
+                  - generic [ref=f11e315]:
+                    - generic [ref=f11e316]: HW
+                    - generic [ref=f11e317]: Hayfa Woodward
+                - cell [ref=f11e318]:
+                  - link "fifak@mailinator.com" [ref=f11e319] [cursor=pointer]:
+                    - /url: mailto:fifak@mailinator.com
+                - cell "Autem fuga Non Nam" [ref=f11e320]
+                - cell [ref=f11e322]:
+                  - link "+1 (354) 723-1227" [ref=f11e323] [cursor=pointer]:
+                    - /url: tel:+1 (354) 723-1227
+                - cell "Crescent Cotton Mills" [ref=f11e324]
+                - cell [ref=f11e325]:
+                  - generic [ref=f11e326]:
+                    - button "Edit Hayfa Woodward" [ref=f11e327] [cursor=pointer]
+                    - button "Delete Hayfa Woodward" [ref=f11e330] [cursor=pointer]
+              - row [ref=f11e334]:
+                - cell "6" [ref=f11e335]
+                - cell "HW Hayley Wilkinson" [ref=f11e336]:
+                  - generic [ref=f11e337]:
+                    - generic [ref=f11e338]: HW
+                    - generic [ref=f11e339]: Hayley Wilkinson
+                - cell [ref=f11e340]:
+                  - link "wyfatoh@mailinator.com" [ref=f11e341] [cursor=pointer]:
+                    - /url: mailto:wyfatoh@mailinator.com
+                - cell "Dolore voluptatibus" [ref=f11e342]
+                - cell [ref=f11e344]:
+                  - link "+1 (883) 115-2174" [ref=f11e345] [cursor=pointer]:
+                    - /url: tel:+1 (883) 115-2174
+                - cell "Multan Spinning Mills" [ref=f11e346]
+                - cell [ref=f11e347]:
+                  - generic [ref=f11e348]:
+                    - button "Edit Hayley Wilkinson" [ref=f11e349] [cursor=pointer]
+                    - button "Delete Hayley Wilkinson" [ref=f11e352] [cursor=pointer]
+              - row [ref=f11e356]:
+                - cell "7" [ref=f11e357]
+                - cell "IM Iola Mullins" [ref=f11e358]:
+                  - generic [ref=f11e359]:
+                    - generic [ref=f11e360]: IM
+                    - generic [ref=f11e361]: Iola Mullins
+                - cell [ref=f11e362]:
+                  - link "fyqi@mailinator.com" [ref=f11e363] [cursor=pointer]:
+                    - /url: mailto:fyqi@mailinator.com
+                - cell "Magna laboriosam om" [ref=f11e364]
+                - cell [ref=f11e366]:
+                  - link "+1 (988) 618-3175" [ref=f11e367] [cursor=pointer]:
+                    - /url: tel:+1 (988) 618-3175
+                - cell "—" [ref=f11e368]
+                - cell [ref=f11e369]:
+                  - generic [ref=f11e370]:
+                    - button "Edit Iola Mullins" [ref=f11e371] [cursor=pointer]
+                    - button "Delete Iola Mullins" [ref=f11e374] [cursor=pointer]
+              - row [ref=f11e378]:
+                - cell "8" [ref=f11e379]
+                - cell "LL Lars Larson" [ref=f11e380]:
+                  - generic [ref=f11e381]:
+                    - generic [ref=f11e382]: LL
+                    - generic [ref=f11e383]: Lars Larson
+                - cell [ref=f11e384]:
+                  - link "nogune@mailinator.com" [ref=f11e385] [cursor=pointer]:
+                    - /url: mailto:nogune@mailinator.com
+                - cell "Enim fugiat mollitia" [ref=f11e386]
+                - cell [ref=f11e388]:
+                  - link "+1 (748) 868-8237" [ref=f11e389] [cursor=pointer]:
+                    - /url: tel:+1 (748) 868-8237
+                - cell "—" [ref=f11e390]
+                - cell [ref=f11e391]:
+                  - generic [ref=f11e392]:
+                    - button "Edit Lars Larson" [ref=f11e393] [cursor=pointer]
+                    - button "Delete Lars Larson" [ref=f11e396] [cursor=pointer]
+              - row [ref=f11e400]:
+                - cell "9" [ref=f11e401]
+                - cell "LB Liberty Browning" [ref=f11e402]:
+                  - generic [ref=f11e403]:
+                    - generic [ref=f11e404]: LB
+                    - generic [ref=f11e405]: Liberty Browning
+                - cell [ref=f11e406]:
+                  - link "carunyruvi@mailinator.com" [ref=f11e407] [cursor=pointer]:
+                    - /url: mailto:carunyruvi@mailinator.com
+                - cell "Culpa atque aut pro" [ref=f11e408]
+                - cell [ref=f11e410]:
+                  - link "+1 (539) 281-7387" [ref=f11e411] [cursor=pointer]:
+                    - /url: tel:+1 (539) 281-7387
+                - cell "Al-Zamin Textile Mills" [ref=f11e412]
+                - cell [ref=f11e413]:
+                  - generic [ref=f11e414]:
+                    - button "Edit Liberty Browning" [ref=f11e415] [cursor=pointer]
+                    - button "Delete Liberty Browning" [ref=f11e418] [cursor=pointer]
+              - row [ref=f11e422]:
+                - cell "10" [ref=f11e423]
+                - cell "RW Raymond Webb" [ref=f11e424]:
+                  - generic [ref=f11e425]:
+                    - generic [ref=f11e426]: RW
+                    - generic [ref=f11e427]: Raymond Webb
+                - cell [ref=f11e428]:
+                  - link "fevu@mailinator.com" [ref=f11e429] [cursor=pointer]:
+                    - /url: mailto:fevu@mailinator.com
+                - cell "Occaecat magni earum" [ref=f11e430]
+                - cell [ref=f11e432]:
+                  - link "+1 (439) 113-6753" [ref=f11e433] [cursor=pointer]:
+                    - /url: tel:+1 (439) 113-6753
+                - cell "Ahmed Hassan Textile Mills Limited" [ref=f11e434]
+                - cell [ref=f11e435]:
+                  - generic [ref=f11e436]:
+                    - button "Edit Raymond Webb" [ref=f11e437] [cursor=pointer]
+                    - button "Delete Raymond Webb" [ref=f11e440] [cursor=pointer]
+          - generic [ref=f11e444]:
+            - paragraph [ref=f11e445]: Showing 1–10 of 11
+            - generic [ref=f11e446]:
+              - button "Previous" [disabled]
+              - generic [ref=f11e447]: 1 / 2
+              - button "Next" [ref=f11e448] [cursor=pointer]
+  - alert [ref=f11e222]

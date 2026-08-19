@@ -1,0 +1,1 @@
+[    3371ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://de-admin-uat-internal.waiindustries.com/poly-x/poly-alert/v1/push?user_id=&status=active&organization_id=&page=1:0

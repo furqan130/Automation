@@ -1,0 +1,86 @@
+- generic [active] [ref=f16e1]:
+  - region "Notifications (F8)":
+    - list
+  - generic [ref=f16e2]:
+    - generic [ref=f16e6]:
+      - img "Digital Eye" [ref=f16e8] [cursor=pointer]
+      - generic [ref=f16e9]:
+        - button "Back to factories" [ref=f16e11] [cursor=pointer]:
+          - generic [ref=f16e14]: Back to Factories
+        - list [ref=f16e16]:
+          - listitem [ref=f16e17]:
+            - generic [ref=f16e18]: A.A. Cotton Mills LTD.
+          - listitem [ref=f16e22]:
+            - link "Analytics" [ref=f16e23] [cursor=pointer]:
+              - /url: /factories/A.A.%20Cotton%20Mills%20LTD./analytics
+          - listitem [ref=f16e27]:
+            - link "Devices" [ref=f16e28] [cursor=pointer]:
+              - /url: /factories/A.A.%20Cotton%20Mills%20LTD./devices
+          - listitem [ref=f16e33]:
+            - link "Performance" [ref=f16e34] [cursor=pointer]:
+              - /url: /factories/A.A.%20Cotton%20Mills%20LTD./performance
+    - main [ref=f16e38]:
+      - generic [ref=f16e39]:
+        - generic [ref=f16e40]:
+          - button "Toggle Sidebar" [ref=f16e41] [cursor=pointer]
+          - button "Home" [ref=f16e45] [cursor=pointer]
+          - navigation "breadcrumb" [ref=f16e50]:
+            - list [ref=f16e51]:
+              - listitem [ref=f16e52]:
+                - link "Factories" [ref=f16e53] [cursor=pointer]:
+                  - /url: /factories
+              - listitem [ref=f16e57]:
+                - link "A.A. Cotton Mills LTD." [ref=f16e58] [cursor=pointer]:
+                  - /url: /factories/A.A.%20Cotton%20Mills%20LTD.
+              - listitem [ref=f16e62]:
+                - link "Devices" [disabled] [ref=f16e63]
+        - generic [ref=f16e64]:
+          - button "Toggle theme" [ref=f16e65] [cursor=pointer]
+          - button "Settings" [ref=f16e69] [cursor=pointer]
+          - button "9+" [ref=f16e73] [cursor=pointer]
+          - button [ref=f16e78] [cursor=pointer]
+      - generic [ref=f16e89]:
+        - generic [ref=f16e90]:
+          - heading "Devices" [level=1] [ref=f16e91]
+          - paragraph [ref=f16e92]: View and manage your devices under the selected industry.
+        - generic [ref=f16e93]:
+          - textbox "Search" [ref=f16e99]
+          - button "Add Device" [ref=f16e100] [cursor=pointer]
+        - generic [ref=f16e102]:
+          - table [ref=f16e105]:
+            - rowgroup [ref=f16e106]:
+              - row [ref=f16e107]:
+                - columnheader "S.NO" [ref=f16e108]
+                - columnheader "DEVICE NAME" [ref=f16e109]
+                - columnheader "DEVICE TYPE" [ref=f16e110]
+                - columnheader "STATUS" [ref=f16e111]
+                - columnheader "CREATED ON" [ref=f16e112]
+                - columnheader "UPDATED ON" [ref=f16e113]
+                - columnheader "ACTIONS" [ref=f16e114]
+            - rowgroup [ref=f16e115]:
+              - row [ref=f16e125]:
+                - cell "1" [ref=f16e126]
+                - cell "GPU Machine" [ref=f16e128]
+                - cell "machine" [ref=f16e129]
+                - cell "disabled" [ref=f16e130]
+                - cell "Mar 28, 2026" [ref=f16e132]
+                - cell "Mar 28, 2026" [ref=f16e134]
+                - cell [ref=f16e136]:
+                  - generic [ref=f16e137]:
+                    - button "View GPU Machine details" [ref=f16e138] [cursor=pointer]
+                    - button [ref=f16e142] [cursor=pointer]
+                    - button [ref=f16e145] [cursor=pointer]
+          - navigation "pagination" [ref=f16e150]:
+            - list [ref=f16e151]:
+              - listitem [ref=f16e152]:
+                - link "Go to previous page":
+                  - /url: "#"
+                  - generic: Previous
+              - listitem [ref=f16e153]:
+                - link "1" [ref=f16e154] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=f16e155]:
+                - link "Go to next page":
+                  - /url: "#"
+                  - generic: Next
+  - alert [ref=f16e124]

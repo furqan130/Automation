@@ -1,0 +1,7 @@
+[     889ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://de-uat-internal.waiindustries.com/factories/Test%20Factory/performance?_rsc=DtS2lMEVngWpVWW9:0
+[     890ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://de-uat-internal.waiindustries.com/factories/Test%20Factory/devices?_rsc=DtS2lMEVngWpVWW9:0
+[     890ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://de-uat-internal.waiindustries.com/factories/Test%20Factory/analytics?_rsc=fVi1De-fm9xRxvhb:0
+[     890ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://de-uat-internal.waiindustries.com/analytics?_rsc=DtS2lMEVngWpVWW9:0
+[     892ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://de-admin-uat-internal.waiindustries.com/poly-x/poly-alert/v1/push?user_id=6a5904f245f55cc9d705a03a&status=active&organization_id=6a58af0a45f55cc9d7058f1b&page=1:0
+[     892ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://de-admin-uat-internal.waiindustries.com/poly-x/poly-alert/v1/push?user_id=67bc583ecc7002fdee3b5aa3&status=active&organization_id=67b1fbdad5f08268cd59801c&page=1:0
+[     917ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://de-api-uat-internal.waiindustries.com/api/v1/products/analytics/total/?industry_id=dd7d3074-4998-4f16-b09b-5bce646fa6e5:0

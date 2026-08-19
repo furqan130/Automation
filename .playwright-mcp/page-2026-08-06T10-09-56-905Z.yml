@@ -1,0 +1,27 @@
+- generic [active] [ref=f5e1]:
+  - region "Notifications (F8)":
+    - list
+  - generic [ref=f5e2]:
+    - generic [ref=f5e3]:
+      - generic [ref=f5e4]:
+        - img "Digital Eye" [ref=f5e5]
+        - heading "Digital Eye Central" [level=1] [ref=f5e6]
+      - blockquote [ref=f5e9]:
+        - paragraph [ref=f5e10]: Create, Deploy, Excel
+        - contentinfo [ref=f5e11]: Powered by ISSM.AI
+    - generic [ref=f5e13]:
+      - generic [ref=f5e14]:
+        - heading "Sign in to your account" [level=1] [ref=f5e15]
+        - paragraph [ref=f5e16]: Enter your email below to sign in to your account
+      - generic [ref=f5e17]:
+        - generic [ref=f5e18]:
+          - text: Email
+          - textbox "Email" [ref=f5e20]:
+            - /placeholder: name@example.com
+        - generic [ref=f5e21]:
+          - text: Password
+          - generic [ref=f5e22]:
+            - textbox "********" [ref=f5e24]
+            - button [ref=f5e25] [cursor=pointer]
+        - button "Sign In" [ref=f5e29] [cursor=pointer]
+  - alert [ref=f5e30]

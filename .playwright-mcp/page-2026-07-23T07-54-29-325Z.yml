@@ -1,0 +1,1557 @@
+- generic [active] [ref=f9e1]:
+  - region "Notifications (F8)":
+    - list
+  - generic [ref=f9e2]:
+    - generic [ref=f9e6]:
+      - img "Digital Eye" [ref=f9e8] [cursor=pointer]
+      - generic [ref=f9e9]:
+        - list [ref=f9e11]:
+          - listitem [ref=f9e12]:
+            - link "Overview" [ref=f9e13] [cursor=pointer]:
+              - /url: /dashboard
+          - listitem [ref=f9e20]:
+            - link "Factories" [ref=f9e21] [cursor=pointer]:
+              - /url: /factories
+        - list [ref=f9e27]:
+          - listitem [ref=f9e28]:
+            - link "Analytics" [ref=f9e29] [cursor=pointer]:
+              - /url: /analytics
+          - listitem [ref=f9e33]:
+            - link "Reports" [ref=f9e34] [cursor=pointer]:
+              - /url: /reports
+        - list [ref=f9e41]:
+          - listitem [ref=f9e42]:
+            - link "Notification Center" [ref=f9e43] [cursor=pointer]:
+              - /url: /notification-center
+          - listitem [ref=f9e47]:
+            - link "Contact List" [ref=f9e48] [cursor=pointer]:
+              - /url: /contact-list
+    - main [ref=f9e55]:
+      - generic [ref=f9e56]:
+        - generic [ref=f9e57]:
+          - button "Toggle Sidebar" [ref=f9e58] [cursor=pointer]
+          - button "Home" [ref=f9e62] [cursor=pointer]
+          - navigation "breadcrumb" [ref=f9e67]:
+            - list [ref=f9e68]:
+              - listitem [ref=f9e69]:
+                - link "Factories" [disabled] [ref=f9e70]
+        - generic [ref=f9e71]:
+          - button "Toggle theme" [ref=f9e72] [cursor=pointer]
+          - button "Settings" [ref=f9e76] [cursor=pointer]
+          - button "9+" [ref=f9e80] [cursor=pointer]
+          - button [ref=f9e85] [cursor=pointer]
+      - generic [ref=f9e93]:
+        - complementary [ref=f9e94]:
+          - generic [ref=f9e95]:
+            - heading "Factories & Companies" [level=2] [ref=f9e96]
+            - paragraph [ref=f9e97]: 249 companies · 291 factories
+            - textbox "Search factories, companies…" [ref=f9e100]
+          - generic [ref=f9e101]:
+            - generic [ref=f9e117]:
+              - generic [ref=f9e118] [cursor=pointer]:
+                - generic [ref=f9e121]: A.L. Textiles
+                - generic [ref=f9e122]: 0/1
+                - generic [ref=f9e123]:
+                  - button [ref=f9e124]
+                  - button [ref=f9e128]
+              - generic [ref=f9e4009] [cursor=pointer]:
+                - generic [ref=f9e4011]: A.L. Textiles
+                - generic [ref=f9e4012]:
+                  - button "Factory status graph" [ref=f9e4013]
+                  - button "View analytics" [ref=f9e4016]
+                  - button [ref=f9e4020]
+                  - button [ref=f9e4024]
+                  - button "Copy ID" [ref=f9e4028]
+            - generic [ref=f9e133] [cursor=pointer]:
+              - generic [ref=f9e136]: AA Spinning Mills
+              - generic [ref=f9e137]: 0/1
+              - generic [ref=f9e138]:
+                - button [ref=f9e139]
+                - button [ref=f9e143]
+            - generic [ref=f9e148] [cursor=pointer]:
+              - generic [ref=f9e151]: Abdullah Textile Mills
+              - generic [ref=f9e152]: 0/2
+              - generic [ref=f9e153]:
+                - button [ref=f9e154]
+                - button [ref=f9e158]
+            - generic [ref=f9e163] [cursor=pointer]:
+              - generic [ref=f9e166]: Acme Mills
+              - generic [ref=f9e167]: 0/1
+              - generic [ref=f9e168]:
+                - button [ref=f9e169]
+                - button [ref=f9e173]
+            - generic [ref=f9e178] [cursor=pointer]:
+              - generic [ref=f9e181]: Adnan Textile Mills
+              - generic [ref=f9e182]: 0/1
+              - generic [ref=f9e183]:
+                - button [ref=f9e184]
+                - button [ref=f9e188]
+            - generic [ref=f9e193] [cursor=pointer]:
+              - generic [ref=f9e196]: Agar Textiles
+              - generic [ref=f9e197]: 0/1
+              - generic [ref=f9e198]:
+                - button [ref=f9e199]
+                - button [ref=f9e203]
+            - generic [ref=f9e208] [cursor=pointer]:
+              - generic [ref=f9e211]: Ahmed Fine Textile Mills
+              - generic [ref=f9e212]: 0/3
+              - generic [ref=f9e213]:
+                - button [ref=f9e214]
+                - button [ref=f9e218]
+            - generic [ref=f9e223] [cursor=pointer]:
+              - generic [ref=f9e226]: Al Ahmed Textile Mills
+              - generic [ref=f9e227]: 0/1
+              - generic [ref=f9e228]:
+                - button [ref=f9e229]
+                - button [ref=f9e233]
+            - generic [ref=f9e238] [cursor=pointer]:
+              - generic [ref=f9e241]: Al Nasr Textiles
+              - generic [ref=f9e242]: 0/1
+              - generic [ref=f9e243]:
+                - button [ref=f9e244]
+                - button [ref=f9e248]
+            - generic [ref=f9e253] [cursor=pointer]:
+              - generic [ref=f9e256]: Al-Karam Textile Mill
+              - generic [ref=f9e257]: 0/2
+              - generic [ref=f9e258]:
+                - button [ref=f9e259]
+                - button [ref=f9e263]
+            - generic [ref=f9e268] [cursor=pointer]:
+              - generic [ref=f9e271]: Al-Muqeet Textiles
+              - generic [ref=f9e272]: 0/1
+              - generic [ref=f9e273]:
+                - button [ref=f9e274]
+                - button [ref=f9e278]
+            - generic [ref=f9e283] [cursor=pointer]:
+              - generic [ref=f9e286]: Al-Qadir Textile Mill
+              - generic [ref=f9e287]: 0/1
+              - generic [ref=f9e288]:
+                - button [ref=f9e289]
+                - button [ref=f9e293]
+            - generic [ref=f9e298] [cursor=pointer]:
+              - generic [ref=f9e301]: Al-Zamin Textile Mills
+              - generic [ref=f9e302]: 0/1
+              - generic [ref=f9e303]:
+                - button [ref=f9e304]
+                - button [ref=f9e308]
+            - generic [ref=f9e313] [cursor=pointer]:
+              - generic [ref=f9e316]: Alam Cotton Mills
+              - generic [ref=f9e317]: 0/1
+              - generic [ref=f9e318]:
+                - button [ref=f9e319]
+                - button [ref=f9e323]
+            - generic [ref=f9e328] [cursor=pointer]:
+              - generic [ref=f9e331]: Alhamd Corporation
+              - generic [ref=f9e332]: 0/1
+              - generic [ref=f9e333]:
+                - button [ref=f9e334]
+                - button [ref=f9e338]
+            - generic [ref=f9e343] [cursor=pointer]:
+              - generic [ref=f9e346]: Ali Akbar Textile Mills
+              - generic [ref=f9e347]: 0/2
+              - generic [ref=f9e348]:
+                - button [ref=f9e349]
+                - button [ref=f9e353]
+            - generic [ref=f9e358] [cursor=pointer]:
+              - generic [ref=f9e361]: Allawasaya Textile Mills
+              - generic [ref=f9e362]: 0/2
+              - generic [ref=f9e363]:
+                - button [ref=f9e364]
+                - button [ref=f9e368]
+            - generic [ref=f9e373] [cursor=pointer]:
+              - generic [ref=f9e376]: Amer Cotton Mills
+              - generic [ref=f9e377]: 0/1
+              - generic [ref=f9e378]:
+                - button [ref=f9e379]
+                - button [ref=f9e383]
+            - generic [ref=f9e388] [cursor=pointer]:
+              - generic [ref=f9e391]: Amin Textile Mills
+              - generic [ref=f9e392]: 0/1
+              - generic [ref=f9e393]:
+                - button [ref=f9e394]
+                - button [ref=f9e398]
+            - generic [ref=f9e403] [cursor=pointer]:
+              - generic [ref=f9e406]: Amna Industries
+              - generic [ref=f9e407]: 0/1
+              - generic [ref=f9e408]:
+                - button [ref=f9e409]
+                - button [ref=f9e413]
+            - generic [ref=f9e418] [cursor=pointer]:
+              - generic [ref=f9e421]: An Textile Mills
+              - generic [ref=f9e422]: 0/1
+              - generic [ref=f9e423]:
+                - button [ref=f9e424]
+                - button [ref=f9e428]
+            - generic [ref=f9e433] [cursor=pointer]:
+              - generic [ref=f9e436]: Anjum Textile Mills
+              - generic [ref=f9e437]: 0/1
+              - generic [ref=f9e438]:
+                - button [ref=f9e439]
+                - button [ref=f9e443]
+            - generic [ref=f9e448] [cursor=pointer]:
+              - generic [ref=f9e451]: Anoud Textile Mills
+              - generic [ref=f9e452]: 0/1
+              - generic [ref=f9e453]:
+                - button [ref=f9e454]
+                - button [ref=f9e458]
+            - generic [ref=f9e463] [cursor=pointer]:
+              - generic [ref=f9e466]: Anwar Textile Mills
+              - generic [ref=f9e467]: 0/1
+              - generic [ref=f9e468]:
+                - button [ref=f9e469]
+                - button [ref=f9e473]
+            - generic [ref=f9e478] [cursor=pointer]:
+              - generic [ref=f9e481]: Arctic Textile Mills
+              - generic [ref=f9e482]: 0/1
+              - generic [ref=f9e483]:
+                - button [ref=f9e484]
+                - button [ref=f9e488]
+            - generic [ref=f9e493] [cursor=pointer]:
+              - generic [ref=f9e496]: Arshad Corporation
+              - generic [ref=f9e497]: 0/1
+              - generic [ref=f9e498]:
+                - button [ref=f9e499]
+                - button [ref=f9e503]
+            - generic [ref=f9e508] [cursor=pointer]:
+              - generic [ref=f9e511]: Arshad Textile Mills
+              - generic [ref=f9e512]: 0/1
+              - generic [ref=f9e513]:
+                - button [ref=f9e514]
+                - button [ref=f9e518]
+            - generic [ref=f9e523] [cursor=pointer]:
+              - generic [ref=f9e526]: Artistic Fabric And Garment
+              - generic [ref=f9e527]: 0/1
+              - generic [ref=f9e528]:
+                - button [ref=f9e529]
+                - button [ref=f9e533]
+            - generic [ref=f9e538] [cursor=pointer]:
+              - generic [ref=f9e541]: Artistic Milliners
+              - generic [ref=f9e542]: 0/1
+              - generic [ref=f9e543]:
+                - button [ref=f9e544]
+                - button [ref=f9e548]
+            - generic [ref=f9e553] [cursor=pointer]:
+              - generic [ref=f9e556]: Arzoo Textile Mills
+              - generic [ref=f9e557]: 0/1
+              - generic [ref=f9e558]:
+                - button [ref=f9e559]
+                - button [ref=f9e563]
+            - generic [ref=f9e568] [cursor=pointer]:
+              - generic [ref=f9e571]: Asher Imran Spininning Mills
+              - generic [ref=f9e572]: 0/1
+              - generic [ref=f9e573]:
+                - button [ref=f9e574]
+                - button [ref=f9e578]
+            - generic [ref=f9e583] [cursor=pointer]:
+              - generic [ref=f9e586]: Ashiana Cotton Products
+              - generic [ref=f9e587]: 0/1
+              - generic [ref=f9e588]:
+                - button [ref=f9e589]
+                - button [ref=f9e593]
+            - generic [ref=f9e598] [cursor=pointer]:
+              - generic [ref=f9e601]: Asian Textile Network
+              - generic [ref=f9e602]: 0/1
+              - generic [ref=f9e603]:
+                - button [ref=f9e604]
+                - button [ref=f9e608]
+            - generic [ref=f9e613] [cursor=pointer]:
+              - generic [ref=f9e616]: Asim Textile Mills
+              - generic [ref=f9e617]: 0/1
+              - generic [ref=f9e618]:
+                - button [ref=f9e619]
+                - button [ref=f9e623]
+            - generic [ref=f9e628] [cursor=pointer]:
+              - generic [ref=f9e631]: Automated Test Company 108692
+              - generic [ref=f9e632]: 0/1
+              - generic [ref=f9e633]:
+                - button [ref=f9e634]
+                - button [ref=f9e638]
+            - generic [ref=f9e643] [cursor=pointer]:
+              - generic [ref=f9e646]: Ayesha Spinning Mills
+              - generic [ref=f9e647]: 0/1
+              - generic [ref=f9e648]:
+                - button [ref=f9e649]
+                - button [ref=f9e653]
+            - generic [ref=f9e658] [cursor=pointer]:
+              - generic [ref=f9e661]: Bajwa Spinning Mills
+              - generic [ref=f9e662]: 0/1
+              - generic [ref=f9e663]:
+                - button [ref=f9e664]
+                - button [ref=f9e668]
+            - generic [ref=f9e673] [cursor=pointer]:
+              - generic [ref=f9e676]: Bela Textile Mills
+              - generic [ref=f9e677]: 0/1
+              - generic [ref=f9e678]:
+                - button [ref=f9e679]
+                - button [ref=f9e683]
+            - generic [ref=f9e688] [cursor=pointer]:
+              - generic [ref=f9e691]: Best Exports Textile Mills
+              - generic [ref=f9e692]: 0/1
+              - generic [ref=f9e693]:
+                - button [ref=f9e694]
+                - button [ref=f9e698]
+            - generic [ref=f9e703] [cursor=pointer]:
+              - generic [ref=f9e706]: Bhanero Textile Mills
+              - generic [ref=f9e707]: 0/1
+              - generic [ref=f9e708]:
+                - button [ref=f9e709]
+                - button [ref=f9e713]
+            - generic [ref=f9e718] [cursor=pointer]:
+              - generic [ref=f9e721]: Bhimra Textile Mills
+              - generic [ref=f9e722]: 0/1
+              - generic [ref=f9e723]:
+                - button [ref=f9e724]
+                - button [ref=f9e728]
+            - generic [ref=f9e733] [cursor=pointer]:
+              - generic [ref=f9e736]: Bilal Textile Mills
+              - generic [ref=f9e737]: 0/2
+              - generic [ref=f9e738]:
+                - button [ref=f9e739]
+                - button [ref=f9e743]
+            - generic [ref=f9e748] [cursor=pointer]:
+              - generic [ref=f9e751]: Blessed Textiles
+              - generic [ref=f9e752]: 0/1
+              - generic [ref=f9e753]:
+                - button [ref=f9e754]
+                - button [ref=f9e758]
+            - generic [ref=f9e763] [cursor=pointer]:
+              - generic [ref=f9e766]: Burewala Textile Mills
+              - generic [ref=f9e767]: 0/1
+              - generic [ref=f9e768]:
+                - button [ref=f9e769]
+                - button [ref=f9e773]
+            - generic [ref=f9e778] [cursor=pointer]:
+              - generic [ref=f9e781]: C.A. Catextile Textile Mills
+              - generic [ref=f9e782]: 0/1
+              - generic [ref=f9e783]:
+                - button [ref=f9e784]
+                - button [ref=f9e788]
+            - generic [ref=f9e793] [cursor=pointer]:
+              - generic [ref=f9e796]: Century Textile & Energy
+              - generic [ref=f9e797]: 0/1
+              - generic [ref=f9e798]:
+                - button [ref=f9e799]
+                - button [ref=f9e803]
+            - generic [ref=f9e808] [cursor=pointer]:
+              - generic [ref=f9e811]: Chakwal Group
+              - generic [ref=f9e812]: 0/1
+              - generic [ref=f9e813]:
+                - button [ref=f9e814]
+                - button [ref=f9e818]
+            - generic [ref=f9e823] [cursor=pointer]:
+              - generic [ref=f9e826]: Chakwal Textile Mills
+              - generic [ref=f9e827]: 0/1
+              - generic [ref=f9e828]:
+                - button [ref=f9e829]
+                - button [ref=f9e833]
+            - generic [ref=f9e838] [cursor=pointer]:
+              - generic [ref=f9e841]: Chaudhry Sugar Mills
+              - generic [ref=f9e842]: 0/1
+              - generic [ref=f9e843]:
+                - button [ref=f9e844]
+                - button [ref=f9e848]
+            - generic [ref=f9e853] [cursor=pointer]:
+              - generic [ref=f9e856]: Chenab Textile Mills
+              - generic [ref=f9e857]: 0/1
+              - generic [ref=f9e858]:
+                - button [ref=f9e859]
+                - button [ref=f9e863]
+            - generic [ref=f9e868] [cursor=pointer]:
+              - generic [ref=f9e871]: Chiniot Textile Mills
+              - generic [ref=f9e872]: 0/1
+              - generic [ref=f9e873]:
+                - button [ref=f9e874]
+                - button [ref=f9e878]
+            - generic [ref=f9e883] [cursor=pointer]:
+              - generic [ref=f9e886]: Colony Textile Mills
+              - generic [ref=f9e887]: 0/1
+              - generic [ref=f9e888]:
+                - button [ref=f9e889]
+                - button [ref=f9e893]
+            - generic [ref=f9e898] [cursor=pointer]:
+              - generic [ref=f9e901]: Combine Spinning Textile Mills
+              - generic [ref=f9e902]: 0/1
+              - generic [ref=f9e903]:
+                - button [ref=f9e904]
+                - button [ref=f9e908]
+            - generic [ref=f9e913] [cursor=pointer]:
+              - generic [ref=f9e916]: Crescent Textile Mills
+              - generic [ref=f9e917]: 0/7
+              - generic [ref=f9e918]:
+                - button [ref=f9e919]
+                - button [ref=f9e923]
+            - generic [ref=f9e928] [cursor=pointer]:
+              - generic [ref=f9e931]: D. M. Textile Mills
+              - generic [ref=f9e932]: 0/1
+              - generic [ref=f9e933]:
+                - button [ref=f9e934]
+                - button [ref=f9e938]
+            - generic [ref=f9e943] [cursor=pointer]:
+              - generic [ref=f9e946]: Danish Textile Mills
+              - generic [ref=f9e947]: 0/1
+              - generic [ref=f9e948]:
+                - button [ref=f9e949]
+                - button [ref=f9e953]
+            - generic [ref=f9e958] [cursor=pointer]:
+              - generic [ref=f9e961]: Dewan Farooque Textile Mills
+              - generic [ref=f9e962]: 0/2
+              - generic [ref=f9e963]:
+                - button [ref=f9e964]
+                - button [ref=f9e968]
+            - generic [ref=f9e973] [cursor=pointer]:
+              - generic [ref=f9e976]: Diamond Textile Mills
+              - generic [ref=f9e977]: 0/2
+              - generic [ref=f9e978]:
+                - button [ref=f9e979]
+                - button [ref=f9e983]
+            - generic [ref=f9e988] [cursor=pointer]:
+              - generic [ref=f9e991]: Eastern Spinning Mills
+              - generic [ref=f9e992]: 0/1
+              - generic [ref=f9e993]:
+                - button [ref=f9e994]
+                - button [ref=f9e998]
+            - generic [ref=f9e1003] [cursor=pointer]:
+              - generic [ref=f9e1006]: Ejaz Textile Mills
+              - generic [ref=f9e1007]: 0/2
+              - generic [ref=f9e1008]:
+                - button [ref=f9e1009]
+                - button [ref=f9e1013]
+            - generic [ref=f9e1018] [cursor=pointer]:
+              - generic [ref=f9e1021]: Ellcot Textile Mills
+              - generic [ref=f9e1022]: 0/1
+              - generic [ref=f9e1023]:
+                - button [ref=f9e1024]
+                - button [ref=f9e1028]
+            - generic [ref=f9e1033] [cursor=pointer]:
+              - generic [ref=f9e1036]: Equity Textiles Mills
+              - generic [ref=f9e1037]: 0/1
+              - generic [ref=f9e1038]:
+                - button [ref=f9e1039]
+                - button [ref=f9e1043]
+            - generic [ref=f9e1048] [cursor=pointer]:
+              - generic [ref=f9e1051]: Escorts Advanced Textiles Mills
+              - generic [ref=f9e1052]: 0/1
+              - generic [ref=f9e1053]:
+                - button [ref=f9e1054]
+                - button [ref=f9e1058]
+            - generic [ref=f9e1063] [cursor=pointer]:
+              - generic [ref=f9e1066]: Fahid Javed Textile Mills
+              - generic [ref=f9e1067]: 0/2
+              - generic [ref=f9e1068]:
+                - button [ref=f9e1069]
+                - button [ref=f9e1073]
+            - generic [ref=f9e1078] [cursor=pointer]:
+              - generic [ref=f9e1081]: Fashion Knit Industries
+              - generic [ref=f9e1082]: 0/1
+              - generic [ref=f9e1083]:
+                - button [ref=f9e1084]
+                - button [ref=f9e1088]
+            - generic [ref=f9e1093] [cursor=pointer]:
+              - generic [ref=f9e1096]: Fateh Textile Mills
+              - generic [ref=f9e1097]: 0/1
+              - generic [ref=f9e1098]:
+                - button [ref=f9e1099]
+                - button [ref=f9e1103]
+            - generic [ref=f9e1108] [cursor=pointer]:
+              - generic [ref=f9e1111]: Fatima Textile Mills
+              - generic [ref=f9e1112]: 0/1
+              - generic [ref=f9e1113]:
+                - button [ref=f9e1114]
+                - button [ref=f9e1118]
+            - generic [ref=f9e1123] [cursor=pointer]:
+              - generic [ref=f9e1126]: Fauji Textile Mills
+              - generic [ref=f9e1127]: 0/1
+              - generic [ref=f9e1128]:
+                - button [ref=f9e1129]
+                - button [ref=f9e1133]
+            - generic [ref=f9e1138] [cursor=pointer]:
+              - generic [ref=f9e1141]: Faysal Textile Mills
+              - generic [ref=f9e1142]: 0/1
+              - generic [ref=f9e1143]:
+                - button [ref=f9e1144]
+                - button [ref=f9e1148]
+            - generic [ref=f9e1153] [cursor=pointer]:
+              - generic [ref=f9e1156]: Fazal Textile Mills
+              - generic [ref=f9e1157]: 0/3
+              - generic [ref=f9e1158]:
+                - button [ref=f9e1159]
+                - button [ref=f9e1163]
+            - generic [ref=f9e1168] [cursor=pointer]:
+              - generic [ref=f9e1171]: Feroze 1888 Textile Mills
+              - generic [ref=f9e1172]: 0/2
+              - generic [ref=f9e1173]:
+                - button [ref=f9e1174]
+                - button [ref=f9e1178]
+            - generic [ref=f9e1183] [cursor=pointer]:
+              - generic [ref=f9e1186]: Fimcotex Industries
+              - generic [ref=f9e1187]: 0/1
+              - generic [ref=f9e1188]:
+                - button [ref=f9e1189]
+                - button [ref=f9e1193]
+            - generic [ref=f9e1198] [cursor=pointer]:
+              - generic [ref=f9e1201]: Furqan Testing 1
+              - generic [ref=f9e1202]: 0/1
+              - generic [ref=f9e1203]:
+                - button [ref=f9e1204]
+                - button [ref=f9e1208]
+            - generic [ref=f9e1213] [cursor=pointer]:
+              - generic [ref=f9e1216]: Furqan Textile Mills
+              - generic [ref=f9e1217]: 0/1
+              - generic [ref=f9e1218]:
+                - button [ref=f9e1219]
+                - button [ref=f9e1223]
+            - generic [ref=f9e1228] [cursor=pointer]:
+              - generic [ref=f9e1231]: Gadoon Textile Mills
+              - generic [ref=f9e1232]: 0/1
+              - generic [ref=f9e1233]:
+                - button [ref=f9e1234]
+                - button [ref=f9e1238]
+            - generic [ref=f9e1243] [cursor=pointer]:
+              - generic [ref=f9e1246]: Ghalib Textile Mills
+              - generic [ref=f9e1247]: 0/1
+              - generic [ref=f9e1248]:
+                - button [ref=f9e1249]
+                - button [ref=f9e1253]
+            - generic [ref=f9e1258] [cursor=pointer]:
+              - generic [ref=f9e1261]: Ghandhara Nihar Textile
+              - generic [ref=f9e1262]: 0/1
+              - generic [ref=f9e1263]:
+                - button [ref=f9e1264]
+                - button [ref=f9e1268]
+            - generic [ref=f9e1273] [cursor=pointer]:
+              - generic [ref=f9e1276]: Ghazi Fabrics International
+              - generic [ref=f9e1277]: 0/1
+              - generic [ref=f9e1278]:
+                - button [ref=f9e1279]
+                - button [ref=f9e1283]
+            - generic [ref=f9e1288] [cursor=pointer]:
+              - generic [ref=f9e1291]: Glamour Textile Mills
+              - generic [ref=f9e1292]: 0/1
+              - generic [ref=f9e1293]:
+                - button [ref=f9e1294]
+                - button [ref=f9e1298]
+            - generic [ref=f9e1303] [cursor=pointer]:
+              - generic [ref=f9e1306]: Good Luck Textile Mills
+              - generic [ref=f9e1307]: 0/1
+              - generic [ref=f9e1308]:
+                - button [ref=f9e1309]
+                - button [ref=f9e1313]
+            - generic [ref=f9e1318] [cursor=pointer]:
+              - generic [ref=f9e1321]: Gul Ahmed Textile Mills
+              - generic [ref=f9e1322]: 0/2
+              - generic [ref=f9e1323]:
+                - button [ref=f9e1324]
+                - button [ref=f9e1328]
+            - generic [ref=f9e1333] [cursor=pointer]:
+              - generic [ref=f9e1336]: H.A. Textile Mills
+              - generic [ref=f9e1337]: 0/2
+              - generic [ref=f9e1338]:
+                - button [ref=f9e1339]
+                - button [ref=f9e1343]
+            - generic [ref=f9e1348] [cursor=pointer]:
+              - generic [ref=f9e1351]: H.M.K Textile Mills
+              - generic [ref=f9e1352]: 0/1
+              - generic [ref=f9e1353]:
+                - button [ref=f9e1354]
+                - button [ref=f9e1358]
+            - generic [ref=f9e1363] [cursor=pointer]:
+              - generic [ref=f9e1366]: Hafiz Textile Mills
+              - generic [ref=f9e1367]: 0/1
+              - generic [ref=f9e1368]:
+                - button [ref=f9e1369]
+                - button [ref=f9e1373]
+            - generic [ref=f9e1378] [cursor=pointer]:
+              - generic [ref=f9e1381]: Haji Muhammad Ismail Mills
+              - generic [ref=f9e1382]: 0/1
+              - generic [ref=f9e1383]:
+                - button [ref=f9e1384]
+                - button [ref=f9e1388]
+            - generic [ref=f9e1393] [cursor=pointer]:
+              - generic [ref=f9e1396]: Haleema Textile Mills
+              - generic [ref=f9e1397]: 0/1
+              - generic [ref=f9e1398]:
+                - button [ref=f9e1399]
+                - button [ref=f9e1403]
+            - generic [ref=f9e1408] [cursor=pointer]:
+              - generic [ref=f9e1411]: Hammad Textile Mills
+              - generic [ref=f9e1412]: 0/1
+              - generic [ref=f9e1413]:
+                - button [ref=f9e1414]
+                - button [ref=f9e1418]
+            - generic [ref=f9e1423] [cursor=pointer]:
+              - generic [ref=f9e1426]: Hamza Textile Mills
+              - generic [ref=f9e1427]: 0/1
+              - generic [ref=f9e1428]:
+                - button [ref=f9e1429]
+                - button [ref=f9e1433]
+            - generic [ref=f9e1438] [cursor=pointer]:
+              - generic [ref=f9e1441]: Hantex Textile Mill
+              - generic [ref=f9e1442]: 0/1
+              - generic [ref=f9e1443]:
+                - button [ref=f9e1444]
+                - button [ref=f9e1448]
+            - generic [ref=f9e1453] [cursor=pointer]:
+              - generic [ref=f9e1456]: Har Textile Mills
+              - generic [ref=f9e1457]: 0/1
+              - generic [ref=f9e1458]:
+                - button [ref=f9e1459]
+                - button [ref=f9e1463]
+            - generic [ref=f9e1468] [cursor=pointer]:
+              - generic [ref=f9e1471]: Hira Textile Mills
+              - generic [ref=f9e1472]: 0/2
+              - generic [ref=f9e1473]:
+                - button [ref=f9e1474]
+                - button [ref=f9e1478]
+            - generic [ref=f9e1483] [cursor=pointer]:
+              - generic [ref=f9e1486]: Hunbul Textile Mill
+              - generic [ref=f9e1487]: 0/1
+              - generic [ref=f9e1488]:
+                - button [ref=f9e1489]
+                - button [ref=f9e1493]
+            - generic [ref=f9e1498] [cursor=pointer]:
+              - generic [ref=f9e1501]: Husnain Textile Mills
+              - generic [ref=f9e1502]: 0/3
+              - generic [ref=f9e1503]:
+                - button [ref=f9e1504]
+                - button [ref=f9e1508]
+            - generic [ref=f9e1513] [cursor=pointer]:
+              - generic [ref=f9e1516]: Icc Textiles Mills
+              - generic [ref=f9e1517]: 0/1
+              - generic [ref=f9e1518]:
+                - button [ref=f9e1519]
+                - button [ref=f9e1523]
+            - generic [ref=f9e1528] [cursor=pointer]:
+              - generic [ref=f9e1531]: Ideal Textile Mills
+              - generic [ref=f9e1532]: 0/1
+              - generic [ref=f9e1533]:
+                - button [ref=f9e1534]
+                - button [ref=f9e1538]
+            - generic [ref=f9e1543] [cursor=pointer]:
+              - generic [ref=f9e1546]: Idrees Textile Mills
+              - generic [ref=f9e1547]: 0/1
+              - generic [ref=f9e1548]:
+                - button [ref=f9e1549]
+                - button [ref=f9e1553]
+            - generic [ref=f9e1558] [cursor=pointer]:
+              - generic [ref=f9e1561]: Ihsan Textile Mills
+              - generic [ref=f9e1562]: 0/3
+              - generic [ref=f9e1563]:
+                - button [ref=f9e1564]
+                - button [ref=f9e1568]
+            - generic [ref=f9e1573] [cursor=pointer]:
+              - generic [ref=f9e1576]: Imperial Textile Mills
+              - generic [ref=f9e1577]: 0/1
+              - generic [ref=f9e1578]:
+                - button [ref=f9e1579]
+                - button [ref=f9e1583]
+            - generic [ref=f9e1588] [cursor=pointer]:
+              - generic [ref=f9e1591]: Indus Textile Mills
+              - generic [ref=f9e1592]: 0/2
+              - generic [ref=f9e1593]:
+                - button [ref=f9e1594]
+                - button [ref=f9e1598]
+            - generic [ref=f9e1603] [cursor=pointer]:
+              - generic [ref=f9e1606]: Interloop Limited
+              - generic [ref=f9e1607]: 0/1
+              - generic [ref=f9e1608]:
+                - button [ref=f9e1609]
+                - button [ref=f9e1613]
+            - generic [ref=f9e1618] [cursor=pointer]:
+              - generic [ref=f9e1621]: International Textile Mills
+              - generic [ref=f9e1622]: 0/1
+              - generic [ref=f9e1623]:
+                - button [ref=f9e1624]
+                - button [ref=f9e1628]
+            - generic [ref=f9e1633] [cursor=pointer]:
+              - generic [ref=f9e1636]: Ishaq Textile Mills
+              - generic [ref=f9e1637]: 0/1
+              - generic [ref=f9e1638]:
+                - button [ref=f9e1639]
+                - button [ref=f9e1643]
+            - generic [ref=f9e1648] [cursor=pointer]:
+              - generic [ref=f9e1651]: Island Textile Mills
+              - generic [ref=f9e1652]: 0/1
+              - generic [ref=f9e1653]:
+                - button [ref=f9e1654]
+                - button [ref=f9e1658]
+            - generic [ref=f9e1663] [cursor=pointer]:
+              - generic [ref=f9e1666]: Ittehad Textile Mills
+              - generic [ref=f9e1667]: 0/1
+              - generic [ref=f9e1668]:
+                - button [ref=f9e1669]
+                - button [ref=f9e1673]
+            - generic [ref=f9e1678] [cursor=pointer]:
+              - generic [ref=f9e1681]: J.A. Textile Mills
+              - generic [ref=f9e1682]: 0/1
+              - generic [ref=f9e1683]:
+                - button [ref=f9e1684]
+                - button [ref=f9e1688]
+            - generic [ref=f9e1693] [cursor=pointer]:
+              - generic [ref=f9e1696]: J.K. Textile Mills
+              - generic [ref=f9e1697]: 0/1
+              - generic [ref=f9e1698]:
+                - button [ref=f9e1699]
+                - button [ref=f9e1703]
+            - generic [ref=f9e1708] [cursor=pointer]:
+              - generic [ref=f9e1711]: Jamal Textile Mills
+              - generic [ref=f9e1712]: 0/1
+              - generic [ref=f9e1713]:
+                - button [ref=f9e1714]
+                - button [ref=f9e1718]
+            - generic [ref=f9e1723] [cursor=pointer]:
+              - generic [ref=f9e1726]: Jamhoor Textile Mills
+              - generic [ref=f9e1727]: 0/1
+              - generic [ref=f9e1728]:
+                - button [ref=f9e1729]
+                - button [ref=f9e1733]
+            - generic [ref=f9e1738] [cursor=pointer]:
+              - generic [ref=f9e1741]: Janana De Malucho Textile Mills
+              - generic [ref=f9e1742]: 0/1
+              - generic [ref=f9e1743]:
+                - button [ref=f9e1744]
+                - button [ref=f9e1748]
+            - generic [ref=f9e1753] [cursor=pointer]:
+              - generic [ref=f9e1756]: Jubilee Textile Mills
+              - generic [ref=f9e1757]: 0/1
+              - generic [ref=f9e1758]:
+                - button [ref=f9e1759]
+                - button [ref=f9e1763]
+            - generic [ref=f9e1768] [cursor=pointer]:
+              - generic [ref=f9e1771]: Kamal Textile Millls
+              - generic [ref=f9e1772]: 0/4
+              - generic [ref=f9e1773]:
+                - button [ref=f9e1774]
+                - button [ref=f9e1778]
+            - generic [ref=f9e1783] [cursor=pointer]:
+              - generic [ref=f9e1786]: Kamran Textile Mills
+              - generic [ref=f9e1787]: 0/1
+              - generic [ref=f9e1788]:
+                - button [ref=f9e1789]
+                - button [ref=f9e1793]
+            - generic [ref=f9e1798] [cursor=pointer]:
+              - generic [ref=f9e1801]: Karam-E-Kareem Textile Mills
+              - generic [ref=f9e1802]: 0/1
+              - generic [ref=f9e1803]:
+                - button [ref=f9e1804]
+                - button [ref=f9e1808]
+            - generic [ref=f9e1813] [cursor=pointer]:
+              - generic [ref=f9e1816]: Kasim Textile Mills
+              - generic [ref=f9e1817]: 0/1
+              - generic [ref=f9e1818]:
+                - button [ref=f9e1819]
+                - button [ref=f9e1823]
+            - generic [ref=f9e1828] [cursor=pointer]:
+              - generic [ref=f9e1831]: Khalid Shafique Textile Mills
+              - generic [ref=f9e1832]: 0/1
+              - generic [ref=f9e1833]:
+                - button [ref=f9e1834]
+                - button [ref=f9e1838]
+            - generic [ref=f9e1843] [cursor=pointer]:
+              - generic [ref=f9e1846]: Khalid Textile Mills
+              - generic [ref=f9e1847]: 0/1
+              - generic [ref=f9e1848]:
+                - button [ref=f9e1849]
+                - button [ref=f9e1853]
+            - generic [ref=f9e1858] [cursor=pointer]:
+              - generic [ref=f9e1861]: Khas Textile Mills
+              - generic [ref=f9e1862]: 0/1
+              - generic [ref=f9e1863]:
+                - button [ref=f9e1864]
+                - button [ref=f9e1868]
+            - generic [ref=f9e1873] [cursor=pointer]:
+              - generic [ref=f9e1876]: Khurshid Spinning Mills
+              - generic [ref=f9e1877]: 0/1
+              - generic [ref=f9e1878]:
+                - button [ref=f9e1879]
+                - button [ref=f9e1883]
+            - generic [ref=f9e1888] [cursor=pointer]:
+              - generic [ref=f9e1891]: Kohat Textile Mills
+              - generic [ref=f9e1892]: 0/1
+              - generic [ref=f9e1893]:
+                - button [ref=f9e1894]
+                - button [ref=f9e1898]
+            - generic [ref=f9e1903] [cursor=pointer]:
+              - generic [ref=f9e1906]: Kohinoor Textile Mills
+              - generic [ref=f9e1907]: 0/2
+              - generic [ref=f9e1908]:
+                - button [ref=f9e1909]
+                - button [ref=f9e1913]
+            - generic [ref=f9e1918] [cursor=pointer]:
+              - generic [ref=f9e1921]: Kunhar Textile Mills
+              - generic [ref=f9e1922]: 0/1
+              - generic [ref=f9e1923]:
+                - button [ref=f9e1924]
+                - button [ref=f9e1928]
+            - generic [ref=f9e1933] [cursor=pointer]:
+              - generic [ref=f9e1936]: Latif Textile Mills
+              - generic [ref=f9e1937]: 0/1
+              - generic [ref=f9e1938]:
+                - button [ref=f9e1939]
+                - button [ref=f9e1943]
+            - generic [ref=f9e1948] [cursor=pointer]:
+              - generic [ref=f9e1951]: Liaqat Textile Mills
+              - generic [ref=f9e1952]: 0/1
+              - generic [ref=f9e1953]:
+                - button [ref=f9e1954]
+                - button [ref=f9e1958]
+            - generic [ref=f9e1963] [cursor=pointer]:
+              - generic [ref=f9e1966]: Mahmood Textile Mills
+              - generic [ref=f9e1967]: 0/1
+              - generic [ref=f9e1968]:
+                - button [ref=f9e1969]
+                - button [ref=f9e1973]
+            - generic [ref=f9e1978] [cursor=pointer]:
+              - generic [ref=f9e1981]: Majeed Textile Mills
+              - generic [ref=f9e1982]: 0/1
+              - generic [ref=f9e1983]:
+                - button [ref=f9e1984]
+                - button [ref=f9e1988]
+            - generic [ref=f9e1993] [cursor=pointer]:
+              - generic [ref=f9e1996]: Maqbool Textile Mills
+              - generic [ref=f9e1997]: 0/1
+              - generic [ref=f9e1998]:
+                - button [ref=f9e1999]
+                - button [ref=f9e2003]
+            - generic [ref=f9e2008] [cursor=pointer]:
+              - generic [ref=f9e2011]: Margalla Textile Mills
+              - generic [ref=f9e2012]: 0/1
+              - generic [ref=f9e2013]:
+                - button [ref=f9e2014]
+                - button [ref=f9e2018]
+            - generic [ref=f9e2023] [cursor=pointer]:
+              - generic [ref=f9e2026]: Marhaba Textile Mills
+              - generic [ref=f9e2027]: 0/1
+              - generic [ref=f9e2028]:
+                - button [ref=f9e2029]
+                - button [ref=f9e2033]
+            - generic [ref=f9e2038] [cursor=pointer]:
+              - generic [ref=f9e2041]: Masco Spinning Mills
+              - generic [ref=f9e2042]: 0/1
+              - generic [ref=f9e2043]:
+                - button [ref=f9e2044]
+                - button [ref=f9e2048]
+            - generic [ref=f9e2053] [cursor=pointer]:
+              - generic [ref=f9e2056]: Masood Textile Mills
+              - generic [ref=f9e2057]: 0/3
+              - generic [ref=f9e2058]:
+                - button [ref=f9e2059]
+                - button [ref=f9e2063]
+            - generic [ref=f9e2068] [cursor=pointer]:
+              - generic [ref=f9e2071]: Master Textile Mills
+              - generic [ref=f9e2072]: 0/1
+              - generic [ref=f9e2073]:
+                - button [ref=f9e2074]
+                - button [ref=f9e2078]
+            - generic [ref=f9e2083] [cursor=pointer]:
+              - generic [ref=f9e2086]: Mayfair Textile Mills
+              - generic [ref=f9e2087]: 0/1
+              - generic [ref=f9e2088]:
+                - button [ref=f9e2089]
+                - button [ref=f9e2093]
+            - generic [ref=f9e2098] [cursor=pointer]:
+              - generic [ref=f9e2101]: Mekotex Textile Mills
+              - generic [ref=f9e2102]: 0/1
+              - generic [ref=f9e2103]:
+                - button [ref=f9e2104]
+                - button [ref=f9e2108]
+            - generic [ref=f9e2113] [cursor=pointer]:
+              - generic [ref=f9e2116]: Mishal Textile Mills
+              - generic [ref=f9e2117]: 0/1
+              - generic [ref=f9e2118]:
+                - button [ref=f9e2119]
+                - button [ref=f9e2123]
+            - generic [ref=f9e2128] [cursor=pointer]:
+              - generic [ref=f9e2131]: Mohammad Farooq Textile Mills
+              - generic [ref=f9e2132]: 0/1
+              - generic [ref=f9e2133]:
+                - button [ref=f9e2134]
+                - button [ref=f9e2138]
+            - generic [ref=f9e2143] [cursor=pointer]:
+              - generic [ref=f9e2146]: Mohib Textile Mills
+              - generic [ref=f9e2147]: 0/1
+              - generic [ref=f9e2148]:
+                - button [ref=f9e2149]
+                - button [ref=f9e2153]
+            - generic [ref=f9e2158] [cursor=pointer]:
+              - generic [ref=f9e2161]: Monnoo Industries
+              - generic [ref=f9e2162]: 0/1
+              - generic [ref=f9e2163]:
+                - button [ref=f9e2164]
+                - button [ref=f9e2168]
+            - generic [ref=f9e2173] [cursor=pointer]:
+              - generic [ref=f9e2176]: Monnoowal Textile Mlls
+              - generic [ref=f9e2177]: 0/1
+              - generic [ref=f9e2178]:
+                - button [ref=f9e2179]
+                - button [ref=f9e2183]
+            - generic [ref=f9e2188] [cursor=pointer]:
+              - generic [ref=f9e2191]: Multan Spinning Mills
+              - generic [ref=f9e2192]: 0/1
+              - generic [ref=f9e2193]:
+                - button [ref=f9e2194]
+                - button [ref=f9e2198]
+            - generic [ref=f9e2203] [cursor=pointer]:
+              - generic [ref=f9e2206]: Mumtaz Textile Mills
+              - generic [ref=f9e2207]: 0/1
+              - generic [ref=f9e2208]:
+                - button [ref=f9e2209]
+                - button [ref=f9e2213]
+            - generic [ref=f9e2218] [cursor=pointer]:
+              - generic [ref=f9e2221]: N.P. Cotton Mills
+              - generic [ref=f9e2222]: 0/1
+              - generic [ref=f9e2223]:
+                - button [ref=f9e2224]
+                - button [ref=f9e2228]
+            - generic [ref=f9e2233] [cursor=pointer]:
+              - generic [ref=f9e2236]: Nadeem Textile Mills
+              - generic [ref=f9e2237]: 0/1
+              - generic [ref=f9e2238]:
+                - button [ref=f9e2239]
+                - button [ref=f9e2243]
+            - generic [ref=f9e2248] [cursor=pointer]:
+              - generic [ref=f9e2251]: Nafeesa Textiles
+              - generic [ref=f9e2252]: 0/1
+              - generic [ref=f9e2253]:
+                - button [ref=f9e2254]
+                - button [ref=f9e2258]
+            - generic [ref=f9e2263] [cursor=pointer]:
+              - generic [ref=f9e2266]: Nagina Textile Mill
+              - generic [ref=f9e2267]: 0/1
+              - generic [ref=f9e2268]:
+                - button [ref=f9e2269]
+                - button [ref=f9e2273]
+            - generic [ref=f9e2278] [cursor=pointer]:
+              - generic [ref=f9e2281]: Nagra Textile Spinning Mills
+              - generic [ref=f9e2282]: 0/1
+              - generic [ref=f9e2283]:
+                - button [ref=f9e2284]
+                - button [ref=f9e2288]
+            - generic [ref=f9e2293] [cursor=pointer]:
+              - generic [ref=f9e2296]: Naimat Textile Mills
+              - generic [ref=f9e2297]: 0/1
+              - generic [ref=f9e2298]:
+                - button [ref=f9e2299]
+                - button [ref=f9e2303]
+            - generic [ref=f9e2308] [cursor=pointer]:
+              - generic [ref=f9e2311]: National Textile Mills
+              - generic [ref=f9e2312]: 0/1
+              - generic [ref=f9e2313]:
+                - button [ref=f9e2314]
+                - button [ref=f9e2318]
+            - generic [ref=f9e2323] [cursor=pointer]:
+              - generic [ref=f9e2326]: Nishat Textile
+              - generic [ref=f9e2327]: 0/1
+              - generic [ref=f9e2328]:
+                - button [ref=f9e2329]
+                - button [ref=f9e2333]
+            - generic [ref=f9e2338] [cursor=pointer]:
+              - generic [ref=f9e2341]: Noon Textile Mills
+              - generic [ref=f9e2342]: 0/1
+              - generic [ref=f9e2343]:
+                - button [ref=f9e2344]
+                - button [ref=f9e2348]
+            - generic [ref=f9e2353] [cursor=pointer]:
+              - generic [ref=f9e2356]: Noor Textile Mills
+              - generic [ref=f9e2357]: 0/1
+              - generic [ref=f9e2358]:
+                - button [ref=f9e2359]
+                - button [ref=f9e2363]
+            - generic [ref=f9e2368] [cursor=pointer]:
+              - generic [ref=f9e2371]: Noorpur Textile Industries
+              - generic [ref=f9e2372]: 0/1
+              - generic [ref=f9e2373]:
+                - button [ref=f9e2374]
+                - button [ref=f9e2378]
+            - generic [ref=f9e2383] [cursor=pointer]:
+              - generic [ref=f9e2386]: North Star Textiles
+              - generic [ref=f9e2387]: 0/1
+              - generic [ref=f9e2388]:
+                - button [ref=f9e2389]
+                - button [ref=f9e2393]
+            - generic [ref=f9e2398] [cursor=pointer]:
+              - generic [ref=f9e2401]: Olympia Blended Fiber Mills
+              - generic [ref=f9e2402]: 0/1
+              - generic [ref=f9e2403]:
+                - button [ref=f9e2404]
+                - button [ref=f9e2408]
+            - generic [ref=f9e2413] [cursor=pointer]:
+              - generic [ref=f9e2416]: Omer Cotton Mills
+              - generic [ref=f9e2417]: 0/1
+              - generic [ref=f9e2418]:
+                - button [ref=f9e2419]
+                - button [ref=f9e2423]
+            - generic [ref=f9e2428] [cursor=pointer]:
+              - generic [ref=f9e2431]: Orient Textile Mills
+              - generic [ref=f9e2432]: 0/2
+              - generic [ref=f9e2433]:
+                - button [ref=f9e2434]
+                - button [ref=f9e2438]
+            - generic [ref=f9e2443] [cursor=pointer]:
+              - generic [ref=f9e2446]: Paradise Spinning Mills
+              - generic [ref=f9e2447]: 0/1
+              - generic [ref=f9e2448]:
+                - button [ref=f9e2449]
+                - button [ref=f9e2453]
+            - generic [ref=f9e2458] [cursor=pointer]:
+              - generic [ref=f9e2461]: Paramount Spinning Mills
+              - generic [ref=f9e2462]: 0/1
+              - generic [ref=f9e2463]:
+                - button [ref=f9e2464]
+                - button [ref=f9e2468]
+            - generic [ref=f9e2473] [cursor=pointer]:
+              - generic [ref=f9e2476]: Popular Fibre Mill
+              - generic [ref=f9e2477]: 0/1
+              - generic [ref=f9e2478]:
+                - button [ref=f9e2479]
+                - button [ref=f9e2483]
+            - generic [ref=f9e2488] [cursor=pointer]:
+              - generic [ref=f9e2491]: Premimum Textile Mill
+              - generic [ref=f9e2492]: 0/1
+              - generic [ref=f9e2493]:
+                - button [ref=f9e2494]
+                - button [ref=f9e2498]
+            - generic [ref=f9e2503] [cursor=pointer]:
+              - generic [ref=f9e2506]: Prince Textile Mill
+              - generic [ref=f9e2507]: 0/1
+              - generic [ref=f9e2508]:
+                - button [ref=f9e2509]
+                - button [ref=f9e2513]
+            - generic [ref=f9e2518] [cursor=pointer]:
+              - generic [ref=f9e2521]: Prosperity Weaving Textile Mill
+              - generic [ref=f9e2522]: 0/1
+              - generic [ref=f9e2523]:
+                - button [ref=f9e2524]
+                - button [ref=f9e2528]
+            - generic [ref=f9e2533] [cursor=pointer]:
+              - generic [ref=f9e2536]: Qadri Textile Mill
+              - generic [ref=f9e2537]: 0/1
+              - generic [ref=f9e2538]:
+                - button [ref=f9e2539]
+                - button [ref=f9e2543]
+            - generic [ref=f9e2548] [cursor=pointer]:
+              - generic [ref=f9e2551]: Quality Textile Mill
+              - generic [ref=f9e2552]: 0/1
+              - generic [ref=f9e2553]:
+                - button [ref=f9e2554]
+                - button [ref=f9e2558]
+            - generic [ref=f9e2563] [cursor=pointer]:
+              - generic [ref=f9e2566]: Quetta Textile Mill
+              - generic [ref=f9e2567]: 0/1
+              - generic [ref=f9e2568]:
+                - button [ref=f9e2569]
+                - button [ref=f9e2573]
+            - generic [ref=f9e2578] [cursor=pointer]:
+              - generic [ref=f9e2581]: Qureshi Textile Mill
+              - generic [ref=f9e2582]: 0/1
+              - generic [ref=f9e2583]:
+                - button [ref=f9e2584]
+                - button [ref=f9e2588]
+            - generic [ref=f9e2593] [cursor=pointer]:
+              - generic [ref=f9e2596]: Rafiq Fibers Textile Mill
+              - generic [ref=f9e2597]: 0/1
+              - generic [ref=f9e2598]:
+                - button [ref=f9e2599]
+                - button [ref=f9e2603]
+            - generic [ref=f9e2608] [cursor=pointer]:
+              - generic [ref=f9e2611]: Rahmat Textile Mill
+              - generic [ref=f9e2612]: 0/1
+              - generic [ref=f9e2613]:
+                - button [ref=f9e2614]
+                - button [ref=f9e2618]
+            - generic [ref=f9e2623] [cursor=pointer]:
+              - generic [ref=f9e2626]: Rahmat Wazir Textile Mills
+              - generic [ref=f9e2627]: 0/1
+              - generic [ref=f9e2628]:
+                - button [ref=f9e2629]
+                - button [ref=f9e2633]
+            - generic [ref=f9e2638] [cursor=pointer]:
+              - generic [ref=f9e2641]: Rainbow Textile Mill
+              - generic [ref=f9e2642]: 0/1
+              - generic [ref=f9e2643]:
+                - button [ref=f9e2644]
+                - button [ref=f9e2648]
+            - generic [ref=f9e2653] [cursor=pointer]:
+              - generic [ref=f9e2656]: Rajput Textile Mill
+              - generic [ref=f9e2657]: 0/1
+              - generic [ref=f9e2658]:
+                - button [ref=f9e2659]
+                - button [ref=f9e2663]
+            - generic [ref=f9e2668] [cursor=pointer]:
+              - generic [ref=f9e2671]: Rasheed Enterprises Textile Mill
+              - generic [ref=f9e2672]: 0/1
+              - generic [ref=f9e2673]:
+                - button [ref=f9e2674]
+                - button [ref=f9e2678]
+            - generic [ref=f9e2683] [cursor=pointer]:
+              - generic [ref=f9e2686]: Rashid Textile Mill
+              - generic [ref=f9e2687]: 0/1
+              - generic [ref=f9e2688]:
+                - button [ref=f9e2689]
+                - button [ref=f9e2693]
+            - generic [ref=f9e2698] [cursor=pointer]:
+              - generic [ref=f9e2701]: Ravi Spinning Textile Mill
+              - generic [ref=f9e2702]: 0/1
+              - generic [ref=f9e2703]:
+                - button [ref=f9e2704]
+                - button [ref=f9e2708]
+            - generic [ref=f9e2713] [cursor=pointer]:
+              - generic [ref=f9e2716]: Rawal Textile Mills
+              - generic [ref=f9e2717]: 0/1
+              - generic [ref=f9e2718]:
+                - button [ref=f9e2719]
+                - button [ref=f9e2723]
+            - generic [ref=f9e2728] [cursor=pointer]:
+              - generic [ref=f9e2731]: Redco Textiles Mills
+              - generic [ref=f9e2732]: 0/1
+              - generic [ref=f9e2733]:
+                - button [ref=f9e2734]
+                - button [ref=f9e2738]
+            - generic [ref=f9e2743] [cursor=pointer]:
+              - generic [ref=f9e2746]: Rehman Textile Mills
+              - generic [ref=f9e2747]: 0/1
+              - generic [ref=f9e2748]:
+                - button [ref=f9e2749]
+                - button [ref=f9e2753]
+            - generic [ref=f9e2758] [cursor=pointer]:
+              - generic [ref=f9e2761]: Reliance Textile Mills
+              - generic [ref=f9e2762]: 0/2
+              - generic [ref=f9e2763]:
+                - button [ref=f9e2764]
+                - button [ref=f9e2768]
+            - generic [ref=f9e2773] [cursor=pointer]:
+              - generic [ref=f9e2776]: Resham Textile Industries
+              - generic [ref=f9e2777]: 0/1
+              - generic [ref=f9e2778]:
+                - button [ref=f9e2779]
+                - button [ref=f9e2783]
+            - generic [ref=f9e2788] [cursor=pointer]:
+              - generic [ref=f9e2791]: Roomi Fabrics Textile Mills
+              - generic [ref=f9e2792]: 0/1
+              - generic [ref=f9e2793]:
+                - button [ref=f9e2794]
+                - button [ref=f9e2798]
+            - generic [ref=f9e2803] [cursor=pointer]:
+              - generic [ref=f9e2806]: Rustam Towel Textile Mill
+              - generic [ref=f9e2807]: 0/1
+              - generic [ref=f9e2808]:
+                - button [ref=f9e2809]
+                - button [ref=f9e2813]
+            - generic [ref=f9e2818] [cursor=pointer]:
+              - generic [ref=f9e2821]: S.Fazalilah & Sons Textile Mills
+              - generic [ref=f9e2822]: 0/1
+              - generic [ref=f9e2823]:
+                - button [ref=f9e2824]
+                - button [ref=f9e2828]
+            - generic [ref=f9e2833] [cursor=pointer]:
+              - generic [ref=f9e2836]: Saad Textile Mills
+              - generic [ref=f9e2837]: 0/1
+              - generic [ref=f9e2838]:
+                - button [ref=f9e2839]
+                - button [ref=f9e2843]
+            - generic [ref=f9e2848] [cursor=pointer]:
+              - generic [ref=f9e2851]: Saeed Textile Mills
+              - generic [ref=f9e2852]: 0/1
+              - generic [ref=f9e2853]:
+                - button [ref=f9e2854]
+                - button [ref=f9e2858]
+            - generic [ref=f9e2863] [cursor=pointer]:
+              - generic [ref=f9e2866]: Salfi Textile Mills
+              - generic [ref=f9e2867]: 0/1
+              - generic [ref=f9e2868]:
+                - button [ref=f9e2869]
+                - button [ref=f9e2873]
+            - generic [ref=f9e2878] [cursor=pointer]:
+              - generic [ref=f9e2881]: Samin Textiles
+              - generic [ref=f9e2882]: 0/1
+              - generic [ref=f9e2883]:
+                - button [ref=f9e2884]
+                - button [ref=f9e2888]
+            - generic [ref=f9e2893] [cursor=pointer]:
+              - generic [ref=f9e2896]: Samira Textile Mills
+              - generic [ref=f9e2897]: 0/2
+              - generic [ref=f9e2898]:
+                - button [ref=f9e2899]
+                - button [ref=f9e2903]
+            - generic [ref=f9e2908] [cursor=pointer]:
+              - generic [ref=f9e2911]: Sana Industries
+              - generic [ref=f9e2912]: 0/1
+              - generic [ref=f9e2913]:
+                - button [ref=f9e2914]
+                - button [ref=f9e2918]
+            - generic [ref=f9e2923] [cursor=pointer]:
+              - generic [ref=f9e2926]: Sapphire Textile
+              - generic [ref=f9e2927]: 0/3
+              - generic [ref=f9e2928]:
+                - button [ref=f9e2929]
+                - button [ref=f9e2933]
+            - generic [ref=f9e2938] [cursor=pointer]:
+              - generic [ref=f9e2941]: Sarena Textile Mills
+              - generic [ref=f9e2942]: 0/1
+              - generic [ref=f9e2943]:
+                - button [ref=f9e2944]
+                - button [ref=f9e2948]
+            - generic [ref=f9e2953] [cursor=pointer]:
+              - generic [ref=f9e2956]: Sarfraz Textile Mills
+              - generic [ref=f9e2957]: 0/1
+              - generic [ref=f9e2958]:
+                - button [ref=f9e2959]
+                - button [ref=f9e2963]
+            - generic [ref=f9e2968] [cursor=pointer]:
+              - generic [ref=f9e2971]: Saritow Spinning Mills
+              - generic [ref=f9e2972]: 0/1
+              - generic [ref=f9e2973]:
+                - button [ref=f9e2974]
+                - button [ref=f9e2978]
+            - generic [ref=f9e2983] [cursor=pointer]:
+              - generic [ref=f9e2986]: Saya Textile Mills
+              - generic [ref=f9e2987]: 0/1
+              - generic [ref=f9e2988]:
+                - button [ref=f9e2989]
+                - button [ref=f9e2993]
+            - generic [ref=f9e2998] [cursor=pointer]:
+              - generic [ref=f9e3001]: Service Industries Textile
+              - generic [ref=f9e3002]: 0/1
+              - generic [ref=f9e3003]:
+                - button [ref=f9e3004]
+                - button [ref=f9e3008]
+            - generic [ref=f9e3013] [cursor=pointer]:
+              - generic [ref=f9e3016]: Shadab Textile Mills
+              - generic [ref=f9e3017]: 0/1
+              - generic [ref=f9e3018]:
+                - button [ref=f9e3019]
+                - button [ref=f9e3023]
+            - generic [ref=f9e3028] [cursor=pointer]:
+              - generic [ref=f9e3031]: Shadman Cotton Mills
+              - generic [ref=f9e3032]: 0/1
+              - generic [ref=f9e3033]:
+                - button [ref=f9e3034]
+                - button [ref=f9e3038]
+            - generic [ref=f9e3043] [cursor=pointer]:
+              - generic [ref=f9e3046]: Shafi Textile Mills
+              - generic [ref=f9e3047]: 0/2
+              - generic [ref=f9e3048]:
+                - button [ref=f9e3049]
+                - button [ref=f9e3053]
+            - generic [ref=f9e3058] [cursor=pointer]:
+              - generic [ref=f9e3061]: Shahbaz Garments Textile Mills
+              - generic [ref=f9e3062]: 0/1
+              - generic [ref=f9e3063]:
+                - button [ref=f9e3064]
+                - button [ref=f9e3068]
+            - generic [ref=f9e3073] [cursor=pointer]:
+              - generic [ref=f9e3076]: Shahtaj Textile Mills
+              - generic [ref=f9e3077]: 0/1
+              - generic [ref=f9e3078]:
+                - button [ref=f9e3079]
+                - button [ref=f9e3083]
+            - generic [ref=f9e3088] [cursor=pointer]:
+              - generic [ref=f9e3091]: Shams Textile Mills
+              - generic [ref=f9e3092]: 0/1
+              - generic [ref=f9e3093]:
+                - button [ref=f9e3094]
+                - button [ref=f9e3098]
+            - generic [ref=f9e3103] [cursor=pointer]:
+              - generic [ref=f9e3106]: Sheikhoo Spinning Mills
+              - generic [ref=f9e3107]: 0/1
+              - generic [ref=f9e3108]:
+                - button [ref=f9e3109]
+                - button [ref=f9e3113]
+            - generic [ref=f9e3118] [cursor=pointer]:
+              - generic [ref=f9e3121]: Sheikhupura Textile Mills
+              - generic [ref=f9e3122]: 0/1
+              - generic [ref=f9e3123]:
+                - button [ref=f9e3124]
+                - button [ref=f9e3128]
+            - generic [ref=f9e3133] [cursor=pointer]:
+              - generic [ref=f9e3136]: Shoiab Salman Textile Mills
+              - generic [ref=f9e3137]: 0/1
+              - generic [ref=f9e3138]:
+                - button [ref=f9e3139]
+                - button [ref=f9e3143]
+            - generic [ref=f9e3148] [cursor=pointer]:
+              - generic [ref=f9e3151]: Shujabad Weaving Mills
+              - generic [ref=f9e3152]: 0/1
+              - generic [ref=f9e3153]:
+                - button [ref=f9e3154]
+                - button [ref=f9e3158]
+            - generic [ref=f9e3163] [cursor=pointer]:
+              - generic [ref=f9e3166]: Siara Textile Mills
+              - generic [ref=f9e3167]: 0/1
+              - generic [ref=f9e3168]:
+                - button [ref=f9e3169]
+                - button [ref=f9e3173]
+            - generic [ref=f9e3178] [cursor=pointer]:
+              - generic [ref=f9e3181]: Sindh HI-Tech Textile Mills
+              - generic [ref=f9e3182]: 0/1
+              - generic [ref=f9e3183]:
+                - button [ref=f9e3184]
+                - button [ref=f9e3188]
+            - generic [ref=f9e3193] [cursor=pointer]:
+              - generic [ref=f9e3196]: Sitara Textile Mills
+              - generic [ref=f9e3197]: 0/2
+              - generic [ref=f9e3198]:
+                - button [ref=f9e3199]
+                - button [ref=f9e3203]
+            - generic [ref=f9e3208] [cursor=pointer]:
+              - generic [ref=f9e3211]: Sohail Textile Mills
+              - generic [ref=f9e3212]: 0/1
+              - generic [ref=f9e3213]:
+                - button [ref=f9e3214]
+                - button [ref=f9e3218]
+            - generic [ref=f9e3223] [cursor=pointer]:
+              - generic [ref=f9e3226]: Soorty Enterprises
+              - generic [ref=f9e3227]: 0/1
+              - generic [ref=f9e3228]:
+                - button [ref=f9e3229]
+                - button [ref=f9e3233]
+            - generic [ref=f9e3238] [cursor=pointer]:
+              - generic [ref=f9e3241]: Suhail Textile Mills
+              - generic [ref=f9e3242]: 0/1
+              - generic [ref=f9e3243]:
+                - button [ref=f9e3244]
+                - button [ref=f9e3248]
+            - generic [ref=f9e3253] [cursor=pointer]:
+              - generic [ref=f9e3256]: Sunny Textile Mills
+              - generic [ref=f9e3257]: 0/1
+              - generic [ref=f9e3258]:
+                - button [ref=f9e3259]
+                - button [ref=f9e3263]
+            - generic [ref=f9e3268] [cursor=pointer]:
+              - generic [ref=f9e3271]: Sunrays Textile Mills
+              - generic [ref=f9e3272]: 0/1
+              - generic [ref=f9e3273]:
+                - button [ref=f9e3274]
+                - button [ref=f9e3278]
+            - generic [ref=f9e3283] [cursor=pointer]:
+              - generic [ref=f9e3286]: Superior Textile Mills
+              - generic [ref=f9e3287]: 0/1
+              - generic [ref=f9e3288]:
+                - button [ref=f9e3289]
+                - button [ref=f9e3293]
+            - generic [ref=f9e3298] [cursor=pointer]:
+              - generic [ref=f9e3301]: Suraj Cotton Mills
+              - generic [ref=f9e3302]: 0/1
+              - generic [ref=f9e3303]:
+                - button [ref=f9e3304]
+                - button [ref=f9e3308]
+            - generic [ref=f9e3313] [cursor=pointer]:
+              - generic [ref=f9e3316]: Surriya Textile Mills
+              - generic [ref=f9e3317]: 0/1
+              - generic [ref=f9e3318]:
+                - button [ref=f9e3319]
+                - button [ref=f9e3323]
+            - generic [ref=f9e3328] [cursor=pointer]:
+              - generic [ref=f9e3331]: Tahir Rafique Textile Mills
+              - generic [ref=f9e3332]: 0/1
+              - generic [ref=f9e3333]:
+                - button [ref=f9e3334]
+                - button [ref=f9e3338]
+            - generic [ref=f9e3343] [cursor=pointer]:
+              - generic [ref=f9e3346]: Tanseem Textile Mills
+              - generic [ref=f9e3347]: 0/1
+              - generic [ref=f9e3348]:
+                - button [ref=f9e3349]
+                - button [ref=f9e3353]
+            - generic [ref=f9e3358] [cursor=pointer]:
+              - generic [ref=f9e3361]: Tanveer Textile Mills
+              - generic [ref=f9e3362]: 0/2
+              - generic [ref=f9e3363]:
+                - button [ref=f9e3364]
+                - button [ref=f9e3368]
+            - generic [ref=f9e3373] [cursor=pointer]:
+              - generic [ref=f9e3376]: Taqees Mill
+              - generic [ref=f9e3377]: 0/1
+              - generic [ref=f9e3378]:
+                - button [ref=f9e3379]
+                - button [ref=f9e3383]
+            - generic [ref=f9e3388] [cursor=pointer]:
+              - generic [ref=f9e3391]: Tariq Textile Mills
+              - generic [ref=f9e3392]: 0/1
+              - generic [ref=f9e3393]:
+                - button [ref=f9e3394]
+                - button [ref=f9e3398]
+            - generic [ref=f9e3403] [cursor=pointer]:
+              - generic [ref=f9e3406]: Taxila Cotton Mills
+              - generic [ref=f9e3407]: 0/1
+              - generic [ref=f9e3408]:
+                - button [ref=f9e3409]
+                - button [ref=f9e3413]
+            - generic [ref=f9e3418] [cursor=pointer]:
+              - generic [ref=f9e3421]: Taymur Spinning Mill
+              - generic [ref=f9e3422]: 0/1
+              - generic [ref=f9e3423]:
+                - button [ref=f9e3424]
+                - button [ref=f9e3428]
+            - generic [ref=f9e3433] [cursor=pointer]:
+              - generic [ref=f9e3436]: Tayyab Textile Mill
+              - generic [ref=f9e3437]: 0/1
+              - generic [ref=f9e3438]:
+                - button [ref=f9e3439]
+                - button [ref=f9e3443]
+            - generic [ref=f9e3448] [cursor=pointer]:
+              - generic [ref=f9e3451]: Test Company
+              - generic [ref=f9e3452]: 1/1
+              - generic [ref=f9e3453]:
+                - button [ref=f9e3454]
+                - button [ref=f9e3458]
+            - generic [ref=f9e3463] [cursor=pointer]:
+              - generic [ref=f9e3466]: Texstyle Corporation
+              - generic [ref=f9e3467]: 0/1
+              - generic [ref=f9e3468]:
+                - button [ref=f9e3469]
+                - button [ref=f9e3473]
+            - generic [ref=f9e3478] [cursor=pointer]:
+              - generic [ref=f9e3481]: Thal Industries
+              - generic [ref=f9e3482]: 0/2
+              - generic [ref=f9e3483]:
+                - button [ref=f9e3484]
+                - button [ref=f9e3488]
+            - generic [ref=f9e3493] [cursor=pointer]:
+              - generic [ref=f9e3496]: The Lahore Textile & General Mills
+              - generic [ref=f9e3497]: 0/1
+              - generic [ref=f9e3498]:
+                - button [ref=f9e3499]
+                - button [ref=f9e3503]
+            - generic [ref=f9e3508] [cursor=pointer]:
+              - generic [ref=f9e3511]: Three Star Hosiery Mills
+              - generic [ref=f9e3512]: 0/1
+              - generic [ref=f9e3513]:
+                - button [ref=f9e3514]
+                - button [ref=f9e3518]
+            - generic [ref=f9e3523] [cursor=pointer]:
+              - generic [ref=f9e3526]: Toosi Textile Mills
+              - generic [ref=f9e3527]: 0/1
+              - generic [ref=f9e3528]:
+                - button [ref=f9e3529]
+                - button [ref=f9e3533]
+            - generic [ref=f9e3538] [cursor=pointer]:
+              - generic [ref=f9e3541]: Tribal Textile Mills
+              - generic [ref=f9e3542]: 0/1
+              - generic [ref=f9e3543]:
+                - button [ref=f9e3544]
+                - button [ref=f9e3548]
+            - generic [ref=f9e3553] [cursor=pointer]:
+              - generic [ref=f9e3556]: Tristar Industries
+              - generic [ref=f9e3557]: 0/1
+              - generic [ref=f9e3558]:
+                - button [ref=f9e3559]
+                - button [ref=f9e3563]
+            - generic [ref=f9e3568] [cursor=pointer]:
+              - generic [ref=f9e3571]: United Weaving Mills
+              - generic [ref=f9e3572]: 0/1
+              - generic [ref=f9e3573]:
+                - button [ref=f9e3574]
+                - button [ref=f9e3578]
+            - generic [ref=f9e3583] [cursor=pointer]:
+              - generic [ref=f9e3586]: Unity Textile Mills
+              - generic [ref=f9e3587]: 0/1
+              - generic [ref=f9e3588]:
+                - button [ref=f9e3589]
+                - button [ref=f9e3593]
+            - generic [ref=f9e3598] [cursor=pointer]:
+              - generic [ref=f9e3601]: US & Dynamo Mills
+              - generic [ref=f9e3602]: 0/1
+              - generic [ref=f9e3603]:
+                - button [ref=f9e3604]
+                - button [ref=f9e3608]
+            - generic [ref=f9e3613] [cursor=pointer]:
+              - generic [ref=f9e3616]: US Denim Mills
+              - generic [ref=f9e3617]: 0/1
+              - generic [ref=f9e3618]:
+                - button [ref=f9e3619]
+                - button [ref=f9e3623]
+            - generic [ref=f9e3628] [cursor=pointer]:
+              - generic [ref=f9e3631]: Uzair Textile Mills
+              - generic [ref=f9e3632]: 0/1
+              - generic [ref=f9e3633]:
+                - button [ref=f9e3634]
+                - button [ref=f9e3638]
+            - generic [ref=f9e3643] [cursor=pointer]:
+              - generic [ref=f9e3646]: Wavin Textile Mills
+              - generic [ref=f9e3647]: 0/1
+              - generic [ref=f9e3648]:
+                - button [ref=f9e3649]
+                - button [ref=f9e3653]
+            - generic [ref=f9e3658] [cursor=pointer]:
+              - generic [ref=f9e3661]: Wisal kamal Fabrics
+              - generic [ref=f9e3662]: 0/1
+              - generic [ref=f9e3663]:
+                - button [ref=f9e3664]
+                - button [ref=f9e3668]
+            - generic [ref=f9e3673] [cursor=pointer]:
+              - generic [ref=f9e3676]: Yousaf Weaving Mills
+              - generic [ref=f9e3677]: 0/1
+              - generic [ref=f9e3678]:
+                - button [ref=f9e3679]
+                - button [ref=f9e3683]
+            - generic [ref=f9e3688] [cursor=pointer]:
+              - generic [ref=f9e3691]: Yunus Textile Mills
+              - generic [ref=f9e3692]: 0/1
+              - generic [ref=f9e3693]:
+                - button [ref=f9e3694]
+                - button [ref=f9e3698]
+            - generic [ref=f9e3703] [cursor=pointer]:
+              - generic [ref=f9e3706]: Z.A. Corporation
+              - generic [ref=f9e3707]: 0/1
+              - generic [ref=f9e3708]:
+                - button [ref=f9e3709]
+                - button [ref=f9e3713]
+            - generic [ref=f9e3718] [cursor=pointer]:
+              - generic [ref=f9e3721]: Z.M Textile Mills
+              - generic [ref=f9e3722]: 0/1
+              - generic [ref=f9e3723]:
+                - button [ref=f9e3724]
+                - button [ref=f9e3728]
+            - generic [ref=f9e3733] [cursor=pointer]:
+              - generic [ref=f9e3736]: Zahid Textile Mills
+              - generic [ref=f9e3737]: 0/2
+              - generic [ref=f9e3738]:
+                - button [ref=f9e3739]
+                - button [ref=f9e3743]
+            - generic [ref=f9e3748] [cursor=pointer]:
+              - generic [ref=f9e3751]: Zahra Textile
+              - generic [ref=f9e3752]: 0/1
+              - generic [ref=f9e3753]:
+                - button [ref=f9e3754]
+                - button [ref=f9e3758]
+            - generic [ref=f9e3763] [cursor=pointer]:
+              - generic [ref=f9e3766]: Zaman Textile Mills
+              - generic [ref=f9e3767]: 0/2
+              - generic [ref=f9e3768]:
+                - button [ref=f9e3769]
+                - button [ref=f9e3773]
+            - generic [ref=f9e3778] [cursor=pointer]:
+              - generic [ref=f9e3781]: Zephyr Textiles
+              - generic [ref=f9e3782]: 0/1
+              - generic [ref=f9e3783]:
+                - button [ref=f9e3784]
+                - button [ref=f9e3788]
+            - generic [ref=f9e3793] [cursor=pointer]:
+              - generic [ref=f9e3796]: Zohaib Textile Mills
+              - generic [ref=f9e3797]: 0/1
+              - generic [ref=f9e3798]:
+                - button [ref=f9e3799]
+                - button [ref=f9e3803]
+          - generic [ref=f9e108]:
+            - button "Company" [ref=f9e109] [cursor=pointer]
+            - button "Factory" [ref=f9e111] [cursor=pointer]
+        - generic [ref=f9e3809]:
+          - generic [ref=f9e3811]:
+            - button "All" [ref=f9e3812] [cursor=pointer]
+            - button "Online" [ref=f9e3818] [cursor=pointer]
+            - button "Offline" [ref=f9e3823] [cursor=pointer]
+          - generic [ref=f9e3831]:
+            - generic:
+              - paragraph: All Cement Factories
+              - generic:
+                - generic:
+                  - generic: "291"
+                  - generic: total
+                - generic:
+                  - generic: "290"
+                  - generic: offline
+                - generic:
+                  - generic: "1"
+                  - generic: online
+            - button "Factory Breakdown" [ref=f9e3833] [cursor=pointer]
+  - alert [ref=f9e116]

@@ -1,0 +1,76 @@
+- generic [active] [ref=f1e1]:
+  - region "Notifications (F8)":
+    - list
+  - generic [ref=f1e2]:
+    - generic [ref=f1e6]:
+      - img "Digital Eye" [ref=f1e8] [cursor=pointer]
+      - generic [ref=f1e9]:
+        - button "Back to factories" [ref=f1e11] [cursor=pointer]:
+          - generic [ref=f1e14]: Back to Factories
+        - list [ref=f1e16]:
+          - listitem [ref=f1e17]:
+            - generic [ref=f1e18]: Test Factory
+          - listitem [ref=f1e22]:
+            - link "Analytics" [ref=f1e23] [cursor=pointer]:
+              - /url: /factories/Test%20Factory/analytics
+          - listitem [ref=f1e27]:
+            - link "Devices" [ref=f1e28] [cursor=pointer]:
+              - /url: /factories/Test%20Factory/devices
+          - listitem [ref=f1e33]:
+            - link "Performance" [ref=f1e34] [cursor=pointer]:
+              - /url: /factories/Test%20Factory/performance
+    - main [ref=f1e38]:
+      - generic [ref=f1e39]:
+        - generic [ref=f1e40]:
+          - button "Toggle Sidebar" [ref=f1e41] [cursor=pointer]
+          - button "Home" [ref=f1e45] [cursor=pointer]
+          - navigation "breadcrumb" [ref=f1e50]:
+            - list [ref=f1e51]:
+              - listitem [ref=f1e52]:
+                - link "Factories" [ref=f1e53] [cursor=pointer]:
+                  - /url: /factories
+              - listitem [ref=f1e57]:
+                - link "Test Factory" [ref=f1e58] [cursor=pointer]:
+                  - /url: /factories/Test%20Factory
+              - listitem [ref=f1e62]:
+                - link "Analytics" [disabled] [ref=f1e63]
+        - generic [ref=f1e64]:
+          - button "Toggle theme" [ref=f1e65] [cursor=pointer]
+          - button "Settings" [ref=f1e69] [cursor=pointer]
+          - button "9+" [ref=f1e73] [cursor=pointer]
+          - button [ref=f1e78] [cursor=pointer]
+      - generic [ref=f1e88]:
+        - generic [ref=f1e89]:
+          - generic [ref=f1e90]:
+            - generic [ref=f1e91]:
+              - heading "A.A. Cotton Mills LTD. · Production" [level=1] [ref=f1e92]
+              - generic [ref=f1e93]: Offline
+            - paragraph [ref=f1e95]: A.A. Cotton Mills
+            - paragraph [ref=f1e96]: Production totals and packer-line analytics for this factory.
+          - generic [ref=f1e97]:
+            - link "Factory map" [ref=f1e98] [cursor=pointer]:
+              - /url: /factories
+            - link "Global analytics" [ref=f1e102] [cursor=pointer]:
+              - /url: /analytics
+        - generic [ref=f1e108]:
+          - generic [ref=f1e110]:
+            - generic [ref=f1e111]:
+              - generic [ref=f1e112]: Filters
+              - generic [ref=f1e113]: Changes apply automatically when a valid period is selected.
+            - button "Refresh production data" [ref=f1e117] [cursor=pointer]: Refresh
+          - generic [ref=f1e123]:
+            - generic [ref=f1e125]:
+              - paragraph [ref=f1e126]: Period type
+              - button "Select filter" [ref=f1e127] [cursor=pointer]
+            - generic [ref=f1e131]:
+              - generic [ref=f1e132]: A.A. Cotton Mills LTD. · Today & this month · current year in charts
+              - generic [ref=f1e133]:
+                - text: Updated 12:41 PM
+                - generic [ref=f1e139]: · auto-refreshes every 2.5 min
+        - generic [ref=f1e141]:
+          - heading "Factory totals" [level=2] [ref=f1e142]
+          - paragraph [ref=f1e143]: Aggregated across all packer lines at this factory.
+        - generic [ref=f1e148]:
+          - heading "Packer line" [level=2] [ref=f1e149]
+          - paragraph [ref=f1e150]: Select a line to view its production breakdown and optional live view.
+  - alert [ref=f1e157]

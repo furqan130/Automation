@@ -1,0 +1,18 @@
+- generic [active] [ref=e1]:
+  - region "Notifications (F8)":
+    - list
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - heading "Sign in to your account" [level=1] [ref=e6]
+      - paragraph [ref=e7]: Enter your email below to sign in to your account
+    - generic [ref=e8]:
+      - generic [ref=e9]:
+        - text: Email
+        - textbox "Email" [ref=e11]:
+          - /placeholder: name@example.com
+      - generic [ref=e12]:
+        - text: Password
+        - generic [ref=e13]:
+          - textbox "********" [ref=e15]
+          - button [ref=e16] [cursor=pointer]
+      - button "Sign In" [ref=e20] [cursor=pointer]

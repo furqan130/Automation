@@ -1,0 +1,76 @@
+- generic [active] [ref=f4e1]:
+  - region "Notifications (F8)":
+    - list
+  - generic [ref=f4e2]:
+    - generic [ref=f4e6]:
+      - img "Digital Eye" [ref=f4e8] [cursor=pointer]
+      - generic [ref=f4e9]:
+        - button "Back to factories" [ref=f4e4112] [cursor=pointer]:
+          - generic [ref=f4e4115]: Back to Factories
+        - list [ref=f4e4117]:
+          - listitem [ref=f4e4118]:
+            - generic [ref=f4e4119]: A.A. Cotton Mills LTD.
+          - listitem [ref=f4e4123]:
+            - link "Analytics" [ref=f4e4124] [cursor=pointer]:
+              - /url: /factories/A.A.%20Cotton%20Mills%20LTD./analytics
+          - listitem [ref=f4e4128]:
+            - link "Devices" [ref=f4e4129] [cursor=pointer]:
+              - /url: /factories/A.A.%20Cotton%20Mills%20LTD./devices
+          - listitem [ref=f4e4134]:
+            - link "Performance" [ref=f4e4135] [cursor=pointer]:
+              - /url: /factories/A.A.%20Cotton%20Mills%20LTD./performance
+    - main [ref=f4e55]:
+      - generic [ref=f4e56]:
+        - generic [ref=f4e57]:
+          - button "Toggle Sidebar" [ref=f4e58] [cursor=pointer]
+          - button "Home" [ref=f4e62] [cursor=pointer]
+          - navigation "breadcrumb" [ref=f4e67]:
+            - list [ref=f4e68]:
+              - listitem [ref=f4e69]:
+                - link "Factories" [ref=f4e4139] [cursor=pointer]:
+                  - /url: /factories
+              - listitem [ref=f4e4143]:
+                - link "A.A. Cotton Mills LTD." [ref=f4e4144] [cursor=pointer]:
+                  - /url: /factories/A.A.%20Cotton%20Mills%20LTD.
+              - listitem [ref=f4e4148]:
+                - link "Analytics" [disabled] [ref=f4e4149]
+        - generic [ref=f4e71]:
+          - button "Toggle theme" [ref=f4e72] [cursor=pointer]
+          - button "Settings" [ref=f4e76] [cursor=pointer]
+          - button "9+" [ref=f4e80] [cursor=pointer]
+          - button [ref=f4e85] [cursor=pointer]
+      - generic [ref=f4e4154]:
+        - generic [ref=f4e4155]:
+          - generic [ref=f4e4156]:
+            - generic [ref=f4e4157]:
+              - heading "A.A. Cotton Mills LTD. · Production" [level=1] [ref=f4e4158]
+              - generic [ref=f4e4159]: Offline
+            - paragraph [ref=f4e4161]: A.A. Cotton Mills
+            - paragraph [ref=f4e4162]: Production totals and packer-line analytics for this factory.
+          - generic [ref=f4e4163]:
+            - link "Factory map" [ref=f4e4164] [cursor=pointer]:
+              - /url: /factories
+            - link "Global analytics" [ref=f4e4168] [cursor=pointer]:
+              - /url: /analytics
+        - generic [ref=f4e4174]:
+          - generic [ref=f4e4176]:
+            - generic [ref=f4e4177]:
+              - generic [ref=f4e4178]: Filters
+              - generic [ref=f4e4179]: Changes apply automatically when a valid period is selected.
+            - button "Refresh production data" [ref=f4e4183] [cursor=pointer]: Refresh
+          - generic [ref=f4e4189]:
+            - generic [ref=f4e4191]:
+              - paragraph [ref=f4e4192]: Period type
+              - button "Select filter" [ref=f4e4193] [cursor=pointer]
+            - generic [ref=f4e4197]:
+              - generic [ref=f4e4198]: A.A. Cotton Mills LTD. · Today & this month · current year in charts
+              - generic [ref=f4e4199]:
+                - text: Updated 11:52 AM
+                - generic [ref=f4e4205]: · auto-refreshes every 2.5 min
+        - generic [ref=f4e4207]:
+          - heading "Factory totals" [level=2] [ref=f4e4208]
+          - paragraph [ref=f4e4209]: Aggregated across all packer lines at this factory.
+        - generic [ref=f4e4214]:
+          - heading "Packer line" [level=2] [ref=f4e4215]
+          - paragraph [ref=f4e4216]: Select a line to view its production breakdown and optional live view.
+  - alert [ref=f4e116]: Factories & Companies | Digital Eye

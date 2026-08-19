@@ -1,0 +1,275 @@
+- generic:
+  - list
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - list:
+                - listitem:
+                  - link:
+                    - /url: /dashboard
+                    - generic: Overview
+                - listitem:
+                  - link:
+                    - /url: /factories
+                    - generic: Factories
+            - generic:
+              - list:
+                - listitem:
+                  - link:
+                    - /url: /analytics
+                    - generic: Analytics
+                - listitem:
+                  - link:
+                    - /url: /reports
+                    - generic: Reports
+            - generic:
+              - list:
+                - listitem:
+                  - link:
+                    - /url: /notification-center
+                    - generic: Notification Center
+                - listitem:
+                  - link:
+                    - /url: /contact-list
+                    - generic: Contact List
+    - main:
+      - generic:
+        - generic:
+          - button:
+            - generic: Toggle Sidebar
+          - button
+          - navigation:
+            - list:
+              - listitem:
+                - link [disabled]: Analytics
+        - generic:
+          - button:
+            - generic: Toggle theme
+          - button
+          - button:
+            - generic: 9+
+          - button
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - heading [level=1]: Analytics
+                  - paragraph: Explore production trends by factory and time period.
+                - link:
+                  - /url: /factories
+                  - text: Open factory map
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: Filters
+                      - generic: Changes apply automatically when a valid period is selected.
+                - generic:
+                  - generic:
+                    - generic:
+                      - paragraph: Factory
+                      - combobox:
+                        - generic: All factories
+                    - generic:
+                      - paragraph: Period type
+                      - button:
+                        - generic: Select filter
+                    - generic:
+                      - paragraph: Period
+                      - generic: Current period
+                  - generic:
+                    - generic: All factories · Today & this month · current year in charts
+                    - generic:
+                      - text: Updated 11:56 AM
+                      - generic: · auto-refreshes every 2.5 min
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - paragraph: Sugar bags (day)
+                    - paragraph: "28"
+                    - paragraph: July 23, 2026
+                  - generic:
+                    - generic:
+                      - paragraph: Sugar bags (month)
+                    - paragraph: 39,660
+                    - paragraph: July 2026
+              - generic:
+                - generic:
+                  - heading [level=2]: Production volume
+                  - paragraph: Bar charts show aggregated production. Click a bar to drill into factory breakdown for that period.
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic: Daily Production
+                        - generic: Daily production for one month · click a bar for factory breakdown
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - application [active]:
+                              - generic:
+                                - generic:
+                                  - generic: "1"
+                                  - generic: "4"
+                                  - generic: "7"
+                                  - generic: "10"
+                                  - generic: "13"
+                                  - generic: "16"
+                                  - generic: "19"
+                                  - generic: "22"
+                                  - generic: "25"
+                                  - generic: "28"
+                                  - generic: "31"
+                                - generic: July, 2026
+                              - generic:
+                                - generic:
+                                  - generic: "0"
+                                  - generic: "9500"
+                                  - generic: "19000"
+                                  - generic: "28500"
+                                  - generic: "38000"
+                                - generic: Quantity
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic: Monthly Production
+                        - generic: Monthly production for the selected year · click a bar for factory breakdown
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - application:
+                              - generic:
+                                - generic:
+                                  - generic: "1"
+                                  - generic: "2"
+                                  - generic: "3"
+                                  - generic: "4"
+                                  - generic: "5"
+                                  - generic: "6"
+                                  - generic: "7"
+                                  - generic: "8"
+                                  - generic: "9"
+                                  - generic: "10"
+                                  - generic: "11"
+                                  - generic: "12"
+                                - generic: "2026"
+                              - generic:
+                                - generic:
+                                  - generic: "0"
+                                  - generic: "10000"
+                                  - generic: "20000"
+                                  - generic: "30000"
+                                  - generic: "40000"
+                                - generic: Quantity
+              - generic:
+                - generic:
+                  - heading [level=2]: Production trend
+                  - paragraph: Daily bag count over the selected period.
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: Daily production trend
+                      - generic: Bags count by day for the selected month
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - application:
+                            - generic:
+                              - generic:
+                                - generic: Jul 1
+                                - generic: Jul 3
+                                - generic: Jul 5
+                                - generic: Jul 7
+                                - generic: Jul 9
+                                - generic: Jul 11
+                                - generic: Jul 13
+                                - generic: Jul 15
+                                - generic: Jul 17
+                                - generic: Jul 19
+                                - generic: Jul 21
+                                - generic: Jul 23
+                                - generic: Jul 25
+                                - generic: Jul 27
+                                - generic: Jul 29
+                                - generic: Jul 31
+                              - generic: July, 2026
+                            - generic:
+                              - generic:
+                                - generic: "0"
+                                - generic: "9500"
+                                - generic: "19000"
+                                - generic: "28500"
+                                - generic: "38000"
+                              - generic: Quantity
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: Factory breakdown
+                      - generic: Production share across factories for July 2026
+                - generic:
+                  - generic:
+                    - generic:
+                      - table:
+                        - rowgroup:
+                          - row:
+                            - columnheader: Factory
+                            - columnheader: Count
+                            - columnheader: Share
+                        - rowgroup:
+                          - row:
+                            - cell:
+                              - generic: Test Factory
+                            - cell: 1,141
+                            - cell: 2.88%
+                          - row:
+                            - cell:
+                              - generic: Taxila Cotton Mills
+                            - cell: "833"
+                            - cell: 2.10%
+                          - row:
+                            - cell:
+                              - generic: Interloop Limited
+                            - cell: "202"
+                            - cell: 0.51%
+                          - row:
+                            - cell:
+                              - generic: Al-Qadir Textile Mill
+                            - cell: "65"
+                            - cell: 0.16%
+              - generic:
+                - generic: Need a live map view of all factories?
+                - link:
+                  - /url: /dashboard
+                  - text: Go to Overview
+  - alert
+  - generic: Jul 1
+  - dialog [ref=f7e625]:
+    - generic [ref=f7e626]:
+      - heading "Sugar Production Breakdown" [level=2] [ref=f7e627]
+      - paragraph [ref=f7e628]: Distribution of sugar bags production across all factories for 2026-07-01
+    - table [ref=f7e641]:
+      - rowgroup [ref=f7e642]:
+        - row [ref=f7e643]:
+          - columnheader "Factory" [ref=f7e644]
+          - columnheader "Production" [ref=f7e645]
+          - columnheader "Percentage" [ref=f7e646]
+      - rowgroup [ref=f7e647]:
+        - row [ref=f7e648]:
+          - cell "Taxila Cotton Mills" [ref=f7e649]
+          - cell "39" [ref=f7e653]
+          - cell "95.12%" [ref=f7e654]
+        - row [ref=f7e655]:
+          - cell "Al-Qadir Textile Mill" [ref=f7e656]
+          - cell "2" [ref=f7e660]
+          - cell "4.88%" [ref=f7e661]
+    - button "Close" [ref=f7e662] [cursor=pointer]

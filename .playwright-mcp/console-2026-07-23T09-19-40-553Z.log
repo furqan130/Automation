@@ -1,0 +1,4 @@
+[   14297ms] [LOG] {message: Logged in successfully, deprecation: Object, data: Object} @ https://de-uat-internal.waiindustries.com/_next/static/chunks/0qvxrl02qn6e-.js:2
+[   37884ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://de-admin-uat-internal.waiindustries.com/poly-x/poly-alert/v1/push?user_id=6a5904f245f55cc9d705a03a&status=active&organization_id=6a58af0a45f55cc9d7058f1b&page=1:0
+[   67662ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://de-api-uat-internal.waiindustries.com/api/v1/industries/?:0
+[   96101ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://de-admin-uat-internal.waiindustries.com/poly-x/poly-alert/v1/push?user_id=6a5904f245f55cc9d705a03a&status=active&organization_id=6a58af0a45f55cc9d7058f1b&page=1:0

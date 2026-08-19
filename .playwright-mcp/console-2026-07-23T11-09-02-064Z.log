@@ -1,0 +1,4 @@
+[   16106ms] [ERROR] Login error: Network Error @ https://de-uat-internal.waiindustries.com/_next/static/chunks/0qvxrl02qn6e-.js:0
+[   16106ms] [LOG] {message: Network Error} @ https://de-uat-internal.waiindustries.com/_next/static/chunks/0qvxrl02qn6e-.js:2
+[   16108ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://de-admin-uat-internal.waiindustries.com/poly-x/poly-auth/v1/auth/login:0
+[   28750ms] [LOG] {message: Logged in successfully, deprecation: Object, data: Object} @ https://de-uat-internal.waiindustries.com/_next/static/chunks/0qvxrl02qn6e-.js:2

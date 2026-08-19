@@ -1,0 +1,18 @@
+[     501ms] [LOG] undefined @ https://de-uat-internal.waiindustries.com/_next/static/chunks/181pj~nxsvhtt.js:6
+[     503ms] [LOG] undefined @ https://de-uat-internal.waiindustries.com/_next/static/chunks/181pj~nxsvhtt.js:6
+[     514ms] [LOG] undefined @ https://de-uat-internal.waiindustries.com/_next/static/chunks/181pj~nxsvhtt.js:6
+[     516ms] [LOG] undefined @ https://de-uat-internal.waiindustries.com/_next/static/chunks/181pj~nxsvhtt.js:6
+[     728ms] [LOG] undefined @ https://de-uat-internal.waiindustries.com/_next/static/chunks/181pj~nxsvhtt.js:6
+[     730ms] [LOG] undefined @ https://de-uat-internal.waiindustries.com/_next/static/chunks/181pj~nxsvhtt.js:6
+[    1535ms] [LOG] undefined @ https://de-uat-internal.waiindustries.com/_next/static/chunks/181pj~nxsvhtt.js:6
+[    1536ms] [LOG] undefined @ https://de-uat-internal.waiindustries.com/_next/static/chunks/181pj~nxsvhtt.js:6
+[    9940ms] [LOG] undefined @ https://de-uat-internal.waiindustries.com/_next/static/chunks/181pj~nxsvhtt.js:6
+[    9940ms] [LOG] {_id: 15b39ba7-d780-428b-9d27-8009ef0a6c86, device_name: GPU Machine, device_status: disabled, device_type: machine, created_on: 2026-03-28T10:51:25.704845+05:00} @ https://de-uat-internal.waiindustries.com/_next/static/chunks/181pj~nxsvhtt.js:6
+[   19113ms] [LOG] undefined @ https://de-uat-internal.waiindustries.com/_next/static/chunks/181pj~nxsvhtt.js:6
+[   19115ms] [LOG] {_id: 15b39ba7-d780-428b-9d27-8009ef0a6c86, device_name: GPU Machine, device_status: disabled, device_type: machine, created_on: 2026-03-28T10:51:25.704845+05:00} @ https://de-uat-internal.waiindustries.com/_next/static/chunks/181pj~nxsvhtt.js:6
+[   82926ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://de-admin-uat-internal.waiindustries.com/poly-x/poly-alert/v1/push?user_id=6a5904f245f55cc9d705a03a&status=active&organization_id=6a58af0a45f55cc9d7058f1b&page=1:0
+[  267011ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://de-admin-uat-internal.waiindustries.com/poly-x/poly-alert/v1/push?user_id=6a5904f245f55cc9d705a03a&status=active&organization_id=6a58af0a45f55cc9d7058f1b&page=1:0
+[  456811ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://de-admin-uat-internal.waiindustries.com/poly-x/poly-alert/v1/push?user_id=6a5904f245f55cc9d705a03a&status=active&organization_id=6a58af0a45f55cc9d7058f1b&page=1:0
+[  549228ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://de-admin-uat-internal.waiindustries.com/poly-x/poly-alert/v1/push?user_id=6a5904f245f55cc9d705a03a&status=active&organization_id=6a58af0a45f55cc9d7058f1b&page=1:0
+[  580332ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://de-admin-uat-internal.waiindustries.com/poly-x/poly-alert/v1/push?user_id=6a5904f245f55cc9d705a03a&status=active&organization_id=6a58af0a45f55cc9d7058f1b&page=1:0
+[ 1094136ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://de-admin-uat-internal.waiindustries.com/poly-x/poly-alert/v1/push?user_id=6a5904f245f55cc9d705a03a&status=active&organization_id=6a58af0a45f55cc9d7058f1b&page=1:0

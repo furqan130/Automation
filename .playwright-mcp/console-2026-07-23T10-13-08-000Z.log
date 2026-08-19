@@ -1,0 +1,5 @@
+[   10467ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://api.github.com/_private/browser/stats:0
+[   10468ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://collector.github.com/github/collect:0
+[   10468ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://collector.github.com/github/collect:0
+[   10468ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://collector.github.com/github/collect:0
+[   12970ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://collector.github.com/github/collect:0

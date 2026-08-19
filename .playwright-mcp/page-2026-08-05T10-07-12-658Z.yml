@@ -1,0 +1,160 @@
+- generic [active] [ref=e1]:
+  - region "Notifications (F8)":
+    - list [ref=e4921]:
+      - listitem [ref=e4922]:
+        - generic [ref=e4923]: Automated Test Company 008184 deleted
+        - button [ref=e4925] [cursor=pointer]
+  - generic [ref=e2]:
+    - generic [ref=e6]:
+      - img "Digital Eye" [ref=e8] [cursor=pointer]
+      - generic [ref=e9]:
+        - list [ref=e11]:
+          - listitem [ref=e12]:
+            - link "Overview" [ref=e13] [cursor=pointer]:
+              - /url: /dashboard
+          - listitem [ref=e20]:
+            - link "Factories" [ref=e21] [cursor=pointer]:
+              - /url: /factories
+        - list [ref=e27]:
+          - listitem [ref=e28]:
+            - link "Analytics" [ref=e29] [cursor=pointer]:
+              - /url: /analytics
+          - listitem [ref=e33]:
+            - link "Reports" [ref=e34] [cursor=pointer]:
+              - /url: /reports
+        - list [ref=e41]:
+          - listitem [ref=e42]:
+            - link "Notification Center" [ref=e43] [cursor=pointer]:
+              - /url: /notification-center
+          - listitem [ref=e47]:
+            - link "Contact List" [ref=e48] [cursor=pointer]:
+              - /url: /contact-list
+    - main [ref=e55]:
+      - generic [ref=e56]:
+        - generic [ref=e57]:
+          - button "Toggle Sidebar" [ref=e58] [cursor=pointer]
+          - button "Home" [ref=e62] [cursor=pointer]
+          - navigation "breadcrumb" [ref=e67]:
+            - list [ref=e68]:
+              - listitem [ref=e69]:
+                - link "Factories" [disabled] [ref=e70]
+        - generic [ref=e71]:
+          - button "Toggle theme" [ref=e72] [cursor=pointer]
+          - button "Settings" [ref=e76] [cursor=pointer]
+          - button "9+" [ref=e80] [cursor=pointer]
+          - button [ref=e85] [cursor=pointer]
+      - generic [ref=e93]:
+        - complementary [ref=e94]:
+          - generic [ref=e95]:
+            - heading "Factories & Companies" [level=2] [ref=e96]
+            - paragraph [ref=e97]: 284 companies · 328 factories
+            - textbox "Search factories, companies…" [ref=e100]: Automated Test Company
+          - generic [ref=e101]:
+            - generic [ref=e4702] [cursor=pointer]:
+              - generic [ref=e4705]: Automated Test Company 008184
+              - generic [ref=e4706]: 0/0
+              - generic [ref=e4707]:
+                - button [ref=e4708]
+                - button [ref=e4712]
+            - generic [ref=e4717] [cursor=pointer]:
+              - generic [ref=e4720]: Automated Test Company 087805
+              - generic [ref=e4721]: 0/0
+              - generic [ref=e4722]:
+                - button [ref=e4723]
+                - button [ref=e4727]
+            - generic [ref=e4732] [cursor=pointer]:
+              - generic [ref=e4735]: Automated Test Company 097950
+              - generic [ref=e4736]: 0/0
+              - generic [ref=e4737]:
+                - button [ref=e4738]
+                - button [ref=e4742]
+            - generic [ref=e4747] [cursor=pointer]:
+              - generic [ref=e4750]: Automated Test Company 108692
+              - generic [ref=e4751]: 0/1
+              - generic [ref=e4752]:
+                - button [ref=e4753]
+                - button [ref=e4757]
+            - generic [ref=e4762] [cursor=pointer]:
+              - generic [ref=e4765]: Automated Test Company 128747
+              - generic [ref=e4766]: 0/0
+              - generic [ref=e4767]:
+                - button [ref=e4768]
+                - button [ref=e4772]
+            - generic [ref=e4777] [cursor=pointer]:
+              - generic [ref=e4780]: Automated Test Company 545831
+              - generic [ref=e4781]: 0/0
+              - generic [ref=e4782]:
+                - button [ref=e4783]
+                - button [ref=e4787]
+            - generic [ref=e4792] [cursor=pointer]:
+              - generic [ref=e4795]: Automated Test Company 624102
+              - generic [ref=e4796]: 0/0
+              - generic [ref=e4797]:
+                - button [ref=e4798]
+                - button [ref=e4802]
+            - generic [ref=e4807] [cursor=pointer]:
+              - generic [ref=e4810]: Automated Test Company 695808
+              - generic [ref=e4811]: 0/0
+              - generic [ref=e4812]:
+                - button [ref=e4813]
+                - button [ref=e4817]
+            - generic [ref=e4822] [cursor=pointer]:
+              - generic [ref=e4825]: Automated Test Company 774711
+              - generic [ref=e4826]: 0/0
+              - generic [ref=e4827]:
+                - button [ref=e4828]
+                - button [ref=e4832]
+            - generic [ref=e4837] [cursor=pointer]:
+              - generic [ref=e4840]: Automated Test Company 839826
+              - generic [ref=e4841]: 0/0
+              - generic [ref=e4842]:
+                - button [ref=e4843]
+                - button [ref=e4847]
+            - generic [ref=e4852] [cursor=pointer]:
+              - generic [ref=e4855]: Automated Test Company 857536
+              - generic [ref=e4856]: 0/0
+              - generic [ref=e4857]:
+                - button [ref=e4858]
+                - button [ref=e4862]
+            - generic [ref=e4867] [cursor=pointer]:
+              - generic [ref=e4870]: Automated Test Company 870288
+              - generic [ref=e4871]: 0/0
+              - generic [ref=e4872]:
+                - button [ref=e4873]
+                - button [ref=e4877]
+            - generic [ref=e4882] [cursor=pointer]:
+              - generic [ref=e4885]: Automated Test Company 923667
+              - generic [ref=e4886]: 0/0
+              - generic [ref=e4887]:
+                - button [ref=e4888]
+                - button [ref=e4892]
+            - generic [ref=e4897] [cursor=pointer]:
+              - generic [ref=e4900]: Automated Test Company 933134
+              - generic [ref=e4901]: 0/0
+              - generic [ref=e4902]:
+                - button [ref=e4903]
+                - button [ref=e4907]
+          - generic [ref=e108]:
+            - button "Company" [ref=e109] [cursor=pointer]
+            - button "Factory" [ref=e111] [cursor=pointer]
+        - generic [ref=e4392]:
+          - generic [ref=e4672]:
+            - button "All" [ref=e4673] [cursor=pointer]
+            - button "Online" [ref=e4679] [cursor=pointer]
+            - button "Offline" [ref=e4684] [cursor=pointer]
+          - generic [ref=e4692]:
+            - generic:
+              - paragraph: All Factories
+              - generic:
+                - generic:
+                  - generic: "328"
+                  - generic: total
+                - generic:
+                  - generic: "327"
+                  - generic: offline
+                - generic:
+                  - generic: "1"
+                  - generic: online
+            - button "Factory Breakdown" [ref=e4694] [cursor=pointer]
+  - alert [ref=e116]
+  - status [ref=e4930]: Notification Automated Test Company 008184 deleted

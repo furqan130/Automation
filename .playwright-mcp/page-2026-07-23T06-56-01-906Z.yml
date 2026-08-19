@@ -1,0 +1,80 @@
+- generic [active] [ref=f7e1]:
+  - region "Notifications (F8)":
+    - list
+  - generic [ref=f7e2]:
+    - generic [ref=f7e6]:
+      - img "Digital Eye" [ref=f7e8] [cursor=pointer]
+      - generic [ref=f7e9]:
+        - list [ref=f7e11]:
+          - listitem [ref=f7e12]:
+            - link "Overview" [ref=f7e13] [cursor=pointer]:
+              - /url: /dashboard
+          - listitem [ref=f7e20]:
+            - link "Factories" [ref=f7e21] [cursor=pointer]:
+              - /url: /factories
+        - list [ref=f7e27]:
+          - listitem [ref=f7e28]:
+            - link "Analytics" [ref=f7e29] [cursor=pointer]:
+              - /url: /analytics
+          - listitem [ref=f7e33]:
+            - link "Reports" [ref=f7e34] [cursor=pointer]:
+              - /url: /reports
+        - list [ref=f7e41]:
+          - listitem [ref=f7e42]:
+            - link "Notification Center" [ref=f7e43] [cursor=pointer]:
+              - /url: /notification-center
+          - listitem [ref=f7e47]:
+            - link "Contact List" [ref=f7e48] [cursor=pointer]:
+              - /url: /contact-list
+    - main [ref=f7e55]:
+      - generic [ref=f7e56]:
+        - generic [ref=f7e57]:
+          - button "Toggle Sidebar" [ref=f7e58] [cursor=pointer]
+          - button "Home" [ref=f7e62] [cursor=pointer]
+          - navigation "breadcrumb" [ref=f7e67]:
+            - list [ref=f7e68]:
+              - listitem [ref=f7e69]:
+                - link "Analytics" [disabled] [ref=f7e70]
+        - generic [ref=f7e71]:
+          - button "Toggle theme" [ref=f7e72] [cursor=pointer]
+          - button "Settings" [ref=f7e76] [cursor=pointer]
+          - button "9+" [ref=f7e80] [cursor=pointer]
+          - button [ref=f7e85] [cursor=pointer]
+      - generic [ref=f7e94]:
+        - generic [ref=f7e95]:
+          - generic [ref=f7e96]:
+            - heading "Analytics" [level=1] [ref=f7e97]
+            - paragraph [ref=f7e98]: Explore production trends by factory and time period.
+          - link "Open factory map" [ref=f7e99] [cursor=pointer]:
+            - /url: /factories
+        - generic [ref=f7e106]:
+          - generic [ref=f7e109]:
+            - generic [ref=f7e110]: Filters
+            - generic [ref=f7e111]: Changes apply automatically when a valid period is selected.
+          - generic [ref=f7e115]:
+            - generic [ref=f7e116]:
+              - generic [ref=f7e117]:
+                - paragraph [ref=f7e118]: Factory
+                - combobox [disabled]:
+                  - generic: All factories
+              - generic [ref=f7e119]:
+                - paragraph [ref=f7e120]: Period type
+                - button "Select filter" [ref=f7e121] [cursor=pointer]
+              - generic [ref=f7e125]:
+                - paragraph [ref=f7e126]: Period
+                - generic [ref=f7e127]: Current period
+            - generic [ref=f7e128]: All factories · Today & this month · current year in charts
+        - generic [ref=f7e135]:
+          - heading "Production volume" [level=2] [ref=f7e136]
+          - paragraph [ref=f7e137]: Bar charts show aggregated production. Click a bar to drill into factory breakdown for that period.
+        - generic [ref=f7e142]:
+          - heading "Production trend" [level=2] [ref=f7e143]
+          - paragraph [ref=f7e144]: Daily bag count over the selected period.
+        - generic [ref=f7e149]:
+          - generic [ref=f7e150]: Factory breakdown
+          - generic [ref=f7e154]: Production share across factories for July 2026
+        - generic [ref=f7e164]:
+          - generic [ref=f7e165]: Need a live map view of all factories?
+          - link "Go to Overview" [ref=f7e168] [cursor=pointer]:
+            - /url: /dashboard
+  - alert [ref=f7e169]

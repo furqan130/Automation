@@ -1,0 +1,337 @@
+- generic:
+  - list
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - list:
+                - listitem:
+                  - link:
+                    - /url: /dashboard
+                    - generic: Overview
+                - listitem:
+                  - link:
+                    - /url: /factories
+                    - generic: Factories
+            - generic:
+              - list:
+                - listitem:
+                  - link:
+                    - /url: /analytics
+                    - generic: Analytics
+                - listitem:
+                  - link:
+                    - /url: /reports
+                    - generic: Reports
+            - generic:
+              - list:
+                - listitem:
+                  - link:
+                    - /url: /notification-center
+                    - generic: Notification Center
+                - listitem:
+                  - link:
+                    - /url: /contact-list
+                    - generic: Contact List
+    - main:
+      - generic:
+        - generic:
+          - button:
+            - generic: Toggle Sidebar
+          - button
+          - navigation:
+            - list:
+              - listitem:
+                - link [disabled]: Contacts
+        - generic:
+          - button:
+            - generic: Toggle theme
+          - button
+          - button:
+            - generic: 9+
+          - button
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - heading [level=1]: Contacts
+                  - generic: "11"
+                - generic:
+                  - generic:
+                    - generic:
+                      - textbox:
+                        - /placeholder: Search contacts
+                  - combobox:
+                    - generic: All factories
+                  - button: Add contact
+                - generic:
+                  - generic:
+                    - generic:
+                      - table:
+                        - rowgroup:
+                          - row:
+                            - columnheader: "#"
+                            - columnheader:
+                              - button: Name
+                            - columnheader: Email
+                            - columnheader: Address
+                            - columnheader: Contact number
+                            - columnheader:
+                              - button: Factory
+                            - columnheader: Actions
+                        - rowgroup:
+                          - row:
+                            - cell: "1"
+                            - cell:
+                              - generic:
+                                - generic: AF
+                                - generic: Abraham Frye
+                            - cell:
+                              - link:
+                                - /url: mailto:lexadiv@mailinator.com
+                                - text: lexadiv@mailinator.com
+                            - cell:
+                              - generic: Ut velit non volupta
+                            - cell:
+                              - link:
+                                - /url: tel:+1 (325) 513-2165
+                                - text: +1 (325) 513-2165
+                            - cell: Kohinoor Mills
+                            - cell:
+                              - generic:
+                                - button
+                                - button
+                          - row:
+                            - cell: "2"
+                            - cell:
+                              - generic:
+                                - generic: BR
+                                - generic: Blythe Rowe
+                            - cell:
+                              - link:
+                                - /url: mailto:jixiholufi@mailinator.com
+                                - text: jixiholufi@mailinator.com
+                            - cell:
+                              - generic: Qui quas quis et dol
+                            - cell:
+                              - link:
+                                - /url: tel:+1 (491) 942-4807
+                                - text: +1 (491) 942-4807
+                            - cell: Ravi Spinning
+                            - cell:
+                              - generic:
+                                - button
+                                - button
+                          - row:
+                            - cell: "3"
+                            - cell:
+                              - generic:
+                                - generic: EF
+                                - generic: Ella Franklin
+                            - cell:
+                              - link:
+                                - /url: mailto:sicusih@mailinator.com
+                                - text: sicusih@mailinator.com
+                            - cell:
+                              - generic: Quia eum molestias e
+                            - cell:
+                              - link:
+                                - /url: tel:+1 (544) 248-9658
+                                - text: +1 (544) 248-9658
+                            - cell: Popular Fibre Mill
+                            - cell:
+                              - generic:
+                                - button
+                                - button
+                          - row:
+                            - cell: "4"
+                            - cell:
+                              - generic:
+                                - generic: FU
+                                - generic: furqan
+                            - cell:
+                              - link:
+                                - /url: mailto:a@gmail.com
+                                - text: a@gmail.com
+                            - cell:
+                              - generic: .
+                            - cell:
+                              - link:
+                                - /url: tel:00000000
+                                - text: "00000000"
+                            - cell: Furqan Factory new 1
+                            - cell:
+                              - generic:
+                                - button
+                                - button
+                          - row:
+                            - cell: "5"
+                            - cell:
+                              - generic:
+                                - generic: HW
+                                - generic: Hayfa Woodward
+                            - cell:
+                              - link:
+                                - /url: mailto:fifak@mailinator.com
+                                - text: fifak@mailinator.com
+                            - cell:
+                              - generic: Autem fuga Non Nam
+                            - cell:
+                              - link:
+                                - /url: tel:+1 (354) 723-1227
+                                - text: +1 (354) 723-1227
+                            - cell: Crescent Cotton Mills
+                            - cell:
+                              - generic:
+                                - button
+                                - button
+                          - row:
+                            - cell: "6"
+                            - cell:
+                              - generic:
+                                - generic: HW
+                                - generic: Hayley Wilkinson
+                            - cell:
+                              - link:
+                                - /url: mailto:wyfatoh@mailinator.com
+                                - text: wyfatoh@mailinator.com
+                            - cell:
+                              - generic: Dolore voluptatibus
+                            - cell:
+                              - link:
+                                - /url: tel:+1 (883) 115-2174
+                                - text: +1 (883) 115-2174
+                            - cell: Multan Spinning Mills
+                            - cell:
+                              - generic:
+                                - button
+                                - button
+                          - row:
+                            - cell: "7"
+                            - cell:
+                              - generic:
+                                - generic: IM
+                                - generic: Iola Mullins
+                            - cell:
+                              - link:
+                                - /url: mailto:fyqi@mailinator.com
+                                - text: fyqi@mailinator.com
+                            - cell:
+                              - generic: Magna laboriosam om
+                            - cell:
+                              - link:
+                                - /url: tel:+1 (988) 618-3175
+                                - text: +1 (988) 618-3175
+                            - cell: —
+                            - cell:
+                              - generic:
+                                - button
+                                - button
+                          - row:
+                            - cell: "8"
+                            - cell:
+                              - generic:
+                                - generic: LL
+                                - generic: Lars Larson
+                            - cell:
+                              - link:
+                                - /url: mailto:nogune@mailinator.com
+                                - text: nogune@mailinator.com
+                            - cell:
+                              - generic: Enim fugiat mollitia
+                            - cell:
+                              - link:
+                                - /url: tel:+1 (748) 868-8237
+                                - text: +1 (748) 868-8237
+                            - cell: —
+                            - cell:
+                              - generic:
+                                - button
+                                - button
+                          - row:
+                            - cell: "9"
+                            - cell:
+                              - generic:
+                                - generic: LB
+                                - generic: Liberty Browning
+                            - cell:
+                              - link:
+                                - /url: mailto:carunyruvi@mailinator.com
+                                - text: carunyruvi@mailinator.com
+                            - cell:
+                              - generic: Culpa atque aut pro
+                            - cell:
+                              - link:
+                                - /url: tel:+1 (539) 281-7387
+                                - text: +1 (539) 281-7387
+                            - cell: Al-Zamin Textile Mills
+                            - cell:
+                              - generic:
+                                - button
+                                - button
+                          - row:
+                            - cell: "10"
+                            - cell:
+                              - generic:
+                                - generic: RW
+                                - generic: Raymond Webb
+                            - cell:
+                              - link:
+                                - /url: mailto:fevu@mailinator.com
+                                - text: fevu@mailinator.com
+                            - cell:
+                              - generic: Occaecat magni earum
+                            - cell:
+                              - link:
+                                - /url: tel:+1 (439) 113-6753
+                                - text: +1 (439) 113-6753
+                            - cell: Ahmed Hassan Textile Mills Limited
+                            - cell:
+                              - generic:
+                                - button
+                                - button
+                  - generic:
+                    - paragraph: Showing 1–10 of 11
+                    - generic:
+                      - button [disabled]: Previous
+                      - generic: 1 / 2
+                      - button: Next
+  - alert
+  - dialog [ref=f11e1333]:
+    - generic [ref=f11e1334]:
+      - heading "Update contact" [level=2] [ref=f11e1335]
+      - paragraph [ref=f11e1336]: Update details and factory association.
+    - generic [ref=f11e1337]:
+      - generic [ref=f11e1338]:
+        - text: Name
+        - textbox "Name" [active] [ref=f11e1340]:
+          - /placeholder: Full name
+          - text: Abraham Frye
+      - generic [ref=f11e1341]:
+        - text: Email
+        - textbox "Email" [ref=f11e1343]:
+          - /placeholder: email@example.com
+          - text: lexadiv@mailinator.com
+      - generic [ref=f11e1344]:
+        - text: Address
+        - textbox "Address" [ref=f11e1346]:
+          - /placeholder: Street, city, region
+          - text: Ut velit non volupta
+      - generic [ref=f11e1347]:
+        - text: Contact number
+        - textbox "Contact number" [ref=f11e1349]:
+          - /placeholder: Phone number
+          - text: +1 (325) 513-2165
+      - generic [ref=f11e1350]:
+        - text: Factory
+        - combobox "Factory" [ref=f11e1351] [cursor=pointer]:
+          - generic: Kohinoor Mills
+        - combobox [ref=f11e1354]
+      - generic [ref=f11e1355]:
+        - button "Cancel" [ref=f11e1356] [cursor=pointer]
+        - button "Update" [ref=f11e1357] [cursor=pointer]
+    - button "Close" [ref=f11e1358] [cursor=pointer]

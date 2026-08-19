@@ -1,0 +1,2011 @@
+- generic:
+  - list
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - list:
+                - listitem:
+                  - link:
+                    - /url: /dashboard
+                    - generic: Overview
+                - listitem:
+                  - link:
+                    - /url: /factories
+                    - generic: Factories
+            - generic:
+              - list:
+                - listitem:
+                  - link:
+                    - /url: /analytics
+                    - generic: Analytics
+                - listitem:
+                  - link:
+                    - /url: /reports
+                    - generic: Reports
+            - generic:
+              - list:
+                - listitem:
+                  - link:
+                    - /url: /notification-center
+                    - generic: Notification Center
+                - listitem:
+                  - link:
+                    - /url: /contact-list
+                    - generic: Contact List
+    - main:
+      - generic:
+        - generic:
+          - button:
+            - generic: Toggle Sidebar
+          - button
+          - navigation:
+            - list:
+              - listitem:
+                - link [disabled]: Factories
+        - generic:
+          - button:
+            - generic: Toggle theme
+          - button
+          - button:
+            - generic: 9+
+          - button
+      - generic:
+        - generic:
+          - generic:
+            - complementary:
+              - generic:
+                - heading [level=2]: Factories & Companies
+                - paragraph: 272 companies · 328 factories
+                - generic:
+                  - generic:
+                    - textbox:
+                      - /placeholder: Search factories, companies…
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: A TestPP Company
+                    - generic: 1/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: aaaa
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Abdullah Textile Mills
+                    - generic: 0/2
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Acme Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Adnan Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Agar Textiles
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Ahmed Fine Textile Mills
+                    - generic: 0/3
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Al Ahmed Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Al Nasr Textiles
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Al-Karam Textile Mill
+                    - generic: 0/2
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Al-Karam Textile Mill
+                    - generic: 0/0
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Al-Muqeet Textiles
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Al-Qadir Textile Mill
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Al-Zamin Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Alam Cotton Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Alhamd Corporation
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Ali Akbar Textile Mills
+                    - generic: 0/2
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Allawasaya Textile Mills
+                    - generic: 0/2
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Amer Cotton Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Amin Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Amna Industries
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: An Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Anjum Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Anoud Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Anwar Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Arctic Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Arshad Corporation
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Arshad Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Artistic Fabric And Garment
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Artistic Milliners
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Arzoo Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Asher Imran Spininning Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Ashiana Cotton Products
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Asian Textile Network
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Asim Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Automated Test Company 108692
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Ayesha Spinning Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: B TestPP Company
+                    - generic: 0/0
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Bajwa Spinning Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Bela Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Best Exports Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Bhanero Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Bhimra Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Bilal Textile Mills
+                    - generic: 0/2
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Blessed Textiles
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Burewala Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: C TestPP Company
+                    - generic: 0/0
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: C.A. Catextile Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Century Textile & Energy
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Chakwal Group
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Chakwal Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Chaudhry Sugar Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Chenab Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Chiniot Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Colony Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Combine Spinning Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Crescent Textile Mills
+                    - generic: 0/7
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: D TestPP Company
+                    - generic: 0/0
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: D. M. Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Danish Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Dewan Farooque Textile Mills
+                    - generic: 0/2
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Diamond Textile Mills
+                    - generic: 0/2
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: E TestPP Company
+                    - generic: 0/0
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Eastern Spinning Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Ejaz Textile Mills
+                    - generic: 0/2
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Ellcot Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Equity Textiles Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Escorts Advanced Textiles Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Fahid Javed Textile Mills
+                    - generic: 0/2
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Faisal Textile Mills
+                    - generic: 0/0
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Fashion Knit Industries
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Fateh Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Fatima Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Fauji Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Faysal Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Fazal Textile Mills
+                    - generic: 0/3
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Fecto Cement
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Feroze 1888 Textile Mills
+                    - generic: 0/2
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Fimcotex Industries
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: furqan
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Furqan Testing
+                    - generic: 0/2
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Furqan Testing 1
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Furqan Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Gadoon Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Ghalib Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Ghandhara Nihar Textile
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Ghazi Fabrics International
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Glamour Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Good Luck Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Gul Ahmed Textile Mills
+                    - generic: 0/2
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: H.A. Textile Mills
+                    - generic: 0/2
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: H.M.K Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Hafiz Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Haji Muhammad Ismail Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Haleema Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Hammad Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Hamza Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Hantex Textile Mill
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Har Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Hira Textile Mills
+                    - generic: 0/2
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Hunbul Textile Mill
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Husnain Textile Mills
+                    - generic: 0/3
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Icc Textiles Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Ideal Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Idrees Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Ihsan Textile Mills
+                    - generic: 0/3
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Imperial Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Indus Textile Mills
+                    - generic: 0/2
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Interloop Limited
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: International Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Ishaq Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Island Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: issm textile
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Ittehad Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: J.A. Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: J.K. Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Jamal Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Jamhoor Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Janana De Malucho Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Jubilee Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Kamal Textile Millls
+                    - generic: 0/4
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Kamran Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Karam-E-Kareem Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Kasim Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Khalid Shafique Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Khalid Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Khas Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Khurshid Spinning Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Kohat Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Kohinoor Textile Mills
+                    - generic: 0/2
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Kunhar Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Latif Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Liaqat Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Mahmood Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Majeed Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Maqbool Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Margalla Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Marhaba Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Masco Spinning Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Masood Textile Mills
+                    - generic: 0/3
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Master Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Mayfair Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Mekotex Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Mishal Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Mohammad Farooq Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Mohib Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Monnoo Industries
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Monnoowal Textile Mlls
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Multan Spinning Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Mumtaz Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: N.P. Cotton Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Nadeem Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Nafeesa Textiles
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Nagina Textile Mill
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Nagra Textile Spinning Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Naimat Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: National Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Nishat Textile
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: NOCTestCompany
+                    - generic: 0/0
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Noon Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Noor Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Noorpur Textile Industries
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: North Star Textiles
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: NoSQLTest
+                    - generic: 0/0
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: NoSQLTest2
+                    - generic: 0/0
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: NoSQLTestA
+                    - generic: 0/0
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Notif Test Company 493596
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Notif Test Company 887619
+                    - generic: 0/2
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Olympia Blended Fiber Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Omer Cotton Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Orient Textile Mills
+                    - generic: 0/2
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Paradise Spinning Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Paramount Spinning Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Popular Fibre Mill
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Premimum Textile Mill
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Prince Textile Mill
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Prosperity Weaving Textile Mill
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Qadri Textile Mill
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Quality Textile Mill
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Quetta Textile Mill
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Qureshi Textile Mill
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Rafiq Fibers Textile Mill
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Rahmat Textile Mill
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Rahmat Wazir Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Rainbow Textile Mill
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Rajput Textile Mill
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Rasheed Enterprises Textile Mill
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Rashid Textile Mill
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Ravi Spinning Textile Mill
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Rawal Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Redco Textiles Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Rehman Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Reliance Textile Mills
+                    - generic: 0/2
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Resham Textile Industries
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Roomi Fabrics Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Rustam Towel Textile Mill
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: S.Fazalilah & Sons Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Saad Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Saeed Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Salfi Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Samin Textiles
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Samira Textile Mills
+                    - generic: 0/2
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Sana Industries
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Sapphire Textile
+                    - generic: 0/3
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Sarena Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Sarfraz Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Saritow Spinning Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Saya Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: sectest
+                    - generic: 0/0
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: sectest
+                    - generic: 0/0
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Service Industries Textile
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Shadab Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Shadman Cotton Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Shafi Textile Mills
+                    - generic: 0/2
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Shahbaz Garments Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Shahtaj Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Shams Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Sheikhoo Spinning Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Sheikhupura Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Shoiab Salman Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Shujabad Weaving Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Siara Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Sindh HI-Tech Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Sitara Textile Mills
+                    - generic: 0/2
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Sohail Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Soorty Enterprises
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Sugar Company
+                    - generic: 0/12
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Suhail Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Sunny Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Sunrays Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Superior Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Suraj Cotton Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Surriya Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Tahir Rafique Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Tanseem Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Tanveer Textile Mills
+                    - generic: 0/2
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Taqees Mill
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Tariq Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Taxila Cotton Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Taymur Spinning Mill
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Tayyab Textile Mill
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: test
+                    - generic: 0/0
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: test
+                    - generic: 0/0
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: test
+                    - generic: 0/0
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Test Company
+                    - generic: 0/0
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Testing Furqan
+                    - generic: 0/0
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Texstyle Corporation
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: textile aftab
+                    - generic: 0/0
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Thal Industries
+                    - generic: 0/2
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: The Lahore Textile & General Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Three Star Hosiery Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Tiles Company
+                    - generic: 0/17
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Toosi Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Tribal Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Tristar Industries
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: United Weaving Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Unity Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: US & Dynamo Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: US Denim Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Uzair Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: wah factory
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Wavin Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Wisal kamal Fabrics
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Yousaf Weaving Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Yunus Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Z.A. Corporation
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Z.M Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Zahid Textile Mills
+                    - generic: 0/2
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Zahra Textile
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Zaman Textile Mills
+                    - generic: 0/2
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Zephyr Textiles
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+                - generic:
+                  - generic:
+                    - generic: Zohaib Textile Mills
+                    - generic: 0/1
+                    - generic:
+                      - button
+                      - button
+              - generic:
+                - button: Company
+                - button: Factory
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - button: All
+                    - button: Online
+                    - button: Offline
+                - generic:
+                  - generic:
+                    - paragraph: All Factories
+                    - generic:
+                      - generic:
+                        - generic: "328"
+                        - generic: total
+                      - generic:
+                        - generic: "327"
+                        - generic: offline
+                      - generic:
+                        - generic: "1"
+                        - generic: online
+                  - generic:
+                    - button:
+                      - generic: Factory Breakdown
+  - alert: Factories & Companies | Digital Eye
+  - dialog [ref=e4576]:
+    - generic [ref=e4577]:
+      - heading "Create Company" [level=2] [ref=e4578]
+      - paragraph [ref=e4579]: Fill the form below to create a new company.
+    - generic [ref=e4580]:
+      - generic [ref=e4581]:
+        - text: Company Name
+        - textbox "Company Name" [active] [invalid] [ref=e4583]:
+          - /placeholder: Enter company name
+        - paragraph [ref=e4592]: Company name is required
+      - generic [ref=e4584]:
+        - button "Cancel" [ref=e4585] [cursor=pointer]
+        - button "Create" [ref=e4586] [cursor=pointer]
+    - button "Close" [ref=e4587] [cursor=pointer]

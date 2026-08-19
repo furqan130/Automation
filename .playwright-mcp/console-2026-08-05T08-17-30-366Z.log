@@ -1,0 +1,10 @@
+[   21274ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://de-admin-uat-internal.waiindustries.com/poly-x/poly-auth/v1/auth/login:0
+[   21276ms] [ERROR] Login error: {message: Invalid credentials} @ https://de-uat-internal.waiindustries.com/_next/static/chunks/079yqab6y0-zd.js:0
+[  326180ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://de-admin-uat-internal.waiindustries.com/poly-x/poly-auth/v1/auth/login:0
+[  326181ms] [ERROR] Login error: {message: Invalid credentials} @ https://de-uat-internal.waiindustries.com/_next/static/chunks/079yqab6y0-zd.js:0
+[  385039ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://de-admin-uat-internal.waiindustries.com/poly-x/poly-auth/v1/auth/login:0
+[  385040ms] [ERROR] Login error: {message: Invalid credentials} @ https://de-uat-internal.waiindustries.com/_next/static/chunks/079yqab6y0-zd.js:0
+[  749846ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://de-admin-uat-internal.waiindustries.com/poly-x/poly-alert/v1/push?user_id=6a628155e5ee0dfbbd597496&status=active&organization_id=6a58af0a45f55cc9d7058f1b&page=1:0
+[ 4091593ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://de-admin-uat-internal.waiindustries.com/poly-x/poly-alert/v1/push?user_id=6a628155e5ee0dfbbd597496&status=active&organization_id=6a58af0a45f55cc9d7058f1b&page=1:0
+[ 4123490ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://de-admin-uat-internal.waiindustries.com/poly-x/poly-alert/v1/push?user_id=6a628155e5ee0dfbbd597496&status=active&organization_id=6a58af0a45f55cc9d7058f1b&page=1:0
+[ 4183279ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://de-admin-uat-internal.waiindustries.com/poly-x/poly-alert/v1/push?user_id=6a628155e5ee0dfbbd597496&status=active&organization_id=6a58af0a45f55cc9d7058f1b&page=1:0

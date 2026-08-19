@@ -1,0 +1,467 @@
+- generic:
+  - list
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - list:
+                - listitem:
+                  - link:
+                    - /url: /dashboard
+                    - generic: Overview
+                - listitem:
+                  - link:
+                    - /url: /factories
+                    - generic: Factories
+            - generic:
+              - list:
+                - listitem:
+                  - link:
+                    - /url: /analytics
+                    - generic: Analytics
+                - listitem:
+                  - link:
+                    - /url: /reports
+                    - generic: Reports
+            - generic:
+              - list:
+                - listitem:
+                  - link:
+                    - /url: /notification-center
+                    - generic: Notification Center
+                - listitem:
+                  - link:
+                    - /url: /contact-list
+                    - generic: Contact List
+    - main:
+      - generic:
+        - generic:
+          - button:
+            - generic: Toggle Sidebar
+          - button
+          - navigation:
+            - list:
+              - listitem:
+                - link [disabled]: Factories
+        - generic:
+          - button:
+            - generic: Toggle theme
+          - button
+          - button:
+            - generic: 9+
+          - button
+      - generic:
+        - generic:
+          - generic:
+            - complementary:
+              - generic:
+                - heading [level=2]: Factories & Companies
+                - paragraph: 283 companies · 328 factories
+                - generic:
+                  - generic:
+                    - textbox:
+                      - /placeholder: Search factories, companies…
+                      - text: E2E Factory Base Company
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: E2E Factory Base Company
+                    - generic: 0/0
+                    - generic:
+                      - button
+                      - button
+              - generic:
+                - button: Company
+                - button: Factory
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - button: All
+                    - button: Online
+                    - button: Offline
+                - generic:
+                  - generic:
+                    - paragraph: All Factories
+                    - generic:
+                      - generic:
+                        - generic: "328"
+                        - generic: total
+                      - generic:
+                        - generic: "327"
+                        - generic: offline
+                      - generic:
+                        - generic: "1"
+                        - generic: online
+                  - generic:
+                    - button:
+                      - generic: Factory Breakdown
+  - alert: Factories & Companies | Digital Eye
+  - dialog:
+    - generic:
+      - heading [level=2]: Create Factory
+      - paragraph: Fill the form below to create a new factory.
+    - generic:
+      - group:
+        - generic:
+          - text: Factory Name
+          - generic:
+            - textbox:
+              - /placeholder: Enter factory name
+              - text: E2E Test Factory
+        - generic:
+          - text: Parent Company
+          - combobox [expanded]:
+            - generic: Select a company
+          - combobox
+        - generic:
+          - text: Registered Address
+          - textbox:
+            - /placeholder: Registered factory address
+        - generic:
+          - generic:
+            - text: GPS Latitude
+            - generic:
+              - spinbutton
+          - generic:
+            - text: GPS Longitude
+            - generic:
+              - spinbutton
+        - generic:
+          - text: Ownership Structure
+          - textbox:
+            - /placeholder: e.g. Subsidiary (100% owned by ...)
+        - generic:
+          - text: Company Website
+          - generic:
+            - textbox:
+              - /placeholder: https://example.com
+        - generic:
+          - text: NTN Number
+          - generic:
+            - textbox:
+              - /placeholder: e.g. 0225971-7
+          - paragraph: National Tax Number (optional). Letters, digits and hyphens only; at most 16 characters.
+        - generic:
+          - text: Aggregation day-window start hour
+          - combobox:
+            - generic: 06:00
+          - combobox
+          - paragraph: Start of the production day used to bucket daily aggregates. Defaults to 06:00. Changing it affects future aggregations only.
+        - generic:
+          - generic:
+            - text: Capacity
+            - generic:
+              - spinbutton
+          - generic:
+            - text: Unit
+            - generic:
+              - textbox:
+                - /placeholder: e.g. tons/day
+        - generic:
+          - checkbox
+          - checkbox
+          - generic: Public company (listed)
+        - generic:
+          - text: Company Logo
+          - generic:
+            - generic: No logo
+            - generic:
+              - button: Upload
+          - paragraph: PNG, JPEG or SVG, up to 2 MB.
+        - generic:
+          - generic:
+            - generic: Factory Images
+            - generic: Add images
+          - paragraph: No images added.
+        - generic:
+          - button: Cancel
+          - button: Create
+    - button:
+      - generic: Close
+  - listbox [ref=f2e4778]:
+    - option "A TestPP Company" [active] [ref=f2e4779]
+    - option "aaaa" [ref=f2e4782]
+    - option "Abdullah Textile Mills" [ref=f2e4785]
+    - option "Acme Mills" [ref=f2e4788]
+    - option "Adnan Textile Mills" [ref=f2e4791]
+    - option "Agar Textiles" [ref=f2e4794]
+    - option "Ahmed Fine Textile Mills" [ref=f2e4797]
+    - option "Al Ahmed Textile Mills" [ref=f2e4800]
+    - option "Al Nasr Textiles" [ref=f2e4803]
+    - option "Al-Karam Textile Mill" [ref=f2e4806]
+    - option "Al-Karam Textile Mill" [ref=f2e4809]
+    - option "Al-Muqeet Textiles" [ref=f2e4812]
+    - option "Al-Qadir Textile Mill" [ref=f2e4815]
+    - option "Al-Zamin Textile Mills" [ref=f2e4818]
+    - option "Alam Cotton Mills" [ref=f2e4821]
+    - option "Alhamd Corporation" [ref=f2e4824]
+    - option "Ali Akbar Textile Mills" [ref=f2e4827]
+    - option "Allawasaya Textile Mills" [ref=f2e4830]
+    - option "Amer Cotton Mills" [ref=f2e4833]
+    - option "Amin Textile Mills" [ref=f2e4836]
+    - option "Amna Industries" [ref=f2e4839]
+    - option "An Textile Mills" [ref=f2e4842]
+    - option "Anjum Textile Mills" [ref=f2e4845]
+    - option "Anoud Textile Mills" [ref=f2e4848]
+    - option "Anwar Textile Mills" [ref=f2e4851]
+    - option "Arctic Textile Mills" [ref=f2e4854]
+    - option "Arshad Corporation" [ref=f2e4857]
+    - option "Arshad Textile Mills" [ref=f2e4860]
+    - option "Artistic Fabric And Garment" [ref=f2e4863]
+    - option "Artistic Milliners" [ref=f2e4866]
+    - option "Arzoo Textile Mills" [ref=f2e4869]
+    - option "Asher Imran Spininning Mills" [ref=f2e4872]
+    - option "Ashiana Cotton Products" [ref=f2e4875]
+    - option "Asian Textile Network" [ref=f2e4878]
+    - option "Asim Textile Mills" [ref=f2e4881]
+    - option "Automated Test Company 037956" [ref=f2e4884]
+    - option "Automated Test Company 061377" [ref=f2e4887]
+    - option "Automated Test Company 108692" [ref=f2e4890]
+    - option "Automated Test Company 123428" [ref=f2e4893]
+    - option "Automated Test Company 365302" [ref=f2e4896]
+    - option "Automated Test Company 407191" [ref=f2e4899]
+    - option "Automated Test Company 442483" [ref=f2e4902]
+    - option "Automated Test Company 663148" [ref=f2e4905]
+    - option "Automated Test Company 727091" [ref=f2e4908]
+    - option "Automated Test Company 910105" [ref=f2e4911]
+    - option "Automated Test Company 985773" [ref=f2e4914]
+    - option "Ayesha Spinning Mills" [ref=f2e4917]
+    - option "B TestPP Company" [ref=f2e4920]
+    - option "Bajwa Spinning Mills" [ref=f2e4923]
+    - option "Bela Textile Mills" [ref=f2e4926]
+    - option "Best Exports Textile Mills" [ref=f2e4929]
+    - option "Bhanero Textile Mills" [ref=f2e4932]
+    - option "Bhimra Textile Mills" [ref=f2e4935]
+    - option "Bilal Textile Mills" [ref=f2e4938]
+    - option "Blessed Textiles" [ref=f2e4941]
+    - option "Burewala Textile Mills" [ref=f2e4944]
+    - option "C TestPP Company" [ref=f2e4947]
+    - option "C.A. Catextile Textile Mills" [ref=f2e4950]
+    - option "Century Textile & Energy" [ref=f2e4953]
+    - option "Chakwal Group" [ref=f2e4956]
+    - option "Chakwal Textile Mills" [ref=f2e4959]
+    - option "Chaudhry Sugar Mills" [ref=f2e4962]
+    - option "Chenab Textile Mills" [ref=f2e4965]
+    - option "Chiniot Textile Mills" [ref=f2e4968]
+    - option "Colony Textile Mills" [ref=f2e4971]
+    - option "Combine Spinning Textile Mills" [ref=f2e4974]
+    - option "Crescent Textile Mills" [ref=f2e4977]
+    - option "D TestPP Company" [ref=f2e4980]
+    - option "D. M. Textile Mills" [ref=f2e4983]
+    - option "Danish Textile Mills" [ref=f2e4986]
+    - option "Dewan Farooque Textile Mills" [ref=f2e4989]
+    - option "Diamond Textile Mills" [ref=f2e4992]
+    - option "E TestPP Company" [ref=f2e4995]
+    - option "E2E Factory Base Company" [ref=f2e4998]
+    - option "Eastern Spinning Mills" [ref=f2e5001]
+    - option "Ejaz Textile Mills" [ref=f2e5004]
+    - option "Ellcot Textile Mills" [ref=f2e5007]
+    - option "Equity Textiles Mills" [ref=f2e5010]
+    - option "Escorts Advanced Textiles Mills" [ref=f2e5013]
+    - option "Fahid Javed Textile Mills" [ref=f2e5016]
+    - option "Faisal Textile Mills" [ref=f2e5019]
+    - option "Fashion Knit Industries" [ref=f2e5022]
+    - option "Fateh Textile Mills" [ref=f2e5025]
+    - option "Fatima Textile Mills" [ref=f2e5028]
+    - option "Fauji Textile Mills" [ref=f2e5031]
+    - option "Faysal Textile Mills" [ref=f2e5034]
+    - option "Fazal Textile Mills" [ref=f2e5037]
+    - option "Fecto Cement" [ref=f2e5040]
+    - option "Feroze 1888 Textile Mills" [ref=f2e5043]
+    - option "Fimcotex Industries" [ref=f2e5046]
+    - option "furqan" [ref=f2e5049]
+    - option "Furqan Testing" [ref=f2e5052]
+    - option "Furqan Testing 1" [ref=f2e5055]
+    - option "Furqan Textile Mills" [ref=f2e5058]
+    - option "Gadoon Textile Mills" [ref=f2e5061]
+    - option "Ghalib Textile Mills" [ref=f2e5064]
+    - option "Ghandhara Nihar Textile" [ref=f2e5067]
+    - option "Ghazi Fabrics International" [ref=f2e5070]
+    - option "Glamour Textile Mills" [ref=f2e5073]
+    - option "Good Luck Textile Mills" [ref=f2e5076]
+    - option "Gul Ahmed Textile Mills" [ref=f2e5079]
+    - option "H.A. Textile Mills" [ref=f2e5082]
+    - option "H.M.K Textile Mills" [ref=f2e5085]
+    - option "Hafiz Textile Mills" [ref=f2e5088]
+    - option "Haji Muhammad Ismail Mills" [ref=f2e5091]
+    - option "Haleema Textile Mills" [ref=f2e5094]
+    - option "Hammad Textile Mills" [ref=f2e5097]
+    - option "Hamza Textile Mills" [ref=f2e5100]
+    - option "Hantex Textile Mill" [ref=f2e5103]
+    - option "Har Textile Mills" [ref=f2e5106]
+    - option "Hira Textile Mills" [ref=f2e5109]
+    - option "Hunbul Textile Mill" [ref=f2e5112]
+    - option "Husnain Textile Mills" [ref=f2e5115]
+    - option "Icc Textiles Mills" [ref=f2e5118]
+    - option "Ideal Textile Mills" [ref=f2e5121]
+    - option "Idrees Textile Mills" [ref=f2e5124]
+    - option "Ihsan Textile Mills" [ref=f2e5127]
+    - option "Imperial Textile Mills" [ref=f2e5130]
+    - option "Indus Textile Mills" [ref=f2e5133]
+    - option "Interloop Limited" [ref=f2e5136]
+    - option "International Textile Mills" [ref=f2e5139]
+    - option "Ishaq Textile Mills" [ref=f2e5142]
+    - option "Island Textile Mills" [ref=f2e5145]
+    - option "issm textile" [ref=f2e5148]
+    - option "Ittehad Textile Mills" [ref=f2e5151]
+    - option "J.A. Textile Mills" [ref=f2e5154]
+    - option "J.K. Textile Mills" [ref=f2e5157]
+    - option "Jamal Textile Mills" [ref=f2e5160]
+    - option "Jamhoor Textile Mills" [ref=f2e5163]
+    - option "Janana De Malucho Textile Mills" [ref=f2e5166]
+    - option "Jubilee Textile Mills" [ref=f2e5169]
+    - option "Kamal Textile Millls" [ref=f2e5172]
+    - option "Kamran Textile Mills" [ref=f2e5175]
+    - option "Karam-E-Kareem Textile Mills" [ref=f2e5178]
+    - option "Kasim Textile Mills" [ref=f2e5181]
+    - option "Khalid Shafique Textile Mills" [ref=f2e5184]
+    - option "Khalid Textile Mills" [ref=f2e5187]
+    - option "Khas Textile Mills" [ref=f2e5190]
+    - option "Khurshid Spinning Mills" [ref=f2e5193]
+    - option "Kohat Textile Mills" [ref=f2e5196]
+    - option "Kohinoor Textile Mills" [ref=f2e5199]
+    - option "Kunhar Textile Mills" [ref=f2e5202]
+    - option "Latif Textile Mills" [ref=f2e5205]
+    - option "Liaqat Textile Mills" [ref=f2e5208]
+    - option "Mahmood Textile Mills" [ref=f2e5211]
+    - option "Majeed Textile Mills" [ref=f2e5214]
+    - option "Maqbool Textile Mills" [ref=f2e5217]
+    - option "Margalla Textile Mills" [ref=f2e5220]
+    - option "Marhaba Textile Mills" [ref=f2e5223]
+    - option "Masco Spinning Mills" [ref=f2e5226]
+    - option "Masood Textile Mills" [ref=f2e5229]
+    - option "Master Textile Mills" [ref=f2e5232]
+    - option "Mayfair Textile Mills" [ref=f2e5235]
+    - option "Mekotex Textile Mills" [ref=f2e5238]
+    - option "Mishal Textile Mills" [ref=f2e5241]
+    - option "Mohammad Farooq Textile Mills" [ref=f2e5244]
+    - option "Mohib Textile Mills" [ref=f2e5247]
+    - option "Monnoo Industries" [ref=f2e5250]
+    - option "Monnoowal Textile Mlls" [ref=f2e5253]
+    - option "Multan Spinning Mills" [ref=f2e5256]
+    - option "Mumtaz Textile Mills" [ref=f2e5259]
+    - option "N.P. Cotton Mills" [ref=f2e5262]
+    - option "Nadeem Textile Mills" [ref=f2e5265]
+    - option "Nafeesa Textiles" [ref=f2e5268]
+    - option "Nagina Textile Mill" [ref=f2e5271]
+    - option "Nagra Textile Spinning Mills" [ref=f2e5274]
+    - option "Naimat Textile Mills" [ref=f2e5277]
+    - option "National Textile Mills" [ref=f2e5280]
+    - option "Nishat Textile" [ref=f2e5283]
+    - option "NOCTestCompany" [ref=f2e5286]
+    - option "Noon Textile Mills" [ref=f2e5289]
+    - option "Noor Textile Mills" [ref=f2e5292]
+    - option "Noorpur Textile Industries" [ref=f2e5295]
+    - option "North Star Textiles" [ref=f2e5298]
+    - option "NoSQLTest" [ref=f2e5301]
+    - option "NoSQLTest2" [ref=f2e5304]
+    - option "NoSQLTestA" [ref=f2e5307]
+    - option "Notif Test Company 493596" [ref=f2e5310]
+    - option "Notif Test Company 887619" [ref=f2e5313]
+    - option "Olympia Blended Fiber Mills" [ref=f2e5316]
+    - option "Omer Cotton Mills" [ref=f2e5319]
+    - option "Orient Textile Mills" [ref=f2e5322]
+    - option "Paradise Spinning Mills" [ref=f2e5325]
+    - option "Paramount Spinning Mills" [ref=f2e5328]
+    - option "Popular Fibre Mill" [ref=f2e5331]
+    - option "Premimum Textile Mill" [ref=f2e5334]
+    - option "Prince Textile Mill" [ref=f2e5337]
+    - option "Prosperity Weaving Textile Mill" [ref=f2e5340]
+    - option "Qadri Textile Mill" [ref=f2e5343]
+    - option "Quality Textile Mill" [ref=f2e5346]
+    - option "Quetta Textile Mill" [ref=f2e5349]
+    - option "Qureshi Textile Mill" [ref=f2e5352]
+    - option "Rafiq Fibers Textile Mill" [ref=f2e5355]
+    - option "Rahmat Textile Mill" [ref=f2e5358]
+    - option "Rahmat Wazir Textile Mills" [ref=f2e5361]
+    - option "Rainbow Textile Mill" [ref=f2e5364]
+    - option "Rajput Textile Mill" [ref=f2e5367]
+    - option "Rasheed Enterprises Textile Mill" [ref=f2e5370]
+    - option "Rashid Textile Mill" [ref=f2e5373]
+    - option "Ravi Spinning Textile Mill" [ref=f2e5376]
+    - option "Rawal Textile Mills" [ref=f2e5379]
+    - option "Redco Textiles Mills" [ref=f2e5382]
+    - option "Rehman Textile Mills" [ref=f2e5385]
+    - option "Reliance Textile Mills" [ref=f2e5388]
+    - option "Resham Textile Industries" [ref=f2e5391]
+    - option "Roomi Fabrics Textile Mills" [ref=f2e5394]
+    - option "Rustam Towel Textile Mill" [ref=f2e5397]
+    - option "S.Fazalilah & Sons Textile Mills" [ref=f2e5400]
+    - option "Saad Textile Mills" [ref=f2e5403]
+    - option "Saeed Textile Mills" [ref=f2e5406]
+    - option "Salfi Textile Mills" [ref=f2e5409]
+    - option "Samin Textiles" [ref=f2e5412]
+    - option "Samira Textile Mills" [ref=f2e5415]
+    - option "Sana Industries" [ref=f2e5418]
+    - option "Sapphire Textile" [ref=f2e5421]
+    - option "Sarena Textile Mills" [ref=f2e5424]
+    - option "Sarfraz Textile Mills" [ref=f2e5427]
+    - option "Saritow Spinning Mills" [ref=f2e5430]
+    - option "Saya Textile Mills" [ref=f2e5433]
+    - option "sectest" [ref=f2e5436]
+    - option "sectest" [ref=f2e5439]
+    - option "Service Industries Textile" [ref=f2e5442]
+    - option "Shadab Textile Mills" [ref=f2e5445]
+    - option "Shadman Cotton Mills" [ref=f2e5448]
+    - option "Shafi Textile Mills" [ref=f2e5451]
+    - option "Shahbaz Garments Textile Mills" [ref=f2e5454]
+    - option "Shahtaj Textile Mills" [ref=f2e5457]
+    - option "Shams Textile Mills" [ref=f2e5460]
+    - option "Sheikhoo Spinning Mills" [ref=f2e5463]
+    - option "Sheikhupura Textile Mills" [ref=f2e5466]
+    - option "Shoiab Salman Textile Mills" [ref=f2e5469]
+    - option "Shujabad Weaving Mills" [ref=f2e5472]
+    - option "Siara Textile Mills" [ref=f2e5475]
+    - option "Sindh HI-Tech Textile Mills" [ref=f2e5478]
+    - option "Sitara Textile Mills" [ref=f2e5481]
+    - option "Sohail Textile Mills" [ref=f2e5484]
+    - option "Soorty Enterprises" [ref=f2e5487]
+    - option "Sugar Company" [ref=f2e5490]
+    - option "Suhail Textile Mills" [ref=f2e5493]
+    - option "Sunny Textile Mills" [ref=f2e5496]
+    - option "Sunrays Textile Mills" [ref=f2e5499]
+    - option "Superior Textile Mills" [ref=f2e5502]
+    - option "Suraj Cotton Mills" [ref=f2e5505]
+    - option "Surriya Textile Mills" [ref=f2e5508]
+    - option "Tahir Rafique Textile Mills" [ref=f2e5511]
+    - option "Tanseem Textile Mills" [ref=f2e5514]
+    - option "Tanveer Textile Mills" [ref=f2e5517]
+    - option "Taqees Mill" [ref=f2e5520]
+    - option "Tariq Textile Mills" [ref=f2e5523]
+    - option "Taxila Cotton Mills" [ref=f2e5526]
+    - option "Taymur Spinning Mill" [ref=f2e5529]
+    - option "Tayyab Textile Mill" [ref=f2e5532]
+    - option "test" [ref=f2e5535]
+    - option "test" [ref=f2e5538]
+    - option "test" [ref=f2e5541]
+    - option "Test Company" [ref=f2e5544]
+    - option "Testing Furqan" [ref=f2e5547]
+    - option "Texstyle Corporation" [ref=f2e5550]
+    - option "textile aftab" [ref=f2e5553]
+    - option "Thal Industries" [ref=f2e5556]
+    - option "The Lahore Textile & General Mills" [ref=f2e5559]
+    - option "Three Star Hosiery Mills" [ref=f2e5562]
+    - option "Tiles Company" [ref=f2e5565]
+    - option "Toosi Textile Mills" [ref=f2e5568]
+    - option "Tribal Textile Mills" [ref=f2e5571]
+    - option "Tristar Industries" [ref=f2e5574]
+    - option "United Weaving Mills" [ref=f2e5577]
+    - option "Unity Textile Mills" [ref=f2e5580]
+    - option "US & Dynamo Mills" [ref=f2e5583]
+    - option "US Denim Mills" [ref=f2e5586]
+    - option "Uzair Textile Mills" [ref=f2e5589]
+    - option "wah factory" [ref=f2e5592]
+    - option "Wavin Textile Mills" [ref=f2e5595]
+    - option "Wisal kamal Fabrics" [ref=f2e5598]
+    - option "Yousaf Weaving Mills" [ref=f2e5601]
+    - option "Yunus Textile Mills" [ref=f2e5604]
+    - option "Z.A. Corporation" [ref=f2e5607]
+    - option "Z.M Textile Mills" [ref=f2e5610]
+    - option "Zahid Textile Mills" [ref=f2e5613]
+    - option "Zahra Textile" [ref=f2e5616]
+    - option "Zaman Textile Mills" [ref=f2e5619]
+    - option "Zephyr Textiles" [ref=f2e5622]
+    - option "Zohaib Textile Mills" [ref=f2e5625]

@@ -1,0 +1,255 @@
+- generic [ref=f5e1]:
+  - region "Notifications (F8)":
+    - list
+  - generic [ref=f5e2]:
+    - generic [ref=f5e6]:
+      - img "Digital Eye" [ref=f5e8] [cursor=pointer]
+      - generic [ref=f5e9]:
+        - list [ref=f5e11]:
+          - listitem [ref=f5e12]:
+            - link "Overview" [ref=f5e13] [cursor=pointer]:
+              - /url: /dashboard
+          - listitem [ref=f5e20]:
+            - link "Factories" [ref=f5e21] [cursor=pointer]:
+              - /url: /factories
+        - list [ref=f5e27]:
+          - listitem [ref=f5e28]:
+            - link "Analytics" [ref=f5e29] [cursor=pointer]:
+              - /url: /analytics
+          - listitem [ref=f5e33]:
+            - link "Reports" [ref=f5e34] [cursor=pointer]:
+              - /url: /reports
+        - list [ref=f5e41]:
+          - listitem [ref=f5e42]:
+            - link "Notification Center" [ref=f5e43] [cursor=pointer]:
+              - /url: /notification-center
+          - listitem [ref=f5e47]:
+            - link "Contact List" [ref=f5e48] [cursor=pointer]:
+              - /url: /contact-list
+    - main [ref=f5e55]:
+      - generic [ref=f5e56]:
+        - generic [ref=f5e57]:
+          - button "Toggle Sidebar" [ref=f5e58] [cursor=pointer]
+          - button "Home" [ref=f5e62] [cursor=pointer]
+          - navigation "breadcrumb" [ref=f5e67]:
+            - list [ref=f5e68]:
+              - listitem [ref=f5e69]:
+                - link "Analytics" [disabled] [ref=f5e70]
+        - generic [ref=f5e71]:
+          - button "Toggle theme" [ref=f5e72] [cursor=pointer]
+          - button "Settings" [ref=f5e76] [cursor=pointer]
+          - button "9+" [ref=f5e80] [cursor=pointer]
+          - button [ref=f5e85] [cursor=pointer]
+      - generic [ref=f5e94]:
+        - generic [ref=f5e95]:
+          - generic [ref=f5e96]:
+            - heading "Analytics" [level=1] [ref=f5e97]
+            - paragraph [ref=f5e98]: Explore production trends by factory and time period.
+          - link "Open factory map" [ref=f5e99] [cursor=pointer]:
+            - /url: /factories
+        - generic [ref=f5e106]:
+          - generic [ref=f5e109]:
+            - generic [ref=f5e110]: Filters
+            - generic [ref=f5e111]: Changes apply automatically when a valid period is selected.
+          - generic [ref=f5e115]:
+            - generic [ref=f5e116]:
+              - generic [ref=f5e117]:
+                - paragraph [ref=f5e118]: Factory
+                - combobox [ref=f5e477] [cursor=pointer]:
+                  - generic [ref=f5e478]: All factories
+              - generic [ref=f5e119]:
+                - paragraph [ref=f5e120]: Period type
+                - button "By date" [ref=f5e482] [cursor=pointer]
+              - generic [ref=f5e125]:
+                - paragraph [ref=f5e126]: Period
+                - button "July 23rd, 2026" [expanded] [ref=f5e483] [cursor=pointer]
+              - button "Reset filters" [ref=f5e486] [cursor=pointer]
+            - generic [ref=f5e128]:
+              - generic [ref=f5e129]: All factories · July 23, 2026
+              - generic [ref=f5e170]:
+                - text: Updated 12:49 PM
+                - generic [ref=f5e176]: · auto-refreshes every 2.5 min
+        - generic [ref=f5e131]:
+          - generic [ref=f5e177]:
+            - paragraph [ref=f5e179]: Sugar bags (day)
+            - paragraph [ref=f5e185]: "28"
+            - paragraph [ref=f5e186]: July 23, 2026
+          - generic [ref=f5e187]:
+            - paragraph [ref=f5e189]: Sugar bags (month)
+            - paragraph [ref=f5e195]: 39,660
+            - paragraph [ref=f5e196]: July 2026
+        - generic [ref=f5e134]:
+          - generic [ref=f5e135]:
+            - heading "Production volume" [level=2] [ref=f5e136]
+            - paragraph [ref=f5e137]: Bar charts show aggregated production. Click a bar to drill into factory breakdown for that period.
+          - generic [ref=f5e138]:
+            - generic [ref=f5e197]:
+              - generic [ref=f5e199]:
+                - generic [ref=f5e200]: Daily Production
+                - generic [ref=f5e201]: Daily production for one month · click a bar for factory breakdown
+              - application [ref=f5e206]:
+                - generic [ref=f5e210]:
+                  - generic [ref=f5e211]:
+                    - generic [ref=f5e212]: "1"
+                    - generic [ref=f5e214]: "4"
+                    - generic [ref=f5e216]: "7"
+                    - generic [ref=f5e218]: "10"
+                    - generic [ref=f5e220]: "13"
+                    - generic [ref=f5e222]: "16"
+                    - generic [ref=f5e224]: "19"
+                    - generic [ref=f5e226]: "22"
+                    - generic [ref=f5e228]: "25"
+                    - generic [ref=f5e230]: "28"
+                    - generic [ref=f5e232]: "31"
+                  - generic [ref=f5e234]: July, 2026
+                - generic [ref=f5e235]:
+                  - generic [ref=f5e236]:
+                    - generic [ref=f5e237]: "0"
+                    - generic [ref=f5e489]: "7"
+                    - generic [ref=f5e491]: "14"
+                    - generic [ref=f5e493]: "21"
+                    - generic [ref=f5e495]: "28"
+                  - generic [ref=f5e247]: Quantity
+            - generic [ref=f5e291]:
+              - generic [ref=f5e293]:
+                - generic [ref=f5e294]: Monthly Production
+                - generic [ref=f5e295]: Monthly production for the selected year · click a bar for factory breakdown
+              - application [ref=f5e300]:
+                - generic [ref=f5e304]:
+                  - generic [ref=f5e305]:
+                    - generic [ref=f5e306]: "1"
+                    - generic [ref=f5e308]: "2"
+                    - generic [ref=f5e310]: "3"
+                    - generic [ref=f5e312]: "4"
+                    - generic [ref=f5e314]: "5"
+                    - generic [ref=f5e316]: "6"
+                    - generic [ref=f5e318]: "7"
+                    - generic [ref=f5e320]: "8"
+                    - generic [ref=f5e322]: "9"
+                    - generic [ref=f5e324]: "10"
+                    - generic [ref=f5e326]: "11"
+                    - generic [ref=f5e328]: "12"
+                  - generic [ref=f5e330]: "2026"
+                - generic [ref=f5e331]:
+                  - generic [ref=f5e332]:
+                    - generic [ref=f5e333]: "0"
+                    - generic [ref=f5e335]: "10000"
+                    - generic [ref=f5e337]: "20000"
+                    - generic [ref=f5e339]: "30000"
+                    - generic [ref=f5e341]: "40000"
+                  - generic [ref=f5e343]: Quantity
+        - generic [ref=f5e141]:
+          - generic [ref=f5e142]:
+            - heading "Production trend" [level=2] [ref=f5e143]
+            - paragraph [ref=f5e144]: Daily bag count over the selected period.
+          - generic [ref=f5e357]:
+            - generic [ref=f5e359]:
+              - generic [ref=f5e360]: Daily production trend
+              - generic [ref=f5e361]: Bags count by day for the selected month
+            - application [ref=f5e366]:
+              - generic [ref=f5e369]:
+                - generic [ref=f5e370]:
+                  - generic [ref=f5e371]: Jul 1
+                  - generic [ref=f5e373]: Jul 3
+                  - generic [ref=f5e375]: Jul 5
+                  - generic [ref=f5e377]: Jul 7
+                  - generic [ref=f5e379]: Jul 9
+                  - generic [ref=f5e381]: Jul 11
+                  - generic [ref=f5e383]: Jul 13
+                  - generic [ref=f5e385]: Jul 15
+                  - generic [ref=f5e387]: Jul 17
+                  - generic [ref=f5e389]: Jul 19
+                  - generic [ref=f5e391]: Jul 21
+                  - generic [ref=f5e393]: Jul 23
+                  - generic [ref=f5e395]: Jul 25
+                  - generic [ref=f5e397]: Jul 27
+                  - generic [ref=f5e399]: Jul 29
+                  - generic [ref=f5e401]: Jul 31
+                - generic [ref=f5e403]: July, 2026
+              - generic [ref=f5e404]:
+                - generic [ref=f5e405]:
+                  - generic [ref=f5e406]: "0"
+                  - generic [ref=f5e503]: "7"
+                  - generic [ref=f5e505]: "14"
+                  - generic [ref=f5e507]: "21"
+                  - generic [ref=f5e509]: "28"
+                - generic [ref=f5e416]: Quantity
+        - generic [ref=f5e146]:
+          - generic [ref=f5e149]:
+            - generic [ref=f5e150]: Factory breakdown
+            - generic [ref=f5e154]: Production share across factories for July 23, 2026
+          - table [ref=f5e520]:
+            - rowgroup [ref=f5e521]:
+              - row [ref=f5e522]:
+                - columnheader "Factory" [ref=f5e523]
+                - columnheader "Count" [ref=f5e524]
+                - columnheader "Share" [ref=f5e525]
+            - rowgroup [ref=f5e526]:
+              - row [ref=f5e527] [cursor=pointer]:
+                - cell "Test Factory" [ref=f5e528]
+                - cell "28" [ref=f5e532]
+                - cell "100.00%" [ref=f5e533]
+        - generic [ref=f5e164]:
+          - generic [ref=f5e165]: Need a live map view of all factories?
+          - link "Go to Overview" [ref=f5e168] [cursor=pointer]:
+            - /url: /dashboard
+  - alert [ref=f5e169]
+  - generic [ref=f5e467]: "14"
+  - dialog [ref=f5e535]:
+    - generic [ref=f5e538]:
+      - generic [ref=f5e539]:
+        - generic [ref=f5e540]: July 2026
+        - generic:
+          - button "Go to previous month" [ref=f5e541] [cursor=pointer]
+          - button "Go to next month" [ref=f5e544] [cursor=pointer]
+      - grid "July 2026" [ref=f5e547]:
+        - rowgroup [ref=f5e548]:
+          - row [ref=f5e549]:
+            - columnheader "Sunday" [ref=f5e550]: Su
+            - columnheader "Monday" [ref=f5e551]: Mo
+            - columnheader "Tuesday" [ref=f5e552]: Tu
+            - columnheader "Wednesday" [ref=f5e553]: We
+            - columnheader "Thursday" [ref=f5e554]: Th
+            - columnheader "Friday" [ref=f5e555]: Fr
+            - columnheader "Saturday" [ref=f5e556]: Sa
+        - rowgroup [ref=f5e557]:
+          - row [ref=f5e558]:
+            - gridcell "28" [ref=f5e559] [cursor=pointer]
+            - gridcell "29" [ref=f5e560] [cursor=pointer]
+            - gridcell "30" [ref=f5e561] [cursor=pointer]
+            - gridcell "1" [ref=f5e562] [cursor=pointer]
+            - gridcell "2" [ref=f5e563] [cursor=pointer]
+            - gridcell "3" [ref=f5e564] [cursor=pointer]
+            - gridcell "4" [ref=f5e565] [cursor=pointer]
+          - row [ref=f5e566]:
+            - gridcell "5" [ref=f5e567] [cursor=pointer]
+            - gridcell "6" [ref=f5e568] [cursor=pointer]
+            - gridcell "7" [ref=f5e569] [cursor=pointer]
+            - gridcell "8" [ref=f5e570] [cursor=pointer]
+            - gridcell "9" [ref=f5e571] [cursor=pointer]
+            - gridcell "10" [ref=f5e572] [cursor=pointer]
+            - gridcell "11" [ref=f5e573] [cursor=pointer]
+          - row [ref=f5e574]:
+            - gridcell "12" [ref=f5e575] [cursor=pointer]
+            - gridcell "13" [ref=f5e576] [cursor=pointer]
+            - gridcell "14" [ref=f5e577] [cursor=pointer]
+            - gridcell "15" [ref=f5e578] [cursor=pointer]
+            - gridcell "16" [ref=f5e579] [cursor=pointer]
+            - gridcell "17" [ref=f5e580] [cursor=pointer]
+            - gridcell "18" [ref=f5e581] [cursor=pointer]
+          - row [ref=f5e582]:
+            - gridcell "19" [ref=f5e583] [cursor=pointer]
+            - gridcell "20" [ref=f5e584] [cursor=pointer]
+            - gridcell "21" [ref=f5e585] [cursor=pointer]
+            - gridcell "22" [ref=f5e586] [cursor=pointer]
+            - gridcell "23" [active] [selected] [ref=f5e587] [cursor=pointer]
+            - gridcell "24" [disabled]
+            - gridcell "25" [disabled]
+          - row "26 27 28 29 30 31 1" [ref=f5e588]:
+            - gridcell "26" [disabled]
+            - gridcell "27" [disabled]
+            - gridcell "28" [disabled]
+            - gridcell "29" [disabled]
+            - gridcell "30" [disabled]
+            - gridcell "31" [disabled]
+            - gridcell "1" [disabled]

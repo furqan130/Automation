@@ -1,0 +1,49 @@
+{
+  "cookies": [
+    {
+      "name": "de_authenticated",
+      "value": "1",
+      "domain": "de-uat-internal.waiindustries.com",
+      "path": "/",
+      "expires": 1786617335,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "ASLBSA",
+      "value": "0003e419d6f53851211ee16d3bd0a3ece610b8a231b46e4f40e90c0aa437036e66c6",
+      "domain": "de-uat-internal.waiindustries.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ASLBSACORS",
+      "value": "0003e419d6f53851211ee16d3bd0a3ece610b8a231b46e4f40e90c0aa437036e66c6",
+      "domain": "de-uat-internal.waiindustries.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://de-uat-internal.waiindustries.com",
+      "localStorage": [
+        {
+          "name": "authentication-storage-digital-eye",
+          "value": "{\"state\":{\"accessToken\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2YTYyODE1NWU1ZWUwZGZiYmQ1OTc0OTYiLCJpZCI6IjZhNjI4MTU1ZTVlZTBkZmJiZDU5NzQ5NiIsIl9pZCI6IjZhNjI4MTU1ZTVlZTBkZmJiZDU5NzQ5NiIsIm9yZ2FuaXphdGlvbklkIjoiNmE1OGFmMGE0NWY1NWNjOWQ3MDU4ZjFiIiwib3JnYW5pemF0aW9uIjoiNmE1OGFmMGE0NWY1NWNjOWQ3MDU4ZjFiIiwidGVuYW50SWQiOiI2YTU4YWYwYTQ1ZjU1Y2M5ZDcwNThmMWIiLCJwYXJlbnRPcmdhbml6YXRpb25JZCI6IjZhNThhNWY1NDVmNTVjYzlkNzA1ODc4YyIsInBlcm1pc3Npb25JZCI6IjZhNjI4OTIxZTVlZTBkZmJiZDU5N2Q4NyIsInBlcm1pc3Npb24iOiI2YTYyODkyMWU1ZWUwZGZiYmQ1OTdkODciLCJwZXJtVmVyc2lvbiI6IjIwMjYtMDctMjZUMTE6Mjc6NTguODIwWiIsInNpZCI6Ijg3ZmU2Zjc1LTI5NzUtNDE5MS1iZDM1LTk4OWQxY2Y2N2M1NCIsImp0aSI6ImUyYjA3Mzg1LWUwNDYtNDZiZS05OTA1LTE0NWQxYjdkZjMwMyIsImVtYWlsIjoiZGUudGVzdGZicm1vbml0b3IxQGlzc20uYWkiLCJpYXQiOjE3ODYwMTI1MzUsImV4cCI6MTc4NjAxNjEzNX0.nm4cbbqURLmY7K4MdLaMhuUHPeTKT47xJskpDRuXl-8\",\"refreshToken\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2YTYyODE1NWU1ZWUwZGZiYmQ1OTc0OTYiLCJpZCI6IjZhNjI4MTU1ZTVlZTBkZmJiZDU5NzQ5NiIsIl9pZCI6IjZhNjI4MTU1ZTVlZTBkZmJiZDU5NzQ5NiIsIm9yZ2FuaXphdGlvbklkIjoiNmE1OGFmMGE0NWY1NWNjOWQ3MDU4ZjFiIiwib3JnYW5pemF0aW9uIjoiNmE1OGFmMGE0NWY1NWNjOWQ3MDU4ZjFiIiwidGVuYW50SWQiOiI2YTU4YWYwYTQ1ZjU1Y2M5ZDcwNThmMWIiLCJwYXJlbnRPcmdhbml6YXRpb25JZCI6IjZhNThhNWY1NDVmNTVjYzlkNzA1ODc4YyIsInBlcm1pc3Npb25JZCI6IjZhNjI4OTIxZTVlZTBkZmJiZDU5N2Q4NyIsInBlcm1pc3Npb24iOiI2YTYyODkyMWU1ZWUwZGZiYmQ1OTdkODciLCJwZXJtVmVyc2lvbiI6IjIwMjYtMDctMjZUMTE6Mjc6NTguODIwWiIsInNpZCI6Ijg3ZmU2Zjc1LTI5NzUtNDE5MS1iZDM1LTk4OWQxY2Y2N2M1NCIsImp0aSI6ImM3ZGNhNWZkLWNjOTgtNDMzMy05YzhmLTlhN2FkZTM5NWY5YiIsImVtYWlsIjoiZGUudGVzdGZicm1vbml0b3IxQGlzc20uYWkiLCJpYXQiOjE3ODYwMTI1MzUsImV4cCI6MTc4NjYxNzMzNX0.hv-OwZgYKIMP7w2mzNyVEbyixY-IYrhYOy9jNNFfl_U\",\"user\":{\"_id\":\"6a628155e5ee0dfbbd597496\",\"username\":\"de.testfbrmonitor\",\"email\":\"de.testfbrmonitor1@issm.ai\",\"firstName\":\"Test-Super-Hijacked\",\"lastName\":\"Monitor\",\"teams\":[],\"isArchived\":false,\"mustChangePassword\":false,\"organization\":\"6a58af0a45f55cc9d7058f1b\",\"organizationId\":\"6a58a5f545f55cc9d705878c\",\"tag\":\"employee\",\"permission\":{\"_id\":\"6a6288b4e5ee0dfbbd597d1f\",\"name\":\"Super Admin\",\"modulePermissions\":[{\"moduleId\":{\"_id\":\"6a628095e5ee0dfbbd597388\",\"label\":\"Analytics\",\"value\":\"analytics\"},\"actions\":[\"read\"]},{\"moduleId\":{\"_id\":\"6a628095e5ee0dfbbd597389\",\"label\":\"Companies\",\"value\":\"companies\"},\"actions\":[\"create\",\"read\",\"update\",\"delete\"]},{\"moduleId\":{\"_id\":\"6a628095e5ee0dfbbd59738a\",\"label\":\"Contacts\",\"value\":\"contacts\"},\"actions\":[\"create\",\"read\",\"update\",\"delete\"]},{\"moduleId\":{\"_id\":\"6a628095e5ee0dfbbd59738b\",\"label\":\"Data Ops\",\"value\":\"data_ops\"},\"actions\":[\"create\",\"read\",\"update\",\"delete\"]},{\"moduleId\":{\"_id\":\"6a628095e5ee0dfbbd59738c\",\"label\":\"Devices\",\"value\":\"devices\"},\"actions\":[\"create\",\"read\",\"update\",\"delete\"]},{\"moduleId\":{\"_id\":\"6a628095e5ee0dfbbd59738d\",\"label\":\"Industries\",\"value\":\"industries\"},\"actions\":[\"create\",\"read\",\"update\",\"delete\"]},{\"moduleId\":{\"_id\":\"6a628095e5ee0dfbbd59738e\",\"label\":\"Machine Details\",\"value\":\"machine_details\"},\"actions\":[\"read\"]},{\"moduleId\":{\"_id\":\"6a628095e5ee0dfbbd59738f\",\"label\":\"Notifications\",\"value\":\"notifications\"},\"actions\":[\"create\",\"read\",\"update\",\"delete\"]},{\"moduleId\":{\"_id\":\"6a628095e5ee0dfbbd597390\",\"label\":\"Setting\",\"value\":\"settings\"},\"actions\":[\"read\",\"update\",\"delete\"]},{\"moduleId\":{\"_id\":\"6a65250fe5ee0dfbbd5a6830\",\"label\":\"Count Clips\",\"value\":\"count_clips\"},\"actions\":[\"read\"]}],\"level\":\"full-access\",\"description\":\"Full access to all Digital Eye cloud modules, including data_ops (production data repair and re-aggregation).\",\"updatedAt\":\"2026-07-25T21:05:47.379Z\"}},\"permissions\":[{\"action\":\"create\",\"subject\":\"companies\"},{\"action\":\"read\",\"subject\":\"companies\"},{\"action\":\"update\",\"subject\":\"companies\"},{\"action\":\"delete\",\"subject\":\"companies\"},{\"action\":\"create\",\"subject\":\"industries\"},{\"action\":\"read\",\"subject\":\"industries\"},{\"action\":\"update\",\"subject\":\"industries\"},{\"action\":\"delete\",\"subject\":\"industries\"}],\"hasHydrated\":true},\"version\":0}"
+        },
+        {
+          "name": "loggedInUser",
+          "value": "{\"_id\":\"6a628155e5ee0dfbbd597496\",\"username\":\"de.testfbrmonitor\",\"email\":\"de.testfbrmonitor1@issm.ai\",\"firstName\":\"Test-Super-Hijacked\",\"lastName\":\"Monitor\",\"teams\":[],\"isArchived\":false,\"mustChangePassword\":false,\"organization\":\"6a58af0a45f55cc9d7058f1b\",\"organizationId\":\"6a58a5f545f55cc9d705878c\",\"tag\":\"employee\",\"permission\":{\"_id\":\"6a6288b4e5ee0dfbbd597d1f\",\"name\":\"Super Admin\",\"modulePermissions\":[{\"moduleId\":{\"_id\":\"6a628095e5ee0dfbbd597388\",\"label\":\"Analytics\",\"value\":\"analytics\"},\"actions\":[\"read\"]},{\"moduleId\":{\"_id\":\"6a628095e5ee0dfbbd597389\",\"label\":\"Companies\",\"value\":\"companies\"},\"actions\":[\"create\",\"read\",\"update\",\"delete\"]},{\"moduleId\":{\"_id\":\"6a628095e5ee0dfbbd59738a\",\"label\":\"Contacts\",\"value\":\"contacts\"},\"actions\":[\"create\",\"read\",\"update\",\"delete\"]},{\"moduleId\":{\"_id\":\"6a628095e5ee0dfbbd59738b\",\"label\":\"Data Ops\",\"value\":\"data_ops\"},\"actions\":[\"create\",\"read\",\"update\",\"delete\"]},{\"moduleId\":{\"_id\":\"6a628095e5ee0dfbbd59738c\",\"label\":\"Devices\",\"value\":\"devices\"},\"actions\":[\"create\",\"read\",\"update\",\"delete\"]},{\"moduleId\":{\"_id\":\"6a628095e5ee0dfbbd59738d\",\"label\":\"Industries\",\"value\":\"industries\"},\"actions\":[\"create\",\"read\",\"update\",\"delete\"]},{\"moduleId\":{\"_id\":\"6a628095e5ee0dfbbd59738e\",\"label\":\"Machine Details\",\"value\":\"machine_details\"},\"actions\":[\"read\"]},{\"moduleId\":{\"_id\":\"6a628095e5ee0dfbbd59738f\",\"label\":\"Notifications\",\"value\":\"notifications\"},\"actions\":[\"create\",\"read\",\"update\",\"delete\"]},{\"moduleId\":{\"_id\":\"6a628095e5ee0dfbbd597390\",\"label\":\"Setting\",\"value\":\"settings\"},\"actions\":[\"read\",\"update\",\"delete\"]},{\"moduleId\":{\"_id\":\"6a65250fe5ee0dfbbd5a6830\",\"label\":\"Count Clips\",\"value\":\"count_clips\"},\"actions\":[\"read\"]}],\"level\":\"full-access\",\"description\":\"Full access to all Digital Eye cloud modules, including data_ops (production data repair and re-aggregation).\",\"updatedAt\":\"2026-07-25T21:05:47.379Z\"}}"
+        }
+      ]
+    }
+  ]
+}
